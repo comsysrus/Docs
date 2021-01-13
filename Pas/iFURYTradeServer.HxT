@@ -1,0 +1,1923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpTOC SYSTEM "ms-help://hx/resources/HelpTOC.DTD">
+<HelpTOC
+DTDVersion="1.0">
+<HelpTOCNode Title="iFURYTradeServer" Url="iFURYTradeServer.htm">
+<HelpTOCNode Title="ap" Url="Ap.htm">
+<HelpTOCNode Title="Records" Url="ap_Records.htm">
+<HelpTOCNode Title="Complex" Url="Ap.Complex.htm">
+<HelpTOCNode Title="Fields" Url="Ap.Complex_Fields.htm">
+<HelpTOCNode Title="X" Url="Ap.Complex.X.htm" />
+<HelpTOCNode Title="Y" Url="Ap.Complex.Y.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="ap_Types.htm">
+<HelpTOCNode Title="PDouble" Url="Ap.PDouble.htm" />
+<HelpTOCNode Title="TBoolean1DArray" Url="Ap.TBoolean1DArray.htm" />
+<HelpTOCNode Title="TBoolean2DArray" Url="Ap.TBoolean2DArray.htm" />
+<HelpTOCNode Title="TComplex1DArray" Url="Ap.TComplex1DArray.htm" />
+<HelpTOCNode Title="TComplex2DArray" Url="Ap.TComplex2DArray.htm" />
+<HelpTOCNode Title="TInteger1DArray" Url="Ap.TInteger1DArray.htm" />
+<HelpTOCNode Title="TInteger2DArray" Url="Ap.TInteger2DArray.htm" />
+<HelpTOCNode Title="TReal1DArray" Url="Ap.TReal1DArray.htm" />
+<HelpTOCNode Title="TReal2DArray" Url="Ap.TReal2DArray.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Constants" Url="ap_Constants.htm">
+<HelpTOCNode Title="MachineEpsilon" Url="Ap.MachineEpsilon.htm" />
+<HelpTOCNode Title="MaxRealNumber" Url="Ap.MaxRealNumber.htm" />
+<HelpTOCNode Title="MinRealNumber" Url="Ap.MinRealNumber.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Routines" Url="ap_Routines.htm">
+<HelpTOCNode Title="AbsComplex(Complex)" Url="Ap.AbsComplex.htm" />
+<HelpTOCNode Title="AbsInt(Integer)" Url="Ap.AbsInt.htm" />
+<HelpTOCNode Title="AbsReal(Extended)" Url="Ap.AbsReal.htm" />
+<HelpTOCNode Title="APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer)" Url="Ap.APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer).htm" />
+<HelpTOCNode Title="APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer,Real)" Url="Ap.APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer,Real).htm" />
+<HelpTOCNode Title="APVDotProduct(PDouble,Integer,Integer,PDouble,Integer,Integer)" Url="Ap.APVDotProduct.htm" />
+<HelpTOCNode Title="APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer)" Url="Ap.APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer).htm" />
+<HelpTOCNode Title="APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer,Double)" Url="Ap.APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer,Double).htm" />
+<HelpTOCNode Title="APVMoveNeg(PDouble,Integer,Integer,PDouble,Integer,Integer)" Url="Ap.APVMoveNeg.htm" />
+<HelpTOCNode Title="APVMul(PDouble,Integer,Integer,Real)" Url="Ap.APVMul.htm" />
+<HelpTOCNode Title="APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer)" Url="Ap.APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer).htm" />
+<HelpTOCNode Title="APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer,Real)" Url="Ap.APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer,Real).htm" />
+<HelpTOCNode Title="Conj(Complex)" Url="Ap.Conj.htm" />
+<HelpTOCNode Title="CSqr(Complex)" Url="Ap.CSqr.htm" />
+<HelpTOCNode Title="C_Add(Complex,Complex)" Url="Ap.C_Add.htm" />
+<HelpTOCNode Title="C_AddR(Complex,Double)" Url="Ap.C_AddR.htm" />
+<HelpTOCNode Title="C_Complex(Double)" Url="Ap.C_Complex.htm" />
+<HelpTOCNode Title="C_Div(Complex,Complex)" Url="Ap.C_Div.htm" />
+<HelpTOCNode Title="C_DivR(Complex,Double)" Url="Ap.C_DivR.htm" />
+<HelpTOCNode Title="C_Equal(Complex,Complex)" Url="Ap.C_Equal.htm" />
+<HelpTOCNode Title="C_EqualR(Complex,Double)" Url="Ap.C_EqualR.htm" />
+<HelpTOCNode Title="C_Mul(Complex,Complex)" Url="Ap.C_Mul.htm" />
+<HelpTOCNode Title="C_MulR(Complex,Double)" Url="Ap.C_MulR.htm" />
+<HelpTOCNode Title="C_NotEqual(Complex,Complex)" Url="Ap.C_NotEqual.htm" />
+<HelpTOCNode Title="C_NotEqualR(Complex,Double)" Url="Ap.C_NotEqualR.htm" />
+<HelpTOCNode Title="C_Opposite(Complex)" Url="Ap.C_Opposite.htm" />
+<HelpTOCNode Title="C_RDiv(Double,Complex)" Url="Ap.C_RDiv.htm" />
+<HelpTOCNode Title="C_RSub(Double,Complex)" Url="Ap.C_RSub.htm" />
+<HelpTOCNode Title="C_Sub(Complex,Complex)" Url="Ap.C_Sub.htm" />
+<HelpTOCNode Title="C_SubR(Complex,Double)" Url="Ap.C_SubR.htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TBoolean1DArray)" Url="Ap.DynamicArrayCopy(TBoolean1DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TBoolean2DArray)" Url="Ap.DynamicArrayCopy(TBoolean2DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TComplex1DArray)" Url="Ap.DynamicArrayCopy(TComplex1DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TComplex2DArray)" Url="Ap.DynamicArrayCopy(TComplex2DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TInteger1DArray)" Url="Ap.DynamicArrayCopy(TInteger1DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TInteger2DArray)" Url="Ap.DynamicArrayCopy(TInteger2DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TReal1DArray)" Url="Ap.DynamicArrayCopy(TReal1DArray).htm" />
+<HelpTOCNode Title="DynamicArrayCopy(TReal2DArray)" Url="Ap.DynamicArrayCopy(TReal2DArray).htm" />
+<HelpTOCNode Title="RandomInteger(Integer)" Url="Ap.RandomInteger.htm" />
+<HelpTOCNode Title="RandomReal" Url="Ap.RandomReal.htm" />
+<HelpTOCNode Title="Sign(Extended)" Url="Ap.Sign.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="BackTesting" Url="BackTesting.htm">
+<HelpTOCNode Title="Classes" Url="BackTesting_Classes.htm">
+<HelpTOCNode Title="TfmBackTest" Url="BackTesting.TfmBackTest.htm">
+<HelpTOCNode Title="Methods" Url="BackTesting.TfmBackTest_Methods.htm">
+<HelpTOCNode Title="ApplicationEvents1Exception(TObject,Exception)" Url="BackTesting.TfmBackTest.ApplicationEvents1Exception.htm" />
+<HelpTOCNode Title="BitBtn2Click(TObject)" Url="BackTesting.TfmBackTest.BitBtn2Click.htm" />
+<HelpTOCNode Title="bStartClick(TObject)" Url="BackTesting.TfmBackTest.bStartClick.htm" />
+<HelpTOCNode Title="bStartOneClick(TObject)" Url="BackTesting.TfmBackTest.bStartOneClick.htm" />
+<HelpTOCNode Title="btnDelClick(TObject)" Url="BackTesting.TfmBackTest.btnDelClick.htm" />
+<HelpTOCNode Title="Button1Click(TObject)" Url="BackTesting.TfmBackTest.Button1Click.htm" />
+<HelpTOCNode Title="Button4Click(TObject)" Url="BackTesting.TfmBackTest.Button4Click.htm" />
+<HelpTOCNode Title="Button6Click(TObject)" Url="BackTesting.TfmBackTest.Button6Click.htm" />
+<HelpTOCNode Title="ClearTGA" Url="BackTesting.TfmBackTest.ClearTGA.htm" />
+<HelpTOCNode Title="DBGridEh1DrawColumnCell(TObject,TRect,Integer,TColumnEh,TGridDrawState)" Url="BackTesting.TfmBackTest.DBGridEh1DrawColumnCell.htm" />
+<HelpTOCNode Title="DBGridEh1GetCellParams(TObject,TColumnEh,TFont,TColor,TGridDrawState)" Url="BackTesting.TfmBackTest.DBGridEh1GetCellParams.htm" />
+<HelpTOCNode Title="FormCloseQuery(TObject,Boolean)" Url="BackTesting.TfmBackTest.FormCloseQuery.htm" />
+<HelpTOCNode Title="FormCreate(TObject)" Url="BackTesting.TfmBackTest.FormCreate.htm" />
+<HelpTOCNode Title="FormDestroy(TObject)" Url="BackTesting.TfmBackTest.FormDestroy.htm" />
+<HelpTOCNode Title="StopClick(TObject)" Url="BackTesting.TfmBackTest.StopClick.htm" />
+<HelpTOCNode Title="tmrRefreshBT_SrtragyTimer(TObject)" Url="BackTesting.TfmBackTest.tmrRefreshBT_SrtragyTimer.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="BackTesting.TfmBackTest_Fields.htm">
+<HelpTOCNode Title="ApplicationEvents1" Url="BackTesting.TfmBackTest.ApplicationEvents1.htm" />
+<HelpTOCNode Title="ApplicationEvents2" Url="BackTesting.TfmBackTest.ApplicationEvents2.htm" />
+<HelpTOCNode Title="BitBtn2" Url="BackTesting.TfmBackTest.BitBtn2.htm" />
+<HelpTOCNode Title="bStart" Url="BackTesting.TfmBackTest.bStart.htm" />
+<HelpTOCNode Title="bStartOne" Url="BackTesting.TfmBackTest.bStartOne.htm" />
+<HelpTOCNode Title="btnDel" Url="BackTesting.TfmBackTest.btnDel.htm" />
+<HelpTOCNode Title="Button1" Url="BackTesting.TfmBackTest.Button1.htm" />
+<HelpTOCNode Title="Button4" Url="BackTesting.TfmBackTest.Button4.htm" />
+<HelpTOCNode Title="Button6" Url="BackTesting.TfmBackTest.Button6.htm" />
+<HelpTOCNode Title="DBGrid2" Url="BackTesting.TfmBackTest.DBGrid2.htm" />
+<HelpTOCNode Title="DBGridEh1" Url="BackTesting.TfmBackTest.DBGridEh1.htm" />
+<HelpTOCNode Title="Stop" Url="BackTesting.TfmBackTest.Stop.htm" />
+<HelpTOCNode Title="tmrRefreshBT_Srtragy" Url="BackTesting.TfmBackTest.tmrRefreshBT_Srtragy.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TProgressOracle" Url="BackTesting.TProgressOracle.htm">
+<HelpTOCNode Title="Methods" Url="BackTesting.TProgressOracle_Methods.htm">
+<HelpTOCNode Title="DoControl(TObject,Integer)" Url="BackTesting.TProgressOracle.DoControl.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="BackTesting_Variables.htm">
+<HelpTOCNode Title="asset" Url="BackTesting.asset.htm" />
+<HelpTOCNode Title="Cont" Url="BackTesting.Cont.htm" />
+<HelpTOCNode Title="fmBackTest" Url="BackTesting.fmBackTest.htm" />
+<HelpTOCNode Title="t" Url="BackTesting.t.htm" />
+<HelpTOCNode Title="TGA_" Url="BackTesting.TGA_.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Routines" Url="BackTesting_Routines.htm">
+<HelpTOCNode Title="CreateTClassGA(integer)" Url="BackTesting.CreateTClassGA.htm" />
+<HelpTOCNode Title="FillTGAClass(TClassGA,Integer)" Url="BackTesting.FillTGAClass.htm" />
+<HelpTOCNode Title="FillTGAClassTunes(TClassGA,Integer)" Url="BackTesting.FillTGAClassTunes.htm" />
+<HelpTOCNode Title="GetAsset(Integer,integer,TDateTime,TDateTime,integer)" Url="BackTesting.GetAsset.htm" />
+<HelpTOCNode Title="GetParamsFixed(TParamList,Integer)" Url="BackTesting.GetParamsFixed.htm" />
+<HelpTOCNode Title="GetParamsTGAClass(TParamList,Integer)" Url="BackTesting.GetParamsTGAClass.htm" />
+<HelpTOCNode Title="RegisterStrategyTypes(TContainer)" Url="BackTesting.RegisterStrategyTypes.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="BackTestTune" Url="BackTestTune.htm">
+<HelpTOCNode Title="Classes" Url="BackTestTune_Classes.htm">
+<HelpTOCNode Title="TfmBTTune" Url="BackTestTune.TfmBTTune.htm">
+<HelpTOCNode Title="Methods" Url="BackTestTune.TfmBTTune_Methods.htm">
+<HelpTOCNode Title="bbDelClick(TObject)" Url="BackTestTune.TfmBTTune.bbDelClick.htm" />
+<HelpTOCNode Title="bCancelClick(TObject)" Url="BackTestTune.TfmBTTune.bCancelClick.htm" />
+<HelpTOCNode Title="bGaTuneClick(TObject)" Url="BackTestTune.TfmBTTune.bGaTuneClick.htm" />
+<HelpTOCNode Title="bOkClick(TObject)" Url="BackTestTune.TfmBTTune.bOkClick.htm" />
+<HelpTOCNode Title="dbePSEUDO_NAMEEnter(TObject)" Url="BackTestTune.TfmBTTune.dbePSEUDO_NAMEEnter.htm" />
+<HelpTOCNode Title="dblkcbbSTRATEGY_MODULECloseUp(TObject)" Url="BackTestTune.TfmBTTune.dblkcbbSTRATEGY_MODULECloseUp.htm" />
+<HelpTOCNode Title="dblkcbbSTRATEGY_MODULEEnter(TObject)" Url="BackTestTune.TfmBTTune.dblkcbbSTRATEGY_MODULEEnter.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="BackTestTune.TfmBTTune_Fields.htm">
+<HelpTOCNode Title="bbDel" Url="BackTestTune.TfmBTTune.bbDel.htm" />
+<HelpTOCNode Title="bCancel" Url="BackTestTune.TfmBTTune.bCancel.htm" />
+<HelpTOCNode Title="bGaTune" Url="BackTestTune.TfmBTTune.bGaTune.htm" />
+<HelpTOCNode Title="bOk" Url="BackTestTune.TfmBTTune.bOk.htm" />
+<HelpTOCNode Title="chkFULLSEARCH" Url="BackTestTune.TfmBTTune.chkFULLSEARCH.htm" />
+<HelpTOCNode Title="chkLONGDEAL" Url="BackTestTune.TfmBTTune.chkLONGDEAL.htm" />
+<HelpTOCNode Title="chkMax" Url="BackTestTune.TfmBTTune.chkMax.htm" />
+<HelpTOCNode Title="dbcbbTIME_FRAME" Url="BackTestTune.TfmBTTune.dbcbbTIME_FRAME.htm" />
+<HelpTOCNode Title="DBCheckBoxEh1" Url="BackTestTune.TfmBTTune.DBCheckBoxEh1.htm" />
+<HelpTOCNode Title="dbeComiss" Url="BackTestTune.TfmBTTune.dbeComiss.htm" />
+<HelpTOCNode Title="dbeDAYSCOUNT" Url="BackTestTune.TfmBTTune.dbeDAYSCOUNT.htm" />
+<HelpTOCNode Title="dbedtPSEUDO_NAME" Url="BackTestTune.TfmBTTune.dbedtPSEUDO_NAME.htm" />
+<HelpTOCNode Title="dbedtTRUE_NAME" Url="BackTestTune.TfmBTTune.dbedtTRUE_NAME.htm" />
+<HelpTOCNode Title="dbeMONEYSTART" Url="BackTestTune.TfmBTTune.dbeMONEYSTART.htm" />
+<HelpTOCNode Title="dbePSEUDO_NAME" Url="BackTestTune.TfmBTTune.dbePSEUDO_NAME.htm" />
+<HelpTOCNode Title="dbeVALUEFIXED" Url="BackTestTune.TfmBTTune.dbeVALUEFIXED.htm" />
+<HelpTOCNode Title="dbeVALUEFROM" Url="BackTestTune.TfmBTTune.dbeVALUEFROM.htm" />
+<HelpTOCNode Title="dbeVALUETO" Url="BackTestTune.TfmBTTune.dbeVALUETO.htm" />
+<HelpTOCNode Title="DBGrid2" Url="BackTestTune.TfmBTTune.DBGrid2.htm" />
+<HelpTOCNode Title="dblkcbbBT_GA_TUNE_ID" Url="BackTestTune.TfmBTTune.dblkcbbBT_GA_TUNE_ID.htm" />
+<HelpTOCNode Title="dblkcbbPAPER_NO" Url="BackTestTune.TfmBTTune.dblkcbbPAPER_NO.htm" />
+<HelpTOCNode Title="edtDTFROM" Url="BackTestTune.TfmBTTune.edtDTFROM.htm" />
+<HelpTOCNode Title="edtDTTO" Url="BackTestTune.TfmBTTune.edtDTTO.htm" />
+<HelpTOCNode Title="GroupBox1" Url="BackTestTune.TfmBTTune.GroupBox1.htm" />
+<HelpTOCNode Title="GroupBox2" Url="BackTestTune.TfmBTTune.GroupBox2.htm" />
+<HelpTOCNode Title="Label1" Url="BackTestTune.TfmBTTune.Label1.htm" />
+<HelpTOCNode Title="Label11" Url="BackTestTune.TfmBTTune.Label11.htm" />
+<HelpTOCNode Title="Label12" Url="BackTestTune.TfmBTTune.Label12.htm" />
+<HelpTOCNode Title="Label13" Url="BackTestTune.TfmBTTune.Label13.htm" />
+<HelpTOCNode Title="Label14" Url="BackTestTune.TfmBTTune.Label14.htm" />
+<HelpTOCNode Title="Label15" Url="BackTestTune.TfmBTTune.Label15.htm" />
+<HelpTOCNode Title="Label16" Url="BackTestTune.TfmBTTune.Label16.htm" />
+<HelpTOCNode Title="Label2" Url="BackTestTune.TfmBTTune.Label2.htm" />
+<HelpTOCNode Title="Label3" Url="BackTestTune.TfmBTTune.Label3.htm" />
+<HelpTOCNode Title="Label4" Url="BackTestTune.TfmBTTune.Label4.htm" />
+<HelpTOCNode Title="lbl1" Url="BackTestTune.TfmBTTune.lbl1.htm" />
+<HelpTOCNode Title="lbl2" Url="BackTestTune.TfmBTTune.lbl2.htm" />
+<HelpTOCNode Title="lbl3" Url="BackTestTune.TfmBTTune.lbl3.htm" />
+<HelpTOCNode Title="lbl4" Url="BackTestTune.TfmBTTune.lbl4.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="BackTestTune_Variables.htm">
+<HelpTOCNode Title="fmBTTune" Url="BackTestTune.fmBTTune.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="bdsvd" Url="bdsvd.htm">
+<HelpTOCNode Title="Routines" Url="bdsvd_Routines.htm">
+<HelpTOCNode Title="BidiagonalSVDDecomposition(TReal1DArray,TReal1DArray,Integer,Boolean,Boolean,TReal2DArray,Integer,TReal2DArray,Integer,TReal2DArray,Integer)" Url="bdsvd.BidiagonalSVDDecomposition.htm" />
+<HelpTOCNode Title="BidiagonalSVDDecompositionInternal(TReal1DArray,TReal1DArray,Integer,Boolean,Boolean,TReal2DArray,Integer,Integer,TReal2DArray,Integer,Integer,TReal2DArray,Integer,Integer)" Url="bdsvd.BidiagonalSVDDecompositionInternal.htm" />
+<HelpTOCNode Title="ExtSignBDSQR(Double,Double)" Url="bdsvd.ExtSignBDSQR.htm" />
+<HelpTOCNode Title="RMatrixBDSVD(TReal1DArray,TReal1DArray,Integer,Boolean,Boolean,TReal2DArray,Integer,TReal2DArray,Integer,TReal2DArray,Integer)" Url="bdsvd.RMatrixBDSVD.htm" />
+<HelpTOCNode Title="Svd2X2(Double,Double,Double,Double,Double)" Url="bdsvd.Svd2X2.htm" />
+<HelpTOCNode Title="SvdV2X2(Double,Double,Double,Double,Double,Double,Double,Double,Double)" Url="bdsvd.SvdV2X2.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="bidiagonal" Url="bidiagonal.htm">
+<HelpTOCNode Title="Routines" Url="bidiagonal_Routines.htm">
+<HelpTOCNode Title="MultiplyByPFromBidiagonal(TReal2DArray,Integer,Integer,TReal1DArray,TReal2DArray,Integer,Integer,Boolean,Boolean)" Url="bidiagonal.MultiplyByPFromBidiagonal.htm" />
+<HelpTOCNode Title="MultiplyByQFromBidiagonal(TReal2DArray,Integer,Integer,TReal1DArray,TReal2DArray,Integer,Integer,Boolean,Boolean)" Url="bidiagonal.MultiplyByQFromBidiagonal.htm" />
+<HelpTOCNode Title="RMatrixBD(TReal2DArray,Integer,Integer,TReal1DArray,TReal1DArray)" Url="bidiagonal.RMatrixBD.htm" />
+<HelpTOCNode Title="RMatrixBDMultiplyByP(TReal2DArray,Integer,Integer,TReal1DArray,TReal2DArray,Integer,Integer,Boolean,Boolean)" Url="bidiagonal.RMatrixBDMultiplyByP.htm" />
+<HelpTOCNode Title="RMatrixBDMultiplyByQ(TReal2DArray,Integer,Integer,TReal1DArray,TReal2DArray,Integer,Integer,Boolean,Boolean)" Url="bidiagonal.RMatrixBDMultiplyByQ.htm" />
+<HelpTOCNode Title="RMatrixBDUnpackDiagonals(TReal2DArray,Integer,Integer,Boolean,TReal1DArray,TReal1DArray)" Url="bidiagonal.RMatrixBDUnpackDiagonals.htm" />
+<HelpTOCNode Title="RMatrixBDUnpackPT(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="bidiagonal.RMatrixBDUnpackPT.htm" />
+<HelpTOCNode Title="RMatrixBDUnpackQ(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="bidiagonal.RMatrixBDUnpackQ.htm" />
+<HelpTOCNode Title="ToBidiagonal(TReal2DArray,Integer,Integer,TReal1DArray,TReal1DArray)" Url="bidiagonal.ToBidiagonal.htm" />
+<HelpTOCNode Title="UnpackDiagonalsFromBidiagonal(TReal2DArray,Integer,Integer,Boolean,TReal1DArray,TReal1DArray)" Url="bidiagonal.UnpackDiagonalsFromBidiagonal.htm" />
+<HelpTOCNode Title="UnpackPTFromBidiagonal(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="bidiagonal.UnpackPTFromBidiagonal.htm" />
+<HelpTOCNode Title="UnpackQFromBidiagonal(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="bidiagonal.UnpackQFromBidiagonal.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="blas" Url="blas.htm">
+<HelpTOCNode Title="Routines" Url="blas_Routines.htm">
+<HelpTOCNode Title="ColumnIdxAbsMax(TReal2DArray,Integer,Integer,Integer)" Url="blas.ColumnIdxAbsMax.htm" />
+<HelpTOCNode Title="CopyAndTranspose(TReal2DArray,Integer,Integer,Integer,Integer,TReal2DArray,Integer,Integer,Integer,Integer)" Url="blas.CopyAndTranspose.htm" />
+<HelpTOCNode Title="CopyMatrix(TReal2DArray,Integer,Integer,Integer,Integer,TReal2DArray,Integer,Integer,Integer,Integer)" Url="blas.CopyMatrix.htm" />
+<HelpTOCNode Title="InplaceTranspose(TReal2DArray,Integer,Integer,Integer,Integer,TReal1DArray)" Url="blas.InplaceTranspose.htm" />
+<HelpTOCNode Title="MatrixMatrixMultiply(TReal2DArray,Integer,Integer,Integer,Integer,Boolean,TReal2DArray,Integer,Integer,Integer,Integer,Boolean,Double,TReal2DArray,Integer,Integer,Integer,Integer,Double,TReal1DArray)" Url="blas.MatrixMatrixMultiply.htm" />
+<HelpTOCNode Title="MatrixVectorMultiply(TReal2DArray,Integer,Integer,Integer,Integer,Boolean,TReal1DArray,Integer,Integer,Double,TReal1DArray,Integer,Integer,Double)" Url="blas.MatrixVectorMultiply.htm" />
+<HelpTOCNode Title="Pythag2(Double,Double)" Url="blas.Pythag2.htm" />
+<HelpTOCNode Title="RowIdxAbsMax(TReal2DArray,Integer,Integer,Integer)" Url="blas.RowIdxAbsMax.htm" />
+<HelpTOCNode Title="UpperHessenberg1Norm(TReal2DArray,Integer,Integer,Integer,Integer,TReal1DArray)" Url="blas.UpperHessenberg1Norm.htm" />
+<HelpTOCNode Title="VectorIdxAbsMax(TReal1DArray,Integer,Integer)" Url="blas.VectorIdxAbsMax.htm" />
+<HelpTOCNode Title="VectorNorm2(TReal1DArray,Integer,Integer)" Url="blas.VectorNorm2.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="BTChart" Url="BTChart.htm">
+<HelpTOCNode Title="Classes" Url="BTChart_Classes.htm">
+<HelpTOCNode Title="TfmBTChart" Url="BTChart.TfmBTChart.htm">
+<HelpTOCNode Title="Methods" Url="BTChart.TfmBTChart_Methods.htm">
+<HelpTOCNode Title="bbEditClick(TObject)" Url="BTChart.TfmBTChart.bbEditClick.htm" />
+<HelpTOCNode Title="CalcWidthMarkDB" Url="BTChart.TfmBTChart.CalcWidthMarkDB.htm" />
+<HelpTOCNode Title="DBChart1Click(TObject)" Url="BTChart.TfmBTChart.DBChart1Click.htm" />
+<HelpTOCNode Title="DBChartAfterDraw(TObject)" Url="BTChart.TfmBTChart.DBChartAfterDraw.htm" />
+<HelpTOCNode Title="DBChartResize(TObject)" Url="BTChart.TfmBTChart.DBChartResize.htm" />
+<HelpTOCNode Title="DBChartScroll(TObject)" Url="BTChart.TfmBTChart.DBChartScroll.htm" />
+<HelpTOCNode Title="Excel1Click(TObject)" Url="BTChart.TfmBTChart.Excel1Click.htm" />
+<HelpTOCNode Title="FormClose(TObject,TCloseAction)" Url="BTChart.TfmBTChart.FormClose.htm" />
+<HelpTOCNode Title="FormCreate(TObject)" Url="BTChart.TfmBTChart.FormCreate.htm" />
+<HelpTOCNode Title="FormShow(TObject)" Url="BTChart.TfmBTChart.FormShow.htm" />
+<HelpTOCNode Title="pcDataChange(TObject)" Url="BTChart.TfmBTChart.pcDataChange.htm" />
+<HelpTOCNode Title="taDealsCalcFields(TDataSet)" Url="BTChart.TfmBTChart.taDealsCalcFields.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="BTChart.TfmBTChart_Fields.htm">
+<HelpTOCNode Title="ActionList" Url="BTChart.TfmBTChart.ActionList.htm" />
+<HelpTOCNode Title="bbCursor" Url="BTChart.TfmBTChart.bbCursor.htm" />
+<HelpTOCNode Title="bbEdit" Url="BTChart.TfmBTChart.bbEdit.htm" />
+<HelpTOCNode Title="bbExport" Url="BTChart.TfmBTChart.bbExport.htm" />
+<HelpTOCNode Title="bbLast" Url="BTChart.TfmBTChart.bbLast.htm" />
+<HelpTOCNode Title="bbpaData" Url="BTChart.TfmBTChart.bbpaData.htm" />
+<HelpTOCNode Title="bbScroll" Url="BTChart.TfmBTChart.bbScroll.htm" />
+<HelpTOCNode Title="btn1" Url="BTChart.TfmBTChart.btn1.htm" />
+<HelpTOCNode Title="btn2" Url="BTChart.TfmBTChart.btn2.htm" />
+<HelpTOCNode Title="btn7" Url="BTChart.TfmBTChart.btn7.htm" />
+<HelpTOCNode Title="btnDBChartPrint1" Url="BTChart.TfmBTChart.btnDBChartPrint1.htm" />
+<HelpTOCNode Title="Button5" Url="BTChart.TfmBTChart.Button5.htm" />
+<HelpTOCNode Title="Button6" Url="BTChart.TfmBTChart.Button6.htm" />
+<HelpTOCNode Title="Button8" Url="BTChart.TfmBTChart.Button8.htm" />
+<HelpTOCNode Title="ChartActionEdit1" Url="BTChart.TfmBTChart.ChartActionEdit1.htm" />
+<HelpTOCNode Title="ChartEditor" Url="BTChart.TfmBTChart.ChartEditor.htm" />
+<HelpTOCNode Title="cndlsrsSeries2" Url="BTChart.TfmBTChart.cndlsrsSeries2.htm" />
+<HelpTOCNode Title="DBChart" Url="BTChart.TfmBTChart.DBChart.htm" />
+<HelpTOCNode Title="DBChart1" Url="BTChart.TfmBTChart.DBChart1.htm" />
+<HelpTOCNode Title="dbChartCursor" Url="BTChart.TfmBTChart.dbChartCursor.htm" />
+<HelpTOCNode Title="DBChartEdit" Url="BTChart.TfmBTChart.DBChartEdit.htm" />
+<HelpTOCNode Title="DBChartHint" Url="BTChart.TfmBTChart.DBChartHint.htm" />
+<HelpTOCNode Title="DBChartPrint" Url="BTChart.TfmBTChart.DBChartPrint.htm" />
+<HelpTOCNode Title="DBChartSave" Url="BTChart.TfmBTChart.DBChartSave.htm" />
+<HelpTOCNode Title="dbgMain" Url="BTChart.TfmBTChart.dbgMain.htm" />
+<HelpTOCNode Title="dbgrdh1" Url="BTChart.TfmBTChart.dbgrdh1.htm" />
+<HelpTOCNode Title="dbgSignals" Url="BTChart.TfmBTChart.dbgSignals.htm" />
+<HelpTOCNode Title="drwlntlChartTool1" Url="BTChart.TfmBTChart.drwlntlChartTool1.htm" />
+<HelpTOCNode Title="dsDeals" Url="BTChart.TfmBTChart.dsDeals.htm" />
+<HelpTOCNode Title="dsMain" Url="BTChart.TfmBTChart.dsMain.htm" />
+<HelpTOCNode Title="dsSignals" Url="BTChart.TfmBTChart.dsSignals.htm" />
+<HelpTOCNode Title="DT" Url="BTChart.TfmBTChart.DT.htm" />
+<HelpTOCNode Title="dtmfldDealsDateClosePosition" Url="BTChart.TfmBTChart.dtmfldDealsDateClosePosition.htm" />
+<HelpTOCNode Title="dtmfldDealsDateOpenPosition" Url="BTChart.TfmBTChart.dtmfldDealsDateOpenPosition.htm" />
+<HelpTOCNode Title="Excel1" Url="BTChart.TfmBTChart.Excel1.htm" />
+<HelpTOCNode Title="extndfldVirtualTablevVolume" Url="BTChart.TfmBTChart.extndfldVirtualTablevVolume.htm" />
+<HelpTOCNode Title="Finres" Url="BTChart.TfmBTChart.Finres.htm" />
+<HelpTOCNode Title="fltfldDealsDaysCount" Url="BTChart.TfmBTChart.fltfldDealsDaysCount.htm" />
+<HelpTOCNode Title="fltfldDealsMoneyBefor" Url="BTChart.TfmBTChart.fltfldDealsMoneyBefor.htm" />
+<HelpTOCNode Title="fltfldDealsMoneyRest" Url="BTChart.TfmBTChart.fltfldDealsMoneyRest.htm" />
+<HelpTOCNode Title="fltfldDealsPriceClose" Url="BTChart.TfmBTChart.fltfldDealsPriceClose.htm" />
+<HelpTOCNode Title="fltfldDealsPriceOpen" Url="BTChart.TfmBTChart.fltfldDealsPriceOpen.htm" />
+<HelpTOCNode Title="fltfldDealsProfitMoney" Url="BTChart.TfmBTChart.fltfldDealsProfitMoney.htm" />
+<HelpTOCNode Title="fltfldDealsProfitPercent" Url="BTChart.TfmBTChart.fltfldDealsProfitPercent.htm" />
+<HelpTOCNode Title="ImageCollection1" Url="BTChart.TfmBTChart.ImageCollection1.htm" />
+<HelpTOCNode Title="intgrfldDealsAssetCount" Url="BTChart.TfmBTChart.intgrfldDealsAssetCount.htm" />
+<HelpTOCNode Title="lrgntfldDealsAssetIdClose" Url="BTChart.TfmBTChart.lrgntfldDealsAssetIdClose.htm" />
+<HelpTOCNode Title="lrgntfldDealsAssetIdOpen" Url="BTChart.TfmBTChart.lrgntfldDealsAssetIdOpen.htm" />
+<HelpTOCNode Title="lrgntfldIndikatorsid" Url="BTChart.TfmBTChart.lrgntfldIndikatorsid.htm" />
+<HelpTOCNode Title="meDeals" Url="BTChart.TfmBTChart.meDeals.htm" />
+<HelpTOCNode Title="meError" Url="BTChart.TfmBTChart.meError.htm" />
+<HelpTOCNode Title="meStragegyInfo" Url="BTChart.TfmBTChart.meStragegyInfo.htm" />
+<HelpTOCNode Title="N1" Url="BTChart.TfmBTChart.N1.htm" />
+<HelpTOCNode Title="PageControl1" Url="BTChart.TfmBTChart.PageControl1.htm" />
+<HelpTOCNode Title="pcData" Url="BTChart.TfmBTChart.pcData.htm" />
+<HelpTOCNode Title="pm" Url="BTChart.TfmBTChart.pm.htm" />
+<HelpTOCNode Title="PopupMenu" Url="BTChart.TfmBTChart.PopupMenu.htm" />
+<HelpTOCNode Title="price" Url="BTChart.TfmBTChart.price.htm" />
+<HelpTOCNode Title="sBuy_" Url="BTChart.TfmBTChart.sBuy_.htm" />
+<HelpTOCNode Title="sCandle_" Url="BTChart.TfmBTChart.sCandle_.htm" />
+<HelpTOCNode Title="ScrollPager" Url="BTChart.TfmBTChart.ScrollPager.htm" />
+<HelpTOCNode Title="se" Url="BTChart.TfmBTChart.se.htm" />
+<HelpTOCNode Title="Series1" Url="BTChart.TfmBTChart.Series1.htm" />
+<HelpTOCNode Title="SeriesTextSource1" Url="BTChart.TfmBTChart.SeriesTextSource1.htm" />
+<HelpTOCNode Title="sFinres" Url="BTChart.TfmBTChart.sFinres.htm" />
+<HelpTOCNode Title="signal" Url="BTChart.TfmBTChart.signal.htm" />
+<HelpTOCNode Title="sInd1" Url="BTChart.TfmBTChart.sInd1.htm" />
+<HelpTOCNode Title="sInd2" Url="BTChart.TfmBTChart.sInd2.htm" />
+<HelpTOCNode Title="spl1" Url="BTChart.TfmBTChart.spl1.htm" />
+<HelpTOCNode Title="sSell_" Url="BTChart.TfmBTChart.sSell_.htm" />
+<HelpTOCNode Title="strngfldDealsSignalClose" Url="BTChart.TfmBTChart.strngfldDealsSignalClose.htm" />
+<HelpTOCNode Title="strngfldDealsSignalOpen" Url="BTChart.TfmBTChart.strngfldDealsSignalOpen.htm" />
+<HelpTOCNode Title="strngfldDealsStatus" Url="BTChart.TfmBTChart.strngfldDealsStatus.htm" />
+<HelpTOCNode Title="sVolume_" Url="BTChart.TfmBTChart.sVolume_.htm" />
+<HelpTOCNode Title="taDeals" Url="BTChart.TfmBTChart.taDeals.htm" />
+<HelpTOCNode Title="taIndikators" Url="BTChart.TfmBTChart.taIndikators.htm" />
+<HelpTOCNode Title="taIndikatorsdt" Url="BTChart.TfmBTChart.taIndikatorsdt.htm" />
+<HelpTOCNode Title="taIndikatorsind2" Url="BTChart.TfmBTChart.taIndikatorsind2.htm" />
+<HelpTOCNode Title="taIndikatorsvInd1" Url="BTChart.TfmBTChart.taIndikatorsvInd1.htm" />
+<HelpTOCNode Title="taIndikatorsvXlabel" Url="BTChart.TfmBTChart.taIndikatorsvXlabel.htm" />
+<HelpTOCNode Title="taSignals" Url="BTChart.TfmBTChart.taSignals.htm" />
+<HelpTOCNode Title="TeeXMLSource1" Url="BTChart.TfmBTChart.TeeXMLSource1.htm" />
+<HelpTOCNode Title="tlb1" Url="BTChart.TfmBTChart.tlb1.htm" />
+<HelpTOCNode Title="ToolButton2" Url="BTChart.TfmBTChart.ToolButton2.htm" />
+<HelpTOCNode Title="ts1" Url="BTChart.TfmBTChart.ts1.htm" />
+<HelpTOCNode Title="ts2" Url="BTChart.TfmBTChart.ts2.htm" />
+<HelpTOCNode Title="ts3" Url="BTChart.TfmBTChart.ts3.htm" />
+<HelpTOCNode Title="tsDeals" Url="BTChart.TfmBTChart.tsDeals.htm" />
+<HelpTOCNode Title="tshMain" Url="BTChart.TfmBTChart.tshMain.htm" />
+<HelpTOCNode Title="tshSignals" Url="BTChart.TfmBTChart.tshSignals.htm" />
+<HelpTOCNode Title="tshStrategy" Url="BTChart.TfmBTChart.tshStrategy.htm" />
+<HelpTOCNode Title="VirtualTable" Url="BTChart.TfmBTChart.VirtualTable.htm" />
+<HelpTOCNode Title="VirtualTableASSETID" Url="BTChart.TfmBTChart.VirtualTableASSETID.htm" />
+<HelpTOCNode Title="VirtualTableDT" Url="BTChart.TfmBTChart.VirtualTableDT.htm" />
+<HelpTOCNode Title="VirtualTablePRICE" Url="BTChart.TfmBTChart.VirtualTablePRICE.htm" />
+<HelpTOCNode Title="VirtualTableSIGNAL" Url="BTChart.TfmBTChart.VirtualTableSIGNAL.htm" />
+<HelpTOCNode Title="VirtualTablevBuy" Url="BTChart.TfmBTChart.VirtualTablevBuy.htm" />
+<HelpTOCNode Title="VirtualTablevClose" Url="BTChart.TfmBTChart.VirtualTablevClose.htm" />
+<HelpTOCNode Title="VirtualTablevDate" Url="BTChart.TfmBTChart.VirtualTablevDate.htm" />
+<HelpTOCNode Title="VirtualTablevHigh" Url="BTChart.TfmBTChart.VirtualTablevHigh.htm" />
+<HelpTOCNode Title="VirtualTablevInd1" Url="BTChart.TfmBTChart.VirtualTablevInd1.htm" />
+<HelpTOCNode Title="VirtualTablevInd2" Url="BTChart.TfmBTChart.VirtualTablevInd2.htm" />
+<HelpTOCNode Title="VirtualTablevLow" Url="BTChart.TfmBTChart.VirtualTablevLow.htm" />
+<HelpTOCNode Title="VirtualTablevOpen" Url="BTChart.TfmBTChart.VirtualTablevOpen.htm" />
+<HelpTOCNode Title="VirtualTablevSell" Url="BTChart.TfmBTChart.VirtualTablevSell.htm" />
+<HelpTOCNode Title="VirtualTablevXlabel" Url="BTChart.TfmBTChart.VirtualTablevXlabel.htm" />
+<HelpTOCNode Title="vrtlmglst1" Url="BTChart.TfmBTChart.vrtlmglst1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="BTChart_Variables.htm">
+<HelpTOCNode Title="DA" Url="BTChart.DA.htm" />
+<HelpTOCNode Title="fmBTChart" Url="BTChart.fmBTChart.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="BTPARAMSFILL" Url="BTPARAMSFILL.htm">
+<HelpTOCNode Title="Classes" Url="BTPARAMSFILL_Classes.htm">
+<HelpTOCNode Title="TfmBTPARAMSFILL" Url="BTPARAMSFILL.TfmBTPARAMSFILL.htm">
+<HelpTOCNode Title="Methods" Url="BTPARAMSFILL.TfmBTPARAMSFILL_Methods.htm">
+<HelpTOCNode Title="bOkClick(TObject)" Url="BTPARAMSFILL.TfmBTPARAMSFILL.bOkClick.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="BTPARAMSFILL.TfmBTPARAMSFILL_Fields.htm">
+<HelpTOCNode Title="bCancel" Url="BTPARAMSFILL.TfmBTPARAMSFILL.bCancel.htm" />
+<HelpTOCNode Title="bOk" Url="BTPARAMSFILL.TfmBTPARAMSFILL.bOk.htm" />
+<HelpTOCNode Title="dbg1" Url="BTPARAMSFILL.TfmBTPARAMSFILL.dbg1.htm" />
+<HelpTOCNode Title="dblkcbbSTRATEGY_MODULE" Url="BTPARAMSFILL.TfmBTPARAMSFILL.dblkcbbSTRATEGY_MODULE.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="BTPARAMSFILL_Variables.htm">
+<HelpTOCNode Title="fmBTPARAMSFILL" Url="BTPARAMSFILL.fmBTPARAMSFILL.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Catalina" Url="Catalina.htm">
+<HelpTOCNode Title="Classes" Url="Catalina_Classes.htm">
+<HelpTOCNode Title="TCatalinaClass" Url="Catalina.TCatalinaClass.htm">
+<HelpTOCNode Title="Constructors" Url="Catalina.TCatalinaClass_Constructors.htm">
+<HelpTOCNode Title="create(TAssetRecord,TParamList)" Url="Catalina.TCatalinaClass.create.htm" />
+<HelpTOCNode Title="Destroy" Url="Catalina.TCatalinaClass.Destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Properties" Url="Catalina.TCatalinaClass_Properties.htm">
+<HelpTOCNode Title="Asset" Url="Catalina.TCatalinaClass.Asset.htm" />
+<HelpTOCNode Title="SignalStorage" Url="Catalina.TCatalinaClass.SignalStorage.htm" />
+<HelpTOCNode Title="Temp" Url="Catalina.TCatalinaClass.Temp.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="Catalina.TCatalinaClass_Methods.htm">
+<HelpTOCNode Title="execute" Url="Catalina.TCatalinaClass.execute.htm" />
+<HelpTOCNode Title="FindInd(string)" Url="Catalina.TCatalinaClass.FindInd.htm" />
+<HelpTOCNode Title="GetAsset" Url="Catalina.TCatalinaClass.GetAsset.htm" />
+<HelpTOCNode Title="getCurrentDecision(String)" Url="Catalina.TCatalinaClass.getCurrentDecision.htm" />
+<HelpTOCNode Title="GetIndDict" Url="Catalina.TCatalinaClass.GetIndDict.htm" />
+<HelpTOCNode Title="GetSignalStorage" Url="Catalina.TCatalinaClass.GetSignalStorage.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="Catalina.TCatalinaClass.SetAsset.htm" />
+<HelpTOCNode Title="SetIndDict(TParamList)" Url="Catalina.TCatalinaClass.SetIndDict.htm" />
+<HelpTOCNode Title="SetSignalStorage(SAR)" Url="Catalina.TCatalinaClass.SetSignalStorage.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="Catalina.TCatalinaClass_Fields.htm">
+<HelpTOCNode Title="dema1Indicator" Url="Catalina.TCatalinaClass.dema1Indicator.htm" />
+<HelpTOCNode Title="dema2Indicator" Url="Catalina.TCatalinaClass.dema2Indicator.htm" />
+<HelpTOCNode Title="fAsset" Url="Catalina.TCatalinaClass.fAsset.htm" />
+<HelpTOCNode Title="FastPeriod" Url="Catalina.TCatalinaClass.FastPeriod.htm" />
+<HelpTOCNode Title="fDict" Url="Catalina.TCatalinaClass.fDict.htm" />
+<HelpTOCNode Title="FOnMyEvent" Url="Catalina.TCatalinaClass.FOnMyEvent.htm" />
+<HelpTOCNode Title="fSignalStorage" Url="Catalina.TCatalinaClass.fSignalStorage.htm" />
+<HelpTOCNode Title="fTemp" Url="Catalina.TCatalinaClass.fTemp.htm" />
+<HelpTOCNode Title="SlowPeriod" Url="Catalina.TCatalinaClass.SlowPeriod.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Records" Url="Catalina_Records.htm">
+<HelpTOCNode Title="EMAIndicator" Url="Catalina.EMAIndicator.htm">
+<HelpTOCNode Title="Constructors" Url="Catalina.EMAIndicator_Constructors.htm">
+<HelpTOCNode Title="create(Real,Integer,String)" Url="Catalina.EMAIndicator.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="Catalina.EMAIndicator_Methods.htm">
+<HelpTOCNode Title="init(AOR)" Url="Catalina.EMAIndicator.init.htm" />
+<HelpTOCNode Title="new_value(Real)" Url="Catalina.EMAIndicator.new_value.htm" />
+<HelpTOCNode Title="update_value(Real)" Url="Catalina.EMAIndicator.update_value.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="Catalina.EMAIndicator_Fields.htm">
+<HelpTOCNode Title="method" Url="Catalina.EMAIndicator.method.htm" />
+<HelpTOCNode Title="num_periods" Url="Catalina.EMAIndicator.num_periods.htm" />
+<HelpTOCNode Title="storage" Url="Catalina.EMAIndicator.storage.htm" />
+<HelpTOCNode Title="value" Url="Catalina.EMAIndicator.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TDEMAIndicator" Url="Catalina.TDEMAIndicator.htm">
+<HelpTOCNode Title="Constructors" Url="Catalina.TDEMAIndicator_Constructors.htm">
+<HelpTOCNode Title="create(Real,Integer,String)" Url="Catalina.TDEMAIndicator.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="Catalina.TDEMAIndicator_Methods.htm">
+<HelpTOCNode Title="getDelayedValue(integer)" Url="Catalina.TDEMAIndicator.getDelayedValue.htm" />
+<HelpTOCNode Title="init(AOR)" Url="Catalina.TDEMAIndicator.init.htm" />
+<HelpTOCNode Title="new_value(Real)" Url="Catalina.TDEMAIndicator.new_value.htm" />
+<HelpTOCNode Title="update_value(Real)" Url="Catalina.TDEMAIndicator.update_value.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="Catalina.TDEMAIndicator_Fields.htm">
+<HelpTOCNode Title="emaIndicator1" Url="Catalina.TDEMAIndicator.emaIndicator1.htm" />
+<HelpTOCNode Title="emaIndicator2" Url="Catalina.TDEMAIndicator.emaIndicator2.htm" />
+<HelpTOCNode Title="method" Url="Catalina.TDEMAIndicator.method.htm" />
+<HelpTOCNode Title="num_periods" Url="Catalina.TDEMAIndicator.num_periods.htm" />
+<HelpTOCNode Title="storage" Url="Catalina.TDEMAIndicator.storage.htm" />
+<HelpTOCNode Title="value" Url="Catalina.TDEMAIndicator.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TEMAIndicator" Url="Catalina.TEMAIndicator.htm">
+<HelpTOCNode Title="Constructors" Url="Catalina.TEMAIndicator_Constructors.htm">
+<HelpTOCNode Title="create(Real,Integer,String)" Url="Catalina.TEMAIndicator.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="Catalina.TEMAIndicator_Methods.htm">
+<HelpTOCNode Title="getDelayedValue(integer)" Url="Catalina.TEMAIndicator.getDelayedValue.htm" />
+<HelpTOCNode Title="init(AOR)" Url="Catalina.TEMAIndicator.init.htm" />
+<HelpTOCNode Title="new_value(Real)" Url="Catalina.TEMAIndicator.new_value.htm" />
+<HelpTOCNode Title="update_value(Real)" Url="Catalina.TEMAIndicator.update_value.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="Catalina.TEMAIndicator_Fields.htm">
+<HelpTOCNode Title="emaIndicator1" Url="Catalina.TEMAIndicator.emaIndicator1.htm" />
+<HelpTOCNode Title="emaIndicator2" Url="Catalina.TEMAIndicator.emaIndicator2.htm" />
+<HelpTOCNode Title="emaIndicator3" Url="Catalina.TEMAIndicator.emaIndicator3.htm" />
+<HelpTOCNode Title="method" Url="Catalina.TEMAIndicator.method.htm" />
+<HelpTOCNode Title="num_periods" Url="Catalina.TEMAIndicator.num_periods.htm" />
+<HelpTOCNode Title="storage" Url="Catalina.TEMAIndicator.storage.htm" />
+<HelpTOCNode Title="value" Url="Catalina.TEMAIndicator.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="CommonTypes" Url="CommonTypes.htm">
+<HelpTOCNode Title="Classes" Url="CommonTypes_Classes.htm">
+<HelpTOCNode Title="EDataBaseError" Url="CommonTypes.EDataBaseError.htm" />
+<HelpTOCNode Title="EStrategyError" Url="CommonTypes.EStrategyError.htm" />
+<HelpTOCNode Title="EWrongParameteres" Url="CommonTypes.EWrongParameteres.htm" />
+<HelpTOCNode Title="TCalcProfit" Url="CommonTypes.TCalcProfit.htm">
+<HelpTOCNode Title="Methods" Url="CommonTypes.TCalcProfit_Methods.htm">
+<HelpTOCNode Title="CalcProfitNew(Real,boolean,boolean,TAssetRecord,SAR,real,real,real)" Url="CommonTypes.TCalcProfit.CalcProfitNew.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TDealRClass" Url="CommonTypes.TDealRClass.htm">
+<HelpTOCNode Title="Constructors" Url="CommonTypes.TDealRClass_Constructors.htm">
+<HelpTOCNode Title="Destroy" Url="CommonTypes.TDealRClass.Destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Properties" Url="CommonTypes.TDealRClass_Properties.htm">
+<HelpTOCNode Title="Asset" Url="CommonTypes.TDealRClass.Asset.htm" />
+<HelpTOCNode Title="Comis" Url="CommonTypes.TDealRClass.Comis.htm" />
+<HelpTOCNode Title="Deals" Url="CommonTypes.TDealRClass.Deals.htm" />
+<HelpTOCNode Title="Ind" Url="CommonTypes.TDealRClass.Ind.htm" />
+<HelpTOCNode Title="Long" Url="CommonTypes.TDealRClass.Long.htm" />
+<HelpTOCNode Title="Short" Url="CommonTypes.TDealRClass.Short.htm" />
+<HelpTOCNode Title="Signals" Url="CommonTypes.TDealRClass.Signals.htm" />
+<HelpTOCNode Title="StopLoss" Url="CommonTypes.TDealRClass.StopLoss.htm" />
+<HelpTOCNode Title="Strategy" Url="CommonTypes.TDealRClass.Strategy.htm" />
+<HelpTOCNode Title="StrategyModuleName" Url="CommonTypes.TDealRClass.StrategyModuleName.htm" />
+<HelpTOCNode Title="TakeProfit" Url="CommonTypes.TDealRClass.TakeProfit.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="CommonTypes.TDealRClass_Methods.htm">
+<HelpTOCNode Title="BackToMoney(Integer,TAssetRecord,string)" Url="CommonTypes.TDealRClass.BackToMoney.htm" />
+<HelpTOCNode Title="Buy(Integer,TAssetRecord)" Url="CommonTypes.TDealRClass.Buy.htm" />
+<HelpTOCNode Title="CheckStopLoss(Integer,TAssetRecord)" Url="CommonTypes.TDealRClass.CheckStopLoss.htm" />
+<HelpTOCNode Title="CheckTakeProfit(Integer,TAssetRecord)" Url="CommonTypes.TDealRClass.CheckTakeProfit.htm" />
+<HelpTOCNode Title="GetAsset" Url="CommonTypes.TDealRClass.GetAsset.htm" />
+<HelpTOCNode Title="GetComis" Url="CommonTypes.TDealRClass.GetComis.htm" />
+<HelpTOCNode Title="GetDeals" Url="CommonTypes.TDealRClass.GetDeals.htm" />
+<HelpTOCNode Title="GetInd" Url="CommonTypes.TDealRClass.GetInd.htm" />
+<HelpTOCNode Title="GetLong" Url="CommonTypes.TDealRClass.GetLong.htm" />
+<HelpTOCNode Title="GetShort" Url="CommonTypes.TDealRClass.GetShort.htm" />
+<HelpTOCNode Title="GetSignals" Url="CommonTypes.TDealRClass.GetSignals.htm" />
+<HelpTOCNode Title="GetStopLoss" Url="CommonTypes.TDealRClass.GetStopLoss.htm" />
+<HelpTOCNode Title="GetStrategy" Url="CommonTypes.TDealRClass.GetStrategy.htm" />
+<HelpTOCNode Title="GetStrategyModuleName" Url="CommonTypes.TDealRClass.GetStrategyModuleName.htm" />
+<HelpTOCNode Title="GetTakeProfit" Url="CommonTypes.TDealRClass.GetTakeProfit.htm" />
+<HelpTOCNode Title="GetTxt(integer)" Url="CommonTypes.TDealRClass.GetTxt.htm" />
+<HelpTOCNode Title="ReturnDeals(Real,boolean,boolean,TAssetRecord,real,TParamFinRez,IStrategy)" Url="CommonTypes.TDealRClass.ReturnDeals.htm" />
+<HelpTOCNode Title="Sell(Integer,TAssetRecord)" Url="CommonTypes.TDealRClass.Sell.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="CommonTypes.TDealRClass.SetAsset.htm" />
+<HelpTOCNode Title="SetComis(Real)" Url="CommonTypes.TDealRClass.SetComis.htm" />
+<HelpTOCNode Title="SetDeals(TArrayDealsClass)" Url="CommonTypes.TDealRClass.SetDeals.htm" />
+<HelpTOCNode Title="SetInd(TParamFinRez)" Url="CommonTypes.TDealRClass.SetInd.htm" />
+<HelpTOCNode Title="SetLong(Boolean)" Url="CommonTypes.TDealRClass.SetLong.htm" />
+<HelpTOCNode Title="SetShort(Boolean)" Url="CommonTypes.TDealRClass.SetShort.htm" />
+<HelpTOCNode Title="SetSignals(SAR)" Url="CommonTypes.TDealRClass.SetSignals.htm" />
+<HelpTOCNode Title="SetStopLoss(Integer)" Url="CommonTypes.TDealRClass.SetStopLoss.htm" />
+<HelpTOCNode Title="SetStrategy(IStrategy)" Url="CommonTypes.TDealRClass.SetStrategy.htm" />
+<HelpTOCNode Title="SetStrategyModuleName(string)" Url="CommonTypes.TDealRClass.SetStrategyModuleName.htm" />
+<HelpTOCNode Title="SetTakeProfit(Integer)" Url="CommonTypes.TDealRClass.SetTakeProfit.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="CommonTypes.TDealRClass_Fields.htm">
+<HelpTOCNode Title="fAsset" Url="CommonTypes.TDealRClass.fAsset.htm" />
+<HelpTOCNode Title="fComis" Url="CommonTypes.TDealRClass.fComis.htm" />
+<HelpTOCNode Title="fDeals" Url="CommonTypes.TDealRClass.fDeals.htm" />
+<HelpTOCNode Title="fInd" Url="CommonTypes.TDealRClass.fInd.htm" />
+<HelpTOCNode Title="fLong" Url="CommonTypes.TDealRClass.fLong.htm" />
+<HelpTOCNode Title="fShort" Url="CommonTypes.TDealRClass.fShort.htm" />
+<HelpTOCNode Title="fSignals" Url="CommonTypes.TDealRClass.fSignals.htm" />
+<HelpTOCNode Title="fStopLoss" Url="CommonTypes.TDealRClass.fStopLoss.htm" />
+<HelpTOCNode Title="fStrategy" Url="CommonTypes.TDealRClass.fStrategy.htm" />
+<HelpTOCNode Title="fStrategyModuleName" Url="CommonTypes.TDealRClass.fStrategyModuleName.htm" />
+<HelpTOCNode Title="fTakeProfit" Url="CommonTypes.TDealRClass.fTakeProfit.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TListParamFinRez" Url="CommonTypes.TListParamFinRez.htm">
+<HelpTOCNode Title="Constructors" Url="CommonTypes.TListParamFinRez_Constructors.htm">
+<HelpTOCNode Title="Destroy" Url="CommonTypes.TListParamFinRez.Destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="CommonTypes.TListParamFinRez_Methods.htm">
+<HelpTOCNode Title="AddListParam(TListParamFinRez)" Url="CommonTypes.TListParamFinRez.AddListParam.htm" />
+<HelpTOCNode Title="CopyParam(TParamFinRez)" Url="CommonTypes.TListParamFinRez.CopyParam.htm" />
+<HelpTOCNode Title="DeleteRangeR(Integer,Integer)" Url="CommonTypes.TListParamFinRez.DeleteRangeR.htm" />
+<HelpTOCNode Title="IndExists(TParamFinRez)" Url="CommonTypes.TListParamFinRez.IndExists.htm" />
+<HelpTOCNode Title="MakeChildListParam(TParamFinRez,TParamFinRez,integer,integer)" Url="CommonTypes.TListParamFinRez.MakeChildListParam.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TParamList" Url="CommonTypes.TParamList.htm">
+<HelpTOCNode Title="Methods" Url="CommonTypes.TParamList_Methods.htm">
+<HelpTOCNode Title="CopyParam(TParamList)" Url="CommonTypes.TParamList.CopyParam.htm" />
+<HelpTOCNode Title="IndExists(TIndParam)" Url="CommonTypes.TParamList.IndExists.htm" />
+<HelpTOCNode Title="ParamByName(string)" Url="CommonTypes.TParamList.ParamByName.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Records" Url="CommonTypes_Records.htm">
+<HelpTOCNode Title="TAssetRecord" Url="CommonTypes.TAssetRecord.htm">
+<HelpTOCNode Title="Fields" Url="CommonTypes.TAssetRecord_Fields.htm">
+<HelpTOCNode Title="emitent" Url="CommonTypes.TAssetRecord.emitent.htm" />
+<HelpTOCNode Title="init_begin_date" Url="CommonTypes.TAssetRecord.init_begin_date.htm" />
+<HelpTOCNode Title="init_end_date" Url="CommonTypes.TAssetRecord.init_end_date.htm" />
+<HelpTOCNode Title="paper_no" Url="CommonTypes.TAssetRecord.paper_no.htm" />
+<HelpTOCNode Title="tClose" Url="CommonTypes.TAssetRecord.tClose.htm" />
+<HelpTOCNode Title="tHigh" Url="CommonTypes.TAssetRecord.tHigh.htm" />
+<HelpTOCNode Title="ticker_name" Url="CommonTypes.TAssetRecord.ticker_name.htm" />
+<HelpTOCNode Title="timeFrame" Url="CommonTypes.TAssetRecord.timeFrame.htm" />
+<HelpTOCNode Title="tLow" Url="CommonTypes.TAssetRecord.tLow.htm" />
+<HelpTOCNode Title="tOpen" Url="CommonTypes.TAssetRecord.tOpen.htm" />
+<HelpTOCNode Title="tVolume" Url="CommonTypes.TAssetRecord.tVolume.htm" />
+<HelpTOCNode Title="vDateTime" Url="CommonTypes.TAssetRecord.vDateTime.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TIndParam" Url="CommonTypes.TIndParam.htm">
+<HelpTOCNode Title="Methods" Url="CommonTypes.TIndParam_Methods.htm">
+<HelpTOCNode Title="Create(integer,string)" Url="CommonTypes.TIndParam.Create.htm" />
+<HelpTOCNode Title="CreateRange(integer,integer,string)" Url="CommonTypes.TIndParam.CreateRange.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="CommonTypes.TIndParam_Fields.htm">
+<HelpTOCNode Title="pName" Url="CommonTypes.TIndParam.pName.htm" />
+<HelpTOCNode Title="pStride" Url="CommonTypes.TIndParam.pStride.htm" />
+<HelpTOCNode Title="pValueFixed" Url="CommonTypes.TIndParam.pValueFixed.htm" />
+<HelpTOCNode Title="pValueFrom" Url="CommonTypes.TIndParam.pValueFrom.htm" />
+<HelpTOCNode Title="pValueTo" Url="CommonTypes.TIndParam.pValueTo.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TOneDealRClass" Url="CommonTypes.TOneDealRClass.htm">
+<HelpTOCNode Title="Methods" Url="CommonTypes.TOneDealRClass_Methods.htm">
+<HelpTOCNode Title="Create(Integer,TAssetRecord,Real,string,real)" Url="CommonTypes.TOneDealRClass.Create.htm" />
+<HelpTOCNode Title="GetTxt" Url="CommonTypes.TOneDealRClass.GetTxt.htm" />
+<HelpTOCNode Title="MakeFirst(real)" Url="CommonTypes.TOneDealRClass.MakeFirst.htm" />
+<HelpTOCNode Title="MakeLast" Url="CommonTypes.TOneDealRClass.MakeLast.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="CommonTypes.TOneDealRClass_Fields.htm">
+<HelpTOCNode Title="AssetCount" Url="CommonTypes.TOneDealRClass.AssetCount.htm" />
+<HelpTOCNode Title="AssetIdClose" Url="CommonTypes.TOneDealRClass.AssetIdClose.htm" />
+<HelpTOCNode Title="AssetIdOpen" Url="CommonTypes.TOneDealRClass.AssetIdOpen.htm" />
+<HelpTOCNode Title="DateClosePosition" Url="CommonTypes.TOneDealRClass.DateClosePosition.htm" />
+<HelpTOCNode Title="DateOpenPosition" Url="CommonTypes.TOneDealRClass.DateOpenPosition.htm" />
+<HelpTOCNode Title="MoneyBefor" Url="CommonTypes.TOneDealRClass.MoneyBefor.htm" />
+<HelpTOCNode Title="MoneyRest" Url="CommonTypes.TOneDealRClass.MoneyRest.htm" />
+<HelpTOCNode Title="PriceClose" Url="CommonTypes.TOneDealRClass.PriceClose.htm" />
+<HelpTOCNode Title="PriceOpen" Url="CommonTypes.TOneDealRClass.PriceOpen.htm" />
+<HelpTOCNode Title="SignalClose" Url="CommonTypes.TOneDealRClass.SignalClose.htm" />
+<HelpTOCNode Title="SignalOPen" Url="CommonTypes.TOneDealRClass.SignalOPen.htm" />
+<HelpTOCNode Title="Status" Url="CommonTypes.TOneDealRClass.Status.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TParamFinRez" Url="CommonTypes.TParamFinRez.htm">
+<HelpTOCNode Title="Fields" Url="CommonTypes.TParamFinRez_Fields.htm">
+<HelpTOCNode Title="FinRez" Url="CommonTypes.TParamFinRez.FinRez.htm" />
+<HelpTOCNode Title="Param" Url="CommonTypes.TParamFinRez.Param.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TSignalRecord" Url="CommonTypes.TSignalRecord.htm">
+<HelpTOCNode Title="Methods" Url="CommonTypes.TSignalRecord_Methods.htm">
+<HelpTOCNode Title="Create(integer,TDateTime,string,Single)" Url="CommonTypes.TSignalRecord.Create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="CommonTypes.TSignalRecord_Fields.htm">
+<HelpTOCNode Title="Dt" Url="CommonTypes.TSignalRecord.Dt.htm" />
+<HelpTOCNode Title="Id" Url="CommonTypes.TSignalRecord.Id.htm" />
+<HelpTOCNode Title="price" Url="CommonTypes.TSignalRecord.price.htm" />
+<HelpTOCNode Title="Sg" Url="CommonTypes.TSignalRecord.Sg.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Interfaces" Url="CommonTypes_Interfaces.htm">
+<HelpTOCNode Title="IDealRClass" Url="CommonTypes.IDealRClass.htm">
+<HelpTOCNode Title="Properties" Url="CommonTypes.IDealRClass_Properties.htm">
+<HelpTOCNode Title="Asset" Url="CommonTypes.IDealRClass.Asset.htm" />
+<HelpTOCNode Title="Comis" Url="CommonTypes.IDealRClass.Comis.htm" />
+<HelpTOCNode Title="Deals" Url="CommonTypes.IDealRClass.Deals.htm" />
+<HelpTOCNode Title="Ind" Url="CommonTypes.IDealRClass.Ind.htm" />
+<HelpTOCNode Title="Long" Url="CommonTypes.IDealRClass.Long.htm" />
+<HelpTOCNode Title="Short" Url="CommonTypes.IDealRClass.Short.htm" />
+<HelpTOCNode Title="Signals" Url="CommonTypes.IDealRClass.Signals.htm" />
+<HelpTOCNode Title="StopLoss" Url="CommonTypes.IDealRClass.StopLoss.htm" />
+<HelpTOCNode Title="Strategy" Url="CommonTypes.IDealRClass.Strategy.htm" />
+<HelpTOCNode Title="StrategyModuleName" Url="CommonTypes.IDealRClass.StrategyModuleName.htm" />
+<HelpTOCNode Title="TakeProfit" Url="CommonTypes.IDealRClass.TakeProfit.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="CommonTypes.IDealRClass_Methods.htm">
+<HelpTOCNode Title="BackToMoney(Integer,TAssetRecord,string)" Url="CommonTypes.IDealRClass.BackToMoney.htm" />
+<HelpTOCNode Title="Buy(Integer,TAssetRecord)" Url="CommonTypes.IDealRClass.Buy.htm" />
+<HelpTOCNode Title="CheckStopLoss(Integer,TAssetRecord)" Url="CommonTypes.IDealRClass.CheckStopLoss.htm" />
+<HelpTOCNode Title="CheckTakeProfit(Integer,TAssetRecord)" Url="CommonTypes.IDealRClass.CheckTakeProfit.htm" />
+<HelpTOCNode Title="GetAsset" Url="CommonTypes.IDealRClass.GetAsset.htm" />
+<HelpTOCNode Title="GetComis" Url="CommonTypes.IDealRClass.GetComis.htm" />
+<HelpTOCNode Title="GetDeals" Url="CommonTypes.IDealRClass.GetDeals.htm" />
+<HelpTOCNode Title="GetInd" Url="CommonTypes.IDealRClass.GetInd.htm" />
+<HelpTOCNode Title="GetLong" Url="CommonTypes.IDealRClass.GetLong.htm" />
+<HelpTOCNode Title="GetShort" Url="CommonTypes.IDealRClass.GetShort.htm" />
+<HelpTOCNode Title="GetSignals" Url="CommonTypes.IDealRClass.GetSignals.htm" />
+<HelpTOCNode Title="GetStopLoss" Url="CommonTypes.IDealRClass.GetStopLoss.htm" />
+<HelpTOCNode Title="GetStrategy" Url="CommonTypes.IDealRClass.GetStrategy.htm" />
+<HelpTOCNode Title="GetStrategyModuleName" Url="CommonTypes.IDealRClass.GetStrategyModuleName.htm" />
+<HelpTOCNode Title="GetTakeProfit" Url="CommonTypes.IDealRClass.GetTakeProfit.htm" />
+<HelpTOCNode Title="Sell(Integer,TAssetRecord)" Url="CommonTypes.IDealRClass.Sell.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="CommonTypes.IDealRClass.SetAsset.htm" />
+<HelpTOCNode Title="SetComis(Real)" Url="CommonTypes.IDealRClass.SetComis.htm" />
+<HelpTOCNode Title="SetDeals(TArrayDealsClass)" Url="CommonTypes.IDealRClass.SetDeals.htm" />
+<HelpTOCNode Title="SetInd(TParamFinRez)" Url="CommonTypes.IDealRClass.SetInd.htm" />
+<HelpTOCNode Title="SetLong(Boolean)" Url="CommonTypes.IDealRClass.SetLong.htm" />
+<HelpTOCNode Title="SetShort(Boolean)" Url="CommonTypes.IDealRClass.SetShort.htm" />
+<HelpTOCNode Title="SetSignals(SAR)" Url="CommonTypes.IDealRClass.SetSignals.htm" />
+<HelpTOCNode Title="SetStopLoss(Integer)" Url="CommonTypes.IDealRClass.SetStopLoss.htm" />
+<HelpTOCNode Title="SetStrategy(IStrategy)" Url="CommonTypes.IDealRClass.SetStrategy.htm" />
+<HelpTOCNode Title="SetStrategyModuleName(string)" Url="CommonTypes.IDealRClass.SetStrategyModuleName.htm" />
+<HelpTOCNode Title="SetTakeProfit(Integer)" Url="CommonTypes.IDealRClass.SetTakeProfit.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="IStrategy" Url="CommonTypes.IStrategy.htm">
+<HelpTOCNode Title="Properties" Url="CommonTypes.IStrategy_Properties.htm">
+<HelpTOCNode Title="Asset" Url="CommonTypes.IStrategy.Asset.htm" />
+<HelpTOCNode Title="IndDict" Url="CommonTypes.IStrategy.IndDict.htm" />
+<HelpTOCNode Title="SignalStorage" Url="CommonTypes.IStrategy.SignalStorage.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="CommonTypes.IStrategy_Methods.htm">
+<HelpTOCNode Title="Execute" Url="CommonTypes.IStrategy.Execute.htm" />
+<HelpTOCNode Title="GetAsset" Url="CommonTypes.IStrategy.GetAsset.htm" />
+<HelpTOCNode Title="GetIndDict" Url="CommonTypes.IStrategy.GetIndDict.htm" />
+<HelpTOCNode Title="GetSignalStorage" Url="CommonTypes.IStrategy.GetSignalStorage.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="CommonTypes.IStrategy.SetAsset.htm" />
+<HelpTOCNode Title="SetIndDict(TParamList)" Url="CommonTypes.IStrategy.SetIndDict.htm" />
+<HelpTOCNode Title="SetSignalStorage(SAR)" Url="CommonTypes.IStrategy.SetSignalStorage.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="CommonTypes_Types.htm">
+<HelpTOCNode Title="AOR" Url="CommonTypes.AOR.htm" />
+<HelpTOCNode Title="SAR" Url="CommonTypes.SAR.htm" />
+<HelpTOCNode Title="TArrayDealsClass" Url="CommonTypes.TArrayDealsClass.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Constants" Url="CommonTypes_Constants.htm">
+<HelpTOCNode Title="StopLossConst" Url="CommonTypes.StopLossConst.htm" />
+<HelpTOCNode Title="TakeProfitConst" Url="CommonTypes.TakeProfitConst.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="dmunit" Url="dmunit.htm">
+<HelpTOCNode Title="Classes" Url="dmunit_Classes.htm">
+<HelpTOCNode Title="TDM" Url="dmunit.TDM.htm">
+<HelpTOCNode Title="Methods" Url="dmunit.TDM_Methods.htm">
+<HelpTOCNode Title="alerterEvent(TObject,string,string)" Url="dmunit.TDM.alerterEvent.htm" />
+<HelpTOCNode Title="CheckConnection" Url="dmunit.TDM.CheckConnection.htm" />
+<HelpTOCNode Title="ConnectDataBase(string,string,string)" Url="dmunit.TDM.ConnectDataBase.htm" />
+<HelpTOCNode Title="DataModuleCreate(TObject)" Url="dmunit.TDM.DataModuleCreate.htm" />
+<HelpTOCNode Title="DataModuleDestroy(TObject)" Url="dmunit.TDM.DataModuleDestroy.htm" />
+<HelpTOCNode Title="localSessionConnectionLost(TObject,TComponent,TConnLostCause,TRetryMode)" Url="dmunit.TDM.localSessionConnectionLost.htm" />
+<HelpTOCNode Title="localSessionError(TObject,EDAError,Boolean)" Url="dmunit.TDM.localSessionError.htm" />
+<HelpTOCNode Title="tmrAlertTimer(TObject)" Url="dmunit.TDM.tmrAlertTimer.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dmunit.TDM_Fields.htm">
+<HelpTOCNode Title="acceptAlert" Url="dmunit.TDM.acceptAlert.htm" />
+<HelpTOCNode Title="addModellingSignalStops" Url="dmunit.TDM.addModellingSignalStops.htm" />
+<HelpTOCNode Title="addSignal" Url="dmunit.TDM.addSignal.htm" />
+<HelpTOCNode Title="addTradeSignal" Url="dmunit.TDM.addTradeSignal.htm" />
+<HelpTOCNode Title="alerter" Url="dmunit.TDM.alerter.htm" />
+<HelpTOCNode Title="alertMDIListnerNewData" Url="dmunit.TDM.alertMDIListnerNewData.htm" />
+<HelpTOCNode Title="cnctdlg1" Url="dmunit.TDM.cnctdlg1.htm" />
+<HelpTOCNode Title="connected" Url="dmunit.TDM.connected.htm" />
+<HelpTOCNode Title="Dest" Url="dmunit.TDM.Dest.htm" />
+<HelpTOCNode Title="dsORABET_BT_GA_TUNE" Url="dmunit.TDM.dsORABET_BT_GA_TUNE.htm" />
+<HelpTOCNode Title="dsORABET_BT_PAPERS" Url="dmunit.TDM.dsORABET_BT_PAPERS.htm" />
+<HelpTOCNode Title="dsORABET_BT_PARAMS" Url="dmunit.TDM.dsORABET_BT_PARAMS.htm" />
+<HelpTOCNode Title="dsORABET_BT_STrategy" Url="dmunit.TDM.dsORABET_BT_STrategy.htm" />
+<HelpTOCNode Title="dsORABET_BT_STRATEGY_MODULE" Url="dmunit.TDM.dsORABET_BT_STRATEGY_MODULE.htm" />
+<HelpTOCNode Title="dsORABET_BT_STRATEGY_MODULE_PARAMS" Url="dmunit.TDM.dsORABET_BT_STRATEGY_MODULE_PARAMS.htm" />
+<HelpTOCNode Title="ds_ORABET_PSEUDO_SYSTEM" Url="dmunit.TDM.ds_ORABET_PSEUDO_SYSTEM.htm" />
+<HelpTOCNode Title="ds_ORABET_SYS_PARAMS" Url="dmunit.TDM.ds_ORABET_SYS_PARAMS.htm" />
+<HelpTOCNode Title="fltfldNewBtStrategyBT_STRATEGY_MODULE_ID" Url="dmunit.TDM.fltfldNewBtStrategyBT_STRATEGY_MODULE_ID.htm" />
+<HelpTOCNode Title="fltfldNewBtStrategyCALC_FINISHED" Url="dmunit.TDM.fltfldNewBtStrategyCALC_FINISHED.htm" />
+<HelpTOCNode Title="fltfldNewBtStrategyID" Url="dmunit.TDM.fltfldNewBtStrategyID.htm" />
+<HelpTOCNode Title="fltfldNewBtStrategyPAPER_NO" Url="dmunit.TDM.fltfldNewBtStrategyPAPER_NO.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNECHILDSCOUNT" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNECHILDSCOUNT.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNECOMISSIONSIZE" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNECOMISSIONSIZE.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNEDIFFPERCENTCHILDS" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEDIFFPERCENTCHILDS.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNEFIRSTGENERETIONSIZE" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEFIRSTGENERETIONSIZE.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNEID" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEID.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNELONGDEAL" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNELONGDEAL.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNEPERCENTAREAEXPAN" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEPERCENTAREAEXPAN.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNEPERCENTNOTRELATIVES" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEPERCENTNOTRELATIVES.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNESHORTDEAL" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESHORTDEAL.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNESTEPCOUNT" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESTEPCOUNT.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNESTOPLOSSFIXEDPARAM" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESTOPLOSSFIXEDPARAM.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_GA_TUNETAKEPROFITFIXEDPARAM" Url="dmunit.TDM.fltfldORABET_BT_GA_TUNETAKEPROFITFIXEDPARAM.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_PARAMSID" Url="dmunit.TDM.fltfldORABET_BT_PARAMSID.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_PARAMSSTRATEGY_ID" Url="dmunit.TDM.fltfldORABET_BT_PARAMSSTRATEGY_ID.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_PARAMSVALUEFIXED" Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUEFIXED.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_PARAMSVALUEFROM" Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUEFROM.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_PARAMSVALUETO" Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUETO.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_STrategyBT_GA_TUNE_ID" Url="dmunit.TDM.fltfldORABET_BT_STrategyBT_GA_TUNE_ID.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_STrategyCOMISSIONSIZE" Url="dmunit.TDM.fltfldORABET_BT_STrategyCOMISSIONSIZE.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_STrategyDAYSCOUNT" Url="dmunit.TDM.fltfldORABET_BT_STrategyDAYSCOUNT.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_STrategyFINRES" Url="dmunit.TDM.fltfldORABET_BT_STrategyFINRES.htm" />
+<HelpTOCNode Title="fltfldORABET_BT_STrategyMONEYSTART" Url="dmunit.TDM.fltfldORABET_BT_STrategyMONEYSTART.htm" />
+<HelpTOCNode Title="fltfldOraQuery1BT_STRATEGY_MODULE_ID" Url="dmunit.TDM.fltfldOraQuery1BT_STRATEGY_MODULE_ID.htm" />
+<HelpTOCNode Title="fltfldOraQuery1CALC_FINISHED" Url="dmunit.TDM.fltfldOraQuery1CALC_FINISHED.htm" />
+<HelpTOCNode Title="fltfldOraQuery1ID" Url="dmunit.TDM.fltfldOraQuery1ID.htm" />
+<HelpTOCNode Title="fltfldOraQuery1PAPER_NO" Url="dmunit.TDM.fltfldOraQuery1PAPER_NO.htm" />
+<HelpTOCNode Title="fltfld_ORABET_PSEUDOSYSTEMBT_STRATEGY_MODULE_ID" Url="dmunit.TDM.fltfld_ORABET_PSEUDOSYSTEMBT_STRATEGY_MODULE_ID.htm" />
+<HelpTOCNode Title="getAllMailMailingList" Url="dmunit.TDM.getAllMailMailingList.htm" />
+<HelpTOCNode Title="getCatalinaParams" Url="dmunit.TDM.getCatalinaParams.htm" />
+<HelpTOCNode Title="getisNeedCreation" Url="dmunit.TDM.getisNeedCreation.htm" />
+<HelpTOCNode Title="getPriceByDate60" Url="dmunit.TDM.getPriceByDate60.htm" />
+<HelpTOCNode Title="getTEMAParams" Url="dmunit.TDM.getTEMAParams.htm" />
+<HelpTOCNode Title="Ini" Url="dmunit.TDM.Ini.htm" />
+<HelpTOCNode Title="intgrfldORABET_BT_PARAMSNECESSARILY" Url="dmunit.TDM.intgrfldORABET_BT_PARAMSNECESSARILY.htm" />
+<HelpTOCNode Title="intgrfldORABET_BT_STrategyFULLSEARCH" Url="dmunit.TDM.intgrfldORABET_BT_STrategyFULLSEARCH.htm" />
+<HelpTOCNode Title="intgrfldORABET_BT_STrategyLONGDEAL" Url="dmunit.TDM.intgrfldORABET_BT_STrategyLONGDEAL.htm" />
+<HelpTOCNode Title="intgrfldORABET_BT_STrategyMINMAX" Url="dmunit.TDM.intgrfldORABET_BT_STrategyMINMAX.htm" />
+<HelpTOCNode Title="intgrfldORABET_BT_STrategySHORTDEAL" Url="dmunit.TDM.intgrfldORABET_BT_STrategySHORTDEAL.htm" />
+<HelpTOCNode Title="loadLinkedOrderFormDB" Url="dmunit.TDM.loadLinkedOrderFormDB.htm" />
+<HelpTOCNode Title="localSession" Url="dmunit.TDM.localSession.htm" />
+<HelpTOCNode Title="OraAlerter1" Url="dmunit.TDM.OraAlerter1.htm" />
+<HelpTOCNode Title="OraErrorHandler1" Url="dmunit.TDM.OraErrorHandler1.htm" />
+<HelpTOCNode Title="OraPackage1" Url="dmunit.TDM.OraPackage1.htm" />
+<HelpTOCNode Title="orpckg1" Url="dmunit.TDM.orpckg1.htm" />
+<HelpTOCNode Title="ortmstmpfldORABET_BT_STrategyDTFROM" Url="dmunit.TDM.ortmstmpfldORABET_BT_STrategyDTFROM.htm" />
+<HelpTOCNode Title="ortmstmpfldORABET_BT_STrategyDTTO" Url="dmunit.TDM.ortmstmpfldORABET_BT_STrategyDTTO.htm" />
+<HelpTOCNode Title="qrORABET_BT_GA_TUNE" Url="dmunit.TDM.qrORABET_BT_GA_TUNE.htm" />
+<HelpTOCNode Title="qrORABET_BT_PAPERS" Url="dmunit.TDM.qrORABET_BT_PAPERS.htm" />
+<HelpTOCNode Title="qrORABET_BT_PARAMS" Url="dmunit.TDM.qrORABET_BT_PARAMS.htm" />
+<HelpTOCNode Title="qrORABET_BT_STRATEGY_MODULE" Url="dmunit.TDM.qrORABET_BT_STRATEGY_MODULE.htm" />
+<HelpTOCNode Title="qrORABET_BT_STRATEGY_MODULE_PARAMS" Url="dmunit.TDM.qrORABET_BT_STRATEGY_MODULE_PARAMS.htm" />
+<HelpTOCNode Title="quORABET_BT_STrategy" Url="dmunit.TDM.quORABET_BT_STrategy.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEM" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEM.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMASSET" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMASSET.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMBCS_PORT" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMBCS_PORT.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMID" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMID.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMIS_FUT" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMIS_FUT.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMIS_NEED_CREATION" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMIS_NEED_CREATION.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMK" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMK.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMLOTS" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMLOTS.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMNUMPERIODS" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMNUMPERIODS.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMOPEN_PORT" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMOPEN_PORT.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMPAPER_NO" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMPAPER_NO.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMPSEUDO_NAME" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMPSEUDO_NAME.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMROUND" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMROUND.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMSIGNAL_RESOLVED" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMSIGNAL_RESOLVED.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMTIME_FRAME" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMTIME_FRAME.htm" />
+<HelpTOCNode Title="qu_ORABET_PSEUDOSYSTEMTRUE_NAME" Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMTRUE_NAME.htm" />
+<HelpTOCNode Title="qu_ORABET_Sys_Params" Url="dmunit.TDM.qu_ORABET_Sys_Params.htm" />
+<HelpTOCNode Title="storeLinkedOrderToDB" Url="dmunit.TDM.storeLinkedOrderToDB.htm" />
+<HelpTOCNode Title="storeTradersAsset" Url="dmunit.TDM.storeTradersAsset.htm" />
+<HelpTOCNode Title="stpALFADIRECT_PACK_CHECKSTRATEGYEXISTS" Url="dmunit.TDM.stpALFADIRECT_PACK_CHECKSTRATEGYEXISTS.htm" />
+<HelpTOCNode Title="stpGeAssetByDate_" Url="dmunit.TDM.stpGeAssetByDate_.htm" />
+<HelpTOCNode Title="stpGetAssetByDate" Url="dmunit.TDM.stpGetAssetByDate.htm" />
+<HelpTOCNode Title="stpGETBTPARAMBYID" Url="dmunit.TDM.stpGETBTPARAMBYID.htm" />
+<HelpTOCNode Title="stpGETBTSTRATEGYBYID" Url="dmunit.TDM.stpGETBTSTRATEGYBYID.htm" />
+<HelpTOCNode Title="stpGETBTTUNEBYID" Url="dmunit.TDM.stpGETBTTUNEBYID.htm" />
+<HelpTOCNode Title="stpGetSytemSignalByStrategy" Url="dmunit.TDM.stpGetSytemSignalByStrategy.htm" />
+<HelpTOCNode Title="stpLastData15ByDateTime" Url="dmunit.TDM.stpLastData15ByDateTime.htm" />
+<HelpTOCNode Title="stpNewBtStrategy" Url="dmunit.TDM.stpNewBtStrategy.htm" />
+<HelpTOCNode Title="stpORABET_ALFADIRECT_PACK_COPYSTRATEGYFROMBT" Url="dmunit.TDM.stpORABET_ALFADIRECT_PACK_COPYSTRATEGYFROMBT.htm" />
+<HelpTOCNode Title="stpPutAlertNewData" Url="dmunit.TDM.stpPutAlertNewData.htm" />
+<HelpTOCNode Title="stpSETBTPARAMRESULT" Url="dmunit.TDM.stpSETBTPARAMRESULT.htm" />
+<HelpTOCNode Title="stpSETBTSTATUS" Url="dmunit.TDM.stpSETBTSTATUS.htm" />
+<HelpTOCNode Title="strngfldNewBtStrategyPSEUDO_NAME" Url="dmunit.TDM.strngfldNewBtStrategyPSEUDO_NAME.htm" />
+<HelpTOCNode Title="strngfldNewBtStrategyStrategy_Module" Url="dmunit.TDM.strngfldNewBtStrategyStrategy_Module.htm" />
+<HelpTOCNode Title="strngfldNewBtStrategyTicker" Url="dmunit.TDM.strngfldNewBtStrategyTicker.htm" />
+<HelpTOCNode Title="strngfldNewBtStrategyTIME_FRAME" Url="dmunit.TDM.strngfldNewBtStrategyTIME_FRAME.htm" />
+<HelpTOCNode Title="strngfldNewBtStrategyTRUE_NAME" Url="dmunit.TDM.strngfldNewBtStrategyTRUE_NAME.htm" />
+<HelpTOCNode Title="strngfldORABET_BT_GA_TUNETUNENAME" Url="dmunit.TDM.strngfldORABET_BT_GA_TUNETUNENAME.htm" />
+<HelpTOCNode Title="strngfldORABET_BT_PARAMSPARAM_NAME" Url="dmunit.TDM.strngfldORABET_BT_PARAMSPARAM_NAME.htm" />
+<HelpTOCNode Title="strngfldORABET_BT_STrategyBT_GA_TUNE" Url="dmunit.TDM.strngfldORABET_BT_STrategyBT_GA_TUNE.htm" />
+<HelpTOCNode Title="strngfldORABET_BT_STrategySTATUS" Url="dmunit.TDM.strngfldORABET_BT_STrategySTATUS.htm" />
+<HelpTOCNode Title="strngfldOraQuery1PSEUDO_NAME" Url="dmunit.TDM.strngfldOraQuery1PSEUDO_NAME.htm" />
+<HelpTOCNode Title="strngfldOraQuery1STRATEGY_MODULE" Url="dmunit.TDM.strngfldOraQuery1STRATEGY_MODULE.htm" />
+<HelpTOCNode Title="strngfldOraQuery1TICKER" Url="dmunit.TDM.strngfldOraQuery1TICKER.htm" />
+<HelpTOCNode Title="strngfldOraQuery1TIME_FRAME" Url="dmunit.TDM.strngfldOraQuery1TIME_FRAME.htm" />
+<HelpTOCNode Title="strngfldOraQuery1TRUE_NAME" Url="dmunit.TDM.strngfldOraQuery1TRUE_NAME.htm" />
+<HelpTOCNode Title="strngfld_ORABET_PSEUDOSYSTEMSTRATEGYNAME" Url="dmunit.TDM.strngfld_ORABET_PSEUDOSYSTEMSTRATEGYNAME.htm" />
+<HelpTOCNode Title="tmrAlert" Url="dmunit.TDM.tmrAlert.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="dmunit_Variables.htm">
+<HelpTOCNode Title="DM" Url="dmunit.DM.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="dtypes" Url="dtypes.htm">
+<HelpTOCNode Title="Classes" Url="dtypes_Classes.htm">
+<HelpTOCNode Title="CatalinaDecMaker" Url="dtypes.CatalinaDecMaker.htm">
+<HelpTOCNode Title="Methods" Url="dtypes.CatalinaDecMaker_Methods.htm">
+<HelpTOCNode Title="getDecision(Real,Real)" Url="dtypes.CatalinaDecMaker.getDecision.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="CatalinaStrategy" Url="dtypes.CatalinaStrategy.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.CatalinaStrategy_Constructors.htm">
+<HelpTOCNode Title="Create(String,TOraStoredProc,TOraStoredProc,TOraStoredProc,String,String,boolean,tAsset,TDateTime,Integer)" Url="dtypes.CatalinaStrategy.Create.htm" />
+<HelpTOCNode Title="destroy" Url="dtypes.CatalinaStrategy.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.CatalinaStrategy_Methods.htm">
+<HelpTOCNode Title="getCurrentDecision(String)" Url="dtypes.CatalinaStrategy.getCurrentDecision.htm" />
+<HelpTOCNode Title="getOptPars" Url="dtypes.CatalinaStrategy.getOptPars.htm" />
+<HelpTOCNode Title="insertData(TDOHLC)" Url="dtypes.CatalinaStrategy.insertData.htm" />
+<HelpTOCNode Title="updateData(TDOHLC)" Url="dtypes.CatalinaStrategy.updateData.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.CatalinaStrategy_Fields.htm">
+<HelpTOCNode Title="dec" Url="dtypes.CatalinaStrategy.dec.htm" />
+<HelpTOCNode Title="decisionMaker" Url="dtypes.CatalinaStrategy.decisionMaker.htm" />
+<HelpTOCNode Title="dema1Indicator" Url="dtypes.CatalinaStrategy.dema1Indicator.htm" />
+<HelpTOCNode Title="dema2Indicator" Url="dtypes.CatalinaStrategy.dema2Indicator.htm" />
+<HelpTOCNode Title="fastPeriod" Url="dtypes.CatalinaStrategy.fastPeriod.htm" />
+<HelpTOCNode Title="slowPeriod" Url="dtypes.CatalinaStrategy.slowPeriod.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Gridz" Url="dtypes.Gridz.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.Gridz_Constructors.htm">
+<HelpTOCNode Title="Create(TStringGrid)" Url="dtypes.Gridz.Create(TStringGrid).htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.Gridz_Methods.htm">
+<HelpTOCNode Title="clearGrid(TStringGrid)" Url="dtypes.Gridz.clearGrid.htm" />
+<HelpTOCNode Title="fSGtoAOAOR(TStringGrid,Integer)" Url="dtypes.Gridz.fSGtoAOAOR.htm" />
+<HelpTOCNode Title="getColAddrByHeader(String)" Url="dtypes.Gridz.getColAddrByHeader.htm" />
+<HelpTOCNode Title="LAOAORFFN(String,char)" Url="dtypes.Gridz.LAOAORFFN.htm" />
+<HelpTOCNode Title="LAOAOVFFN(String,char)" Url="dtypes.Gridz.LAOAOVFFN.htm" />
+<HelpTOCNode Title="LAORFFN(String)" Url="dtypes.Gridz.LAORFFN.htm" />
+<HelpTOCNode Title="LSGFAOAOR(TStringGrid,AOAOR)" Url="dtypes.Gridz.LSGFAOAOR.htm" />
+<HelpTOCNode Title="LSGFFN(TStringGrid,String,char,integer)" Url="dtypes.Gridz.LSGFFN.htm" />
+<HelpTOCNode Title="SAOAOVTFN(AOAOV,String,char)" Url="dtypes.Gridz.SAOAOVTFN.htm" />
+<HelpTOCNode Title="select(String,WhereClause[])" Url="dtypes.Gridz.select.htm" />
+<HelpTOCNode Title="SGtoAOAOR(TStringGrid,AOAOS,Integer,Integer)" Url="dtypes.Gridz.SGtoAOAOR.htm" />
+<HelpTOCNode Title="SSGTFN(TStringGrid,String,char)" Url="dtypes.Gridz.SSGTFN.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.Gridz_Fields.htm">
+<HelpTOCNode Title="Grid" Url="dtypes.Gridz.Grid.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="parser" Url="dtypes.parser.htm">
+<HelpTOCNode Title="Methods" Url="dtypes.parser_Methods.htm">
+<HelpTOCNode Title="createBody(TStringGrid,AOAOS)" Url="dtypes.parser.createBody.htm" />
+<HelpTOCNode Title="createHeader(TStringGrid,AOS)" Url="dtypes.parser.createHeader.htm" />
+<HelpTOCNode Title="parseBody(WideString)" Url="dtypes.parser.parseBody.htm" />
+<HelpTOCNode Title="parseHeader(WideString)" Url="dtypes.parser.parseHeader.htm" />
+<HelpTOCNode Title="parsePriceData(WideString,integer)" Url="dtypes.parser.parsePriceData.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Portfolio" Url="dtypes.Portfolio.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.Portfolio_Constructors.htm">
+<HelpTOCNode Title="create(String,TMemo,TAreaSeries,TAreaSeries)" Url="dtypes.Portfolio.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.Portfolio_Methods.htm">
+<HelpTOCNode Title="addBarsHelded" Url="dtypes.Portfolio.addBarsHelded.htm" />
+<HelpTOCNode Title="analyzePortFolio(variant,variant)" Url="dtypes.Portfolio.analyzePortFolio.htm" />
+<HelpTOCNode Title="close(integer)" Url="dtypes.Portfolio.close.htm" />
+<HelpTOCNode Title="closeAll(variant,variant)" Url="dtypes.Portfolio.closeAll.htm" />
+<HelpTOCNode Title="formReport" Url="dtypes.Portfolio.formReport.htm" />
+<HelpTOCNode Title="getBarsHelded(Integer)" Url="dtypes.Portfolio.getBarsHelded.htm" />
+<HelpTOCNode Title="getcapitalLossMax" Url="dtypes.Portfolio.getcapitalLossMax.htm" />
+<HelpTOCNode Title="getcash(integer)" Url="dtypes.Portfolio.getcash.htm" />
+<HelpTOCNode Title="getDateIn(integer)" Url="dtypes.Portfolio.getDateIn.htm" />
+<HelpTOCNode Title="getDateOut(integer)" Url="dtypes.Portfolio.getDateOut.htm" />
+<HelpTOCNode Title="getEquity(integer)" Url="dtypes.Portfolio.getEquity.htm" />
+<HelpTOCNode Title="getIsProfitness(integer)" Url="dtypes.Portfolio.getIsProfitness.htm" />
+<HelpTOCNode Title="getLoss" Url="dtypes.Portfolio.getLoss.htm" />
+<HelpTOCNode Title="getLossDeals" Url="dtypes.Portfolio.getLossDeals.htm" />
+<HelpTOCNode Title="getOpenProfit(Single)" Url="dtypes.Portfolio.getOpenProfit.htm" />
+<HelpTOCNode Title="getPercentage" Url="dtypes.Portfolio.getPercentage.htm" />
+<HelpTOCNode Title="getPositionOpenProfit(Single)" Url="dtypes.Portfolio.getPositionOpenProfit.htm" />
+<HelpTOCNode Title="getPosProfit(integer)" Url="dtypes.Portfolio.getPosProfit.htm" />
+<HelpTOCNode Title="getProfDeals" Url="dtypes.Portfolio.getProfDeals.htm" />
+<HelpTOCNode Title="getProfit" Url="dtypes.Portfolio.getProfit.htm" />
+<HelpTOCNode Title="getProfitFactor" Url="dtypes.Portfolio.getProfitFactor.htm" />
+<HelpTOCNode Title="getProfitness" Url="dtypes.Portfolio.getProfitness.htm" />
+<HelpTOCNode Title="getQuanIn(integer)" Url="dtypes.Portfolio.getQuanIn.htm" />
+<HelpTOCNode Title="getQuanOut(integer)" Url="dtypes.Portfolio.getQuanOut.htm" />
+<HelpTOCNode Title="getTotalProfit" Url="dtypes.Portfolio.getTotalProfit.htm" />
+<HelpTOCNode Title="getValIn(integer)" Url="dtypes.Portfolio.getValIn.htm" />
+<HelpTOCNode Title="getValOut(integer)" Url="dtypes.Portfolio.getValOut.htm" />
+<HelpTOCNode Title="loadCash(String)" Url="dtypes.Portfolio.loadCash.htm" />
+<HelpTOCNode Title="loadEqutiy(String)" Url="dtypes.Portfolio.loadEqutiy.htm" />
+<HelpTOCNode Title="loadPortfolio(String)" Url="dtypes.Portfolio.loadPortfolio.htm" />
+<HelpTOCNode Title="openNew(variant,variant)" Url="dtypes.Portfolio.openNew.htm" />
+<HelpTOCNode Title="plotEquity" Url="dtypes.Portfolio.plotEquity.htm" />
+<HelpTOCNode Title="portToGrid(TStringGrid)" Url="dtypes.Portfolio.portToGrid.htm" />
+<HelpTOCNode Title="saveCash(String)" Url="dtypes.Portfolio.saveCash.htm" />
+<HelpTOCNode Title="saveEquity(String)" Url="dtypes.Portfolio.saveEquity.htm" />
+<HelpTOCNode Title="savePortfolio(String)" Url="dtypes.Portfolio.savePortfolio.htm" />
+<HelpTOCNode Title="setBarHelded(integer,Integer)" Url="dtypes.Portfolio.setBarHelded.htm" />
+<HelpTOCNode Title="setCash(integer,Single)" Url="dtypes.Portfolio.setCash.htm" />
+<HelpTOCNode Title="setDateIn(integer,TDateTime)" Url="dtypes.Portfolio.setDateIn.htm" />
+<HelpTOCNode Title="setDateOut(integer,Variant)" Url="dtypes.Portfolio.setDateOut.htm" />
+<HelpTOCNode Title="setEquity(integer,Single)" Url="dtypes.Portfolio.setEquity.htm" />
+<HelpTOCNode Title="setIsProfitness(integer,integer)" Url="dtypes.Portfolio.setIsProfitness.htm" />
+<HelpTOCNode Title="setPosProfit(integer,Single)" Url="dtypes.Portfolio.setPosProfit.htm" />
+<HelpTOCNode Title="setQuanIn(integer,integer)" Url="dtypes.Portfolio.setQuanIn.htm" />
+<HelpTOCNode Title="setQuanOut(integer,Integer)" Url="dtypes.Portfolio.setQuanOut.htm" />
+<HelpTOCNode Title="setValIn(integer,Single)" Url="dtypes.Portfolio.setValIn.htm" />
+<HelpTOCNode Title="setValOut(integer,Single)" Url="dtypes.Portfolio.setValOut.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.Portfolio_Fields.htm">
+<HelpTOCNode Title="capitalLossMax" Url="dtypes.Portfolio.capitalLossMax.htm" />
+<HelpTOCNode Title="cash" Url="dtypes.Portfolio.cash.htm" />
+<HelpTOCNode Title="cashSeries" Url="dtypes.Portfolio.cashSeries.htm" />
+<HelpTOCNode Title="console" Url="dtypes.Portfolio.console.htm" />
+<HelpTOCNode Title="countL" Url="dtypes.Portfolio.countL.htm" />
+<HelpTOCNode Title="countP" Url="dtypes.Portfolio.countP.htm" />
+<HelpTOCNode Title="entryPoint" Url="dtypes.Portfolio.entryPoint.htm" />
+<HelpTOCNode Title="equity" Url="dtypes.Portfolio.equity.htm" />
+<HelpTOCNode Title="equitySeries" Url="dtypes.Portfolio.equitySeries.htm" />
+<HelpTOCNode Title="name" Url="dtypes.Portfolio.name.htm" />
+<HelpTOCNode Title="portfolio_" Url="dtypes.Portfolio.portfolio_.htm" />
+<HelpTOCNode Title="profitArr" Url="dtypes.Portfolio.profitArr.htm" />
+<HelpTOCNode Title="profitConsole" Url="dtypes.Portfolio.profitConsole.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TDecisionMaker" Url="dtypes.TDecisionMaker.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TDecisionMaker_Constructors.htm">
+<HelpTOCNode Title="destroy" Url="dtypes.TDecisionMaker.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TDecisionMaker_Methods.htm">
+<HelpTOCNode Title="getDecision" Url="dtypes.TDecisionMaker.getDecision.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TEMADecisionMaker" Url="dtypes.TEMADecisionMaker.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TEMADecisionMaker_Constructors.htm">
+<HelpTOCNode Title="destroy" Url="dtypes.TEMADecisionMaker.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TEMADecisionMaker_Methods.htm">
+<HelpTOCNode Title="getDecision(Real,Real)" Url="dtypes.TEMADecisionMaker.getDecision.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TEMAStrategy" Url="dtypes.TEMAStrategy.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TEMAStrategy_Constructors.htm">
+<HelpTOCNode Title="Create(String,TOraStoredProc,TOraStoredProc,TOraStoredProc,String,String,boolean,TAsset,TDateTime,integer)" Url="dtypes.TEMAStrategy.Create.htm" />
+<HelpTOCNode Title="destroy" Url="dtypes.TEMAStrategy.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TEMAStrategy_Methods.htm">
+<HelpTOCNode Title="getCurrentDecision(String)" Url="dtypes.TEMAStrategy.getCurrentDecision.htm" />
+<HelpTOCNode Title="insertData(TDOHLC)" Url="dtypes.TEMAStrategy.insertData.htm" />
+<HelpTOCNode Title="PutIndikatorsToChart" Url="dtypes.TEMAStrategy.PutIndikatorsToChart.htm" />
+<HelpTOCNode Title="updateData(TDOHLC)" Url="dtypes.TEMAStrategy.updateData.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TEMAStrategy_Fields.htm">
+<HelpTOCNode Title="dec" Url="dtypes.TEMAStrategy.dec.htm" />
+<HelpTOCNode Title="decisionMaker" Url="dtypes.TEMAStrategy.decisionMaker.htm" />
+<HelpTOCNode Title="FastPeriod" Url="dtypes.TEMAStrategy.FastPeriod.htm" />
+<HelpTOCNode Title="SlowPeriod" Url="dtypes.TEMAStrategy.SlowPeriod.htm" />
+<HelpTOCNode Title="tema1Indicator" Url="dtypes.TEMAStrategy.tema1Indicator.htm" />
+<HelpTOCNode Title="tema1Series" Url="dtypes.TEMAStrategy.tema1Series.htm" />
+<HelpTOCNode Title="tema2Indicator" Url="dtypes.TEMAStrategy.tema2Indicator.htm" />
+<HelpTOCNode Title="tema2Series" Url="dtypes.TEMAStrategy.tema2Series.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Tlog" Url="dtypes.Tlog.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.Tlog_Constructors.htm">
+<HelpTOCNode Title="create(TMemo)" Url="dtypes.Tlog.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.Tlog_Methods.htm">
+<HelpTOCNode Title="debug(TObject,String)" Url="dtypes.Tlog.debug.htm" />
+<HelpTOCNode Title="error(TObject,String)" Url="dtypes.Tlog.error.htm" />
+<HelpTOCNode Title="PutMes(String)" Url="dtypes.Tlog.PutMes.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.Tlog_Fields.htm">
+<HelpTOCNode Title="memo" Url="dtypes.Tlog.memo.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TMailingList" Url="dtypes.TMailingList.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TMailingList_Constructors.htm">
+<HelpTOCNode Title="create(TStringGrid)" Url="dtypes.TMailingList.create.htm" />
+<HelpTOCNode Title="destroy" Url="dtypes.TMailingList.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TMailingList_Methods.htm">
+<HelpTOCNode Title="addMailingClient(TStrategy)" Url="dtypes.TMailingList.addMailingClient.htm" />
+<HelpTOCNode Title="CheckNewData" Url="dtypes.TMailingList.CheckNewData.htm" />
+<HelpTOCNode Title="getCurrentDecision(String,String)" Url="dtypes.TMailingList.getCurrentDecision.htm" />
+<HelpTOCNode Title="init" Url="dtypes.TMailingList.init.htm" />
+<HelpTOCNode Title="insertData(String,TDOHLC,String)" Url="dtypes.TMailingList.insertData.htm" />
+<HelpTOCNode Title="plotToGrid" Url="dtypes.TMailingList.plotToGrid.htm" />
+<HelpTOCNode Title="RemoveMailingClient(TStrategy)" Url="dtypes.TMailingList.RemoveMailingClient.htm" />
+<HelpTOCNode Title="updateData(String,TDOHLC,String)" Url="dtypes.TMailingList.updateData.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TMailingList_Fields.htm">
+<HelpTOCNode Title="ArrayOfStrategy" Url="dtypes.TMailingList.ArrayOfStrategy.htm" />
+<HelpTOCNode Title="outGrid_" Url="dtypes.TMailingList.outGrid_.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TPriceAlertMessage" Url="dtypes.TPriceAlertMessage.htm">
+<HelpTOCNode Title="Methods" Url="dtypes.TPriceAlertMessage_Methods.htm">
+<HelpTOCNode Title="doAlert(String)" Url="dtypes.TPriceAlertMessage.doAlert.htm" />
+<HelpTOCNode Title="getAction" Url="dtypes.TPriceAlertMessage.getAction.htm" />
+<HelpTOCNode Title="getAlertHistID" Url="dtypes.TPriceAlertMessage.getAlertHistID.htm" />
+<HelpTOCNode Title="getClose" Url="dtypes.TPriceAlertMessage.getClose.htm" />
+<HelpTOCNode Title="getDate" Url="dtypes.TPriceAlertMessage.getDate.htm" />
+<HelpTOCNode Title="getHeader" Url="dtypes.TPriceAlertMessage.getHeader.htm" />
+<HelpTOCNode Title="getHigh" Url="dtypes.TPriceAlertMessage.getHigh.htm" />
+<HelpTOCNode Title="getLow" Url="dtypes.TPriceAlertMessage.getLow.htm" />
+<HelpTOCNode Title="getOpen" Url="dtypes.TPriceAlertMessage.getOpen.htm" />
+<HelpTOCNode Title="getSender" Url="dtypes.TPriceAlertMessage.getSender.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TPriceAlertMessage_Fields.htm">
+<HelpTOCNode Title="alertStorage" Url="dtypes.TPriceAlertMessage.alertStorage.htm" />
+<HelpTOCNode Title="paper_no" Url="dtypes.TPriceAlertMessage.paper_no.htm" />
+<HelpTOCNode Title="timeFrame" Url="dtypes.TPriceAlertMessage.timeFrame.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TPriceAlertNewMsg" Url="dtypes.TPriceAlertNewMsg.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TPriceAlertNewMsg_Constructors.htm">
+<HelpTOCNode Title="destroy" Url="dtypes.TPriceAlertNewMsg.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TPriceAlertNewMsg_Methods.htm">
+<HelpTOCNode Title="SetNew(string)" Url="dtypes.TPriceAlertNewMsg.SetNew.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TPriceAlertNewMsg_Fields.htm">
+<HelpTOCNode Title="vClose" Url="dtypes.TPriceAlertNewMsg.vClose.htm" />
+<HelpTOCNode Title="vDateTime" Url="dtypes.TPriceAlertNewMsg.vDateTime.htm" />
+<HelpTOCNode Title="vHigh" Url="dtypes.TPriceAlertNewMsg.vHigh.htm" />
+<HelpTOCNode Title="vID" Url="dtypes.TPriceAlertNewMsg.vID.htm" />
+<HelpTOCNode Title="vLow" Url="dtypes.TPriceAlertNewMsg.vLow.htm" />
+<HelpTOCNode Title="vOpen" Url="dtypes.TPriceAlertNewMsg.vOpen.htm" />
+<HelpTOCNode Title="vOperation" Url="dtypes.TPriceAlertNewMsg.vOperation.htm" />
+<HelpTOCNode Title="vPaperno" Url="dtypes.TPriceAlertNewMsg.vPaperno.htm" />
+<HelpTOCNode Title="vTimeFrame" Url="dtypes.TPriceAlertNewMsg.vTimeFrame.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TSignal" Url="dtypes.TSignal.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TSignal_Constructors.htm">
+<HelpTOCNode Title="Create(String,Real,TDateTime,Integer)" Url="dtypes.TSignal.Create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TSignal_Fields.htm">
+<HelpTOCNode Title="datum" Url="dtypes.TSignal.datum.htm" />
+<HelpTOCNode Title="IdInAsset" Url="dtypes.TSignal.IdInAsset.htm" />
+<HelpTOCNode Title="name" Url="dtypes.TSignal.name.htm" />
+<HelpTOCNode Title="price" Url="dtypes.TSignal.price.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TSignalizer" Url="dtypes.TSignalizer.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TSignalizer_Constructors.htm">
+<HelpTOCNode Title="create(TOraStoredProc,TOraStoredProc,TOraStoredProc)" Url="dtypes.TSignalizer.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TSignalizer_Methods.htm">
+<HelpTOCNode Title="clear" Url="dtypes.TSignalizer.clear.htm" />
+<HelpTOCNode Title="doCheck(TDateTime)" Url="dtypes.TSignalizer.doCheck.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TSignalizer_Fields.htm">
+<HelpTOCNode Title="checkSingalSP" Url="dtypes.TSignalizer.checkSingalSP.htm" />
+<HelpTOCNode Title="getFutureSignalsSP" Url="dtypes.TSignalizer.getFutureSignalsSP.htm" />
+<HelpTOCNode Title="getOldSignalsSP" Url="dtypes.TSignalizer.getOldSignalsSP.htm" />
+<HelpTOCNode Title="port" Url="dtypes.TSignalizer.port.htm" />
+<HelpTOCNode Title="storage" Url="dtypes.TSignalizer.storage.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TSignalRecord" Url="dtypes.TSignalRecord.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TSignalRecord_Constructors.htm">
+<HelpTOCNode Title="create(integer,integer,integer,integer,integer,integer,Real,String,String,String,String,String,TDateTime,TDateTime,TDateTime,TDateTime)" Url="dtypes.TSignalRecord.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TSignalRecord_Methods.htm">
+<HelpTOCNode Title="getActiv_date" Url="dtypes.TSignalRecord.getActiv_date.htm" />
+<HelpTOCNode Title="getAd_app_num" Url="dtypes.TSignalRecord.getAd_app_num.htm" />
+<HelpTOCNode Title="getBlock_comment" Url="dtypes.TSignalRecord.getBlock_comment.htm" />
+<HelpTOCNode Title="getDirect_date" Url="dtypes.TSignalRecord.getDirect_date.htm" />
+<HelpTOCNode Title="getEmitent" Url="dtypes.TSignalRecord.getEmitent.htm" />
+<HelpTOCNode Title="getExec_price_date" Url="dtypes.TSignalRecord.getExec_price_date.htm" />
+<HelpTOCNode Title="getIs_blocked" Url="dtypes.TSignalRecord.getIs_blocked.htm" />
+<HelpTOCNode Title="getIs_executed" Url="dtypes.TSignalRecord.getIs_executed.htm" />
+<HelpTOCNode Title="getIs_sended" Url="dtypes.TSignalRecord.getIs_sended.htm" />
+<HelpTOCNode Title="getNum_lots" Url="dtypes.TSignalRecord.getNum_lots.htm" />
+<HelpTOCNode Title="getPaper_no" Url="dtypes.TSignalRecord.getPaper_no.htm" />
+<HelpTOCNode Title="getPrice" Url="dtypes.TSignalRecord.getPrice.htm" />
+<HelpTOCNode Title="getSignal" Url="dtypes.TSignalRecord.getSignal.htm" />
+<HelpTOCNode Title="getSignal_date" Url="dtypes.TSignalRecord.getSignal_date.htm" />
+<HelpTOCNode Title="getSignal_id" Url="dtypes.TSignalRecord.getSignal_id.htm" />
+<HelpTOCNode Title="getStrategy_id" Url="dtypes.TSignalRecord.getStrategy_id.htm" />
+<HelpTOCNode Title="getStrategy_name" Url="dtypes.TSignalRecord.getStrategy_name.htm" />
+<HelpTOCNode Title="getTreaty" Url="dtypes.TSignalRecord.getTreaty.htm" />
+<HelpTOCNode Title="getTry_execute_date" Url="dtypes.TSignalRecord.getTry_execute_date.htm" />
+<HelpTOCNode Title="setActiv_date(TdateTime)" Url="dtypes.TSignalRecord.setActiv_date.htm" />
+<HelpTOCNode Title="setAd_app_num(integer)" Url="dtypes.TSignalRecord.setAd_app_num.htm" />
+<HelpTOCNode Title="setBlock_comment(String)" Url="dtypes.TSignalRecord.setBlock_comment.htm" />
+<HelpTOCNode Title="setDirect_date(TDateTime)" Url="dtypes.TSignalRecord.setDirect_date.htm" />
+<HelpTOCNode Title="setEmitent(String)" Url="dtypes.TSignalRecord.setEmitent.htm" />
+<HelpTOCNode Title="setExec_price_date(TDateTime)" Url="dtypes.TSignalRecord.setExec_price_date.htm" />
+<HelpTOCNode Title="setIs_blocked(integer)" Url="dtypes.TSignalRecord.setIs_blocked.htm" />
+<HelpTOCNode Title="setIs_executed(integer)" Url="dtypes.TSignalRecord.setIs_executed.htm" />
+<HelpTOCNode Title="setIs_sended(integer)" Url="dtypes.TSignalRecord.setIs_sended.htm" />
+<HelpTOCNode Title="setNum_lots(integer)" Url="dtypes.TSignalRecord.setNum_lots.htm" />
+<HelpTOCNode Title="setPaper_no(String)" Url="dtypes.TSignalRecord.setPaper_no.htm" />
+<HelpTOCNode Title="setPrice(Real)" Url="dtypes.TSignalRecord.setPrice.htm" />
+<HelpTOCNode Title="setSignal(string)" Url="dtypes.TSignalRecord.setSignal.htm" />
+<HelpTOCNode Title="setSignal_date(TDateTime)" Url="dtypes.TSignalRecord.setSignal_date.htm" />
+<HelpTOCNode Title="setSignal_id(integer)" Url="dtypes.TSignalRecord.setSignal_id.htm" />
+<HelpTOCNode Title="setStrategy_id(integer)" Url="dtypes.TSignalRecord.setStrategy_id.htm" />
+<HelpTOCNode Title="setStrategy_name(String)" Url="dtypes.TSignalRecord.setStrategy_name.htm" />
+<HelpTOCNode Title="setTreaty(String)" Url="dtypes.TSignalRecord.setTreaty.htm" />
+<HelpTOCNode Title="setTry_execute_date(TDateTime)" Url="dtypes.TSignalRecord.setTry_execute_date.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TSignalRecord_Fields.htm">
+<HelpTOCNode Title="activ_date" Url="dtypes.TSignalRecord.activ_date.htm" />
+<HelpTOCNode Title="ad_app_num" Url="dtypes.TSignalRecord.ad_app_num.htm" />
+<HelpTOCNode Title="block_comment" Url="dtypes.TSignalRecord.block_comment.htm" />
+<HelpTOCNode Title="direct_date" Url="dtypes.TSignalRecord.direct_date.htm" />
+<HelpTOCNode Title="emitent" Url="dtypes.TSignalRecord.emitent.htm" />
+<HelpTOCNode Title="exec_price_date" Url="dtypes.TSignalRecord.exec_price_date.htm" />
+<HelpTOCNode Title="is_blocked" Url="dtypes.TSignalRecord.is_blocked.htm" />
+<HelpTOCNode Title="is_executed" Url="dtypes.TSignalRecord.is_executed.htm" />
+<HelpTOCNode Title="is_sended" Url="dtypes.TSignalRecord.is_sended.htm" />
+<HelpTOCNode Title="num_lots" Url="dtypes.TSignalRecord.num_lots.htm" />
+<HelpTOCNode Title="paper_no" Url="dtypes.TSignalRecord.paper_no.htm" />
+<HelpTOCNode Title="price" Url="dtypes.TSignalRecord.price.htm" />
+<HelpTOCNode Title="signal" Url="dtypes.TSignalRecord.signal.htm" />
+<HelpTOCNode Title="signal_date" Url="dtypes.TSignalRecord.signal_date.htm" />
+<HelpTOCNode Title="signal_id" Url="dtypes.TSignalRecord.signal_id.htm" />
+<HelpTOCNode Title="strategy_id" Url="dtypes.TSignalRecord.strategy_id.htm" />
+<HelpTOCNode Title="strategy_name" Url="dtypes.TSignalRecord.strategy_name.htm" />
+<HelpTOCNode Title="treaty" Url="dtypes.TSignalRecord.treaty.htm" />
+<HelpTOCNode Title="try_execute_date" Url="dtypes.TSignalRecord.try_execute_date.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TStrategy" Url="dtypes.TStrategy.htm">
+<HelpTOCNode Title="Constructors" Url="dtypes.TStrategy_Constructors.htm">
+<HelpTOCNode Title="destroy" Url="dtypes.TStrategy.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="dtypes.TStrategy_Methods.htm">
+<HelpTOCNode Title="addInternalSignal(TDateTime,Real,String,Integer)" Url="dtypes.TStrategy.addInternalSignal.htm" />
+<HelpTOCNode Title="addTradeSignal(TDateTime,Real,String,Integer)" Url="dtypes.TStrategy.addTradeSignal.htm" />
+<HelpTOCNode Title="addTradeSignalModeling(TDateTime,Real,String,Integer)" Url="dtypes.TStrategy.addTradeSignalModeling.htm" />
+<HelpTOCNode Title="executeDecision(String)" Url="dtypes.TStrategy.executeDecision.htm" />
+<HelpTOCNode Title="getCurrentDecision(String)" Url="dtypes.TStrategy.getCurrentDecision.htm" />
+<HelpTOCNode Title="getOptPars" Url="dtypes.TStrategy.getOptPars.htm" />
+<HelpTOCNode Title="insertData(TDOHLC)" Url="dtypes.TStrategy.insertData.htm" />
+<HelpTOCNode Title="mailSignal(String,wideString)" Url="dtypes.TStrategy.mailSignal.htm" />
+<HelpTOCNode Title="printSignalsToMemo(TMemo)" Url="dtypes.TStrategy.printSignalsToMemo.htm" />
+<HelpTOCNode Title="PutAssetToChart" Url="dtypes.TStrategy.PutAssetToChart.htm" />
+<HelpTOCNode Title="updateData(TDOHLC)" Url="dtypes.TStrategy.updateData.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="dtypes.TStrategy_Fields.htm">
+<HelpTOCNode Title="addSignal" Url="dtypes.TStrategy.addSignal.htm" />
+<HelpTOCNode Title="Asset" Url="dtypes.TStrategy.Asset.htm" />
+<HelpTOCNode Title="AssetSeries" Url="dtypes.TStrategy.AssetSeries.htm" />
+<HelpTOCNode Title="decision_lag" Url="dtypes.TStrategy.decision_lag.htm" />
+<HelpTOCNode Title="Form" Url="dtypes.TStrategy.Form.htm" />
+<HelpTOCNode Title="id" Url="dtypes.TStrategy.id.htm" />
+<HelpTOCNode Title="idStrategy" Url="dtypes.TStrategy.idStrategy.htm" />
+<HelpTOCNode Title="internalLog" Url="dtypes.TStrategy.internalLog.htm" />
+<HelpTOCNode Title="is_mod" Url="dtypes.TStrategy.is_mod.htm" />
+<HelpTOCNode Title="mainConsole" Url="dtypes.TStrategy.mainConsole.htm" />
+<HelpTOCNode Title="MainLog" Url="dtypes.TStrategy.MainLog.htm" />
+<HelpTOCNode Title="name_" Url="dtypes.TStrategy.name_.htm" />
+<HelpTOCNode Title="signalizer" Url="dtypes.TStrategy.signalizer.htm" />
+<HelpTOCNode Title="Signals" Url="dtypes.TStrategy.Signals.htm" />
+<HelpTOCNode Title="status" Url="dtypes.TStrategy.status.htm" />
+<HelpTOCNode Title="stopLevelLong" Url="dtypes.TStrategy.stopLevelLong.htm" />
+<HelpTOCNode Title="stopLevelShort" Url="dtypes.TStrategy.stopLevelShort.htm" />
+<HelpTOCNode Title="strategyConsole" Url="dtypes.TStrategy.strategyConsole.htm" />
+<HelpTOCNode Title="timeFrame" Url="dtypes.TStrategy.timeFrame.htm" />
+<HelpTOCNode Title="treaty" Url="dtypes.TStrategy.treaty.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="WhereClause" Url="dtypes.WhereClause.htm">
+<HelpTOCNode Title="Fields" Url="dtypes.WhereClause_Fields.htm">
+<HelpTOCNode Title="header" Url="dtypes.WhereClause.header.htm" />
+<HelpTOCNode Title="value" Url="dtypes.WhereClause.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="dtypes_Types.htm">
+<HelpTOCNode Title="AOAOS" Url="dtypes.AOAOS.htm" />
+<HelpTOCNode Title="AOS" Url="dtypes.AOS.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="GA" Url="GA.htm">
+<HelpTOCNode Title="Classes" Url="GA_Classes.htm">
+<HelpTOCNode Title="EWrongParameteres" Url="GA.EWrongParameteres.htm" />
+<HelpTOCNode Title="TClassGA" Url="GA.TClassGA.htm">
+<HelpTOCNode Title="Constructors" Url="GA.TClassGA_Constructors.htm">
+<HelpTOCNode Title="Create" Url="GA.TClassGA.Create.htm" />
+<HelpTOCNode Title="destroy" Url="GA.TClassGA.destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Properties" Url="GA.TClassGA_Properties.htm">
+<HelpTOCNode Title="DealsArray" Url="GA.TClassGA.DealsArray.htm" />
+<HelpTOCNode Title="GA" Url="GA.TClassGA.GA.htm" />
+<HelpTOCNode Title="Res" Url="GA.TClassGA.Res.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="GA.TClassGA_Methods.htm">
+<HelpTOCNode Title="CreateNew(integer)" Url="GA.TClassGA.CreateNew.htm" />
+<HelpTOCNode Title="DoControl(TObject,Integer)" Url="GA.TClassGA.DoControl.htm" />
+<HelpTOCNode Title="DoFinished(TObject,string,TParamFinRez)" Url="GA.TClassGA.DoFinished.htm" />
+<HelpTOCNode Title="EventFinished(TObject)" Url="GA.TClassGA.EventFinished.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="GA.TClassGA_Fields.htm">
+<HelpTOCNode Title="fAsset" Url="GA.TClassGA.fAsset.htm" />
+<HelpTOCNode Title="fDealsArray" Url="GA.TClassGA.fDealsArray.htm" />
+<HelpTOCNode Title="fGA" Url="GA.TClassGA.fGA.htm" />
+<HelpTOCNode Title="fID" Url="GA.TClassGA.fID.htm" />
+<HelpTOCNode Title="fMoneyStart" Url="GA.TClassGA.fMoneyStart.htm" />
+<HelpTOCNode Title="fRes" Url="GA.TClassGA.fRes.htm" />
+<HelpTOCNode Title="fSignals" Url="GA.TClassGA.fSignals.htm" />
+<HelpTOCNode Title="fStatus" Url="GA.TClassGA.fStatus.htm" />
+<HelpTOCNode Title="fStpSetParamFixed" Url="GA.TClassGA.fStpSetParamFixed.htm" />
+<HelpTOCNode Title="fStpSetStrategyFinRes" Url="GA.TClassGA.fStpSetStrategyFinRes.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TGenFind" Url="GA.TGenFind.htm">
+<HelpTOCNode Title="Constructors" Url="GA.TGenFind_Constructors.htm">
+<HelpTOCNode Title="Destroy" Url="GA.TGenFind.Destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Properties" Url="GA.TGenFind_Properties.htm">
+<HelpTOCNode Title="Asset" Url="GA.TGenFind.Asset.htm" />
+<HelpTOCNode Title="ChildsCount" Url="GA.TGenFind.ChildsCount.htm" />
+<HelpTOCNode Title="ComissionSize" Url="GA.TGenFind.ComissionSize.htm" />
+<HelpTOCNode Title="DealsArray" Url="GA.TGenFind.DealsArray.htm" />
+<HelpTOCNode Title="DiffPercentChilds" Url="GA.TGenFind.DiffPercentChilds.htm" />
+<HelpTOCNode Title="Finished" Url="GA.TGenFind.Finished.htm" />
+<HelpTOCNode Title="FirstGeneretionSize" Url="GA.TGenFind.FirstGeneretionSize.htm" />
+<HelpTOCNode Title="InParamlist" Url="GA.TGenFind.InParamlist.htm" />
+<HelpTOCNode Title="LongDeal" Url="GA.TGenFind.LongDeal.htm" />
+<HelpTOCNode Title="MoneyStart" Url="GA.TGenFind.MoneyStart.htm" />
+<HelpTOCNode Title="NeedFullSearch" Url="GA.TGenFind.NeedFullSearch.htm" />
+<HelpTOCNode Title="PercentAreaExpan" Url="GA.TGenFind.PercentAreaExpan.htm" />
+<HelpTOCNode Title="PercentNotRelatives" Url="GA.TGenFind.PercentNotRelatives.htm" />
+<HelpTOCNode Title="ProgressBar" Url="GA.TGenFind.ProgressBar.htm" />
+<HelpTOCNode Title="SearchMax" Url="GA.TGenFind.SearchMax.htm" />
+<HelpTOCNode Title="ShortDeal" Url="GA.TGenFind.ShortDeal.htm" />
+<HelpTOCNode Title="Signals" Url="GA.TGenFind.Signals.htm" />
+<HelpTOCNode Title="StepCount" Url="GA.TGenFind.StepCount.htm" />
+<HelpTOCNode Title="StepPassed" Url="GA.TGenFind.StepPassed.htm" />
+<HelpTOCNode Title="StopLossFixedParam" Url="GA.TGenFind.StopLossFixedParam.htm" />
+<HelpTOCNode Title="Strategy" Url="GA.TGenFind.Strategy.htm" />
+<HelpTOCNode Title="TakeProfitFixedParam" Url="GA.TGenFind.TakeProfitFixedParam.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="GA.TGenFind_Methods.htm">
+<HelpTOCNode Title="DealsReturn(TParamFinRez)" Url="GA.TGenFind.DealsReturn.htm" />
+<HelpTOCNode Title="Execute" Url="GA.TGenFind.Execute.htm" />
+<HelpTOCNode Title="ExecuteClassic" Url="GA.TGenFind.ExecuteClassic.htm" />
+<HelpTOCNode Title="FullSsearch(boolean)" Url="GA.TGenFind.FullSsearch.htm" />
+<HelpTOCNode Title="GetAsset" Url="GA.TGenFind.GetAsset.htm" />
+<HelpTOCNode Title="GetChildsCount" Url="GA.TGenFind.GetChildsCount.htm" />
+<HelpTOCNode Title="GetComissionSize" Url="GA.TGenFind.GetComissionSize.htm" />
+<HelpTOCNode Title="GetDealsArray" Url="GA.TGenFind.GetDealsArray.htm" />
+<HelpTOCNode Title="GetDiffPercentChilds" Url="GA.TGenFind.GetDiffPercentChilds.htm" />
+<HelpTOCNode Title="GetFinished" Url="GA.TGenFind.GetFinished.htm" />
+<HelpTOCNode Title="GetFirstGeneretionSize" Url="GA.TGenFind.GetFirstGeneretionSize.htm" />
+<HelpTOCNode Title="GetForecastTime" Url="GA.TGenFind.GetForecastTime.htm" />
+<HelpTOCNode Title="GetInParamlist" Url="GA.TGenFind.GetInParamlist.htm" />
+<HelpTOCNode Title="GetIStrategy" Url="GA.TGenFind.GetIStrategy.htm" />
+<HelpTOCNode Title="GetLongDeal" Url="GA.TGenFind.GetLongDeal.htm" />
+<HelpTOCNode Title="GetMoneyStart" Url="GA.TGenFind.GetMoneyStart.htm" />
+<HelpTOCNode Title="GetNeedFullSearch" Url="GA.TGenFind.GetNeedFullSearch.htm" />
+<HelpTOCNode Title="GetOnFinished" Url="GA.TGenFind.GetOnFinished.htm" />
+<HelpTOCNode Title="GetOnStep" Url="GA.TGenFind.GetOnStep.htm" />
+<HelpTOCNode Title="GetPercentAreaExpan" Url="GA.TGenFind.GetPercentAreaExpan.htm" />
+<HelpTOCNode Title="GetPercentNotRelatives" Url="GA.TGenFind.GetPercentNotRelatives.htm" />
+<HelpTOCNode Title="GetSearchMax" Url="GA.TGenFind.GetSearchMax.htm" />
+<HelpTOCNode Title="GetShortDeal" Url="GA.TGenFind.GetShortDeal.htm" />
+<HelpTOCNode Title="GetSignals" Url="GA.TGenFind.GetSignals.htm" />
+<HelpTOCNode Title="GetStepCount" Url="GA.TGenFind.GetStepCount.htm" />
+<HelpTOCNode Title="GetStepPassed" Url="GA.TGenFind.GetStepPassed.htm" />
+<HelpTOCNode Title="GetStopLossFixedParam" Url="GA.TGenFind.GetStopLossFixedParam.htm" />
+<HelpTOCNode Title="GetTakeProfitFixedParam" Url="GA.TGenFind.GetTakeProfitFixedParam.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="GA.TGenFind.SetAsset.htm" />
+<HelpTOCNode Title="SetChildsCount(Integer)" Url="GA.TGenFind.SetChildsCount.htm" />
+<HelpTOCNode Title="SetComissionSize(Real)" Url="GA.TGenFind.SetComissionSize.htm" />
+<HelpTOCNode Title="SetDealsArray(TArrayDealsClass)" Url="GA.TGenFind.SetDealsArray.htm" />
+<HelpTOCNode Title="SetDiffPercentChilds(Integer)" Url="GA.TGenFind.SetDiffPercentChilds.htm" />
+<HelpTOCNode Title="SetFinished(Boolean)" Url="GA.TGenFind.SetFinished.htm" />
+<HelpTOCNode Title="SetFirstGeneretionSize(Integer)" Url="GA.TGenFind.SetFirstGeneretionSize.htm" />
+<HelpTOCNode Title="SetInParamlist(TParamList)" Url="GA.TGenFind.SetInParamlist.htm" />
+<HelpTOCNode Title="SetIStrategy(IStrategy)" Url="GA.TGenFind.SetIStrategy.htm" />
+<HelpTOCNode Title="SetLongDeal(boolean)" Url="GA.TGenFind.SetLongDeal.htm" />
+<HelpTOCNode Title="SetMoneyStart(real)" Url="GA.TGenFind.SetMoneyStart.htm" />
+<HelpTOCNode Title="SetNeedFullSearch(Boolean)" Url="GA.TGenFind.SetNeedFullSearch.htm" />
+<HelpTOCNode Title="SetOnFinished(TFinishedEvent)" Url="GA.TGenFind.SetOnFinished.htm" />
+<HelpTOCNode Title="SetOnStep(TStepEvent)" Url="GA.TGenFind.SetOnStep.htm" />
+<HelpTOCNode Title="SetPercentAreaExpan(Integer)" Url="GA.TGenFind.SetPercentAreaExpan.htm" />
+<HelpTOCNode Title="SetPercentNotRelatives(Integer)" Url="GA.TGenFind.SetPercentNotRelatives.htm" />
+<HelpTOCNode Title="SetSearchMax(Boolean)" Url="GA.TGenFind.SetSearchMax.htm" />
+<HelpTOCNode Title="SetShortDeal(boolean)" Url="GA.TGenFind.SetShortDeal.htm" />
+<HelpTOCNode Title="SetSignals(SAR)" Url="GA.TGenFind.SetSignals.htm" />
+<HelpTOCNode Title="SetStepCount(Integer)" Url="GA.TGenFind.SetStepCount.htm" />
+<HelpTOCNode Title="SetStepPassed(Integer)" Url="GA.TGenFind.SetStepPassed.htm" />
+<HelpTOCNode Title="SetStopLossFixedParam(Integer)" Url="GA.TGenFind.SetStopLossFixedParam.htm" />
+<HelpTOCNode Title="SetTakeProfitFixedParam(Integer)" Url="GA.TGenFind.SetTakeProfitFixedParam.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Events" Url="GA.TGenFind_Events.htm">
+<HelpTOCNode Title="OnFinished" Url="GA.TGenFind.OnFinished.htm" />
+<HelpTOCNode Title="OnStep" Url="GA.TGenFind.OnStep.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="GA.TGenFind_Fields.htm">
+<HelpTOCNode Title="fAsset" Url="GA.TGenFind.fAsset.htm" />
+<HelpTOCNode Title="fChildsCount" Url="GA.TGenFind.fChildsCount.htm" />
+<HelpTOCNode Title="fComissionSize" Url="GA.TGenFind.fComissionSize.htm" />
+<HelpTOCNode Title="fDealsArray" Url="GA.TGenFind.fDealsArray.htm" />
+<HelpTOCNode Title="fDiffPercentChilds" Url="GA.TGenFind.fDiffPercentChilds.htm" />
+<HelpTOCNode Title="fFinished" Url="GA.TGenFind.fFinished.htm" />
+<HelpTOCNode Title="fFirstGeneretionSize" Url="GA.TGenFind.fFirstGeneretionSize.htm" />
+<HelpTOCNode Title="fHappy" Url="GA.TGenFind.fHappy.htm" />
+<HelpTOCNode Title="fInParamlist" Url="GA.TGenFind.fInParamlist.htm" />
+<HelpTOCNode Title="fLongDeal" Url="GA.TGenFind.fLongDeal.htm" />
+<HelpTOCNode Title="fMoneyStart" Url="GA.TGenFind.fMoneyStart.htm" />
+<HelpTOCNode Title="fNeedFullSearch" Url="GA.TGenFind.fNeedFullSearch.htm" />
+<HelpTOCNode Title="fOnFinished" Url="GA.TGenFind.fOnFinished.htm" />
+<HelpTOCNode Title="fOnMyEvent" Url="GA.TGenFind.fOnMyEvent.htm" />
+<HelpTOCNode Title="fPercentAreaExpan" Url="GA.TGenFind.fPercentAreaExpan.htm" />
+<HelpTOCNode Title="fPercentNotRelatives" Url="GA.TGenFind.fPercentNotRelatives.htm" />
+<HelpTOCNode Title="FProgressBar" Url="GA.TGenFind.FProgressBar.htm" />
+<HelpTOCNode Title="fResult" Url="GA.TGenFind.fResult.htm" />
+<HelpTOCNode Title="fSearchMax" Url="GA.TGenFind.fSearchMax.htm" />
+<HelpTOCNode Title="fShortDeal" Url="GA.TGenFind.fShortDeal.htm" />
+<HelpTOCNode Title="fSignals" Url="GA.TGenFind.fSignals.htm" />
+<HelpTOCNode Title="fStepCount" Url="GA.TGenFind.fStepCount.htm" />
+<HelpTOCNode Title="fStepPassed" Url="GA.TGenFind.fStepPassed.htm" />
+<HelpTOCNode Title="fStopLossFixedParam" Url="GA.TGenFind.fStopLossFixedParam.htm" />
+<HelpTOCNode Title="fStrategy" Url="GA.TGenFind.fStrategy.htm" />
+<HelpTOCNode Title="fStrategyID" Url="GA.TGenFind.fStrategyID.htm" />
+<HelpTOCNode Title="fTakeProfitFixedParam" Url="GA.TGenFind.fTakeProfitFixedParam.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TProgress" Url="GA.TProgress.htm">
+<HelpTOCNode Title="Properties" Url="GA.TProgress_Properties.htm">
+<HelpTOCNode Title="ControlVCL" Url="GA.TProgress.ControlVCL.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="GA.TProgress_Methods.htm">
+<HelpTOCNode Title="DoControl(TObject,Integer)" Url="GA.TProgress.DoControl.htm" />
+<HelpTOCNode Title="GetControlVCL" Url="GA.TProgress.GetControlVCL.htm" />
+<HelpTOCNode Title="SetControlVCL(TProgressBar)" Url="GA.TProgress.SetControlVCL.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="GA.TProgress_Fields.htm">
+<HelpTOCNode Title="fControlVCL" Url="GA.TProgress.fControlVCL.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Interfaces" Url="GA_Interfaces.htm">
+<HelpTOCNode Title="IGenFind" Url="GA.IGenFind.htm">
+<HelpTOCNode Title="Properties" Url="GA.IGenFind_Properties.htm">
+<HelpTOCNode Title="Asset" Url="GA.IGenFind.Asset.htm" />
+<HelpTOCNode Title="ChildsCount" Url="GA.IGenFind.ChildsCount.htm" />
+<HelpTOCNode Title="ComissionSize" Url="GA.IGenFind.ComissionSize.htm" />
+<HelpTOCNode Title="DiffPercentChilds" Url="GA.IGenFind.DiffPercentChilds.htm" />
+<HelpTOCNode Title="Finished" Url="GA.IGenFind.Finished.htm" />
+<HelpTOCNode Title="FirstGeneretionSize" Url="GA.IGenFind.FirstGeneretionSize.htm" />
+<HelpTOCNode Title="InParamlist" Url="GA.IGenFind.InParamlist.htm" />
+<HelpTOCNode Title="LongDeal" Url="GA.IGenFind.LongDeal.htm" />
+<HelpTOCNode Title="PercentAreaExpan" Url="GA.IGenFind.PercentAreaExpan.htm" />
+<HelpTOCNode Title="PercentNotRelatives" Url="GA.IGenFind.PercentNotRelatives.htm" />
+<HelpTOCNode Title="ShortDeal" Url="GA.IGenFind.ShortDeal.htm" />
+<HelpTOCNode Title="StepCount" Url="GA.IGenFind.StepCount.htm" />
+<HelpTOCNode Title="StepPassed" Url="GA.IGenFind.StepPassed.htm" />
+<HelpTOCNode Title="StopLossFixedParam" Url="GA.IGenFind.StopLossFixedParam.htm" />
+<HelpTOCNode Title="Strategy" Url="GA.IGenFind.Strategy.htm" />
+<HelpTOCNode Title="TakeProfitFixedParam" Url="GA.IGenFind.TakeProfitFixedParam.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="GA.IGenFind_Methods.htm">
+<HelpTOCNode Title="Execute" Url="GA.IGenFind.Execute.htm" />
+<HelpTOCNode Title="ExecuteClassic" Url="GA.IGenFind.ExecuteClassic.htm" />
+<HelpTOCNode Title="GetAsset" Url="GA.IGenFind.GetAsset.htm" />
+<HelpTOCNode Title="GetChildsCount" Url="GA.IGenFind.GetChildsCount.htm" />
+<HelpTOCNode Title="GetComissionSize" Url="GA.IGenFind.GetComissionSize.htm" />
+<HelpTOCNode Title="GetDiffPercentChilds" Url="GA.IGenFind.GetDiffPercentChilds.htm" />
+<HelpTOCNode Title="GetFinished" Url="GA.IGenFind.GetFinished.htm" />
+<HelpTOCNode Title="GetFirstGeneretionSize" Url="GA.IGenFind.GetFirstGeneretionSize.htm" />
+<HelpTOCNode Title="GetForecastTime" Url="GA.IGenFind.GetForecastTime.htm" />
+<HelpTOCNode Title="GetInParamlist" Url="GA.IGenFind.GetInParamlist.htm" />
+<HelpTOCNode Title="GetIStrategy" Url="GA.IGenFind.GetIStrategy.htm" />
+<HelpTOCNode Title="GetLongDeal" Url="GA.IGenFind.GetLongDeal.htm" />
+<HelpTOCNode Title="GetOnFinished" Url="GA.IGenFind.GetOnFinished.htm" />
+<HelpTOCNode Title="GetOnStep" Url="GA.IGenFind.GetOnStep.htm" />
+<HelpTOCNode Title="GetPercentAreaExpan" Url="GA.IGenFind.GetPercentAreaExpan.htm" />
+<HelpTOCNode Title="GetPercentNotRelatives" Url="GA.IGenFind.GetPercentNotRelatives.htm" />
+<HelpTOCNode Title="GetShortDeal" Url="GA.IGenFind.GetShortDeal.htm" />
+<HelpTOCNode Title="GetStepCount" Url="GA.IGenFind.GetStepCount.htm" />
+<HelpTOCNode Title="GetStepPassed" Url="GA.IGenFind.GetStepPassed.htm" />
+<HelpTOCNode Title="GetStopLossFixedParam" Url="GA.IGenFind.GetStopLossFixedParam.htm" />
+<HelpTOCNode Title="GetTakeProfitFixedParam" Url="GA.IGenFind.GetTakeProfitFixedParam.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="GA.IGenFind.SetAsset.htm" />
+<HelpTOCNode Title="SetChildsCount(Integer)" Url="GA.IGenFind.SetChildsCount.htm" />
+<HelpTOCNode Title="SetComissionSize(Real)" Url="GA.IGenFind.SetComissionSize.htm" />
+<HelpTOCNode Title="SetDiffPercentChilds(Integer)" Url="GA.IGenFind.SetDiffPercentChilds.htm" />
+<HelpTOCNode Title="SetFinished(Boolean)" Url="GA.IGenFind.SetFinished.htm" />
+<HelpTOCNode Title="SetFirstGeneretionSize(Integer)" Url="GA.IGenFind.SetFirstGeneretionSize.htm" />
+<HelpTOCNode Title="SetInParamlist(TParamList)" Url="GA.IGenFind.SetInParamlist.htm" />
+<HelpTOCNode Title="SetIStrategy(IStrategy)" Url="GA.IGenFind.SetIStrategy.htm" />
+<HelpTOCNode Title="SetLongDeal(boolean)" Url="GA.IGenFind.SetLongDeal.htm" />
+<HelpTOCNode Title="SetOnFinished(TStepEvent)" Url="GA.IGenFind.SetOnFinished.htm" />
+<HelpTOCNode Title="SetOnStep(TStepEvent)" Url="GA.IGenFind.SetOnStep.htm" />
+<HelpTOCNode Title="SetPercentAreaExpan(Integer)" Url="GA.IGenFind.SetPercentAreaExpan.htm" />
+<HelpTOCNode Title="SetPercentNotRelatives(Integer)" Url="GA.IGenFind.SetPercentNotRelatives.htm" />
+<HelpTOCNode Title="SetShortDeal(boolean)" Url="GA.IGenFind.SetShortDeal.htm" />
+<HelpTOCNode Title="SetStepCount(Integer)" Url="GA.IGenFind.SetStepCount.htm" />
+<HelpTOCNode Title="SetStepPassed(Integer)" Url="GA.IGenFind.SetStepPassed.htm" />
+<HelpTOCNode Title="SetStopLossFixedParam(Integer)" Url="GA.IGenFind.SetStopLossFixedParam.htm" />
+<HelpTOCNode Title="SetTakeProfitFixedParam(Integer)" Url="GA.IGenFind.SetTakeProfitFixedParam.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Events" Url="GA.IGenFind_Events.htm">
+<HelpTOCNode Title="OnFinished" Url="GA.IGenFind.OnFinished.htm" />
+<HelpTOCNode Title="OnStep" Url="GA.IGenFind.OnStep.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="IProgress" Url="GA.IProgress.htm">
+<HelpTOCNode Title="Methods" Url="GA.IProgress_Methods.htm">
+<HelpTOCNode Title="DoControl(TObject,Integer)" Url="GA.IProgress.DoControl.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Delegates" Url="GA_Delegates.htm">
+<HelpTOCNode Title="TFinishedEvent" Url="GA.TFinishedEvent.htm" />
+<HelpTOCNode Title="TStepEvent" Url="GA.TStepEvent.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Types" Url="GA_Types.htm">
+<HelpTOCNode Title="ArrayTClassGA" Url="GA.ArrayTClassGA.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="GATune" Url="GATune.htm">
+<HelpTOCNode Title="Classes" Url="GATune_Classes.htm">
+<HelpTOCNode Title="TfmGATune" Url="GATune.TfmGATune.htm">
+<HelpTOCNode Title="Methods" Url="GATune.TfmGATune_Methods.htm">
+<HelpTOCNode Title="FormClose(TObject,TCloseAction)" Url="GATune.TfmGATune.FormClose.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="GATune.TfmGATune_Fields.htm">
+<HelpTOCNode Title="Button1" Url="GATune.TfmGATune.Button1.htm" />
+<HelpTOCNode Title="chkFULLSEARCH" Url="GATune.TfmGATune.chkFULLSEARCH.htm" />
+<HelpTOCNode Title="chkLONGDEAL" Url="GATune.TfmGATune.chkLONGDEAL.htm" />
+<HelpTOCNode Title="dbeChilds" Url="GATune.TfmGATune.dbeChilds.htm" />
+<HelpTOCNode Title="dbeComiss" Url="GATune.TfmGATune.dbeComiss.htm" />
+<HelpTOCNode Title="dbeDiff" Url="GATune.TfmGATune.dbeDiff.htm" />
+<HelpTOCNode Title="dbeFirstPop" Url="GATune.TfmGATune.dbeFirstPop.htm" />
+<HelpTOCNode Title="dbeForeign" Url="GATune.TfmGATune.dbeForeign.htm" />
+<HelpTOCNode Title="dbePercent" Url="GATune.TfmGATune.dbePercent.htm" />
+<HelpTOCNode Title="dbeStep" Url="GATune.TfmGATune.dbeStep.htm" />
+<HelpTOCNode Title="dbeStopLoss" Url="GATune.TfmGATune.dbeStopLoss.htm" />
+<HelpTOCNode Title="dbeTakeProfit" Url="GATune.TfmGATune.dbeTakeProfit.htm" />
+<HelpTOCNode Title="dblkcbbBT_GA_TUNE_ID" Url="GATune.TfmGATune.dblkcbbBT_GA_TUNE_ID.htm" />
+<HelpTOCNode Title="dbnvgr1" Url="GATune.TfmGATune.dbnvgr1.htm" />
+<HelpTOCNode Title="lbl1" Url="GATune.TfmGATune.lbl1.htm" />
+<HelpTOCNode Title="lbl2" Url="GATune.TfmGATune.lbl2.htm" />
+<HelpTOCNode Title="lbl3" Url="GATune.TfmGATune.lbl3.htm" />
+<HelpTOCNode Title="lbl4" Url="GATune.TfmGATune.lbl4.htm" />
+<HelpTOCNode Title="lbl5" Url="GATune.TfmGATune.lbl5.htm" />
+<HelpTOCNode Title="lbl6" Url="GATune.TfmGATune.lbl6.htm" />
+<HelpTOCNode Title="lbl7" Url="GATune.TfmGATune.lbl7.htm" />
+<HelpTOCNode Title="lbl8" Url="GATune.TfmGATune.lbl8.htm" />
+<HelpTOCNode Title="lbl9" Url="GATune.TfmGATune.lbl9.htm" />
+<HelpTOCNode Title="pa1" Url="GATune.TfmGATune.pa1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="GATune_Variables.htm">
+<HelpTOCNode Title="fmGATune" Url="GATune.fmGATune.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="leastsquares" Url="leastsquares.htm">
+<HelpTOCNode Title="Routines" Url="leastsquares_Routines.htm">
+<HelpTOCNode Title="BuildChebyshevLeastSquares(TReal1DArray,TReal1DArray,TReal1DArray,Double,Double,Integer,Integer,TReal1DArray)" Url="leastsquares.BuildChebyshevLeastSquares.htm" />
+<HelpTOCNode Title="BuildChebyshevLeastSquaresConstrained(TReal1DArray,TReal1DArray,TReal1DArray,Double,Double,Integer,TReal1DArray,TReal1DArray,TInteger1DArray,Integer,Integer,TReal1DArray)" Url="leastsquares.BuildChebyshevLeastSquaresConstrained.htm" />
+<HelpTOCNode Title="BuildGeneralLeastSquares(TReal1DArray,TReal1DArray,TReal2DArray,Integer,Integer,TReal1DArray)" Url="leastsquares.BuildGeneralLeastSquares.htm" />
+<HelpTOCNode Title="BuildLinearLeastSquares(TReal1DArray,TReal1DArray,Integer,Double,Double)" Url="leastsquares.BuildLinearLeastSquares.htm" />
+<HelpTOCNode Title="BuildPolynomialLeastSquares(TReal1DArray,TReal1DArray,Integer,Integer,TReal1DArray)" Url="leastsquares.BuildPolynomialLeastSquares.htm" />
+<HelpTOCNode Title="BuildSplineLeastSquares(TReal1DArray,TReal1DArray,TReal1DArray,Double,Double,Integer,Integer,TReal1DArray)" Url="leastsquares.BuildSplineLeastSquares.htm" />
+<HelpTOCNode Title="CalculateChebyshevLeastSquares(Integer,TReal1DArray,Double)" Url="leastsquares.CalculateChebyshevLeastSquares.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Log" Url="Log.htm">
+<HelpTOCNode Title="Classes" Url="Log_Classes.htm">
+<HelpTOCNode Title="TfmLog" Url="Log.TfmLog.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="Log_Variables.htm">
+<HelpTOCNode Title="fmLog" Url="Log.fmLog.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="lq" Url="lq.htm">
+<HelpTOCNode Title="Routines" Url="lq_Routines.htm">
+<HelpTOCNode Title="LQDecomposition(TReal2DArray,Integer,Integer,TReal1DArray)" Url="lq.LQDecomposition.htm" />
+<HelpTOCNode Title="LQDecompositionUnpacked(TReal2DArray,Integer,Integer,TReal2DArray,TReal2DArray)" Url="lq.LQDecompositionUnpacked.htm" />
+<HelpTOCNode Title="RMatrixLQ(TReal2DArray,Integer,Integer,TReal1DArray)" Url="lq.RMatrixLQ.htm" />
+<HelpTOCNode Title="RMatrixLQUnpackL(TReal2DArray,Integer,Integer,TReal2DArray)" Url="lq.RMatrixLQUnpackL.htm" />
+<HelpTOCNode Title="RMatrixLQUnpackQ(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="lq.RMatrixLQUnpackQ.htm" />
+<HelpTOCNode Title="UnpackQFromLQ(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="lq.UnpackQFromLQ.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="main" Url="main.htm">
+<HelpTOCNode Title="Classes" Url="main_Classes.htm">
+<HelpTOCNode Title="TfmMain" Url="main.TfmMain.htm">
+<HelpTOCNode Title="Methods" Url="main.TfmMain_Methods.htm">
+<HelpTOCNode Title="BackTesting1Click(TObject)" Url="main.TfmMain.BackTesting1Click.htm" />
+<HelpTOCNode Title="bStartClick(TObject)" Url="main.TfmMain.bStartClick.htm" />
+<HelpTOCNode Title="eeeeeee1Click(TObject)" Url="main.TfmMain.eeeeeee1Click.htm" />
+<HelpTOCNode Title="FormClose(TObject,TCloseAction)" Url="main.TfmMain.FormClose.htm" />
+<HelpTOCNode Title="FormCreate(TObject)" Url="main.TfmMain.FormCreate.htm" />
+<HelpTOCNode Title="FormDestroy(TObject)" Url="main.TfmMain.FormDestroy.htm" />
+<HelpTOCNode Title="FormShow(TObject)" Url="main.TfmMain.FormShow.htm" />
+<HelpTOCNode Title="N2Click(TObject)" Url="main.TfmMain.N2Click.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="main.TfmMain_Fields.htm">
+<HelpTOCNode Title="actlst1" Url="main.TfmMain.actlst1.htm" />
+<HelpTOCNode Title="Arrange1" Url="main.TfmMain.Arrange1.htm" />
+<HelpTOCNode Title="BackTesting1" Url="main.TfmMain.BackTesting1.htm" />
+<HelpTOCNode Title="bStart" Url="main.TfmMain.bStart.htm" />
+<HelpTOCNode Title="eeeeeee1" Url="main.TfmMain.eeeeeee1.htm" />
+<HelpTOCNode Title="ErrorLog" Url="main.TfmMain.ErrorLog.htm" />
+<HelpTOCNode Title="MailingList" Url="main.TfmMain.MailingList.htm" />
+<HelpTOCNode Title="maillog" Url="main.TfmMain.maillog.htm" />
+<HelpTOCNode Title="MainLog" Url="main.TfmMain.MainLog.htm" />
+<HelpTOCNode Title="meError" Url="main.TfmMain.meError.htm" />
+<HelpTOCNode Title="meMain" Url="main.TfmMain.meMain.htm" />
+<HelpTOCNode Title="mm" Url="main.TfmMain.mm.htm" />
+<HelpTOCNode Title="mmWindows" Url="main.TfmMain.mmWindows.htm" />
+<HelpTOCNode Title="N1" Url="main.TfmMain.N1.htm" />
+<HelpTOCNode Title="N2" Url="main.TfmMain.N2.htm" />
+<HelpTOCNode Title="N3" Url="main.TfmMain.N3.htm" />
+<HelpTOCNode Title="N4" Url="main.TfmMain.N4.htm" />
+<HelpTOCNode Title="N5" Url="main.TfmMain.N5.htm" />
+<HelpTOCNode Title="N6" Url="main.TfmMain.N6.htm" />
+<HelpTOCNode Title="PageControl1" Url="main.TfmMain.PageControl1.htm" />
+<HelpTOCNode Title="paLog" Url="main.TfmMain.paLog.htm" />
+<HelpTOCNode Title="stBar" Url="main.TfmMain.stBar.htm" />
+<HelpTOCNode Title="stgMailList" Url="main.TfmMain.stgMailList.htm" />
+<HelpTOCNode Title="TabSheet1" Url="main.TfmMain.TabSheet1.htm" />
+<HelpTOCNode Title="TabSheet2" Url="main.TfmMain.TabSheet2.htm" />
+<HelpTOCNode Title="TabSheet3" Url="main.TfmMain.TabSheet3.htm" />
+<HelpTOCNode Title="wndwcscd1" Url="main.TfmMain.wndwcscd1.htm" />
+<HelpTOCNode Title="wndwmnmzl1" Url="main.TfmMain.wndwmnmzl1.htm" />
+<HelpTOCNode Title="wndwrng1" Url="main.TfmMain.wndwrng1.htm" />
+<HelpTOCNode Title="wndwtlhrzntl1" Url="main.TfmMain.wndwtlhrzntl1.htm" />
+<HelpTOCNode Title="wndwtlvrtcl1" Url="main.TfmMain.wndwtlvrtcl1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="main_Variables.htm">
+<HelpTOCNode Title="fmMain" Url="main.fmMain.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="msg" Url="msg.htm">
+<HelpTOCNode Title="Classes" Url="msg_Classes.htm">
+<HelpTOCNode Title="TfmMsg" Url="msg.TfmMsg.htm">
+<HelpTOCNode Title="Methods" Url="msg.TfmMsg_Methods.htm">
+<HelpTOCNode Title="Button1Click(TObject)" Url="msg.TfmMsg.Button1Click.htm" />
+<HelpTOCNode Title="FormShow(TObject)" Url="msg.TfmMsg.FormShow.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="msg.TfmMsg_Fields.htm">
+<HelpTOCNode Title="Button1" Url="msg.TfmMsg.Button1.htm" />
+<HelpTOCNode Title="Label1" Url="msg.TfmMsg.Label1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="msg_Variables.htm">
+<HelpTOCNode Title="fmMsg" Url="msg.fmMsg.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="qr" Url="qr.htm">
+<HelpTOCNode Title="Routines" Url="qr_Routines.htm">
+<HelpTOCNode Title="QRDecomposition(TReal2DArray,Integer,Integer,TReal1DArray)" Url="qr.QRDecomposition.htm" />
+<HelpTOCNode Title="QRDecompositionUnpacked(TReal2DArray,Integer,Integer,TReal2DArray,TReal2DArray)" Url="qr.QRDecompositionUnpacked.htm" />
+<HelpTOCNode Title="RMatrixQR(TReal2DArray,Integer,Integer,TReal1DArray)" Url="qr.RMatrixQR.htm" />
+<HelpTOCNode Title="RMatrixQRUnpackQ(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="qr.RMatrixQRUnpackQ.htm" />
+<HelpTOCNode Title="RMatrixQRUnpackR(TReal2DArray,Integer,Integer,TReal2DArray)" Url="qr.RMatrixQRUnpackR.htm" />
+<HelpTOCNode Title="UnpackQFromQR(TReal2DArray,Integer,Integer,TReal1DArray,Integer,TReal2DArray)" Url="qr.UnpackQFromQR.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="reflections" Url="reflections.htm">
+<HelpTOCNode Title="Routines" Url="reflections_Routines.htm">
+<HelpTOCNode Title="ApplyReflectionFromTheLeft(TReal2DArray,Double,TReal1DArray,Integer,Integer,Integer,Integer,TReal1DArray)" Url="reflections.ApplyReflectionFromTheLeft.htm" />
+<HelpTOCNode Title="ApplyReflectionFromTheRight(TReal2DArray,Double,TReal1DArray,Integer,Integer,Integer,Integer,TReal1DArray)" Url="reflections.ApplyReflectionFromTheRight.htm" />
+<HelpTOCNode Title="GenerateReflection(TReal1DArray,Integer,Double)" Url="reflections.GenerateReflection.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="rotations" Url="rotations.htm">
+<HelpTOCNode Title="Routines" Url="rotations_Routines.htm">
+<HelpTOCNode Title="ApplyRotationsFromTheLeft(Boolean,Integer,Integer,Integer,Integer,TReal1DArray,TReal1DArray,TReal2DArray,TReal1DArray)" Url="rotations.ApplyRotationsFromTheLeft.htm" />
+<HelpTOCNode Title="ApplyRotationsFromTheRight(Boolean,Integer,Integer,Integer,Integer,TReal1DArray,TReal1DArray,TReal2DArray,TReal1DArray)" Url="rotations.ApplyRotationsFromTheRight.htm" />
+<HelpTOCNode Title="GenerateRotation(Double,Double,Double,Double,Double)" Url="rotations.GenerateRotation.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="spline3" Url="spline3.htm">
+<HelpTOCNode Title="Routines" Url="spline3_Routines.htm">
+<HelpTOCNode Title="BuildAkimaSpline(TReal1DArray,TReal1DArray,Integer,TReal1DArray)" Url="spline3.BuildAkimaSpline.htm" />
+<HelpTOCNode Title="BuildCubicSpline(TReal1DArray,TReal1DArray,Integer,Integer,Double,Integer,Double,TReal1DArray)" Url="spline3.BuildCubicSpline.htm" />
+<HelpTOCNode Title="BuildHermiteSpline(TReal1DArray,TReal1DArray,TReal1DArray,Integer,TReal1DArray)" Url="spline3.BuildHermiteSpline.htm" />
+<HelpTOCNode Title="BuildLinearSpline(TReal1DArray,TReal1DArray,Integer,TReal1DArray)" Url="spline3.BuildLinearSpline.htm" />
+<HelpTOCNode Title="DiffThreePoint(Double,Double,Double,Double,Double,Double,Double)" Url="spline3.DiffThreePoint.htm" />
+<HelpTOCNode Title="HeapSortDPoints(TReal1DArray,TReal1DArray,TReal1DArray,Integer)" Url="spline3.HeapSortDPoints.htm" />
+<HelpTOCNode Title="HeapSortPoints(TReal1DArray,TReal1DArray,Integer)" Url="spline3.HeapSortPoints.htm" />
+<HelpTOCNode Title="SolveTridiagonal(TReal1DArray,TReal1DArray,TReal1DArray,TReal1DArray,Integer,TReal1DArray)" Url="spline3.SolveTridiagonal.htm" />
+<HelpTOCNode Title="Spline3BuildTable(Integer,Integer,TReal1DArray,TReal1DArray,Double,Double,TReal2DArray)" Url="spline3.Spline3BuildTable.htm" />
+<HelpTOCNode Title="Spline3Interpolate(Integer,TReal2DArray,Double)" Url="spline3.Spline3Interpolate.htm" />
+<HelpTOCNode Title="SplineCopy(TReal1DArray,TReal1DArray)" Url="spline3.SplineCopy.htm" />
+<HelpTOCNode Title="SplineDifferentiation(TReal1DArray,Double,Double,Double,Double)" Url="spline3.SplineDifferentiation.htm" />
+<HelpTOCNode Title="SplineIntegration(TReal1DArray,Double)" Url="spline3.SplineIntegration.htm" />
+<HelpTOCNode Title="SplineInterpolation(TReal1DArray,Double)" Url="spline3.SplineInterpolation.htm" />
+<HelpTOCNode Title="SplineLinTransX(TReal1DArray,Double,Double)" Url="spline3.SplineLinTransX.htm" />
+<HelpTOCNode Title="SplineLinTransY(TReal1DArray,Double,Double)" Url="spline3.SplineLinTransY.htm" />
+<HelpTOCNode Title="SplineUnpack(TReal1DArray,Integer,TReal2DArray)" Url="spline3.SplineUnpack.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="strategy.impl" Url="strategy.impl.htm" />
+<HelpTOCNode Title="StrategyForm" Url="StrategyForm.htm">
+<HelpTOCNode Title="Classes" Url="StrategyForm_Classes.htm">
+<HelpTOCNode Title="TfmStrategy" Url="StrategyForm.TfmStrategy.htm">
+<HelpTOCNode Title="Methods" Url="StrategyForm.TfmStrategy_Methods.htm">
+<HelpTOCNode Title="bbCursorClick(TObject)" Url="StrategyForm.TfmStrategy.bbCursorClick.htm" />
+<HelpTOCNode Title="bbEditClick(TObject)" Url="StrategyForm.TfmStrategy.bbEditClick.htm" />
+<HelpTOCNode Title="bbExportClick(TObject)" Url="StrategyForm.TfmStrategy.bbExportClick.htm" />
+<HelpTOCNode Title="bbLastClick(TObject)" Url="StrategyForm.TfmStrategy.bbLastClick.htm" />
+<HelpTOCNode Title="bbpaDataClick(TObject)" Url="StrategyForm.TfmStrategy.bbpaDataClick.htm" />
+<HelpTOCNode Title="bbScrollClick(TObject)" Url="StrategyForm.TfmStrategy.bbScrollClick.htm" />
+<HelpTOCNode Title="btn7Click(TObject)" Url="StrategyForm.TfmStrategy.btn7Click.htm" />
+<HelpTOCNode Title="Button6Click(TObject)" Url="StrategyForm.TfmStrategy.Button6Click.htm" />
+<HelpTOCNode Title="CalcWidthMarkDB" Url="StrategyForm.TfmStrategy.CalcWidthMarkDB.htm" />
+<HelpTOCNode Title="ChartEditorClose(TObject)" Url="StrategyForm.TfmStrategy.ChartEditorClose.htm" />
+<HelpTOCNode Title="DBChartAfterDraw(TObject)" Url="StrategyForm.TfmStrategy.DBChartAfterDraw.htm" />
+<HelpTOCNode Title="dbChartCursorChange(TCursorTool,Integer,Integer,Double,Double,TChartSeries,Integer)" Url="StrategyForm.TfmStrategy.dbChartCursorChange.htm" />
+<HelpTOCNode Title="DBChartHintGetText(TMarksTipTool,string)" Url="StrategyForm.TfmStrategy.DBChartHintGetText.htm" />
+<HelpTOCNode Title="DBChartKeyDown(TObject,Word,TShiftState)" Url="StrategyForm.TfmStrategy.DBChartKeyDown.htm" />
+<HelpTOCNode Title="DBChartResize(TObject)" Url="StrategyForm.TfmStrategy.DBChartResize.htm" />
+<HelpTOCNode Title="DBChartScroll(TObject)" Url="StrategyForm.TfmStrategy.DBChartScroll.htm" />
+<HelpTOCNode Title="DBChartUndoZoom(TObject)" Url="StrategyForm.TfmStrategy.DBChartUndoZoom.htm" />
+<HelpTOCNode Title="DBChartZoom(TObject)" Url="StrategyForm.TfmStrategy.DBChartZoom.htm" />
+<HelpTOCNode Title="DBchtScrollMainScroll(TObject,TScrollCode,Integer)" Url="StrategyForm.TfmStrategy.DBchtScrollMainScroll.htm" />
+<HelpTOCNode Title="dbgMainCellClick(TColumn)" Url="StrategyForm.TfmStrategy.dbgMainCellClick.htm" />
+<HelpTOCNode Title="FormClose(TObject,TCloseAction)" Url="StrategyForm.TfmStrategy.FormClose.htm" />
+<HelpTOCNode Title="FormCreate(TObject)" Url="StrategyForm.TfmStrategy.FormCreate.htm" />
+<HelpTOCNode Title="LoadTee" Url="StrategyForm.TfmStrategy.LoadTee.htm" />
+<HelpTOCNode Title="pcDataChange(TObject)" Url="StrategyForm.TfmStrategy.pcDataChange.htm" />
+<HelpTOCNode Title="ScrollPagerScrolled(TObject)" Url="StrategyForm.TfmStrategy.ScrollPagerScrolled.htm" />
+<HelpTOCNode Title="seChange(TObject)" Url="StrategyForm.TfmStrategy.seChange.htm" />
+<HelpTOCNode Title="ToolButton2Click(TObject)" Url="StrategyForm.TfmStrategy.ToolButton2Click.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="StrategyForm.TfmStrategy_Fields.htm">
+<HelpTOCNode Title="ActionList" Url="StrategyForm.TfmStrategy.ActionList.htm" />
+<HelpTOCNode Title="bbCursor" Url="StrategyForm.TfmStrategy.bbCursor.htm" />
+<HelpTOCNode Title="bbEdit" Url="StrategyForm.TfmStrategy.bbEdit.htm" />
+<HelpTOCNode Title="bbExport" Url="StrategyForm.TfmStrategy.bbExport.htm" />
+<HelpTOCNode Title="bbLast" Url="StrategyForm.TfmStrategy.bbLast.htm" />
+<HelpTOCNode Title="bbpaData" Url="StrategyForm.TfmStrategy.bbpaData.htm" />
+<HelpTOCNode Title="bbScroll" Url="StrategyForm.TfmStrategy.bbScroll.htm" />
+<HelpTOCNode Title="Blue" Url="StrategyForm.TfmStrategy.Blue.htm" />
+<HelpTOCNode Title="btn1" Url="StrategyForm.TfmStrategy.btn1.htm" />
+<HelpTOCNode Title="btn2" Url="StrategyForm.TfmStrategy.btn2.htm" />
+<HelpTOCNode Title="btn7" Url="StrategyForm.TfmStrategy.btn7.htm" />
+<HelpTOCNode Title="btnDBChartPrint1" Url="StrategyForm.TfmStrategy.btnDBChartPrint1.htm" />
+<HelpTOCNode Title="Button5" Url="StrategyForm.TfmStrategy.Button5.htm" />
+<HelpTOCNode Title="Button6" Url="StrategyForm.TfmStrategy.Button6.htm" />
+<HelpTOCNode Title="Button8" Url="StrategyForm.TfmStrategy.Button8.htm" />
+<HelpTOCNode Title="ChartActionEdit1" Url="StrategyForm.TfmStrategy.ChartActionEdit1.htm" />
+<HelpTOCNode Title="ChartEditor" Url="StrategyForm.TfmStrategy.ChartEditor.htm" />
+<HelpTOCNode Title="DBChart" Url="StrategyForm.TfmStrategy.DBChart.htm" />
+<HelpTOCNode Title="dbChartCursor" Url="StrategyForm.TfmStrategy.dbChartCursor.htm" />
+<HelpTOCNode Title="DBChartEdit" Url="StrategyForm.TfmStrategy.DBChartEdit.htm" />
+<HelpTOCNode Title="DBChartHint" Url="StrategyForm.TfmStrategy.DBChartHint.htm" />
+<HelpTOCNode Title="DBChartPrint" Url="StrategyForm.TfmStrategy.DBChartPrint.htm" />
+<HelpTOCNode Title="DBChartSave" Url="StrategyForm.TfmStrategy.DBChartSave.htm" />
+<HelpTOCNode Title="DBchtScrollMain" Url="StrategyForm.TfmStrategy.DBchtScrollMain.htm" />
+<HelpTOCNode Title="dbgMain" Url="StrategyForm.TfmStrategy.dbgMain.htm" />
+<HelpTOCNode Title="dbgSignals" Url="StrategyForm.TfmStrategy.dbgSignals.htm" />
+<HelpTOCNode Title="drwlntlChartTool1" Url="StrategyForm.TfmStrategy.drwlntlChartTool1.htm" />
+<HelpTOCNode Title="dsMain" Url="StrategyForm.TfmStrategy.dsMain.htm" />
+<HelpTOCNode Title="dsSignals" Url="StrategyForm.TfmStrategy.dsSignals.htm" />
+<HelpTOCNode Title="DT" Url="StrategyForm.TfmStrategy.DT.htm" />
+<HelpTOCNode Title="extndfldVirtualTablevVolume" Url="StrategyForm.TfmStrategy.extndfldVirtualTablevVolume.htm" />
+<HelpTOCNode Title="Green" Url="StrategyForm.TfmStrategy.Green.htm" />
+<HelpTOCNode Title="ImageCollection1" Url="StrategyForm.TfmStrategy.ImageCollection1.htm" />
+<HelpTOCNode Title="lrgntfldIndikatorsid" Url="StrategyForm.TfmStrategy.lrgntfldIndikatorsid.htm" />
+<HelpTOCNode Title="meError" Url="StrategyForm.TfmStrategy.meError.htm" />
+<HelpTOCNode Title="meStragegyInfo" Url="StrategyForm.TfmStrategy.meStragegyInfo.htm" />
+<HelpTOCNode Title="N1" Url="StrategyForm.TfmStrategy.N1.htm" />
+<HelpTOCNode Title="OnLegendPoint" Url="StrategyForm.TfmStrategy.OnLegendPoint.htm" />
+<HelpTOCNode Title="OnSeriesPoint" Url="StrategyForm.TfmStrategy.OnSeriesPoint.htm" />
+<HelpTOCNode Title="paChart" Url="StrategyForm.TfmStrategy.paChart.htm" />
+<HelpTOCNode Title="paData" Url="StrategyForm.TfmStrategy.paData.htm" />
+<HelpTOCNode Title="pcData" Url="StrategyForm.TfmStrategy.pcData.htm" />
+<HelpTOCNode Title="PopupMenu" Url="StrategyForm.TfmStrategy.PopupMenu.htm" />
+<HelpTOCNode Title="price" Url="StrategyForm.TfmStrategy.price.htm" />
+<HelpTOCNode Title="sBuy_" Url="StrategyForm.TfmStrategy.sBuy_.htm" />
+<HelpTOCNode Title="sCandle_" Url="StrategyForm.TfmStrategy.sCandle_.htm" />
+<HelpTOCNode Title="ScrollPager" Url="StrategyForm.TfmStrategy.ScrollPager.htm" />
+<HelpTOCNode Title="se" Url="StrategyForm.TfmStrategy.se.htm" />
+<HelpTOCNode Title="SeriesTextSource1" Url="StrategyForm.TfmStrategy.SeriesTextSource1.htm" />
+<HelpTOCNode Title="signal" Url="StrategyForm.TfmStrategy.signal.htm" />
+<HelpTOCNode Title="sInd1" Url="StrategyForm.TfmStrategy.sInd1.htm" />
+<HelpTOCNode Title="sInd2" Url="StrategyForm.TfmStrategy.sInd2.htm" />
+<HelpTOCNode Title="spl1" Url="StrategyForm.TfmStrategy.spl1.htm" />
+<HelpTOCNode Title="spl2" Url="StrategyForm.TfmStrategy.spl2.htm" />
+<HelpTOCNode Title="sSell_" Url="StrategyForm.TfmStrategy.sSell_.htm" />
+<HelpTOCNode Title="sVolume_" Url="StrategyForm.TfmStrategy.sVolume_.htm" />
+<HelpTOCNode Title="TabSheet4" Url="StrategyForm.TfmStrategy.TabSheet4.htm" />
+<HelpTOCNode Title="taIndikators" Url="StrategyForm.TfmStrategy.taIndikators.htm" />
+<HelpTOCNode Title="taIndikatorsdt" Url="StrategyForm.TfmStrategy.taIndikatorsdt.htm" />
+<HelpTOCNode Title="taIndikatorsind2" Url="StrategyForm.TfmStrategy.taIndikatorsind2.htm" />
+<HelpTOCNode Title="taIndikatorsvInd1" Url="StrategyForm.TfmStrategy.taIndikatorsvInd1.htm" />
+<HelpTOCNode Title="taIndikatorsvXlabel" Url="StrategyForm.TfmStrategy.taIndikatorsvXlabel.htm" />
+<HelpTOCNode Title="taSignals" Url="StrategyForm.TfmStrategy.taSignals.htm" />
+<HelpTOCNode Title="TeeXMLSource1" Url="StrategyForm.TfmStrategy.TeeXMLSource1.htm" />
+<HelpTOCNode Title="tlb1" Url="StrategyForm.TfmStrategy.tlb1.htm" />
+<HelpTOCNode Title="ToolButton2" Url="StrategyForm.TfmStrategy.ToolButton2.htm" />
+<HelpTOCNode Title="ts2" Url="StrategyForm.TfmStrategy.ts2.htm" />
+<HelpTOCNode Title="tshMain" Url="StrategyForm.TfmStrategy.tshMain.htm" />
+<HelpTOCNode Title="tshSignals" Url="StrategyForm.TfmStrategy.tshSignals.htm" />
+<HelpTOCNode Title="VirtualTable" Url="StrategyForm.TfmStrategy.VirtualTable.htm" />
+<HelpTOCNode Title="VirtualTableASSETID" Url="StrategyForm.TfmStrategy.VirtualTableASSETID.htm" />
+<HelpTOCNode Title="VirtualTableDT" Url="StrategyForm.TfmStrategy.VirtualTableDT.htm" />
+<HelpTOCNode Title="VirtualTablePRICE" Url="StrategyForm.TfmStrategy.VirtualTablePRICE.htm" />
+<HelpTOCNode Title="VirtualTableSIGNAL" Url="StrategyForm.TfmStrategy.VirtualTableSIGNAL.htm" />
+<HelpTOCNode Title="VirtualTablevBuy" Url="StrategyForm.TfmStrategy.VirtualTablevBuy.htm" />
+<HelpTOCNode Title="VirtualTablevClose" Url="StrategyForm.TfmStrategy.VirtualTablevClose.htm" />
+<HelpTOCNode Title="VirtualTablevDate" Url="StrategyForm.TfmStrategy.VirtualTablevDate.htm" />
+<HelpTOCNode Title="VirtualTablevHigh" Url="StrategyForm.TfmStrategy.VirtualTablevHigh.htm" />
+<HelpTOCNode Title="VirtualTablevInd1" Url="StrategyForm.TfmStrategy.VirtualTablevInd1.htm" />
+<HelpTOCNode Title="VirtualTablevInd2" Url="StrategyForm.TfmStrategy.VirtualTablevInd2.htm" />
+<HelpTOCNode Title="VirtualTablevLow" Url="StrategyForm.TfmStrategy.VirtualTablevLow.htm" />
+<HelpTOCNode Title="VirtualTablevOpen" Url="StrategyForm.TfmStrategy.VirtualTablevOpen.htm" />
+<HelpTOCNode Title="VirtualTablevSell" Url="StrategyForm.TfmStrategy.VirtualTablevSell.htm" />
+<HelpTOCNode Title="VirtualTablevXlabel" Url="StrategyForm.TfmStrategy.VirtualTablevXlabel.htm" />
+<HelpTOCNode Title="vrtlmglst1" Url="StrategyForm.TfmStrategy.vrtlmglst1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="StrategyTune" Url="StrategyTune.htm">
+<HelpTOCNode Title="Classes" Url="StrategyTune_Classes.htm">
+<HelpTOCNode Title="TfmStrategyTune" Url="StrategyTune.TfmStrategyTune.htm">
+<HelpTOCNode Title="Methods" Url="StrategyTune.TfmStrategyTune_Methods.htm">
+<HelpTOCNode Title="bStartClick(TObject)" Url="StrategyTune.TfmStrategyTune.bStartClick.htm" />
+<HelpTOCNode Title="dbgrdCellClick(TColumn)" Url="StrategyTune.TfmStrategyTune.dbgrdCellClick.htm" />
+<HelpTOCNode Title="dbgrdDrawColumnCell(TObject,TRect,Integer,TColumn,TGridDrawState)" Url="StrategyTune.TfmStrategyTune.dbgrdDrawColumnCell.htm" />
+<HelpTOCNode Title="FormClose(TObject,TCloseAction)" Url="StrategyTune.TfmStrategyTune.FormClose.htm" />
+<HelpTOCNode Title="FormShow(TObject)" Url="StrategyTune.TfmStrategyTune.FormShow.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="StrategyTune.TfmStrategyTune_Fields.htm">
+<HelpTOCNode Title="bStart" Url="StrategyTune.TfmStrategyTune.bStart.htm" />
+<HelpTOCNode Title="dbgrd" Url="StrategyTune.TfmStrategyTune.dbgrd.htm" />
+<HelpTOCNode Title="dbgSysParams" Url="StrategyTune.TfmStrategyTune.dbgSysParams.htm" />
+<HelpTOCNode Title="DBNavigator1" Url="StrategyTune.TfmStrategyTune.DBNavigator1.htm" />
+<HelpTOCNode Title="dtpBegin" Url="StrategyTune.TfmStrategyTune.dtpBegin.htm" />
+<HelpTOCNode Title="lbl1" Url="StrategyTune.TfmStrategyTune.lbl1.htm" />
+<HelpTOCNode Title="Panel1" Url="StrategyTune.TfmStrategyTune.Panel1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="StrategyTune_Variables.htm">
+<HelpTOCNode Title="fmStrategyTune" Url="StrategyTune.fmStrategyTune.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="svd" Url="svd.htm">
+<HelpTOCNode Title="Routines" Url="svd_Routines.htm">
+<HelpTOCNode Title="RMatrixSVD(TReal2DArray,Integer,Integer,Integer,Integer,Integer,TReal1DArray,TReal2DArray,TReal2DArray)" Url="svd.RMatrixSVD.htm" />
+<HelpTOCNode Title="SVDDecomposition(TReal2DArray,Integer,Integer,Integer,Integer,Integer,TReal1DArray,TReal2DArray,TReal2DArray)" Url="svd.SVDDecomposition.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TEma" Url="TEma.htm">
+<HelpTOCNode Title="Classes" Url="TEma_Classes.htm">
+<HelpTOCNode Title="TEmaClass" Url="TEma.TEmaClass.htm">
+<HelpTOCNode Title="Constructors" Url="TEma.TEmaClass_Constructors.htm">
+<HelpTOCNode Title="create(TAssetRecord,TParamList)" Url="TEma.TEmaClass.create.htm" />
+<HelpTOCNode Title="Destroy" Url="TEma.TEmaClass.Destroy.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Properties" Url="TEma.TEmaClass_Properties.htm">
+<HelpTOCNode Title="Asset" Url="TEma.TEmaClass.Asset.htm" />
+<HelpTOCNode Title="SignalStorage" Url="TEma.TEmaClass.SignalStorage.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="TEma.TEmaClass_Methods.htm">
+<HelpTOCNode Title="execute" Url="TEma.TEmaClass.execute.htm" />
+<HelpTOCNode Title="FindInd(string)" Url="TEma.TEmaClass.FindInd.htm" />
+<HelpTOCNode Title="GetAsset" Url="TEma.TEmaClass.GetAsset.htm" />
+<HelpTOCNode Title="getCurrentDecision(String)" Url="TEma.TEmaClass.getCurrentDecision.htm" />
+<HelpTOCNode Title="GetIndDict" Url="TEma.TEmaClass.GetIndDict.htm" />
+<HelpTOCNode Title="GetSignalStorage" Url="TEma.TEmaClass.GetSignalStorage.htm" />
+<HelpTOCNode Title="SetAsset(TAssetRecord)" Url="TEma.TEmaClass.SetAsset.htm" />
+<HelpTOCNode Title="SetIndDict(TParamList)" Url="TEma.TEmaClass.SetIndDict.htm" />
+<HelpTOCNode Title="SetSignalStorage(SAR)" Url="TEma.TEmaClass.SetSignalStorage.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="TEma.TEmaClass_Fields.htm">
+<HelpTOCNode Title="fAsset" Url="TEma.TEmaClass.fAsset.htm" />
+<HelpTOCNode Title="FastPeriod" Url="TEma.TEmaClass.FastPeriod.htm" />
+<HelpTOCNode Title="fDict" Url="TEma.TEmaClass.fDict.htm" />
+<HelpTOCNode Title="FOnMyEvent" Url="TEma.TEmaClass.FOnMyEvent.htm" />
+<HelpTOCNode Title="fSignalStorage" Url="TEma.TEmaClass.fSignalStorage.htm" />
+<HelpTOCNode Title="fTemp" Url="TEma.TEmaClass.fTemp.htm" />
+<HelpTOCNode Title="SlowPeriod" Url="TEma.TEmaClass.SlowPeriod.htm" />
+<HelpTOCNode Title="tema1Indicator" Url="TEma.TEmaClass.tema1Indicator.htm" />
+<HelpTOCNode Title="tema2Indicator" Url="TEma.TEmaClass.tema2Indicator.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Records" Url="TEma_Records.htm">
+<HelpTOCNode Title="EMAIndicator" Url="TEma.EMAIndicator.htm">
+<HelpTOCNode Title="Constructors" Url="TEma.EMAIndicator_Constructors.htm">
+<HelpTOCNode Title="create(Real,Integer,String)" Url="TEma.EMAIndicator.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="TEma.EMAIndicator_Methods.htm">
+<HelpTOCNode Title="init(AOR)" Url="TEma.EMAIndicator.init.htm" />
+<HelpTOCNode Title="new_value(Real)" Url="TEma.EMAIndicator.new_value.htm" />
+<HelpTOCNode Title="update_value(Real)" Url="TEma.EMAIndicator.update_value.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="TEma.EMAIndicator_Fields.htm">
+<HelpTOCNode Title="method" Url="TEma.EMAIndicator.method.htm" />
+<HelpTOCNode Title="num_periods" Url="TEma.EMAIndicator.num_periods.htm" />
+<HelpTOCNode Title="storage" Url="TEma.EMAIndicator.storage.htm" />
+<HelpTOCNode Title="value" Url="TEma.EMAIndicator.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="TEMAIndicator" Url="TEma.TEMAIndicator.htm">
+<HelpTOCNode Title="Constructors" Url="TEma.TEMAIndicator_Constructors.htm">
+<HelpTOCNode Title="create(Real,Integer,String)" Url="TEma.TEMAIndicator.create.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Methods" Url="TEma.TEMAIndicator_Methods.htm">
+<HelpTOCNode Title="getDelayedValue(integer)" Url="TEma.TEMAIndicator.getDelayedValue.htm" />
+<HelpTOCNode Title="init(AOR)" Url="TEma.TEMAIndicator.init.htm" />
+<HelpTOCNode Title="new_value(Real)" Url="TEma.TEMAIndicator.new_value.htm" />
+<HelpTOCNode Title="update_value(Real)" Url="TEma.TEMAIndicator.update_value.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="TEma.TEMAIndicator_Fields.htm">
+<HelpTOCNode Title="emaIndicator1" Url="TEma.TEMAIndicator.emaIndicator1.htm" />
+<HelpTOCNode Title="emaIndicator2" Url="TEma.TEMAIndicator.emaIndicator2.htm" />
+<HelpTOCNode Title="emaIndicator3" Url="TEma.TEMAIndicator.emaIndicator3.htm" />
+<HelpTOCNode Title="method" Url="TEma.TEMAIndicator.method.htm" />
+<HelpTOCNode Title="num_periods" Url="TEma.TEMAIndicator.num_periods.htm" />
+<HelpTOCNode Title="storage" Url="TEma.TEMAIndicator.storage.htm" />
+<HelpTOCNode Title="value" Url="TEma.TEMAIndicator.value.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="uAlertForm" Url="uAlertForm.htm">
+<HelpTOCNode Title="Classes" Url="uAlertForm_Classes.htm">
+<HelpTOCNode Title="TalertForm" Url="uAlertForm.TalertForm.htm">
+<HelpTOCNode Title="Methods" Url="uAlertForm.TalertForm_Methods.htm">
+<HelpTOCNode Title="Button1Click(TObject)" Url="uAlertForm.TalertForm.Button1Click.htm" />
+<HelpTOCNode Title="Button2Click(TObject)" Url="uAlertForm.TalertForm.Button2Click.htm" />
+<HelpTOCNode Title="FormCreate(TObject)" Url="uAlertForm.TalertForm.FormCreate.htm" />
+<HelpTOCNode Title="Timer1Timer(TObject)" Url="uAlertForm.TalertForm.Timer1Timer.htm" />
+</HelpTOCNode>
+<HelpTOCNode Title="Fields" Url="uAlertForm.TalertForm_Fields.htm">
+<HelpTOCNode Title="appMakerAlerterLog" Url="uAlertForm.TalertForm.appMakerAlerterLog.htm" />
+<HelpTOCNode Title="balanceAlerterLog" Url="uAlertForm.TalertForm.balanceAlerterLog.htm" />
+<HelpTOCNode Title="breakDownLog" Url="uAlertForm.TalertForm.breakDownLog.htm" />
+<HelpTOCNode Title="errorLog" Url="uAlertForm.TalertForm.errorLog.htm" />
+<HelpTOCNode Title="mainSystemLog" Url="uAlertForm.TalertForm.mainSystemLog.htm" />
+<HelpTOCNode Title="pageControl1" Url="uAlertForm.TalertForm.pageControl1.htm" />
+<HelpTOCNode Title="priceAlerterLog" Url="uAlertForm.TalertForm.priceAlerterLog.htm" />
+<HelpTOCNode Title="smsLog" Url="uAlertForm.TalertForm.smsLog.htm" />
+<HelpTOCNode Title="StoptakeLog" Url="uAlertForm.TalertForm.StoptakeLog.htm" />
+<HelpTOCNode Title="TabSheet1" Url="uAlertForm.TalertForm.TabSheet1.htm" />
+<HelpTOCNode Title="TabSheet2" Url="uAlertForm.TalertForm.TabSheet2.htm" />
+<HelpTOCNode Title="TabSheet3" Url="uAlertForm.TalertForm.TabSheet3.htm" />
+<HelpTOCNode Title="TabSheet4" Url="uAlertForm.TalertForm.TabSheet4.htm" />
+<HelpTOCNode Title="TabSheet5" Url="uAlertForm.TalertForm.TabSheet5.htm" />
+<HelpTOCNode Title="TabSheet6" Url="uAlertForm.TalertForm.TabSheet6.htm" />
+<HelpTOCNode Title="TabSheet7" Url="uAlertForm.TalertForm.TabSheet7.htm" />
+<HelpTOCNode Title="TabSheet8" Url="uAlertForm.TalertForm.TabSheet8.htm" />
+<HelpTOCNode Title="Timer1" Url="uAlertForm.TalertForm.Timer1.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+<HelpTOCNode Title="Variables" Url="uAlertForm_Variables.htm">
+<HelpTOCNode Title="alertForm" Url="uAlertForm.alertForm.htm" />
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOCNode>
+</HelpTOC>
