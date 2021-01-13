@@ -1,0 +1,6237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpIndex SYSTEM "MS-Help://hx/resources/HelpIndex.DTD">
+<HelpIndex
+Name="K"
+Visible="Yes"
+DTDVersion="1.0"
+FileVersion="1.0"
+LangId="1049">
+<Keyword Term="AbsComplex(Complex)">
+<Jump Url="Ap.AbsComplex.htm"/>
+</Keyword>
+
+<Keyword Term="AbsInt(Integer)">
+<Jump Url="Ap.AbsInt.htm"/>
+</Keyword>
+
+<Keyword Term="AbsReal(Extended)">
+<Jump Url="Ap.AbsReal.htm"/>
+</Keyword>
+
+<Keyword Term="alertForm">
+<Jump Url="uAlertForm.alertForm.htm"/>
+</Keyword>
+
+<Keyword Term="AOAOS">
+<Jump Url="dtypes.AOAOS.htm"/>
+</Keyword>
+
+<Keyword Term="AOR">
+<Jump Url="CommonTypes.AOR.htm"/>
+</Keyword>
+
+<Keyword Term="AOS">
+<Jump Url="dtypes.AOS.htm"/>
+</Keyword>
+
+<Keyword Term="Ap">
+<Jump Url="Ap.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.Complex">
+<Jump Url="Ap.Complex.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.PDouble">
+<Jump Url="Ap.PDouble.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TBoolean1DArray">
+<Jump Url="Ap.TBoolean1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TBoolean2DArray">
+<Jump Url="Ap.TBoolean2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TComplex1DArray">
+<Jump Url="Ap.TComplex1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TComplex2DArray">
+<Jump Url="Ap.TComplex2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TInteger1DArray">
+<Jump Url="Ap.TInteger1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TInteger2DArray">
+<Jump Url="Ap.TInteger2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TReal1DArray">
+<Jump Url="Ap.TReal1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="Ap.TReal2DArray">
+<Jump Url="Ap.TReal2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="ApplyReflectionFromTheLeft(TReal2DArray%2CDouble%2CTReal1DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="reflections.ApplyReflectionFromTheLeft.htm"/>
+</Keyword>
+
+<Keyword Term="ApplyReflectionFromTheRight(TReal2DArray%2CDouble%2CTReal1DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="reflections.ApplyReflectionFromTheRight.htm"/>
+</Keyword>
+
+<Keyword Term="ApplyRotationsFromTheLeft(Boolean%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray%2CTReal1DArray%2CTReal2DArray%2CTReal1DArray)">
+<Jump Url="rotations.ApplyRotationsFromTheLeft.htm"/>
+</Keyword>
+
+<Keyword Term="ApplyRotationsFromTheRight(Boolean%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray%2CTReal1DArray%2CTReal2DArray%2CTReal1DArray)">
+<Jump Url="rotations.ApplyRotationsFromTheRight.htm"/>
+</Keyword>
+
+<Keyword Term="APVAdd(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger)">
+<Jump Url="Ap.APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="APVAdd(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger%2CReal)">
+<Jump Url="Ap.APVAdd(PDouble,Integer,Integer,PDouble,Integer,Integer,Real).htm"/>
+</Keyword>
+
+<Keyword Term="APVDotProduct(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger)">
+<Jump Url="Ap.APVDotProduct.htm"/>
+</Keyword>
+
+<Keyword Term="APVMove(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger)">
+<Jump Url="Ap.APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="APVMove(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger%2CDouble)">
+<Jump Url="Ap.APVMove(PDouble,Integer,Integer,PDouble,Integer,Integer,Double).htm"/>
+</Keyword>
+
+<Keyword Term="APVMoveNeg(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger)">
+<Jump Url="Ap.APVMoveNeg.htm"/>
+</Keyword>
+
+<Keyword Term="APVMul(PDouble%2CInteger%2CInteger%2CReal)">
+<Jump Url="Ap.APVMul.htm"/>
+</Keyword>
+
+<Keyword Term="APVSub(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger)">
+<Jump Url="Ap.APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer).htm"/>
+</Keyword>
+
+<Keyword Term="APVSub(PDouble%2CInteger%2CInteger%2CPDouble%2CInteger%2CInteger%2CReal)">
+<Jump Url="Ap.APVSub(PDouble,Integer,Integer,PDouble,Integer,Integer,Real).htm"/>
+</Keyword>
+
+<Keyword Term="ArrayTClassGA">
+<Jump Url="GA.ArrayTClassGA.htm"/>
+</Keyword>
+
+<Keyword Term="asset">
+<Jump Url="BackTesting.asset.htm"/>
+</Keyword>
+
+<Keyword Term="BackTesting">
+<Jump Url="BackTesting.htm"/>
+</Keyword>
+
+<Keyword Term="BackTesting.TfmBackTest">
+<Jump Url="BackTesting.TfmBackTest.htm"/>
+</Keyword>
+
+<Keyword Term="BackTesting.TProgressOracle">
+<Jump Url="BackTesting.TProgressOracle.htm"/>
+</Keyword>
+
+<Keyword Term="BackTestTune">
+<Jump Url="BackTestTune.htm"/>
+</Keyword>
+
+<Keyword Term="BackTestTune.TfmBTTune">
+<Jump Url="BackTestTune.TfmBTTune.htm"/>
+</Keyword>
+
+<Keyword Term="bdsvd">
+<Jump Url="bdsvd.htm"/>
+</Keyword>
+
+<Keyword Term="bidiagonal">
+<Jump Url="bidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="BidiagonalSVDDecomposition(TReal1DArray%2CTReal1DArray%2CInteger%2CBoolean%2CBoolean%2CTReal2DArray%2CInteger%2CTReal2DArray%2CInteger%2CTReal2DArray%2CInteger)">
+<Jump Url="bdsvd.BidiagonalSVDDecomposition.htm"/>
+</Keyword>
+
+<Keyword Term="BidiagonalSVDDecompositionInternal(TReal1DArray%2CTReal1DArray%2CInteger%2CBoolean%2CBoolean%2CTReal2DArray%2CInteger%2CInteger%2CTReal2DArray%2CInteger%2CInteger%2CTReal2DArray%2CInteger%2CInteger)">
+<Jump Url="bdsvd.BidiagonalSVDDecompositionInternal.htm"/>
+</Keyword>
+
+<Keyword Term="blas">
+<Jump Url="blas.htm"/>
+</Keyword>
+
+<Keyword Term="BTChart">
+<Jump Url="BTChart.htm"/>
+</Keyword>
+
+<Keyword Term="BTChart.TfmBTChart">
+<Jump Url="BTChart.TfmBTChart.htm"/>
+</Keyword>
+
+<Keyword Term="BTPARAMSFILL">
+<Jump Url="BTPARAMSFILL.htm"/>
+</Keyword>
+
+<Keyword Term="BTPARAMSFILL.TfmBTPARAMSFILL">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.htm"/>
+</Keyword>
+
+<Keyword Term="BuildAkimaSpline(TReal1DArray%2CTReal1DArray%2CInteger%2CTReal1DArray)">
+<Jump Url="spline3.BuildAkimaSpline.htm"/>
+</Keyword>
+
+<Keyword Term="BuildChebyshevLeastSquares(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CDouble%2CDouble%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="leastsquares.BuildChebyshevLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="BuildChebyshevLeastSquaresConstrained(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CDouble%2CDouble%2CInteger%2CTReal1DArray%2CTReal1DArray%2CTInteger1DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="leastsquares.BuildChebyshevLeastSquaresConstrained.htm"/>
+</Keyword>
+
+<Keyword Term="BuildCubicSpline(TReal1DArray%2CTReal1DArray%2CInteger%2CInteger%2CDouble%2CInteger%2CDouble%2CTReal1DArray)">
+<Jump Url="spline3.BuildCubicSpline.htm"/>
+</Keyword>
+
+<Keyword Term="BuildGeneralLeastSquares(TReal1DArray%2CTReal1DArray%2CTReal2DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="leastsquares.BuildGeneralLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="BuildHermiteSpline(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CInteger%2CTReal1DArray)">
+<Jump Url="spline3.BuildHermiteSpline.htm"/>
+</Keyword>
+
+<Keyword Term="BuildLinearLeastSquares(TReal1DArray%2CTReal1DArray%2CInteger%2CDouble%2CDouble)">
+<Jump Url="leastsquares.BuildLinearLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="BuildLinearSpline(TReal1DArray%2CTReal1DArray%2CInteger%2CTReal1DArray)">
+<Jump Url="spline3.BuildLinearSpline.htm"/>
+</Keyword>
+
+<Keyword Term="BuildPolynomialLeastSquares(TReal1DArray%2CTReal1DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="leastsquares.BuildPolynomialLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="BuildSplineLeastSquares(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CDouble%2CDouble%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="leastsquares.BuildSplineLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="C_Add(Complex%2CComplex)">
+<Jump Url="Ap.C_Add.htm"/>
+</Keyword>
+
+<Keyword Term="C_AddR(Complex%2CDouble)">
+<Jump Url="Ap.C_AddR.htm"/>
+</Keyword>
+
+<Keyword Term="C_Complex(Double)">
+<Jump Url="Ap.C_Complex.htm"/>
+</Keyword>
+
+<Keyword Term="C_Div(Complex%2CComplex)">
+<Jump Url="Ap.C_Div.htm"/>
+</Keyword>
+
+<Keyword Term="C_DivR(Complex%2CDouble)">
+<Jump Url="Ap.C_DivR.htm"/>
+</Keyword>
+
+<Keyword Term="C_Equal(Complex%2CComplex)">
+<Jump Url="Ap.C_Equal.htm"/>
+</Keyword>
+
+<Keyword Term="C_EqualR(Complex%2CDouble)">
+<Jump Url="Ap.C_EqualR.htm"/>
+</Keyword>
+
+<Keyword Term="C_Mul(Complex%2CComplex)">
+<Jump Url="Ap.C_Mul.htm"/>
+</Keyword>
+
+<Keyword Term="C_MulR(Complex%2CDouble)">
+<Jump Url="Ap.C_MulR.htm"/>
+</Keyword>
+
+<Keyword Term="C_NotEqual(Complex%2CComplex)">
+<Jump Url="Ap.C_NotEqual.htm"/>
+</Keyword>
+
+<Keyword Term="C_NotEqualR(Complex%2CDouble)">
+<Jump Url="Ap.C_NotEqualR.htm"/>
+</Keyword>
+
+<Keyword Term="C_Opposite(Complex)">
+<Jump Url="Ap.C_Opposite.htm"/>
+</Keyword>
+
+<Keyword Term="C_RDiv(Double%2CComplex)">
+<Jump Url="Ap.C_RDiv.htm"/>
+</Keyword>
+
+<Keyword Term="C_RSub(Double%2CComplex)">
+<Jump Url="Ap.C_RSub.htm"/>
+</Keyword>
+
+<Keyword Term="C_Sub(Complex%2CComplex)">
+<Jump Url="Ap.C_Sub.htm"/>
+</Keyword>
+
+<Keyword Term="C_SubR(Complex%2CDouble)">
+<Jump Url="Ap.C_SubR.htm"/>
+</Keyword>
+
+<Keyword Term="CalculateChebyshevLeastSquares(Integer%2CTReal1DArray%2CDouble)">
+<Jump Url="leastsquares.CalculateChebyshevLeastSquares.htm"/>
+</Keyword>
+
+<Keyword Term="Catalina">
+<Jump Url="Catalina.htm"/>
+</Keyword>
+
+<Keyword Term="Catalina.EMAIndicator">
+<Jump Url="Catalina.EMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="Catalina.TCatalinaClass">
+<Jump Url="Catalina.TCatalinaClass.htm"/>
+</Keyword>
+
+<Keyword Term="Catalina.TDEMAIndicator">
+<Jump Url="Catalina.TDEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="Catalina.TEMAIndicator">
+<Jump Url="Catalina.TEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaDecMaker">
+<Jump Url="dtypes.CatalinaDecMaker.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaDecMaker.getDecision(Real%2CReal)">
+<Jump Url="dtypes.CatalinaDecMaker.getDecision.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy">
+<Jump Url="dtypes.CatalinaStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.Create(String%2CTOraStoredProc%2CTOraStoredProc%2CTOraStoredProc%2CString%2CString%2Cboolean%2CtAsset%2CTDateTime%2CInteger)">
+<Jump Url="dtypes.CatalinaStrategy.Create.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.dec">
+<Jump Url="dtypes.CatalinaStrategy.dec.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.decisionMaker">
+<Jump Url="dtypes.CatalinaStrategy.decisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.dema1Indicator">
+<Jump Url="dtypes.CatalinaStrategy.dema1Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.dema2Indicator">
+<Jump Url="dtypes.CatalinaStrategy.dema2Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.destroy">
+<Jump Url="dtypes.CatalinaStrategy.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.fastPeriod">
+<Jump Url="dtypes.CatalinaStrategy.fastPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.getCurrentDecision(String)">
+<Jump Url="dtypes.CatalinaStrategy.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.getOptPars">
+<Jump Url="dtypes.CatalinaStrategy.getOptPars.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.insertData(TDOHLC)">
+<Jump Url="dtypes.CatalinaStrategy.insertData.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.slowPeriod">
+<Jump Url="dtypes.CatalinaStrategy.slowPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="CatalinaStrategy.updateData(TDOHLC)">
+<Jump Url="dtypes.CatalinaStrategy.updateData.htm"/>
+</Keyword>
+
+<Keyword Term="ColumnIdxAbsMax(TReal2DArray%2CInteger%2CInteger%2CInteger)">
+<Jump Url="blas.ColumnIdxAbsMax.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes">
+<Jump Url="CommonTypes.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.AOR">
+<Jump Url="CommonTypes.AOR.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.EDataBaseError">
+<Jump Url="CommonTypes.EDataBaseError.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.EStrategyError">
+<Jump Url="CommonTypes.EStrategyError.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.EWrongParameteres">
+<Jump Url="CommonTypes.EWrongParameteres.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.IDealRClass">
+<Jump Url="CommonTypes.IDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.IStrategy">
+<Jump Url="CommonTypes.IStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.SAR">
+<Jump Url="CommonTypes.SAR.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TArrayDealsClass">
+<Jump Url="CommonTypes.TArrayDealsClass.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TAssetRecord">
+<Jump Url="CommonTypes.TAssetRecord.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TCalcProfit">
+<Jump Url="CommonTypes.TCalcProfit.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TDealRClass">
+<Jump Url="CommonTypes.TDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TIndParam">
+<Jump Url="CommonTypes.TIndParam.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TListParamFinRez">
+<Jump Url="CommonTypes.TListParamFinRez.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TOneDealRClass">
+<Jump Url="CommonTypes.TOneDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TParamFinRez">
+<Jump Url="CommonTypes.TParamFinRez.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TParamList">
+<Jump Url="CommonTypes.TParamList.htm"/>
+</Keyword>
+
+<Keyword Term="CommonTypes.TSignalRecord">
+<Jump Url="CommonTypes.TSignalRecord.htm"/>
+</Keyword>
+
+<Keyword Term="Complex">
+<Jump Url="Ap.Complex.htm"/>
+</Keyword>
+
+<Keyword Term="Complex.X">
+<Jump Url="Ap.Complex.X.htm"/>
+</Keyword>
+
+<Keyword Term="Complex.Y">
+<Jump Url="Ap.Complex.Y.htm"/>
+</Keyword>
+
+<Keyword Term="Conj(Complex)">
+<Jump Url="Ap.Conj.htm"/>
+</Keyword>
+
+<Keyword Term="Cont">
+<Jump Url="BackTesting.Cont.htm"/>
+</Keyword>
+
+<Keyword Term="CopyAndTranspose(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger)">
+<Jump Url="blas.CopyAndTranspose.htm"/>
+</Keyword>
+
+<Keyword Term="CopyMatrix(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger)">
+<Jump Url="blas.CopyMatrix.htm"/>
+</Keyword>
+
+<Keyword Term="CreateTClassGA(integer)">
+<Jump Url="BackTesting.CreateTClassGA.htm"/>
+</Keyword>
+
+<Keyword Term="CSqr(Complex)">
+<Jump Url="Ap.CSqr.htm"/>
+</Keyword>
+
+<Keyword Term="DA">
+<Jump Url="BTChart.DA.htm"/>
+</Keyword>
+
+<Keyword Term="DiffThreePoint(Double%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble)">
+<Jump Url="spline3.DiffThreePoint.htm"/>
+</Keyword>
+
+<Keyword Term="DM">
+<Jump Url="dmunit.DM.htm"/>
+</Keyword>
+
+<Keyword Term="dmunit">
+<Jump Url="dmunit.htm"/>
+</Keyword>
+
+<Keyword Term="dmunit.TDM">
+<Jump Url="dmunit.TDM.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes">
+<Jump Url="dtypes.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.AOAOS">
+<Jump Url="dtypes.AOAOS.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.AOS">
+<Jump Url="dtypes.AOS.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.CatalinaDecMaker">
+<Jump Url="dtypes.CatalinaDecMaker.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.CatalinaStrategy">
+<Jump Url="dtypes.CatalinaStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.Gridz">
+<Jump Url="dtypes.Gridz.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.parser">
+<Jump Url="dtypes.parser.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.Portfolio">
+<Jump Url="dtypes.Portfolio.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TDecisionMaker">
+<Jump Url="dtypes.TDecisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TEMADecisionMaker">
+<Jump Url="dtypes.TEMADecisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TEMAStrategy">
+<Jump Url="dtypes.TEMAStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.Tlog">
+<Jump Url="dtypes.Tlog.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TMailingList">
+<Jump Url="dtypes.TMailingList.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TPriceAlertMessage">
+<Jump Url="dtypes.TPriceAlertMessage.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TPriceAlertNewMsg">
+<Jump Url="dtypes.TPriceAlertNewMsg.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TSignal">
+<Jump Url="dtypes.TSignal.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TSignalizer">
+<Jump Url="dtypes.TSignalizer.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TSignalRecord">
+<Jump Url="dtypes.TSignalRecord.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.TStrategy">
+<Jump Url="dtypes.TStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="dtypes.WhereClause">
+<Jump Url="dtypes.WhereClause.htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TBoolean1DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TBoolean1DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TBoolean2DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TBoolean2DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TComplex1DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TComplex1DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TComplex2DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TComplex2DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TInteger1DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TInteger1DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TInteger2DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TInteger2DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TReal1DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TReal1DArray).htm"/>
+</Keyword>
+
+<Keyword Term="DynamicArrayCopy(TReal2DArray)">
+<Jump Url="Ap.DynamicArrayCopy(TReal2DArray).htm"/>
+</Keyword>
+
+<Keyword Term="EDataBaseError">
+<Jump Url="CommonTypes.EDataBaseError.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator">
+<Jump Url="TEma.EMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator">
+<Jump Url="Catalina.EMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.create(Real%2CInteger%2CString)">
+<Jump Url="Catalina.EMAIndicator.create.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.create(Real%2CInteger%2CString)">
+<Jump Url="TEma.EMAIndicator.create.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.init(AOR)">
+<Jump Url="Catalina.EMAIndicator.init.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.init(AOR)">
+<Jump Url="TEma.EMAIndicator.init.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.method">
+<Jump Url="Catalina.EMAIndicator.method.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.method">
+<Jump Url="TEma.EMAIndicator.method.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.new_value(Real)">
+<Jump Url="TEma.EMAIndicator.new_value.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.new_value(Real)">
+<Jump Url="Catalina.EMAIndicator.new_value.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.num_periods">
+<Jump Url="TEma.EMAIndicator.num_periods.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.num_periods">
+<Jump Url="Catalina.EMAIndicator.num_periods.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.storage">
+<Jump Url="Catalina.EMAIndicator.storage.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.storage">
+<Jump Url="TEma.EMAIndicator.storage.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.update_value(Real)">
+<Jump Url="Catalina.EMAIndicator.update_value.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.update_value(Real)">
+<Jump Url="TEma.EMAIndicator.update_value.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.value">
+<Jump Url="TEma.EMAIndicator.value.htm"/>
+</Keyword>
+
+<Keyword Term="EMAIndicator.value">
+<Jump Url="Catalina.EMAIndicator.value.htm"/>
+</Keyword>
+
+<Keyword Term="EStrategyError">
+<Jump Url="CommonTypes.EStrategyError.htm"/>
+</Keyword>
+
+<Keyword Term="EWrongParameteres">
+<Jump Url="GA.EWrongParameteres.htm"/>
+</Keyword>
+
+<Keyword Term="EWrongParameteres">
+<Jump Url="CommonTypes.EWrongParameteres.htm"/>
+</Keyword>
+
+<Keyword Term="ExtSignBDSQR(Double%2CDouble)">
+<Jump Url="bdsvd.ExtSignBDSQR.htm"/>
+</Keyword>
+
+<Keyword Term="FillTGAClass(TClassGA%2CInteger)">
+<Jump Url="BackTesting.FillTGAClass.htm"/>
+</Keyword>
+
+<Keyword Term="FillTGAClassTunes(TClassGA%2CInteger)">
+<Jump Url="BackTesting.FillTGAClassTunes.htm"/>
+</Keyword>
+
+<Keyword Term="fmBackTest">
+<Jump Url="BackTesting.fmBackTest.htm"/>
+</Keyword>
+
+<Keyword Term="fmBTChart">
+<Jump Url="BTChart.fmBTChart.htm"/>
+</Keyword>
+
+<Keyword Term="fmBTPARAMSFILL">
+<Jump Url="BTPARAMSFILL.fmBTPARAMSFILL.htm"/>
+</Keyword>
+
+<Keyword Term="fmBTTune">
+<Jump Url="BackTestTune.fmBTTune.htm"/>
+</Keyword>
+
+<Keyword Term="fmGATune">
+<Jump Url="GATune.fmGATune.htm"/>
+</Keyword>
+
+<Keyword Term="fmLog">
+<Jump Url="Log.fmLog.htm"/>
+</Keyword>
+
+<Keyword Term="fmMain">
+<Jump Url="main.fmMain.htm"/>
+</Keyword>
+
+<Keyword Term="fmMsg">
+<Jump Url="msg.fmMsg.htm"/>
+</Keyword>
+
+<Keyword Term="fmStrategyTune">
+<Jump Url="StrategyTune.fmStrategyTune.htm"/>
+</Keyword>
+
+<Keyword Term="GA">
+<Jump Url="GA.htm"/>
+</Keyword>
+
+<Keyword Term="GA.ArrayTClassGA">
+<Jump Url="GA.ArrayTClassGA.htm"/>
+</Keyword>
+
+<Keyword Term="GA.EWrongParameteres">
+<Jump Url="GA.EWrongParameteres.htm"/>
+</Keyword>
+
+<Keyword Term="GA.IGenFind">
+<Jump Url="GA.IGenFind.htm"/>
+</Keyword>
+
+<Keyword Term="GA.IProgress">
+<Jump Url="GA.IProgress.htm"/>
+</Keyword>
+
+<Keyword Term="GA.TClassGA">
+<Jump Url="GA.TClassGA.htm"/>
+</Keyword>
+
+<Keyword Term="GA.TFinishedEvent">
+<Jump Url="GA.TFinishedEvent.htm"/>
+</Keyword>
+
+<Keyword Term="GA.TGenFind">
+<Jump Url="GA.TGenFind.htm"/>
+</Keyword>
+
+<Keyword Term="GA.TProgress">
+<Jump Url="GA.TProgress.htm"/>
+</Keyword>
+
+<Keyword Term="GA.TStepEvent">
+<Jump Url="GA.TStepEvent.htm"/>
+</Keyword>
+
+<Keyword Term="GATune">
+<Jump Url="GATune.htm"/>
+</Keyword>
+
+<Keyword Term="GATune.TfmGATune">
+<Jump Url="GATune.TfmGATune.htm"/>
+</Keyword>
+
+<Keyword Term="GenerateReflection(TReal1DArray%2CInteger%2CDouble)">
+<Jump Url="reflections.GenerateReflection.htm"/>
+</Keyword>
+
+<Keyword Term="GenerateRotation(Double%2CDouble%2CDouble%2CDouble%2CDouble)">
+<Jump Url="rotations.GenerateRotation.htm"/>
+</Keyword>
+
+<Keyword Term="GetAsset(Integer%2Cinteger%2CTDateTime%2CTDateTime%2Cinteger)">
+<Jump Url="BackTesting.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="GetParamsFixed(TParamList%2CInteger)">
+<Jump Url="BackTesting.GetParamsFixed.htm"/>
+</Keyword>
+
+<Keyword Term="GetParamsTGAClass(TParamList%2CInteger)">
+<Jump Url="BackTesting.GetParamsTGAClass.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz">
+<Jump Url="dtypes.Gridz.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.clearGrid(TStringGrid)">
+<Jump Url="dtypes.Gridz.clearGrid.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.Create(TStringGrid)">
+<Jump Url="dtypes.Gridz.Create(TStringGrid).htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.fSGtoAOAOR(TStringGrid%2CInteger)">
+<Jump Url="dtypes.Gridz.fSGtoAOAOR.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.getColAddrByHeader(String)">
+<Jump Url="dtypes.Gridz.getColAddrByHeader.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.Grid">
+<Jump Url="dtypes.Gridz.Grid.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.LAOAORFFN(String%2Cchar)">
+<Jump Url="dtypes.Gridz.LAOAORFFN.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.LAOAOVFFN(String%2Cchar)">
+<Jump Url="dtypes.Gridz.LAOAOVFFN.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.LAORFFN(String)">
+<Jump Url="dtypes.Gridz.LAORFFN.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.LSGFAOAOR(TStringGrid%2CAOAOR)">
+<Jump Url="dtypes.Gridz.LSGFAOAOR.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.LSGFFN(TStringGrid%2CString%2Cchar%2Cinteger)">
+<Jump Url="dtypes.Gridz.LSGFFN.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.SAOAOVTFN(AOAOV%2CString%2Cchar)">
+<Jump Url="dtypes.Gridz.SAOAOVTFN.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.select(String%2CWhereClause[])">
+<Jump Url="dtypes.Gridz.select.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.SGtoAOAOR(TStringGrid%2CAOAOS%2CInteger%2CInteger)">
+<Jump Url="dtypes.Gridz.SGtoAOAOR.htm"/>
+</Keyword>
+
+<Keyword Term="Gridz.SSGTFN(TStringGrid%2CString%2Cchar)">
+<Jump Url="dtypes.Gridz.SSGTFN.htm"/>
+</Keyword>
+
+<Keyword Term="HeapSortDPoints(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CInteger)">
+<Jump Url="spline3.HeapSortDPoints.htm"/>
+</Keyword>
+
+<Keyword Term="HeapSortPoints(TReal1DArray%2CTReal1DArray%2CInteger)">
+<Jump Url="spline3.HeapSortPoints.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass">
+<Jump Url="CommonTypes.IDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Asset">
+<Jump Url="CommonTypes.IDealRClass.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.BackToMoney(Integer%2CTAssetRecord%2Cstring)">
+<Jump Url="CommonTypes.IDealRClass.BackToMoney.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Buy(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.IDealRClass.Buy.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.CheckStopLoss(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.IDealRClass.CheckStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.CheckTakeProfit(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.IDealRClass.CheckTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Comis">
+<Jump Url="CommonTypes.IDealRClass.Comis.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Deals">
+<Jump Url="CommonTypes.IDealRClass.Deals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetAsset">
+<Jump Url="CommonTypes.IDealRClass.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetComis">
+<Jump Url="CommonTypes.IDealRClass.GetComis.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetDeals">
+<Jump Url="CommonTypes.IDealRClass.GetDeals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetInd">
+<Jump Url="CommonTypes.IDealRClass.GetInd.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetLong">
+<Jump Url="CommonTypes.IDealRClass.GetLong.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetShort">
+<Jump Url="CommonTypes.IDealRClass.GetShort.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetSignals">
+<Jump Url="CommonTypes.IDealRClass.GetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetStopLoss">
+<Jump Url="CommonTypes.IDealRClass.GetStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetStrategy">
+<Jump Url="CommonTypes.IDealRClass.GetStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetStrategyModuleName">
+<Jump Url="CommonTypes.IDealRClass.GetStrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.GetTakeProfit">
+<Jump Url="CommonTypes.IDealRClass.GetTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Ind">
+<Jump Url="CommonTypes.IDealRClass.Ind.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Long">
+<Jump Url="CommonTypes.IDealRClass.Long.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Sell(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.IDealRClass.Sell.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetAsset(TAssetRecord)">
+<Jump Url="CommonTypes.IDealRClass.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetComis(Real)">
+<Jump Url="CommonTypes.IDealRClass.SetComis.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetDeals(TArrayDealsClass)">
+<Jump Url="CommonTypes.IDealRClass.SetDeals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetInd(TParamFinRez)">
+<Jump Url="CommonTypes.IDealRClass.SetInd.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetLong(Boolean)">
+<Jump Url="CommonTypes.IDealRClass.SetLong.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetShort(Boolean)">
+<Jump Url="CommonTypes.IDealRClass.SetShort.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetSignals(SAR)">
+<Jump Url="CommonTypes.IDealRClass.SetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetStopLoss(Integer)">
+<Jump Url="CommonTypes.IDealRClass.SetStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetStrategy(IStrategy)">
+<Jump Url="CommonTypes.IDealRClass.SetStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetStrategyModuleName(string)">
+<Jump Url="CommonTypes.IDealRClass.SetStrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.SetTakeProfit(Integer)">
+<Jump Url="CommonTypes.IDealRClass.SetTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Short">
+<Jump Url="CommonTypes.IDealRClass.Short.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Signals">
+<Jump Url="CommonTypes.IDealRClass.Signals.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.StopLoss">
+<Jump Url="CommonTypes.IDealRClass.StopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.Strategy">
+<Jump Url="CommonTypes.IDealRClass.Strategy.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.StrategyModuleName">
+<Jump Url="CommonTypes.IDealRClass.StrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="IDealRClass.TakeProfit">
+<Jump Url="CommonTypes.IDealRClass.TakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="iFURYTradeServer">
+<Jump Url="iFURYTradeServer.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind">
+<Jump Url="GA.IGenFind.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.Asset">
+<Jump Url="GA.IGenFind.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.ChildsCount">
+<Jump Url="GA.IGenFind.ChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.ComissionSize">
+<Jump Url="GA.IGenFind.ComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.DiffPercentChilds">
+<Jump Url="GA.IGenFind.DiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.Execute">
+<Jump Url="GA.IGenFind.Execute.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.ExecuteClassic">
+<Jump Url="GA.IGenFind.ExecuteClassic.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.Finished">
+<Jump Url="GA.IGenFind.Finished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.FirstGeneretionSize">
+<Jump Url="GA.IGenFind.FirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetAsset">
+<Jump Url="GA.IGenFind.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetChildsCount">
+<Jump Url="GA.IGenFind.GetChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetComissionSize">
+<Jump Url="GA.IGenFind.GetComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetDiffPercentChilds">
+<Jump Url="GA.IGenFind.GetDiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetFinished">
+<Jump Url="GA.IGenFind.GetFinished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetFirstGeneretionSize">
+<Jump Url="GA.IGenFind.GetFirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetForecastTime">
+<Jump Url="GA.IGenFind.GetForecastTime.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetInParamlist">
+<Jump Url="GA.IGenFind.GetInParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetIStrategy">
+<Jump Url="GA.IGenFind.GetIStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetLongDeal">
+<Jump Url="GA.IGenFind.GetLongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetOnFinished">
+<Jump Url="GA.IGenFind.GetOnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetOnStep">
+<Jump Url="GA.IGenFind.GetOnStep.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetPercentAreaExpan">
+<Jump Url="GA.IGenFind.GetPercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetPercentNotRelatives">
+<Jump Url="GA.IGenFind.GetPercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetShortDeal">
+<Jump Url="GA.IGenFind.GetShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetStepCount">
+<Jump Url="GA.IGenFind.GetStepCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetStepPassed">
+<Jump Url="GA.IGenFind.GetStepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetStopLossFixedParam">
+<Jump Url="GA.IGenFind.GetStopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.GetTakeProfitFixedParam">
+<Jump Url="GA.IGenFind.GetTakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.InParamlist">
+<Jump Url="GA.IGenFind.InParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.LongDeal">
+<Jump Url="GA.IGenFind.LongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.OnFinished">
+<Jump Url="GA.IGenFind.OnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.OnStep">
+<Jump Url="GA.IGenFind.OnStep.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.PercentAreaExpan">
+<Jump Url="GA.IGenFind.PercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.PercentNotRelatives">
+<Jump Url="GA.IGenFind.PercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetAsset(TAssetRecord)">
+<Jump Url="GA.IGenFind.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetChildsCount(Integer)">
+<Jump Url="GA.IGenFind.SetChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetComissionSize(Real)">
+<Jump Url="GA.IGenFind.SetComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetDiffPercentChilds(Integer)">
+<Jump Url="GA.IGenFind.SetDiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetFinished(Boolean)">
+<Jump Url="GA.IGenFind.SetFinished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetFirstGeneretionSize(Integer)">
+<Jump Url="GA.IGenFind.SetFirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetInParamlist(TParamList)">
+<Jump Url="GA.IGenFind.SetInParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetIStrategy(IStrategy)">
+<Jump Url="GA.IGenFind.SetIStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetLongDeal(boolean)">
+<Jump Url="GA.IGenFind.SetLongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetOnFinished(TStepEvent)">
+<Jump Url="GA.IGenFind.SetOnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetOnStep(TStepEvent)">
+<Jump Url="GA.IGenFind.SetOnStep.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetPercentAreaExpan(Integer)">
+<Jump Url="GA.IGenFind.SetPercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetPercentNotRelatives(Integer)">
+<Jump Url="GA.IGenFind.SetPercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetShortDeal(boolean)">
+<Jump Url="GA.IGenFind.SetShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetStepCount(Integer)">
+<Jump Url="GA.IGenFind.SetStepCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetStepPassed(Integer)">
+<Jump Url="GA.IGenFind.SetStepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetStopLossFixedParam(Integer)">
+<Jump Url="GA.IGenFind.SetStopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.SetTakeProfitFixedParam(Integer)">
+<Jump Url="GA.IGenFind.SetTakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.ShortDeal">
+<Jump Url="GA.IGenFind.ShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.StepCount">
+<Jump Url="GA.IGenFind.StepCount.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.StepPassed">
+<Jump Url="GA.IGenFind.StepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.StopLossFixedParam">
+<Jump Url="GA.IGenFind.StopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.Strategy">
+<Jump Url="GA.IGenFind.Strategy.htm"/>
+</Keyword>
+
+<Keyword Term="IGenFind.TakeProfitFixedParam">
+<Jump Url="GA.IGenFind.TakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="InplaceTranspose(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="blas.InplaceTranspose.htm"/>
+</Keyword>
+
+<Keyword Term="IProgress">
+<Jump Url="GA.IProgress.htm"/>
+</Keyword>
+
+<Keyword Term="IProgress.DoControl(TObject%2CInteger)">
+<Jump Url="GA.IProgress.DoControl.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy">
+<Jump Url="CommonTypes.IStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.Asset">
+<Jump Url="CommonTypes.IStrategy.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.Execute">
+<Jump Url="CommonTypes.IStrategy.Execute.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.GetAsset">
+<Jump Url="CommonTypes.IStrategy.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.GetIndDict">
+<Jump Url="CommonTypes.IStrategy.GetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.GetSignalStorage">
+<Jump Url="CommonTypes.IStrategy.GetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.IndDict">
+<Jump Url="CommonTypes.IStrategy.IndDict.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.SetAsset(TAssetRecord)">
+<Jump Url="CommonTypes.IStrategy.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.SetIndDict(TParamList)">
+<Jump Url="CommonTypes.IStrategy.SetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.SetSignalStorage(SAR)">
+<Jump Url="CommonTypes.IStrategy.SetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="IStrategy.SignalStorage">
+<Jump Url="CommonTypes.IStrategy.SignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="leastsquares">
+<Jump Url="leastsquares.htm"/>
+</Keyword>
+
+<Keyword Term="Log">
+<Jump Url="Log.htm"/>
+</Keyword>
+
+<Keyword Term="Log.TfmLog">
+<Jump Url="Log.TfmLog.htm"/>
+</Keyword>
+
+<Keyword Term="lq">
+<Jump Url="lq.htm"/>
+</Keyword>
+
+<Keyword Term="LQDecomposition(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="lq.LQDecomposition.htm"/>
+</Keyword>
+
+<Keyword Term="LQDecompositionUnpacked(TReal2DArray%2CInteger%2CInteger%2CTReal2DArray%2CTReal2DArray)">
+<Jump Url="lq.LQDecompositionUnpacked.htm"/>
+</Keyword>
+
+<Keyword Term="MachineEpsilon">
+<Jump Url="Ap.MachineEpsilon.htm"/>
+</Keyword>
+
+<Keyword Term="main">
+<Jump Url="main.htm"/>
+</Keyword>
+
+<Keyword Term="main.TfmMain">
+<Jump Url="main.TfmMain.htm"/>
+</Keyword>
+
+<Keyword Term="MatrixMatrixMultiply(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CBoolean%2CTReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CBoolean%2CDouble%2CTReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CDouble%2CTReal1DArray)">
+<Jump Url="blas.MatrixMatrixMultiply.htm"/>
+</Keyword>
+
+<Keyword Term="MatrixVectorMultiply(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CBoolean%2CTReal1DArray%2CInteger%2CInteger%2CDouble%2CTReal1DArray%2CInteger%2CInteger%2CDouble)">
+<Jump Url="blas.MatrixVectorMultiply.htm"/>
+</Keyword>
+
+<Keyword Term="MaxRealNumber">
+<Jump Url="Ap.MaxRealNumber.htm"/>
+</Keyword>
+
+<Keyword Term="MinRealNumber">
+<Jump Url="Ap.MinRealNumber.htm"/>
+</Keyword>
+
+<Keyword Term="msg">
+<Jump Url="msg.htm"/>
+</Keyword>
+
+<Keyword Term="msg.TfmMsg">
+<Jump Url="msg.TfmMsg.htm"/>
+</Keyword>
+
+<Keyword Term="MultiplyByPFromBidiagonal(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CInteger%2CInteger%2CBoolean%2CBoolean)">
+<Jump Url="bidiagonal.MultiplyByPFromBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="MultiplyByQFromBidiagonal(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CInteger%2CInteger%2CBoolean%2CBoolean)">
+<Jump Url="bidiagonal.MultiplyByQFromBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="parser">
+<Jump Url="dtypes.parser.htm"/>
+</Keyword>
+
+<Keyword Term="parser.createBody(TStringGrid%2CAOAOS)">
+<Jump Url="dtypes.parser.createBody.htm"/>
+</Keyword>
+
+<Keyword Term="parser.createHeader(TStringGrid%2CAOS)">
+<Jump Url="dtypes.parser.createHeader.htm"/>
+</Keyword>
+
+<Keyword Term="parser.parseBody(WideString)">
+<Jump Url="dtypes.parser.parseBody.htm"/>
+</Keyword>
+
+<Keyword Term="parser.parseHeader(WideString)">
+<Jump Url="dtypes.parser.parseHeader.htm"/>
+</Keyword>
+
+<Keyword Term="parser.parsePriceData(WideString%2Cinteger)">
+<Jump Url="dtypes.parser.parsePriceData.htm"/>
+</Keyword>
+
+<Keyword Term="PDouble">
+<Jump Url="Ap.PDouble.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio">
+<Jump Url="dtypes.Portfolio.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.addBarsHelded">
+<Jump Url="dtypes.Portfolio.addBarsHelded.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.analyzePortFolio(variant%2Cvariant)">
+<Jump Url="dtypes.Portfolio.analyzePortFolio.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.capitalLossMax">
+<Jump Url="dtypes.Portfolio.capitalLossMax.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.cash">
+<Jump Url="dtypes.Portfolio.cash.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.cashSeries">
+<Jump Url="dtypes.Portfolio.cashSeries.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.close(integer)">
+<Jump Url="dtypes.Portfolio.close.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.closeAll(variant%2Cvariant)">
+<Jump Url="dtypes.Portfolio.closeAll.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.console">
+<Jump Url="dtypes.Portfolio.console.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.countL">
+<Jump Url="dtypes.Portfolio.countL.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.countP">
+<Jump Url="dtypes.Portfolio.countP.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.create(String%2CTMemo%2CTAreaSeries%2CTAreaSeries)">
+<Jump Url="dtypes.Portfolio.create.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.entryPoint">
+<Jump Url="dtypes.Portfolio.entryPoint.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.equity">
+<Jump Url="dtypes.Portfolio.equity.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.equitySeries">
+<Jump Url="dtypes.Portfolio.equitySeries.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.formReport">
+<Jump Url="dtypes.Portfolio.formReport.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getBarsHelded(Integer)">
+<Jump Url="dtypes.Portfolio.getBarsHelded.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getcapitalLossMax">
+<Jump Url="dtypes.Portfolio.getcapitalLossMax.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getcash(integer)">
+<Jump Url="dtypes.Portfolio.getcash.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getDateIn(integer)">
+<Jump Url="dtypes.Portfolio.getDateIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getDateOut(integer)">
+<Jump Url="dtypes.Portfolio.getDateOut.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getEquity(integer)">
+<Jump Url="dtypes.Portfolio.getEquity.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getIsProfitness(integer)">
+<Jump Url="dtypes.Portfolio.getIsProfitness.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getLoss">
+<Jump Url="dtypes.Portfolio.getLoss.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getLossDeals">
+<Jump Url="dtypes.Portfolio.getLossDeals.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getOpenProfit(Single)">
+<Jump Url="dtypes.Portfolio.getOpenProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getPercentage">
+<Jump Url="dtypes.Portfolio.getPercentage.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getPositionOpenProfit(Single)">
+<Jump Url="dtypes.Portfolio.getPositionOpenProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getPosProfit(integer)">
+<Jump Url="dtypes.Portfolio.getPosProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getProfDeals">
+<Jump Url="dtypes.Portfolio.getProfDeals.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getProfit">
+<Jump Url="dtypes.Portfolio.getProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getProfitFactor">
+<Jump Url="dtypes.Portfolio.getProfitFactor.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getProfitness">
+<Jump Url="dtypes.Portfolio.getProfitness.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getQuanIn(integer)">
+<Jump Url="dtypes.Portfolio.getQuanIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getQuanOut(integer)">
+<Jump Url="dtypes.Portfolio.getQuanOut.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getTotalProfit">
+<Jump Url="dtypes.Portfolio.getTotalProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getValIn(integer)">
+<Jump Url="dtypes.Portfolio.getValIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.getValOut(integer)">
+<Jump Url="dtypes.Portfolio.getValOut.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.loadCash(String)">
+<Jump Url="dtypes.Portfolio.loadCash.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.loadEqutiy(String)">
+<Jump Url="dtypes.Portfolio.loadEqutiy.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.loadPortfolio(String)">
+<Jump Url="dtypes.Portfolio.loadPortfolio.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.name">
+<Jump Url="dtypes.Portfolio.name.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.openNew(variant%2Cvariant)">
+<Jump Url="dtypes.Portfolio.openNew.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.plotEquity">
+<Jump Url="dtypes.Portfolio.plotEquity.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.portfolio_">
+<Jump Url="dtypes.Portfolio.portfolio_.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.portToGrid(TStringGrid)">
+<Jump Url="dtypes.Portfolio.portToGrid.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.profitArr">
+<Jump Url="dtypes.Portfolio.profitArr.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.profitConsole">
+<Jump Url="dtypes.Portfolio.profitConsole.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.saveCash(String)">
+<Jump Url="dtypes.Portfolio.saveCash.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.saveEquity(String)">
+<Jump Url="dtypes.Portfolio.saveEquity.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.savePortfolio(String)">
+<Jump Url="dtypes.Portfolio.savePortfolio.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setBarHelded(integer%2CInteger)">
+<Jump Url="dtypes.Portfolio.setBarHelded.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setCash(integer%2CSingle)">
+<Jump Url="dtypes.Portfolio.setCash.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setDateIn(integer%2CTDateTime)">
+<Jump Url="dtypes.Portfolio.setDateIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setDateOut(integer%2CVariant)">
+<Jump Url="dtypes.Portfolio.setDateOut.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setEquity(integer%2CSingle)">
+<Jump Url="dtypes.Portfolio.setEquity.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setIsProfitness(integer%2Cinteger)">
+<Jump Url="dtypes.Portfolio.setIsProfitness.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setPosProfit(integer%2CSingle)">
+<Jump Url="dtypes.Portfolio.setPosProfit.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setQuanIn(integer%2Cinteger)">
+<Jump Url="dtypes.Portfolio.setQuanIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setQuanOut(integer%2CInteger)">
+<Jump Url="dtypes.Portfolio.setQuanOut.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setValIn(integer%2CSingle)">
+<Jump Url="dtypes.Portfolio.setValIn.htm"/>
+</Keyword>
+
+<Keyword Term="Portfolio.setValOut(integer%2CSingle)">
+<Jump Url="dtypes.Portfolio.setValOut.htm"/>
+</Keyword>
+
+<Keyword Term="Pythag2(Double%2CDouble)">
+<Jump Url="blas.Pythag2.htm"/>
+</Keyword>
+
+<Keyword Term="qr">
+<Jump Url="qr.htm"/>
+</Keyword>
+
+<Keyword Term="QRDecomposition(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="qr.QRDecomposition.htm"/>
+</Keyword>
+
+<Keyword Term="QRDecompositionUnpacked(TReal2DArray%2CInteger%2CInteger%2CTReal2DArray%2CTReal2DArray)">
+<Jump Url="qr.QRDecompositionUnpacked.htm"/>
+</Keyword>
+
+<Keyword Term="RandomInteger(Integer)">
+<Jump Url="Ap.RandomInteger.htm"/>
+</Keyword>
+
+<Keyword Term="RandomReal">
+<Jump Url="Ap.RandomReal.htm"/>
+</Keyword>
+
+<Keyword Term="reflections">
+<Jump Url="reflections.htm"/>
+</Keyword>
+
+<Keyword Term="RegisterStrategyTypes(TContainer)">
+<Jump Url="BackTesting.RegisterStrategyTypes.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBD(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal1DArray)">
+<Jump Url="bidiagonal.RMatrixBD.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDMultiplyByP(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CInteger%2CInteger%2CBoolean%2CBoolean)">
+<Jump Url="bidiagonal.RMatrixBDMultiplyByP.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDMultiplyByQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CInteger%2CInteger%2CBoolean%2CBoolean)">
+<Jump Url="bidiagonal.RMatrixBDMultiplyByQ.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDSVD(TReal1DArray%2CTReal1DArray%2CInteger%2CBoolean%2CBoolean%2CTReal2DArray%2CInteger%2CTReal2DArray%2CInteger%2CTReal2DArray%2CInteger)">
+<Jump Url="bdsvd.RMatrixBDSVD.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDUnpackDiagonals(TReal2DArray%2CInteger%2CInteger%2CBoolean%2CTReal1DArray%2CTReal1DArray)">
+<Jump Url="bidiagonal.RMatrixBDUnpackDiagonals.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDUnpackPT(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="bidiagonal.RMatrixBDUnpackPT.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixBDUnpackQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="bidiagonal.RMatrixBDUnpackQ.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixLQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="lq.RMatrixLQ.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixLQUnpackL(TReal2DArray%2CInteger%2CInteger%2CTReal2DArray)">
+<Jump Url="lq.RMatrixLQUnpackL.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixLQUnpackQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="lq.RMatrixLQUnpackQ.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixQR(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="qr.RMatrixQR.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixQRUnpackQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="qr.RMatrixQRUnpackQ.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixQRUnpackR(TReal2DArray%2CInteger%2CInteger%2CTReal2DArray)">
+<Jump Url="qr.RMatrixQRUnpackR.htm"/>
+</Keyword>
+
+<Keyword Term="RMatrixSVD(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CTReal2DArray)">
+<Jump Url="svd.RMatrixSVD.htm"/>
+</Keyword>
+
+<Keyword Term="rotations">
+<Jump Url="rotations.htm"/>
+</Keyword>
+
+<Keyword Term="RowIdxAbsMax(TReal2DArray%2CInteger%2CInteger%2CInteger)">
+<Jump Url="blas.RowIdxAbsMax.htm"/>
+</Keyword>
+
+<Keyword Term="SAR">
+<Jump Url="CommonTypes.SAR.htm"/>
+</Keyword>
+
+<Keyword Term="Sign(Extended)">
+<Jump Url="Ap.Sign.htm"/>
+</Keyword>
+
+<Keyword Term="SolveTridiagonal(TReal1DArray%2CTReal1DArray%2CTReal1DArray%2CTReal1DArray%2CInteger%2CTReal1DArray)">
+<Jump Url="spline3.SolveTridiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="spline3">
+<Jump Url="spline3.htm"/>
+</Keyword>
+
+<Keyword Term="Spline3BuildTable(Integer%2CInteger%2CTReal1DArray%2CTReal1DArray%2CDouble%2CDouble%2CTReal2DArray)">
+<Jump Url="spline3.Spline3BuildTable.htm"/>
+</Keyword>
+
+<Keyword Term="Spline3Interpolate(Integer%2CTReal2DArray%2CDouble)">
+<Jump Url="spline3.Spline3Interpolate.htm"/>
+</Keyword>
+
+<Keyword Term="SplineCopy(TReal1DArray%2CTReal1DArray)">
+<Jump Url="spline3.SplineCopy.htm"/>
+</Keyword>
+
+<Keyword Term="SplineDifferentiation(TReal1DArray%2CDouble%2CDouble%2CDouble%2CDouble)">
+<Jump Url="spline3.SplineDifferentiation.htm"/>
+</Keyword>
+
+<Keyword Term="SplineIntegration(TReal1DArray%2CDouble)">
+<Jump Url="spline3.SplineIntegration.htm"/>
+</Keyword>
+
+<Keyword Term="SplineInterpolation(TReal1DArray%2CDouble)">
+<Jump Url="spline3.SplineInterpolation.htm"/>
+</Keyword>
+
+<Keyword Term="SplineLinTransX(TReal1DArray%2CDouble%2CDouble)">
+<Jump Url="spline3.SplineLinTransX.htm"/>
+</Keyword>
+
+<Keyword Term="SplineLinTransY(TReal1DArray%2CDouble%2CDouble)">
+<Jump Url="spline3.SplineLinTransY.htm"/>
+</Keyword>
+
+<Keyword Term="SplineUnpack(TReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="spline3.SplineUnpack.htm"/>
+</Keyword>
+
+<Keyword Term="StopLossConst">
+<Jump Url="CommonTypes.StopLossConst.htm"/>
+</Keyword>
+
+<Keyword Term="strategy.impl">
+<Jump Url="strategy.impl.htm"/>
+</Keyword>
+
+<Keyword Term="StrategyForm">
+<Jump Url="StrategyForm.htm"/>
+</Keyword>
+
+<Keyword Term="StrategyForm.TfmStrategy">
+<Jump Url="StrategyForm.TfmStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="StrategyTune">
+<Jump Url="StrategyTune.htm"/>
+</Keyword>
+
+<Keyword Term="StrategyTune.TfmStrategyTune">
+<Jump Url="StrategyTune.TfmStrategyTune.htm"/>
+</Keyword>
+
+<Keyword Term="svd">
+<Jump Url="svd.htm"/>
+</Keyword>
+
+<Keyword Term="Svd2X2(Double%2CDouble%2CDouble%2CDouble%2CDouble)">
+<Jump Url="bdsvd.Svd2X2.htm"/>
+</Keyword>
+
+<Keyword Term="SVDDecomposition(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray%2CTReal2DArray%2CTReal2DArray)">
+<Jump Url="svd.SVDDecomposition.htm"/>
+</Keyword>
+
+<Keyword Term="SvdV2X2(Double%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble)">
+<Jump Url="bdsvd.SvdV2X2.htm"/>
+</Keyword>
+
+<Keyword Term="t">
+<Jump Url="BackTesting.t.htm"/>
+</Keyword>
+
+<Keyword Term="TakeProfitConst">
+<Jump Url="CommonTypes.TakeProfitConst.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm">
+<Jump Url="uAlertForm.TalertForm.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.appMakerAlerterLog">
+<Jump Url="uAlertForm.TalertForm.appMakerAlerterLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.balanceAlerterLog">
+<Jump Url="uAlertForm.TalertForm.balanceAlerterLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.breakDownLog">
+<Jump Url="uAlertForm.TalertForm.breakDownLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.Button1Click(TObject)">
+<Jump Url="uAlertForm.TalertForm.Button1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.Button2Click(TObject)">
+<Jump Url="uAlertForm.TalertForm.Button2Click.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.errorLog">
+<Jump Url="uAlertForm.TalertForm.errorLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.FormCreate(TObject)">
+<Jump Url="uAlertForm.TalertForm.FormCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.mainSystemLog">
+<Jump Url="uAlertForm.TalertForm.mainSystemLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.pageControl1">
+<Jump Url="uAlertForm.TalertForm.pageControl1.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.priceAlerterLog">
+<Jump Url="uAlertForm.TalertForm.priceAlerterLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.smsLog">
+<Jump Url="uAlertForm.TalertForm.smsLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.StoptakeLog">
+<Jump Url="uAlertForm.TalertForm.StoptakeLog.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet1">
+<Jump Url="uAlertForm.TalertForm.TabSheet1.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet2">
+<Jump Url="uAlertForm.TalertForm.TabSheet2.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet3">
+<Jump Url="uAlertForm.TalertForm.TabSheet3.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet4">
+<Jump Url="uAlertForm.TalertForm.TabSheet4.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet5">
+<Jump Url="uAlertForm.TalertForm.TabSheet5.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet6">
+<Jump Url="uAlertForm.TalertForm.TabSheet6.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet7">
+<Jump Url="uAlertForm.TalertForm.TabSheet7.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.TabSheet8">
+<Jump Url="uAlertForm.TalertForm.TabSheet8.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.Timer1">
+<Jump Url="uAlertForm.TalertForm.Timer1.htm"/>
+</Keyword>
+
+<Keyword Term="TalertForm.Timer1Timer(TObject)">
+<Jump Url="uAlertForm.TalertForm.Timer1Timer.htm"/>
+</Keyword>
+
+<Keyword Term="TArrayDealsClass">
+<Jump Url="CommonTypes.TArrayDealsClass.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord">
+<Jump Url="CommonTypes.TAssetRecord.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.emitent">
+<Jump Url="CommonTypes.TAssetRecord.emitent.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.init_begin_date">
+<Jump Url="CommonTypes.TAssetRecord.init_begin_date.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.init_end_date">
+<Jump Url="CommonTypes.TAssetRecord.init_end_date.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.paper_no">
+<Jump Url="CommonTypes.TAssetRecord.paper_no.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.tClose">
+<Jump Url="CommonTypes.TAssetRecord.tClose.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.tHigh">
+<Jump Url="CommonTypes.TAssetRecord.tHigh.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.ticker_name">
+<Jump Url="CommonTypes.TAssetRecord.ticker_name.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.timeFrame">
+<Jump Url="CommonTypes.TAssetRecord.timeFrame.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.tLow">
+<Jump Url="CommonTypes.TAssetRecord.tLow.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.tOpen">
+<Jump Url="CommonTypes.TAssetRecord.tOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.tVolume">
+<Jump Url="CommonTypes.TAssetRecord.tVolume.htm"/>
+</Keyword>
+
+<Keyword Term="TAssetRecord.vDateTime">
+<Jump Url="CommonTypes.TAssetRecord.vDateTime.htm"/>
+</Keyword>
+
+<Keyword Term="TBoolean1DArray">
+<Jump Url="Ap.TBoolean1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TBoolean2DArray">
+<Jump Url="Ap.TBoolean2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TCalcProfit">
+<Jump Url="CommonTypes.TCalcProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TCalcProfit.CalcProfitNew(Real%2Cboolean%2Cboolean%2CTAssetRecord%2CSAR%2Creal%2Creal%2Creal)">
+<Jump Url="CommonTypes.TCalcProfit.CalcProfitNew.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass">
+<Jump Url="Catalina.TCatalinaClass.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.Asset">
+<Jump Url="Catalina.TCatalinaClass.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.create(TAssetRecord%2CTParamList)">
+<Jump Url="Catalina.TCatalinaClass.create.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.dema1Indicator">
+<Jump Url="Catalina.TCatalinaClass.dema1Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.dema2Indicator">
+<Jump Url="Catalina.TCatalinaClass.dema2Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.Destroy">
+<Jump Url="Catalina.TCatalinaClass.Destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.execute">
+<Jump Url="Catalina.TCatalinaClass.execute.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.fAsset">
+<Jump Url="Catalina.TCatalinaClass.fAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.FastPeriod">
+<Jump Url="Catalina.TCatalinaClass.FastPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.fDict">
+<Jump Url="Catalina.TCatalinaClass.fDict.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.FindInd(string)">
+<Jump Url="Catalina.TCatalinaClass.FindInd.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.FOnMyEvent">
+<Jump Url="Catalina.TCatalinaClass.FOnMyEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.fSignalStorage">
+<Jump Url="Catalina.TCatalinaClass.fSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.fTemp">
+<Jump Url="Catalina.TCatalinaClass.fTemp.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.GetAsset">
+<Jump Url="Catalina.TCatalinaClass.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.getCurrentDecision(String)">
+<Jump Url="Catalina.TCatalinaClass.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.GetIndDict">
+<Jump Url="Catalina.TCatalinaClass.GetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.GetSignalStorage">
+<Jump Url="Catalina.TCatalinaClass.GetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.SetAsset(TAssetRecord)">
+<Jump Url="Catalina.TCatalinaClass.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.SetIndDict(TParamList)">
+<Jump Url="Catalina.TCatalinaClass.SetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.SetSignalStorage(SAR)">
+<Jump Url="Catalina.TCatalinaClass.SetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.SignalStorage">
+<Jump Url="Catalina.TCatalinaClass.SignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.SlowPeriod">
+<Jump Url="Catalina.TCatalinaClass.SlowPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TCatalinaClass.Temp">
+<Jump Url="Catalina.TCatalinaClass.Temp.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA">
+<Jump Url="GA.TClassGA.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.Create">
+<Jump Url="GA.TClassGA.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.CreateNew(integer)">
+<Jump Url="GA.TClassGA.CreateNew.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.DealsArray">
+<Jump Url="GA.TClassGA.DealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.destroy">
+<Jump Url="GA.TClassGA.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.DoControl(TObject%2CInteger)">
+<Jump Url="GA.TClassGA.DoControl.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.DoFinished(TObject%2Cstring%2CTParamFinRez)">
+<Jump Url="GA.TClassGA.DoFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.EventFinished(TObject)">
+<Jump Url="GA.TClassGA.EventFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fAsset">
+<Jump Url="GA.TClassGA.fAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fDealsArray">
+<Jump Url="GA.TClassGA.fDealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fGA">
+<Jump Url="GA.TClassGA.fGA.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fID">
+<Jump Url="GA.TClassGA.fID.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fMoneyStart">
+<Jump Url="GA.TClassGA.fMoneyStart.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fRes">
+<Jump Url="GA.TClassGA.fRes.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fSignals">
+<Jump Url="GA.TClassGA.fSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fStatus">
+<Jump Url="GA.TClassGA.fStatus.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fStpSetParamFixed">
+<Jump Url="GA.TClassGA.fStpSetParamFixed.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.fStpSetStrategyFinRes">
+<Jump Url="GA.TClassGA.fStpSetStrategyFinRes.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.GA">
+<Jump Url="GA.TClassGA.GA.htm"/>
+</Keyword>
+
+<Keyword Term="TClassGA.Res">
+<Jump Url="GA.TClassGA.Res.htm"/>
+</Keyword>
+
+<Keyword Term="TComplex1DArray">
+<Jump Url="Ap.TComplex1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TComplex2DArray">
+<Jump Url="Ap.TComplex2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass">
+<Jump Url="CommonTypes.TDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Asset">
+<Jump Url="CommonTypes.TDealRClass.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.BackToMoney(Integer%2CTAssetRecord%2Cstring)">
+<Jump Url="CommonTypes.TDealRClass.BackToMoney.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Buy(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.TDealRClass.Buy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.CheckStopLoss(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.TDealRClass.CheckStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.CheckTakeProfit(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.TDealRClass.CheckTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Comis">
+<Jump Url="CommonTypes.TDealRClass.Comis.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Deals">
+<Jump Url="CommonTypes.TDealRClass.Deals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Destroy">
+<Jump Url="CommonTypes.TDealRClass.Destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fAsset">
+<Jump Url="CommonTypes.TDealRClass.fAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fComis">
+<Jump Url="CommonTypes.TDealRClass.fComis.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fDeals">
+<Jump Url="CommonTypes.TDealRClass.fDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fInd">
+<Jump Url="CommonTypes.TDealRClass.fInd.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fLong">
+<Jump Url="CommonTypes.TDealRClass.fLong.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fShort">
+<Jump Url="CommonTypes.TDealRClass.fShort.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fSignals">
+<Jump Url="CommonTypes.TDealRClass.fSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fStopLoss">
+<Jump Url="CommonTypes.TDealRClass.fStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fStrategy">
+<Jump Url="CommonTypes.TDealRClass.fStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fStrategyModuleName">
+<Jump Url="CommonTypes.TDealRClass.fStrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.fTakeProfit">
+<Jump Url="CommonTypes.TDealRClass.fTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetAsset">
+<Jump Url="CommonTypes.TDealRClass.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetComis">
+<Jump Url="CommonTypes.TDealRClass.GetComis.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetDeals">
+<Jump Url="CommonTypes.TDealRClass.GetDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetInd">
+<Jump Url="CommonTypes.TDealRClass.GetInd.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetLong">
+<Jump Url="CommonTypes.TDealRClass.GetLong.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetShort">
+<Jump Url="CommonTypes.TDealRClass.GetShort.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetSignals">
+<Jump Url="CommonTypes.TDealRClass.GetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetStopLoss">
+<Jump Url="CommonTypes.TDealRClass.GetStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetStrategy">
+<Jump Url="CommonTypes.TDealRClass.GetStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetStrategyModuleName">
+<Jump Url="CommonTypes.TDealRClass.GetStrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetTakeProfit">
+<Jump Url="CommonTypes.TDealRClass.GetTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.GetTxt(integer)">
+<Jump Url="CommonTypes.TDealRClass.GetTxt.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Ind">
+<Jump Url="CommonTypes.TDealRClass.Ind.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Long">
+<Jump Url="CommonTypes.TDealRClass.Long.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.ReturnDeals(Real%2Cboolean%2Cboolean%2CTAssetRecord%2Creal%2CTParamFinRez%2CIStrategy)">
+<Jump Url="CommonTypes.TDealRClass.ReturnDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Sell(Integer%2CTAssetRecord)">
+<Jump Url="CommonTypes.TDealRClass.Sell.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetAsset(TAssetRecord)">
+<Jump Url="CommonTypes.TDealRClass.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetComis(Real)">
+<Jump Url="CommonTypes.TDealRClass.SetComis.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetDeals(TArrayDealsClass)">
+<Jump Url="CommonTypes.TDealRClass.SetDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetInd(TParamFinRez)">
+<Jump Url="CommonTypes.TDealRClass.SetInd.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetLong(Boolean)">
+<Jump Url="CommonTypes.TDealRClass.SetLong.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetShort(Boolean)">
+<Jump Url="CommonTypes.TDealRClass.SetShort.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetSignals(SAR)">
+<Jump Url="CommonTypes.TDealRClass.SetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetStopLoss(Integer)">
+<Jump Url="CommonTypes.TDealRClass.SetStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetStrategy(IStrategy)">
+<Jump Url="CommonTypes.TDealRClass.SetStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetStrategyModuleName(string)">
+<Jump Url="CommonTypes.TDealRClass.SetStrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.SetTakeProfit(Integer)">
+<Jump Url="CommonTypes.TDealRClass.SetTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Short">
+<Jump Url="CommonTypes.TDealRClass.Short.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Signals">
+<Jump Url="CommonTypes.TDealRClass.Signals.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.StopLoss">
+<Jump Url="CommonTypes.TDealRClass.StopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.Strategy">
+<Jump Url="CommonTypes.TDealRClass.Strategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.StrategyModuleName">
+<Jump Url="CommonTypes.TDealRClass.StrategyModuleName.htm"/>
+</Keyword>
+
+<Keyword Term="TDealRClass.TakeProfit">
+<Jump Url="CommonTypes.TDealRClass.TakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TDecisionMaker">
+<Jump Url="dtypes.TDecisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="TDecisionMaker.destroy">
+<Jump Url="dtypes.TDecisionMaker.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TDecisionMaker.getDecision">
+<Jump Url="dtypes.TDecisionMaker.getDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator">
+<Jump Url="Catalina.TDEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.create(Real%2CInteger%2CString)">
+<Jump Url="Catalina.TDEMAIndicator.create.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.emaIndicator1">
+<Jump Url="Catalina.TDEMAIndicator.emaIndicator1.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.emaIndicator2">
+<Jump Url="Catalina.TDEMAIndicator.emaIndicator2.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.getDelayedValue(integer)">
+<Jump Url="Catalina.TDEMAIndicator.getDelayedValue.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.init(AOR)">
+<Jump Url="Catalina.TDEMAIndicator.init.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.method">
+<Jump Url="Catalina.TDEMAIndicator.method.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.new_value(Real)">
+<Jump Url="Catalina.TDEMAIndicator.new_value.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.num_periods">
+<Jump Url="Catalina.TDEMAIndicator.num_periods.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.storage">
+<Jump Url="Catalina.TDEMAIndicator.storage.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.update_value(Real)">
+<Jump Url="Catalina.TDEMAIndicator.update_value.htm"/>
+</Keyword>
+
+<Keyword Term="TDEMAIndicator.value">
+<Jump Url="Catalina.TDEMAIndicator.value.htm"/>
+</Keyword>
+
+<Keyword Term="TDM">
+<Jump Url="dmunit.TDM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.acceptAlert">
+<Jump Url="dmunit.TDM.acceptAlert.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.addModellingSignalStops">
+<Jump Url="dmunit.TDM.addModellingSignalStops.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.addSignal">
+<Jump Url="dmunit.TDM.addSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.addTradeSignal">
+<Jump Url="dmunit.TDM.addTradeSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.alerter">
+<Jump Url="dmunit.TDM.alerter.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.alerterEvent(TObject%2Cstring%2Cstring)">
+<Jump Url="dmunit.TDM.alerterEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.alertMDIListnerNewData">
+<Jump Url="dmunit.TDM.alertMDIListnerNewData.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.CheckConnection">
+<Jump Url="dmunit.TDM.CheckConnection.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.cnctdlg1">
+<Jump Url="dmunit.TDM.cnctdlg1.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.ConnectDataBase(string%2Cstring%2Cstring)">
+<Jump Url="dmunit.TDM.ConnectDataBase.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.connected">
+<Jump Url="dmunit.TDM.connected.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.DataModuleCreate(TObject)">
+<Jump Url="dmunit.TDM.DataModuleCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.DataModuleDestroy(TObject)">
+<Jump Url="dmunit.TDM.DataModuleDestroy.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.Dest">
+<Jump Url="dmunit.TDM.Dest.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.ds_ORABET_PSEUDO_SYSTEM">
+<Jump Url="dmunit.TDM.ds_ORABET_PSEUDO_SYSTEM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.ds_ORABET_SYS_PARAMS">
+<Jump Url="dmunit.TDM.ds_ORABET_SYS_PARAMS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_GA_TUNE">
+<Jump Url="dmunit.TDM.dsORABET_BT_GA_TUNE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_PAPERS">
+<Jump Url="dmunit.TDM.dsORABET_BT_PAPERS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_PARAMS">
+<Jump Url="dmunit.TDM.dsORABET_BT_PARAMS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_STrategy">
+<Jump Url="dmunit.TDM.dsORABET_BT_STrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_STRATEGY_MODULE">
+<Jump Url="dmunit.TDM.dsORABET_BT_STRATEGY_MODULE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.dsORABET_BT_STRATEGY_MODULE_PARAMS">
+<Jump Url="dmunit.TDM.dsORABET_BT_STRATEGY_MODULE_PARAMS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfld_ORABET_PSEUDOSYSTEMBT_STRATEGY_MODULE_ID">
+<Jump Url="dmunit.TDM.fltfld_ORABET_PSEUDOSYSTEMBT_STRATEGY_MODULE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldNewBtStrategyBT_STRATEGY_MODULE_ID">
+<Jump Url="dmunit.TDM.fltfldNewBtStrategyBT_STRATEGY_MODULE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldNewBtStrategyCALC_FINISHED">
+<Jump Url="dmunit.TDM.fltfldNewBtStrategyCALC_FINISHED.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldNewBtStrategyID">
+<Jump Url="dmunit.TDM.fltfldNewBtStrategyID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldNewBtStrategyPAPER_NO">
+<Jump Url="dmunit.TDM.fltfldNewBtStrategyPAPER_NO.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNECHILDSCOUNT">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNECHILDSCOUNT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNECOMISSIONSIZE">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNECOMISSIONSIZE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNEDIFFPERCENTCHILDS">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEDIFFPERCENTCHILDS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNEFIRSTGENERETIONSIZE">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEFIRSTGENERETIONSIZE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNEID">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNELONGDEAL">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNELONGDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNEPERCENTAREAEXPAN">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEPERCENTAREAEXPAN.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNEPERCENTNOTRELATIVES">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNEPERCENTNOTRELATIVES.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNESHORTDEAL">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESHORTDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNESTEPCOUNT">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESTEPCOUNT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNESTOPLOSSFIXEDPARAM">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNESTOPLOSSFIXEDPARAM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_GA_TUNETAKEPROFITFIXEDPARAM">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_GA_TUNETAKEPROFITFIXEDPARAM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_PARAMSID">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_PARAMSID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_PARAMSSTRATEGY_ID">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_PARAMSSTRATEGY_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_PARAMSVALUEFIXED">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUEFIXED.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_PARAMSVALUEFROM">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUEFROM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_PARAMSVALUETO">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_PARAMSVALUETO.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_STrategyBT_GA_TUNE_ID">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_STrategyBT_GA_TUNE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_STrategyCOMISSIONSIZE">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_STrategyCOMISSIONSIZE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_STrategyDAYSCOUNT">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_STrategyDAYSCOUNT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_STrategyFINRES">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_STrategyFINRES.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldORABET_BT_STrategyMONEYSTART">
+<Jump Url="dmunit.TDM.fltfldORABET_BT_STrategyMONEYSTART.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldOraQuery1BT_STRATEGY_MODULE_ID">
+<Jump Url="dmunit.TDM.fltfldOraQuery1BT_STRATEGY_MODULE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldOraQuery1CALC_FINISHED">
+<Jump Url="dmunit.TDM.fltfldOraQuery1CALC_FINISHED.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldOraQuery1ID">
+<Jump Url="dmunit.TDM.fltfldOraQuery1ID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.fltfldOraQuery1PAPER_NO">
+<Jump Url="dmunit.TDM.fltfldOraQuery1PAPER_NO.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.getAllMailMailingList">
+<Jump Url="dmunit.TDM.getAllMailMailingList.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.getCatalinaParams">
+<Jump Url="dmunit.TDM.getCatalinaParams.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.getisNeedCreation">
+<Jump Url="dmunit.TDM.getisNeedCreation.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.getPriceByDate60">
+<Jump Url="dmunit.TDM.getPriceByDate60.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.getTEMAParams">
+<Jump Url="dmunit.TDM.getTEMAParams.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.Ini">
+<Jump Url="dmunit.TDM.Ini.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.intgrfldORABET_BT_PARAMSNECESSARILY">
+<Jump Url="dmunit.TDM.intgrfldORABET_BT_PARAMSNECESSARILY.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.intgrfldORABET_BT_STrategyFULLSEARCH">
+<Jump Url="dmunit.TDM.intgrfldORABET_BT_STrategyFULLSEARCH.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.intgrfldORABET_BT_STrategyLONGDEAL">
+<Jump Url="dmunit.TDM.intgrfldORABET_BT_STrategyLONGDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.intgrfldORABET_BT_STrategyMINMAX">
+<Jump Url="dmunit.TDM.intgrfldORABET_BT_STrategyMINMAX.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.intgrfldORABET_BT_STrategySHORTDEAL">
+<Jump Url="dmunit.TDM.intgrfldORABET_BT_STrategySHORTDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.loadLinkedOrderFormDB">
+<Jump Url="dmunit.TDM.loadLinkedOrderFormDB.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.localSession">
+<Jump Url="dmunit.TDM.localSession.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.localSessionConnectionLost(TObject%2CTComponent%2CTConnLostCause%2CTRetryMode)">
+<Jump Url="dmunit.TDM.localSessionConnectionLost.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.localSessionError(TObject%2CEDAError%2CBoolean)">
+<Jump Url="dmunit.TDM.localSessionError.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.OraAlerter1">
+<Jump Url="dmunit.TDM.OraAlerter1.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.OraErrorHandler1">
+<Jump Url="dmunit.TDM.OraErrorHandler1.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.OraPackage1">
+<Jump Url="dmunit.TDM.OraPackage1.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.orpckg1">
+<Jump Url="dmunit.TDM.orpckg1.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.ortmstmpfldORABET_BT_STrategyDTFROM">
+<Jump Url="dmunit.TDM.ortmstmpfldORABET_BT_STrategyDTFROM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.ortmstmpfldORABET_BT_STrategyDTTO">
+<Jump Url="dmunit.TDM.ortmstmpfldORABET_BT_STrategyDTTO.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qrORABET_BT_GA_TUNE">
+<Jump Url="dmunit.TDM.qrORABET_BT_GA_TUNE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qrORABET_BT_PAPERS">
+<Jump Url="dmunit.TDM.qrORABET_BT_PAPERS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qrORABET_BT_PARAMS">
+<Jump Url="dmunit.TDM.qrORABET_BT_PARAMS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qrORABET_BT_STRATEGY_MODULE">
+<Jump Url="dmunit.TDM.qrORABET_BT_STRATEGY_MODULE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qrORABET_BT_STRATEGY_MODULE_PARAMS">
+<Jump Url="dmunit.TDM.qrORABET_BT_STRATEGY_MODULE_PARAMS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEM">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEM.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMASSET">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMASSET.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMBCS_PORT">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMBCS_PORT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMID">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMIS_FUT">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMIS_FUT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMIS_NEED_CREATION">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMIS_NEED_CREATION.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMK">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMK.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMLOTS">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMLOTS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMNUMPERIODS">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMNUMPERIODS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMOPEN_PORT">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMOPEN_PORT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMPAPER_NO">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMPAPER_NO.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMPSEUDO_NAME">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMPSEUDO_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMROUND">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMROUND.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMSIGNAL_RESOLVED">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMSIGNAL_RESOLVED.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMTIME_FRAME">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMTIME_FRAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_PSEUDOSYSTEMTRUE_NAME">
+<Jump Url="dmunit.TDM.qu_ORABET_PSEUDOSYSTEMTRUE_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.qu_ORABET_Sys_Params">
+<Jump Url="dmunit.TDM.qu_ORABET_Sys_Params.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.quORABET_BT_STrategy">
+<Jump Url="dmunit.TDM.quORABET_BT_STrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.storeLinkedOrderToDB">
+<Jump Url="dmunit.TDM.storeLinkedOrderToDB.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.storeTradersAsset">
+<Jump Url="dmunit.TDM.storeTradersAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpALFADIRECT_PACK_CHECKSTRATEGYEXISTS">
+<Jump Url="dmunit.TDM.stpALFADIRECT_PACK_CHECKSTRATEGYEXISTS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGeAssetByDate_">
+<Jump Url="dmunit.TDM.stpGeAssetByDate_.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGetAssetByDate">
+<Jump Url="dmunit.TDM.stpGetAssetByDate.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGETBTPARAMBYID">
+<Jump Url="dmunit.TDM.stpGETBTPARAMBYID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGETBTSTRATEGYBYID">
+<Jump Url="dmunit.TDM.stpGETBTSTRATEGYBYID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGETBTTUNEBYID">
+<Jump Url="dmunit.TDM.stpGETBTTUNEBYID.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpGetSytemSignalByStrategy">
+<Jump Url="dmunit.TDM.stpGetSytemSignalByStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpLastData15ByDateTime">
+<Jump Url="dmunit.TDM.stpLastData15ByDateTime.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpNewBtStrategy">
+<Jump Url="dmunit.TDM.stpNewBtStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpORABET_ALFADIRECT_PACK_COPYSTRATEGYFROMBT">
+<Jump Url="dmunit.TDM.stpORABET_ALFADIRECT_PACK_COPYSTRATEGYFROMBT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpPutAlertNewData">
+<Jump Url="dmunit.TDM.stpPutAlertNewData.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpSETBTPARAMRESULT">
+<Jump Url="dmunit.TDM.stpSETBTPARAMRESULT.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.stpSETBTSTATUS">
+<Jump Url="dmunit.TDM.stpSETBTSTATUS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfld_ORABET_PSEUDOSYSTEMSTRATEGYNAME">
+<Jump Url="dmunit.TDM.strngfld_ORABET_PSEUDOSYSTEMSTRATEGYNAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldNewBtStrategyPSEUDO_NAME">
+<Jump Url="dmunit.TDM.strngfldNewBtStrategyPSEUDO_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldNewBtStrategyStrategy_Module">
+<Jump Url="dmunit.TDM.strngfldNewBtStrategyStrategy_Module.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldNewBtStrategyTicker">
+<Jump Url="dmunit.TDM.strngfldNewBtStrategyTicker.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldNewBtStrategyTIME_FRAME">
+<Jump Url="dmunit.TDM.strngfldNewBtStrategyTIME_FRAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldNewBtStrategyTRUE_NAME">
+<Jump Url="dmunit.TDM.strngfldNewBtStrategyTRUE_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldORABET_BT_GA_TUNETUNENAME">
+<Jump Url="dmunit.TDM.strngfldORABET_BT_GA_TUNETUNENAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldORABET_BT_PARAMSPARAM_NAME">
+<Jump Url="dmunit.TDM.strngfldORABET_BT_PARAMSPARAM_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldORABET_BT_STrategyBT_GA_TUNE">
+<Jump Url="dmunit.TDM.strngfldORABET_BT_STrategyBT_GA_TUNE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldORABET_BT_STrategySTATUS">
+<Jump Url="dmunit.TDM.strngfldORABET_BT_STrategySTATUS.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldOraQuery1PSEUDO_NAME">
+<Jump Url="dmunit.TDM.strngfldOraQuery1PSEUDO_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldOraQuery1STRATEGY_MODULE">
+<Jump Url="dmunit.TDM.strngfldOraQuery1STRATEGY_MODULE.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldOraQuery1TICKER">
+<Jump Url="dmunit.TDM.strngfldOraQuery1TICKER.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldOraQuery1TIME_FRAME">
+<Jump Url="dmunit.TDM.strngfldOraQuery1TIME_FRAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.strngfldOraQuery1TRUE_NAME">
+<Jump Url="dmunit.TDM.strngfldOraQuery1TRUE_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.tmrAlert">
+<Jump Url="dmunit.TDM.tmrAlert.htm"/>
+</Keyword>
+
+<Keyword Term="TDM.tmrAlertTimer(TObject)">
+<Jump Url="dmunit.TDM.tmrAlertTimer.htm"/>
+</Keyword>
+
+<Keyword Term="TEma">
+<Jump Url="TEma.htm"/>
+</Keyword>
+
+<Keyword Term="TEma.EMAIndicator">
+<Jump Url="TEma.EMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEma.TEmaClass">
+<Jump Url="TEma.TEmaClass.htm"/>
+</Keyword>
+
+<Keyword Term="TEma.TEMAIndicator">
+<Jump Url="TEma.TEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass">
+<Jump Url="TEma.TEmaClass.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.Asset">
+<Jump Url="TEma.TEmaClass.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.create(TAssetRecord%2CTParamList)">
+<Jump Url="TEma.TEmaClass.create.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.Destroy">
+<Jump Url="TEma.TEmaClass.Destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.execute">
+<Jump Url="TEma.TEmaClass.execute.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.fAsset">
+<Jump Url="TEma.TEmaClass.fAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.FastPeriod">
+<Jump Url="TEma.TEmaClass.FastPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.fDict">
+<Jump Url="TEma.TEmaClass.fDict.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.FindInd(string)">
+<Jump Url="TEma.TEmaClass.FindInd.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.FOnMyEvent">
+<Jump Url="TEma.TEmaClass.FOnMyEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.fSignalStorage">
+<Jump Url="TEma.TEmaClass.fSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.fTemp">
+<Jump Url="TEma.TEmaClass.fTemp.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.GetAsset">
+<Jump Url="TEma.TEmaClass.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.getCurrentDecision(String)">
+<Jump Url="TEma.TEmaClass.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.GetIndDict">
+<Jump Url="TEma.TEmaClass.GetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.GetSignalStorage">
+<Jump Url="TEma.TEmaClass.GetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.SetAsset(TAssetRecord)">
+<Jump Url="TEma.TEmaClass.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.SetIndDict(TParamList)">
+<Jump Url="TEma.TEmaClass.SetIndDict.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.SetSignalStorage(SAR)">
+<Jump Url="TEma.TEmaClass.SetSignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.SignalStorage">
+<Jump Url="TEma.TEmaClass.SignalStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.SlowPeriod">
+<Jump Url="TEma.TEmaClass.SlowPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.tema1Indicator">
+<Jump Url="TEma.TEmaClass.tema1Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEmaClass.tema2Indicator">
+<Jump Url="TEma.TEmaClass.tema2Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEMADecisionMaker">
+<Jump Url="dtypes.TEMADecisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="TEMADecisionMaker.destroy">
+<Jump Url="dtypes.TEMADecisionMaker.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TEMADecisionMaker.getDecision(Real%2CReal)">
+<Jump Url="dtypes.TEMADecisionMaker.getDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator">
+<Jump Url="TEma.TEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator">
+<Jump Url="Catalina.TEMAIndicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.create(Real%2CInteger%2CString)">
+<Jump Url="TEma.TEMAIndicator.create.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.create(Real%2CInteger%2CString)">
+<Jump Url="Catalina.TEMAIndicator.create.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator1">
+<Jump Url="Catalina.TEMAIndicator.emaIndicator1.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator1">
+<Jump Url="TEma.TEMAIndicator.emaIndicator1.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator2">
+<Jump Url="TEma.TEMAIndicator.emaIndicator2.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator2">
+<Jump Url="Catalina.TEMAIndicator.emaIndicator2.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator3">
+<Jump Url="Catalina.TEMAIndicator.emaIndicator3.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.emaIndicator3">
+<Jump Url="TEma.TEMAIndicator.emaIndicator3.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.getDelayedValue(integer)">
+<Jump Url="Catalina.TEMAIndicator.getDelayedValue.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.getDelayedValue(integer)">
+<Jump Url="TEma.TEMAIndicator.getDelayedValue.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.init(AOR)">
+<Jump Url="TEma.TEMAIndicator.init.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.init(AOR)">
+<Jump Url="Catalina.TEMAIndicator.init.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.method">
+<Jump Url="Catalina.TEMAIndicator.method.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.method">
+<Jump Url="TEma.TEMAIndicator.method.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.new_value(Real)">
+<Jump Url="Catalina.TEMAIndicator.new_value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.new_value(Real)">
+<Jump Url="TEma.TEMAIndicator.new_value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.num_periods">
+<Jump Url="Catalina.TEMAIndicator.num_periods.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.num_periods">
+<Jump Url="TEma.TEMAIndicator.num_periods.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.storage">
+<Jump Url="Catalina.TEMAIndicator.storage.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.storage">
+<Jump Url="TEma.TEMAIndicator.storage.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.update_value(Real)">
+<Jump Url="Catalina.TEMAIndicator.update_value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.update_value(Real)">
+<Jump Url="TEma.TEMAIndicator.update_value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.value">
+<Jump Url="TEma.TEMAIndicator.value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAIndicator.value">
+<Jump Url="Catalina.TEMAIndicator.value.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy">
+<Jump Url="dtypes.TEMAStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.Create(String%2CTOraStoredProc%2CTOraStoredProc%2CTOraStoredProc%2CString%2CString%2Cboolean%2CTAsset%2CTDateTime%2Cinteger)">
+<Jump Url="dtypes.TEMAStrategy.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.dec">
+<Jump Url="dtypes.TEMAStrategy.dec.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.decisionMaker">
+<Jump Url="dtypes.TEMAStrategy.decisionMaker.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.destroy">
+<Jump Url="dtypes.TEMAStrategy.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.FastPeriod">
+<Jump Url="dtypes.TEMAStrategy.FastPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.getCurrentDecision(String)">
+<Jump Url="dtypes.TEMAStrategy.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.insertData(TDOHLC)">
+<Jump Url="dtypes.TEMAStrategy.insertData.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.PutIndikatorsToChart">
+<Jump Url="dtypes.TEMAStrategy.PutIndikatorsToChart.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.SlowPeriod">
+<Jump Url="dtypes.TEMAStrategy.SlowPeriod.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.tema1Indicator">
+<Jump Url="dtypes.TEMAStrategy.tema1Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.tema1Series">
+<Jump Url="dtypes.TEMAStrategy.tema1Series.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.tema2Indicator">
+<Jump Url="dtypes.TEMAStrategy.tema2Indicator.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.tema2Series">
+<Jump Url="dtypes.TEMAStrategy.tema2Series.htm"/>
+</Keyword>
+
+<Keyword Term="TEMAStrategy.updateData(TDOHLC)">
+<Jump Url="dtypes.TEMAStrategy.updateData.htm"/>
+</Keyword>
+
+<Keyword Term="TFinishedEvent">
+<Jump Url="GA.TFinishedEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest">
+<Jump Url="BackTesting.TfmBackTest.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.ApplicationEvents1">
+<Jump Url="BackTesting.TfmBackTest.ApplicationEvents1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.ApplicationEvents1Exception(TObject%2CException)">
+<Jump Url="BackTesting.TfmBackTest.ApplicationEvents1Exception.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.ApplicationEvents2">
+<Jump Url="BackTesting.TfmBackTest.ApplicationEvents2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.BitBtn2">
+<Jump Url="BackTesting.TfmBackTest.BitBtn2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.BitBtn2Click(TObject)">
+<Jump Url="BackTesting.TfmBackTest.BitBtn2Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.bStart">
+<Jump Url="BackTesting.TfmBackTest.bStart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.bStartClick(TObject)">
+<Jump Url="BackTesting.TfmBackTest.bStartClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.bStartOne">
+<Jump Url="BackTesting.TfmBackTest.bStartOne.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.bStartOneClick(TObject)">
+<Jump Url="BackTesting.TfmBackTest.bStartOneClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.btnDel">
+<Jump Url="BackTesting.TfmBackTest.btnDel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.btnDelClick(TObject)">
+<Jump Url="BackTesting.TfmBackTest.btnDelClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button1">
+<Jump Url="BackTesting.TfmBackTest.Button1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button1Click(TObject)">
+<Jump Url="BackTesting.TfmBackTest.Button1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button4">
+<Jump Url="BackTesting.TfmBackTest.Button4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button4Click(TObject)">
+<Jump Url="BackTesting.TfmBackTest.Button4Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button6">
+<Jump Url="BackTesting.TfmBackTest.Button6.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Button6Click(TObject)">
+<Jump Url="BackTesting.TfmBackTest.Button6Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.ClearTGA">
+<Jump Url="BackTesting.TfmBackTest.ClearTGA.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.DBGrid2">
+<Jump Url="BackTesting.TfmBackTest.DBGrid2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.DBGridEh1">
+<Jump Url="BackTesting.TfmBackTest.DBGridEh1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.DBGridEh1DrawColumnCell(TObject%2CTRect%2CInteger%2CTColumnEh%2CTGridDrawState)">
+<Jump Url="BackTesting.TfmBackTest.DBGridEh1DrawColumnCell.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.DBGridEh1GetCellParams(TObject%2CTColumnEh%2CTFont%2CTColor%2CTGridDrawState)">
+<Jump Url="BackTesting.TfmBackTest.DBGridEh1GetCellParams.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.FormCloseQuery(TObject%2CBoolean)">
+<Jump Url="BackTesting.TfmBackTest.FormCloseQuery.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.FormCreate(TObject)">
+<Jump Url="BackTesting.TfmBackTest.FormCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.FormDestroy(TObject)">
+<Jump Url="BackTesting.TfmBackTest.FormDestroy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.Stop">
+<Jump Url="BackTesting.TfmBackTest.Stop.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.StopClick(TObject)">
+<Jump Url="BackTesting.TfmBackTest.StopClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.tmrRefreshBT_Srtragy">
+<Jump Url="BackTesting.TfmBackTest.tmrRefreshBT_Srtragy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBackTest.tmrRefreshBT_SrtragyTimer(TObject)">
+<Jump Url="BackTesting.TfmBackTest.tmrRefreshBT_SrtragyTimer.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart">
+<Jump Url="BTChart.TfmBTChart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ActionList">
+<Jump Url="BTChart.TfmBTChart.ActionList.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbCursor">
+<Jump Url="BTChart.TfmBTChart.bbCursor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbEdit">
+<Jump Url="BTChart.TfmBTChart.bbEdit.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbEditClick(TObject)">
+<Jump Url="BTChart.TfmBTChart.bbEditClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbExport">
+<Jump Url="BTChart.TfmBTChart.bbExport.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbLast">
+<Jump Url="BTChart.TfmBTChart.bbLast.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbpaData">
+<Jump Url="BTChart.TfmBTChart.bbpaData.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.bbScroll">
+<Jump Url="BTChart.TfmBTChart.bbScroll.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.btn1">
+<Jump Url="BTChart.TfmBTChart.btn1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.btn2">
+<Jump Url="BTChart.TfmBTChart.btn2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.btn7">
+<Jump Url="BTChart.TfmBTChart.btn7.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.btnDBChartPrint1">
+<Jump Url="BTChart.TfmBTChart.btnDBChartPrint1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Button5">
+<Jump Url="BTChart.TfmBTChart.Button5.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Button6">
+<Jump Url="BTChart.TfmBTChart.Button6.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Button8">
+<Jump Url="BTChart.TfmBTChart.Button8.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.CalcWidthMarkDB">
+<Jump Url="BTChart.TfmBTChart.CalcWidthMarkDB.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ChartActionEdit1">
+<Jump Url="BTChart.TfmBTChart.ChartActionEdit1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ChartEditor">
+<Jump Url="BTChart.TfmBTChart.ChartEditor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.cndlsrsSeries2">
+<Jump Url="BTChart.TfmBTChart.cndlsrsSeries2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChart">
+<Jump Url="BTChart.TfmBTChart.DBChart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChart1">
+<Jump Url="BTChart.TfmBTChart.DBChart1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChart1Click(TObject)">
+<Jump Url="BTChart.TfmBTChart.DBChart1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartAfterDraw(TObject)">
+<Jump Url="BTChart.TfmBTChart.DBChartAfterDraw.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dbChartCursor">
+<Jump Url="BTChart.TfmBTChart.dbChartCursor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartEdit">
+<Jump Url="BTChart.TfmBTChart.DBChartEdit.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartHint">
+<Jump Url="BTChart.TfmBTChart.DBChartHint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartPrint">
+<Jump Url="BTChart.TfmBTChart.DBChartPrint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartResize(TObject)">
+<Jump Url="BTChart.TfmBTChart.DBChartResize.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartSave">
+<Jump Url="BTChart.TfmBTChart.DBChartSave.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DBChartScroll(TObject)">
+<Jump Url="BTChart.TfmBTChart.DBChartScroll.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dbgMain">
+<Jump Url="BTChart.TfmBTChart.dbgMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dbgrdh1">
+<Jump Url="BTChart.TfmBTChart.dbgrdh1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dbgSignals">
+<Jump Url="BTChart.TfmBTChart.dbgSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.drwlntlChartTool1">
+<Jump Url="BTChart.TfmBTChart.drwlntlChartTool1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dsDeals">
+<Jump Url="BTChart.TfmBTChart.dsDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dsMain">
+<Jump Url="BTChart.TfmBTChart.dsMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dsSignals">
+<Jump Url="BTChart.TfmBTChart.dsSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.DT">
+<Jump Url="BTChart.TfmBTChart.DT.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dtmfldDealsDateClosePosition">
+<Jump Url="BTChart.TfmBTChart.dtmfldDealsDateClosePosition.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.dtmfldDealsDateOpenPosition">
+<Jump Url="BTChart.TfmBTChart.dtmfldDealsDateOpenPosition.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Excel1">
+<Jump Url="BTChart.TfmBTChart.Excel1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Excel1Click(TObject)">
+<Jump Url="BTChart.TfmBTChart.Excel1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.extndfldVirtualTablevVolume">
+<Jump Url="BTChart.TfmBTChart.extndfldVirtualTablevVolume.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Finres">
+<Jump Url="BTChart.TfmBTChart.Finres.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsDaysCount">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsDaysCount.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsMoneyBefor">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsMoneyBefor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsMoneyRest">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsMoneyRest.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsPriceClose">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsPriceClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsPriceOpen">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsPriceOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsProfitMoney">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsProfitMoney.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.fltfldDealsProfitPercent">
+<Jump Url="BTChart.TfmBTChart.fltfldDealsProfitPercent.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.FormClose(TObject%2CTCloseAction)">
+<Jump Url="BTChart.TfmBTChart.FormClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.FormCreate(TObject)">
+<Jump Url="BTChart.TfmBTChart.FormCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.FormShow(TObject)">
+<Jump Url="BTChart.TfmBTChart.FormShow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ImageCollection1">
+<Jump Url="BTChart.TfmBTChart.ImageCollection1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.intgrfldDealsAssetCount">
+<Jump Url="BTChart.TfmBTChart.intgrfldDealsAssetCount.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.lrgntfldDealsAssetIdClose">
+<Jump Url="BTChart.TfmBTChart.lrgntfldDealsAssetIdClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.lrgntfldDealsAssetIdOpen">
+<Jump Url="BTChart.TfmBTChart.lrgntfldDealsAssetIdOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.lrgntfldIndikatorsid">
+<Jump Url="BTChart.TfmBTChart.lrgntfldIndikatorsid.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.meDeals">
+<Jump Url="BTChart.TfmBTChart.meDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.meError">
+<Jump Url="BTChart.TfmBTChart.meError.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.meStragegyInfo">
+<Jump Url="BTChart.TfmBTChart.meStragegyInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.N1">
+<Jump Url="BTChart.TfmBTChart.N1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.PageControl1">
+<Jump Url="BTChart.TfmBTChart.PageControl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.pcData">
+<Jump Url="BTChart.TfmBTChart.pcData.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.pcDataChange(TObject)">
+<Jump Url="BTChart.TfmBTChart.pcDataChange.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.pm">
+<Jump Url="BTChart.TfmBTChart.pm.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.PopupMenu">
+<Jump Url="BTChart.TfmBTChart.PopupMenu.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.price">
+<Jump Url="BTChart.TfmBTChart.price.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sBuy_">
+<Jump Url="BTChart.TfmBTChart.sBuy_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sCandle_">
+<Jump Url="BTChart.TfmBTChart.sCandle_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ScrollPager">
+<Jump Url="BTChart.TfmBTChart.ScrollPager.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.se">
+<Jump Url="BTChart.TfmBTChart.se.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.Series1">
+<Jump Url="BTChart.TfmBTChart.Series1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.SeriesTextSource1">
+<Jump Url="BTChart.TfmBTChart.SeriesTextSource1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sFinres">
+<Jump Url="BTChart.TfmBTChart.sFinres.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.signal">
+<Jump Url="BTChart.TfmBTChart.signal.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sInd1">
+<Jump Url="BTChart.TfmBTChart.sInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sInd2">
+<Jump Url="BTChart.TfmBTChart.sInd2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.spl1">
+<Jump Url="BTChart.TfmBTChart.spl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sSell_">
+<Jump Url="BTChart.TfmBTChart.sSell_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.strngfldDealsSignalClose">
+<Jump Url="BTChart.TfmBTChart.strngfldDealsSignalClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.strngfldDealsSignalOpen">
+<Jump Url="BTChart.TfmBTChart.strngfldDealsSignalOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.strngfldDealsStatus">
+<Jump Url="BTChart.TfmBTChart.strngfldDealsStatus.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.sVolume_">
+<Jump Url="BTChart.TfmBTChart.sVolume_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taDeals">
+<Jump Url="BTChart.TfmBTChart.taDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taDealsCalcFields(TDataSet)">
+<Jump Url="BTChart.TfmBTChart.taDealsCalcFields.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taIndikators">
+<Jump Url="BTChart.TfmBTChart.taIndikators.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taIndikatorsdt">
+<Jump Url="BTChart.TfmBTChart.taIndikatorsdt.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taIndikatorsind2">
+<Jump Url="BTChart.TfmBTChart.taIndikatorsind2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taIndikatorsvInd1">
+<Jump Url="BTChart.TfmBTChart.taIndikatorsvInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taIndikatorsvXlabel">
+<Jump Url="BTChart.TfmBTChart.taIndikatorsvXlabel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.taSignals">
+<Jump Url="BTChart.TfmBTChart.taSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.TeeXMLSource1">
+<Jump Url="BTChart.TfmBTChart.TeeXMLSource1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.tlb1">
+<Jump Url="BTChart.TfmBTChart.tlb1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ToolButton2">
+<Jump Url="BTChart.TfmBTChart.ToolButton2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ts1">
+<Jump Url="BTChart.TfmBTChart.ts1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ts2">
+<Jump Url="BTChart.TfmBTChart.ts2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.ts3">
+<Jump Url="BTChart.TfmBTChart.ts3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.tsDeals">
+<Jump Url="BTChart.TfmBTChart.tsDeals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.tshMain">
+<Jump Url="BTChart.TfmBTChart.tshMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.tshSignals">
+<Jump Url="BTChart.TfmBTChart.tshSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.tshStrategy">
+<Jump Url="BTChart.TfmBTChart.tshStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTable">
+<Jump Url="BTChart.TfmBTChart.VirtualTable.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTableASSETID">
+<Jump Url="BTChart.TfmBTChart.VirtualTableASSETID.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTableDT">
+<Jump Url="BTChart.TfmBTChart.VirtualTableDT.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablePRICE">
+<Jump Url="BTChart.TfmBTChart.VirtualTablePRICE.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTableSIGNAL">
+<Jump Url="BTChart.TfmBTChart.VirtualTableSIGNAL.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevBuy">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevBuy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevClose">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevDate">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevDate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevHigh">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevHigh.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevInd1">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevInd2">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevInd2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevLow">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevLow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevOpen">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevSell">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevSell.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.VirtualTablevXlabel">
+<Jump Url="BTChart.TfmBTChart.VirtualTablevXlabel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTChart.vrtlmglst1">
+<Jump Url="BTChart.TfmBTChart.vrtlmglst1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL.bCancel">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.bCancel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL.bOk">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.bOk.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL.bOkClick(TObject)">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.bOkClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL.dbg1">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.dbg1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTPARAMSFILL.dblkcbbSTRATEGY_MODULE">
+<Jump Url="BTPARAMSFILL.TfmBTPARAMSFILL.dblkcbbSTRATEGY_MODULE.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune">
+<Jump Url="BackTestTune.TfmBTTune.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bbDel">
+<Jump Url="BackTestTune.TfmBTTune.bbDel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bbDelClick(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.bbDelClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bCancel">
+<Jump Url="BackTestTune.TfmBTTune.bCancel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bCancelClick(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.bCancelClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bGaTune">
+<Jump Url="BackTestTune.TfmBTTune.bGaTune.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bGaTuneClick(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.bGaTuneClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bOk">
+<Jump Url="BackTestTune.TfmBTTune.bOk.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.bOkClick(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.bOkClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.chkFULLSEARCH">
+<Jump Url="BackTestTune.TfmBTTune.chkFULLSEARCH.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.chkLONGDEAL">
+<Jump Url="BackTestTune.TfmBTTune.chkLONGDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.chkMax">
+<Jump Url="BackTestTune.TfmBTTune.chkMax.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbcbbTIME_FRAME">
+<Jump Url="BackTestTune.TfmBTTune.dbcbbTIME_FRAME.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.DBCheckBoxEh1">
+<Jump Url="BackTestTune.TfmBTTune.DBCheckBoxEh1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeComiss">
+<Jump Url="BackTestTune.TfmBTTune.dbeComiss.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeDAYSCOUNT">
+<Jump Url="BackTestTune.TfmBTTune.dbeDAYSCOUNT.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbedtPSEUDO_NAME">
+<Jump Url="BackTestTune.TfmBTTune.dbedtPSEUDO_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbedtTRUE_NAME">
+<Jump Url="BackTestTune.TfmBTTune.dbedtTRUE_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeMONEYSTART">
+<Jump Url="BackTestTune.TfmBTTune.dbeMONEYSTART.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbePSEUDO_NAME">
+<Jump Url="BackTestTune.TfmBTTune.dbePSEUDO_NAME.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbePSEUDO_NAMEEnter(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.dbePSEUDO_NAMEEnter.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeVALUEFIXED">
+<Jump Url="BackTestTune.TfmBTTune.dbeVALUEFIXED.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeVALUEFROM">
+<Jump Url="BackTestTune.TfmBTTune.dbeVALUEFROM.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dbeVALUETO">
+<Jump Url="BackTestTune.TfmBTTune.dbeVALUETO.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.DBGrid2">
+<Jump Url="BackTestTune.TfmBTTune.DBGrid2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dblkcbbBT_GA_TUNE_ID">
+<Jump Url="BackTestTune.TfmBTTune.dblkcbbBT_GA_TUNE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dblkcbbPAPER_NO">
+<Jump Url="BackTestTune.TfmBTTune.dblkcbbPAPER_NO.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dblkcbbSTRATEGY_MODULECloseUp(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.dblkcbbSTRATEGY_MODULECloseUp.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.dblkcbbSTRATEGY_MODULEEnter(TObject)">
+<Jump Url="BackTestTune.TfmBTTune.dblkcbbSTRATEGY_MODULEEnter.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.edtDTFROM">
+<Jump Url="BackTestTune.TfmBTTune.edtDTFROM.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.edtDTTO">
+<Jump Url="BackTestTune.TfmBTTune.edtDTTO.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.GroupBox1">
+<Jump Url="BackTestTune.TfmBTTune.GroupBox1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.GroupBox2">
+<Jump Url="BackTestTune.TfmBTTune.GroupBox2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label1">
+<Jump Url="BackTestTune.TfmBTTune.Label1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label11">
+<Jump Url="BackTestTune.TfmBTTune.Label11.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label12">
+<Jump Url="BackTestTune.TfmBTTune.Label12.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label13">
+<Jump Url="BackTestTune.TfmBTTune.Label13.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label14">
+<Jump Url="BackTestTune.TfmBTTune.Label14.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label15">
+<Jump Url="BackTestTune.TfmBTTune.Label15.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label16">
+<Jump Url="BackTestTune.TfmBTTune.Label16.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label2">
+<Jump Url="BackTestTune.TfmBTTune.Label2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label3">
+<Jump Url="BackTestTune.TfmBTTune.Label3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.Label4">
+<Jump Url="BackTestTune.TfmBTTune.Label4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.lbl1">
+<Jump Url="BackTestTune.TfmBTTune.lbl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.lbl2">
+<Jump Url="BackTestTune.TfmBTTune.lbl2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.lbl3">
+<Jump Url="BackTestTune.TfmBTTune.lbl3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmBTTune.lbl4">
+<Jump Url="BackTestTune.TfmBTTune.lbl4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune">
+<Jump Url="GATune.TfmGATune.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.Button1">
+<Jump Url="GATune.TfmGATune.Button1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.chkFULLSEARCH">
+<Jump Url="GATune.TfmGATune.chkFULLSEARCH.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.chkLONGDEAL">
+<Jump Url="GATune.TfmGATune.chkLONGDEAL.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeChilds">
+<Jump Url="GATune.TfmGATune.dbeChilds.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeComiss">
+<Jump Url="GATune.TfmGATune.dbeComiss.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeDiff">
+<Jump Url="GATune.TfmGATune.dbeDiff.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeFirstPop">
+<Jump Url="GATune.TfmGATune.dbeFirstPop.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeForeign">
+<Jump Url="GATune.TfmGATune.dbeForeign.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbePercent">
+<Jump Url="GATune.TfmGATune.dbePercent.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeStep">
+<Jump Url="GATune.TfmGATune.dbeStep.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeStopLoss">
+<Jump Url="GATune.TfmGATune.dbeStopLoss.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbeTakeProfit">
+<Jump Url="GATune.TfmGATune.dbeTakeProfit.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dblkcbbBT_GA_TUNE_ID">
+<Jump Url="GATune.TfmGATune.dblkcbbBT_GA_TUNE_ID.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.dbnvgr1">
+<Jump Url="GATune.TfmGATune.dbnvgr1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.FormClose(TObject%2CTCloseAction)">
+<Jump Url="GATune.TfmGATune.FormClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl1">
+<Jump Url="GATune.TfmGATune.lbl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl2">
+<Jump Url="GATune.TfmGATune.lbl2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl3">
+<Jump Url="GATune.TfmGATune.lbl3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl4">
+<Jump Url="GATune.TfmGATune.lbl4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl5">
+<Jump Url="GATune.TfmGATune.lbl5.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl6">
+<Jump Url="GATune.TfmGATune.lbl6.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl7">
+<Jump Url="GATune.TfmGATune.lbl7.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl8">
+<Jump Url="GATune.TfmGATune.lbl8.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.lbl9">
+<Jump Url="GATune.TfmGATune.lbl9.htm"/>
+</Keyword>
+
+<Keyword Term="TfmGATune.pa1">
+<Jump Url="GATune.TfmGATune.pa1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmLog">
+<Jump Url="Log.TfmLog.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain">
+<Jump Url="main.TfmMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.actlst1">
+<Jump Url="main.TfmMain.actlst1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.Arrange1">
+<Jump Url="main.TfmMain.Arrange1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.BackTesting1">
+<Jump Url="main.TfmMain.BackTesting1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.BackTesting1Click(TObject)">
+<Jump Url="main.TfmMain.BackTesting1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.bStart">
+<Jump Url="main.TfmMain.bStart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.bStartClick(TObject)">
+<Jump Url="main.TfmMain.bStartClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.eeeeeee1">
+<Jump Url="main.TfmMain.eeeeeee1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.eeeeeee1Click(TObject)">
+<Jump Url="main.TfmMain.eeeeeee1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.ErrorLog">
+<Jump Url="main.TfmMain.ErrorLog.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.FormClose(TObject%2CTCloseAction)">
+<Jump Url="main.TfmMain.FormClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.FormCreate(TObject)">
+<Jump Url="main.TfmMain.FormCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.FormDestroy(TObject)">
+<Jump Url="main.TfmMain.FormDestroy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.FormShow(TObject)">
+<Jump Url="main.TfmMain.FormShow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.MailingList">
+<Jump Url="main.TfmMain.MailingList.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.maillog">
+<Jump Url="main.TfmMain.maillog.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.MainLog">
+<Jump Url="main.TfmMain.MainLog.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.meError">
+<Jump Url="main.TfmMain.meError.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.meMain">
+<Jump Url="main.TfmMain.meMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.mm">
+<Jump Url="main.TfmMain.mm.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.mmWindows">
+<Jump Url="main.TfmMain.mmWindows.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N1">
+<Jump Url="main.TfmMain.N1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N2">
+<Jump Url="main.TfmMain.N2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N2Click(TObject)">
+<Jump Url="main.TfmMain.N2Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N3">
+<Jump Url="main.TfmMain.N3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N4">
+<Jump Url="main.TfmMain.N4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N5">
+<Jump Url="main.TfmMain.N5.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.N6">
+<Jump Url="main.TfmMain.N6.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.PageControl1">
+<Jump Url="main.TfmMain.PageControl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.paLog">
+<Jump Url="main.TfmMain.paLog.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.stBar">
+<Jump Url="main.TfmMain.stBar.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.stgMailList">
+<Jump Url="main.TfmMain.stgMailList.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.TabSheet1">
+<Jump Url="main.TfmMain.TabSheet1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.TabSheet2">
+<Jump Url="main.TfmMain.TabSheet2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.TabSheet3">
+<Jump Url="main.TfmMain.TabSheet3.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.wndwcscd1">
+<Jump Url="main.TfmMain.wndwcscd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.wndwmnmzl1">
+<Jump Url="main.TfmMain.wndwmnmzl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.wndwrng1">
+<Jump Url="main.TfmMain.wndwrng1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.wndwtlhrzntl1">
+<Jump Url="main.TfmMain.wndwtlhrzntl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMain.wndwtlvrtcl1">
+<Jump Url="main.TfmMain.wndwtlvrtcl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMsg">
+<Jump Url="msg.TfmMsg.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMsg.Button1">
+<Jump Url="msg.TfmMsg.Button1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMsg.Button1Click(TObject)">
+<Jump Url="msg.TfmMsg.Button1Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMsg.FormShow(TObject)">
+<Jump Url="msg.TfmMsg.FormShow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmMsg.Label1">
+<Jump Url="msg.TfmMsg.Label1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy">
+<Jump Url="StrategyForm.TfmStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ActionList">
+<Jump Url="StrategyForm.TfmStrategy.ActionList.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbCursor">
+<Jump Url="StrategyForm.TfmStrategy.bbCursor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbCursorClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbCursorClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbEdit">
+<Jump Url="StrategyForm.TfmStrategy.bbEdit.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbEditClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbEditClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbExport">
+<Jump Url="StrategyForm.TfmStrategy.bbExport.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbExportClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbExportClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbLast">
+<Jump Url="StrategyForm.TfmStrategy.bbLast.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbLastClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbLastClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbpaData">
+<Jump Url="StrategyForm.TfmStrategy.bbpaData.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbpaDataClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbpaDataClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbScroll">
+<Jump Url="StrategyForm.TfmStrategy.bbScroll.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.bbScrollClick(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.bbScrollClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Blue">
+<Jump Url="StrategyForm.TfmStrategy.Blue.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.btn1">
+<Jump Url="StrategyForm.TfmStrategy.btn1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.btn2">
+<Jump Url="StrategyForm.TfmStrategy.btn2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.btn7">
+<Jump Url="StrategyForm.TfmStrategy.btn7.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.btn7Click(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.btn7Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.btnDBChartPrint1">
+<Jump Url="StrategyForm.TfmStrategy.btnDBChartPrint1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Button5">
+<Jump Url="StrategyForm.TfmStrategy.Button5.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Button6">
+<Jump Url="StrategyForm.TfmStrategy.Button6.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Button6Click(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.Button6Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Button8">
+<Jump Url="StrategyForm.TfmStrategy.Button8.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.CalcWidthMarkDB">
+<Jump Url="StrategyForm.TfmStrategy.CalcWidthMarkDB.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ChartActionEdit1">
+<Jump Url="StrategyForm.TfmStrategy.ChartActionEdit1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ChartEditor">
+<Jump Url="StrategyForm.TfmStrategy.ChartEditor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ChartEditorClose(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.ChartEditorClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChart">
+<Jump Url="StrategyForm.TfmStrategy.DBChart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartAfterDraw(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartAfterDraw.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dbChartCursor">
+<Jump Url="StrategyForm.TfmStrategy.dbChartCursor.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dbChartCursorChange(TCursorTool%2CInteger%2CInteger%2CDouble%2CDouble%2CTChartSeries%2CInteger)">
+<Jump Url="StrategyForm.TfmStrategy.dbChartCursorChange.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartEdit">
+<Jump Url="StrategyForm.TfmStrategy.DBChartEdit.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartHint">
+<Jump Url="StrategyForm.TfmStrategy.DBChartHint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartHintGetText(TMarksTipTool%2Cstring)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartHintGetText.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartKeyDown(TObject%2CWord%2CTShiftState)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartKeyDown.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartPrint">
+<Jump Url="StrategyForm.TfmStrategy.DBChartPrint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartResize(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartResize.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartSave">
+<Jump Url="StrategyForm.TfmStrategy.DBChartSave.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartScroll(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartScroll.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartUndoZoom(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartUndoZoom.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBChartZoom(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.DBChartZoom.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBchtScrollMain">
+<Jump Url="StrategyForm.TfmStrategy.DBchtScrollMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DBchtScrollMainScroll(TObject%2CTScrollCode%2CInteger)">
+<Jump Url="StrategyForm.TfmStrategy.DBchtScrollMainScroll.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dbgMain">
+<Jump Url="StrategyForm.TfmStrategy.dbgMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dbgMainCellClick(TColumn)">
+<Jump Url="StrategyForm.TfmStrategy.dbgMainCellClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dbgSignals">
+<Jump Url="StrategyForm.TfmStrategy.dbgSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.drwlntlChartTool1">
+<Jump Url="StrategyForm.TfmStrategy.drwlntlChartTool1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dsMain">
+<Jump Url="StrategyForm.TfmStrategy.dsMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.dsSignals">
+<Jump Url="StrategyForm.TfmStrategy.dsSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.DT">
+<Jump Url="StrategyForm.TfmStrategy.DT.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.extndfldVirtualTablevVolume">
+<Jump Url="StrategyForm.TfmStrategy.extndfldVirtualTablevVolume.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.FormClose(TObject%2CTCloseAction)">
+<Jump Url="StrategyForm.TfmStrategy.FormClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.FormCreate(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.FormCreate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.Green">
+<Jump Url="StrategyForm.TfmStrategy.Green.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ImageCollection1">
+<Jump Url="StrategyForm.TfmStrategy.ImageCollection1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.LoadTee">
+<Jump Url="StrategyForm.TfmStrategy.LoadTee.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.lrgntfldIndikatorsid">
+<Jump Url="StrategyForm.TfmStrategy.lrgntfldIndikatorsid.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.meError">
+<Jump Url="StrategyForm.TfmStrategy.meError.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.meStragegyInfo">
+<Jump Url="StrategyForm.TfmStrategy.meStragegyInfo.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.N1">
+<Jump Url="StrategyForm.TfmStrategy.N1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.OnLegendPoint">
+<Jump Url="StrategyForm.TfmStrategy.OnLegendPoint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.OnSeriesPoint">
+<Jump Url="StrategyForm.TfmStrategy.OnSeriesPoint.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.paChart">
+<Jump Url="StrategyForm.TfmStrategy.paChart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.paData">
+<Jump Url="StrategyForm.TfmStrategy.paData.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.pcData">
+<Jump Url="StrategyForm.TfmStrategy.pcData.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.pcDataChange(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.pcDataChange.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.PopupMenu">
+<Jump Url="StrategyForm.TfmStrategy.PopupMenu.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.price">
+<Jump Url="StrategyForm.TfmStrategy.price.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sBuy_">
+<Jump Url="StrategyForm.TfmStrategy.sBuy_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sCandle_">
+<Jump Url="StrategyForm.TfmStrategy.sCandle_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ScrollPager">
+<Jump Url="StrategyForm.TfmStrategy.ScrollPager.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ScrollPagerScrolled(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.ScrollPagerScrolled.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.se">
+<Jump Url="StrategyForm.TfmStrategy.se.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.seChange(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.seChange.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.SeriesTextSource1">
+<Jump Url="StrategyForm.TfmStrategy.SeriesTextSource1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.signal">
+<Jump Url="StrategyForm.TfmStrategy.signal.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sInd1">
+<Jump Url="StrategyForm.TfmStrategy.sInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sInd2">
+<Jump Url="StrategyForm.TfmStrategy.sInd2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.spl1">
+<Jump Url="StrategyForm.TfmStrategy.spl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.spl2">
+<Jump Url="StrategyForm.TfmStrategy.spl2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sSell_">
+<Jump Url="StrategyForm.TfmStrategy.sSell_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.sVolume_">
+<Jump Url="StrategyForm.TfmStrategy.sVolume_.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.TabSheet4">
+<Jump Url="StrategyForm.TfmStrategy.TabSheet4.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taIndikators">
+<Jump Url="StrategyForm.TfmStrategy.taIndikators.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taIndikatorsdt">
+<Jump Url="StrategyForm.TfmStrategy.taIndikatorsdt.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taIndikatorsind2">
+<Jump Url="StrategyForm.TfmStrategy.taIndikatorsind2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taIndikatorsvInd1">
+<Jump Url="StrategyForm.TfmStrategy.taIndikatorsvInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taIndikatorsvXlabel">
+<Jump Url="StrategyForm.TfmStrategy.taIndikatorsvXlabel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.taSignals">
+<Jump Url="StrategyForm.TfmStrategy.taSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.TeeXMLSource1">
+<Jump Url="StrategyForm.TfmStrategy.TeeXMLSource1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.tlb1">
+<Jump Url="StrategyForm.TfmStrategy.tlb1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ToolButton2">
+<Jump Url="StrategyForm.TfmStrategy.ToolButton2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ToolButton2Click(TObject)">
+<Jump Url="StrategyForm.TfmStrategy.ToolButton2Click.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.ts2">
+<Jump Url="StrategyForm.TfmStrategy.ts2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.tshMain">
+<Jump Url="StrategyForm.TfmStrategy.tshMain.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.tshSignals">
+<Jump Url="StrategyForm.TfmStrategy.tshSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTable">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTable.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTableASSETID">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTableASSETID.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTableDT">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTableDT.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablePRICE">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablePRICE.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTableSIGNAL">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTableSIGNAL.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevBuy">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevBuy.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevClose">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevDate">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevDate.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevHigh">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevHigh.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevInd1">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevInd1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevInd2">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevInd2.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevLow">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevLow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevOpen">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevSell">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevSell.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.VirtualTablevXlabel">
+<Jump Url="StrategyForm.TfmStrategy.VirtualTablevXlabel.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategy.vrtlmglst1">
+<Jump Url="StrategyForm.TfmStrategy.vrtlmglst1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune">
+<Jump Url="StrategyTune.TfmStrategyTune.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.bStart">
+<Jump Url="StrategyTune.TfmStrategyTune.bStart.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.bStartClick(TObject)">
+<Jump Url="StrategyTune.TfmStrategyTune.bStartClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.dbgrd">
+<Jump Url="StrategyTune.TfmStrategyTune.dbgrd.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.dbgrdCellClick(TColumn)">
+<Jump Url="StrategyTune.TfmStrategyTune.dbgrdCellClick.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.dbgrdDrawColumnCell(TObject%2CTRect%2CInteger%2CTColumn%2CTGridDrawState)">
+<Jump Url="StrategyTune.TfmStrategyTune.dbgrdDrawColumnCell.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.dbgSysParams">
+<Jump Url="StrategyTune.TfmStrategyTune.dbgSysParams.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.DBNavigator1">
+<Jump Url="StrategyTune.TfmStrategyTune.DBNavigator1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.dtpBegin">
+<Jump Url="StrategyTune.TfmStrategyTune.dtpBegin.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.FormClose(TObject%2CTCloseAction)">
+<Jump Url="StrategyTune.TfmStrategyTune.FormClose.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.FormShow(TObject)">
+<Jump Url="StrategyTune.TfmStrategyTune.FormShow.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.lbl1">
+<Jump Url="StrategyTune.TfmStrategyTune.lbl1.htm"/>
+</Keyword>
+
+<Keyword Term="TfmStrategyTune.Panel1">
+<Jump Url="StrategyTune.TfmStrategyTune.Panel1.htm"/>
+</Keyword>
+
+<Keyword Term="TGA_">
+<Jump Url="BackTesting.TGA_.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind">
+<Jump Url="GA.TGenFind.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Asset">
+<Jump Url="GA.TGenFind.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.ChildsCount">
+<Jump Url="GA.TGenFind.ChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.ComissionSize">
+<Jump Url="GA.TGenFind.ComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.DealsArray">
+<Jump Url="GA.TGenFind.DealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.DealsReturn(TParamFinRez)">
+<Jump Url="GA.TGenFind.DealsReturn.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Destroy">
+<Jump Url="GA.TGenFind.Destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.DiffPercentChilds">
+<Jump Url="GA.TGenFind.DiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Execute">
+<Jump Url="GA.TGenFind.Execute.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.ExecuteClassic">
+<Jump Url="GA.TGenFind.ExecuteClassic.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fAsset">
+<Jump Url="GA.TGenFind.fAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fChildsCount">
+<Jump Url="GA.TGenFind.fChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fComissionSize">
+<Jump Url="GA.TGenFind.fComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fDealsArray">
+<Jump Url="GA.TGenFind.fDealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fDiffPercentChilds">
+<Jump Url="GA.TGenFind.fDiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fFinished">
+<Jump Url="GA.TGenFind.fFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fFirstGeneretionSize">
+<Jump Url="GA.TGenFind.fFirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fHappy">
+<Jump Url="GA.TGenFind.fHappy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Finished">
+<Jump Url="GA.TGenFind.Finished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fInParamlist">
+<Jump Url="GA.TGenFind.fInParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.FirstGeneretionSize">
+<Jump Url="GA.TGenFind.FirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fLongDeal">
+<Jump Url="GA.TGenFind.fLongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fMoneyStart">
+<Jump Url="GA.TGenFind.fMoneyStart.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fNeedFullSearch">
+<Jump Url="GA.TGenFind.fNeedFullSearch.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fOnFinished">
+<Jump Url="GA.TGenFind.fOnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fOnMyEvent">
+<Jump Url="GA.TGenFind.fOnMyEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fPercentAreaExpan">
+<Jump Url="GA.TGenFind.fPercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fPercentNotRelatives">
+<Jump Url="GA.TGenFind.fPercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.FProgressBar">
+<Jump Url="GA.TGenFind.FProgressBar.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fResult">
+<Jump Url="GA.TGenFind.fResult.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fSearchMax">
+<Jump Url="GA.TGenFind.fSearchMax.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fShortDeal">
+<Jump Url="GA.TGenFind.fShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fSignals">
+<Jump Url="GA.TGenFind.fSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fStepCount">
+<Jump Url="GA.TGenFind.fStepCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fStepPassed">
+<Jump Url="GA.TGenFind.fStepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fStopLossFixedParam">
+<Jump Url="GA.TGenFind.fStopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fStrategy">
+<Jump Url="GA.TGenFind.fStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fStrategyID">
+<Jump Url="GA.TGenFind.fStrategyID.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.fTakeProfitFixedParam">
+<Jump Url="GA.TGenFind.fTakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.FullSsearch(boolean)">
+<Jump Url="GA.TGenFind.FullSsearch.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetAsset">
+<Jump Url="GA.TGenFind.GetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetChildsCount">
+<Jump Url="GA.TGenFind.GetChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetComissionSize">
+<Jump Url="GA.TGenFind.GetComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetDealsArray">
+<Jump Url="GA.TGenFind.GetDealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetDiffPercentChilds">
+<Jump Url="GA.TGenFind.GetDiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetFinished">
+<Jump Url="GA.TGenFind.GetFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetFirstGeneretionSize">
+<Jump Url="GA.TGenFind.GetFirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetForecastTime">
+<Jump Url="GA.TGenFind.GetForecastTime.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetInParamlist">
+<Jump Url="GA.TGenFind.GetInParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetIStrategy">
+<Jump Url="GA.TGenFind.GetIStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetLongDeal">
+<Jump Url="GA.TGenFind.GetLongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetMoneyStart">
+<Jump Url="GA.TGenFind.GetMoneyStart.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetNeedFullSearch">
+<Jump Url="GA.TGenFind.GetNeedFullSearch.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetOnFinished">
+<Jump Url="GA.TGenFind.GetOnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetOnStep">
+<Jump Url="GA.TGenFind.GetOnStep.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetPercentAreaExpan">
+<Jump Url="GA.TGenFind.GetPercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetPercentNotRelatives">
+<Jump Url="GA.TGenFind.GetPercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetSearchMax">
+<Jump Url="GA.TGenFind.GetSearchMax.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetShortDeal">
+<Jump Url="GA.TGenFind.GetShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetSignals">
+<Jump Url="GA.TGenFind.GetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetStepCount">
+<Jump Url="GA.TGenFind.GetStepCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetStepPassed">
+<Jump Url="GA.TGenFind.GetStepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetStopLossFixedParam">
+<Jump Url="GA.TGenFind.GetStopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.GetTakeProfitFixedParam">
+<Jump Url="GA.TGenFind.GetTakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.InParamlist">
+<Jump Url="GA.TGenFind.InParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.LongDeal">
+<Jump Url="GA.TGenFind.LongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.MoneyStart">
+<Jump Url="GA.TGenFind.MoneyStart.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.NeedFullSearch">
+<Jump Url="GA.TGenFind.NeedFullSearch.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.OnFinished">
+<Jump Url="GA.TGenFind.OnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.OnStep">
+<Jump Url="GA.TGenFind.OnStep.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.PercentAreaExpan">
+<Jump Url="GA.TGenFind.PercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.PercentNotRelatives">
+<Jump Url="GA.TGenFind.PercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.ProgressBar">
+<Jump Url="GA.TGenFind.ProgressBar.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SearchMax">
+<Jump Url="GA.TGenFind.SearchMax.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetAsset(TAssetRecord)">
+<Jump Url="GA.TGenFind.SetAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetChildsCount(Integer)">
+<Jump Url="GA.TGenFind.SetChildsCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetComissionSize(Real)">
+<Jump Url="GA.TGenFind.SetComissionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetDealsArray(TArrayDealsClass)">
+<Jump Url="GA.TGenFind.SetDealsArray.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetDiffPercentChilds(Integer)">
+<Jump Url="GA.TGenFind.SetDiffPercentChilds.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetFinished(Boolean)">
+<Jump Url="GA.TGenFind.SetFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetFirstGeneretionSize(Integer)">
+<Jump Url="GA.TGenFind.SetFirstGeneretionSize.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetInParamlist(TParamList)">
+<Jump Url="GA.TGenFind.SetInParamlist.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetIStrategy(IStrategy)">
+<Jump Url="GA.TGenFind.SetIStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetLongDeal(boolean)">
+<Jump Url="GA.TGenFind.SetLongDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetMoneyStart(real)">
+<Jump Url="GA.TGenFind.SetMoneyStart.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetNeedFullSearch(Boolean)">
+<Jump Url="GA.TGenFind.SetNeedFullSearch.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetOnFinished(TFinishedEvent)">
+<Jump Url="GA.TGenFind.SetOnFinished.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetOnStep(TStepEvent)">
+<Jump Url="GA.TGenFind.SetOnStep.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetPercentAreaExpan(Integer)">
+<Jump Url="GA.TGenFind.SetPercentAreaExpan.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetPercentNotRelatives(Integer)">
+<Jump Url="GA.TGenFind.SetPercentNotRelatives.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetSearchMax(Boolean)">
+<Jump Url="GA.TGenFind.SetSearchMax.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetShortDeal(boolean)">
+<Jump Url="GA.TGenFind.SetShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetSignals(SAR)">
+<Jump Url="GA.TGenFind.SetSignals.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetStepCount(Integer)">
+<Jump Url="GA.TGenFind.SetStepCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetStepPassed(Integer)">
+<Jump Url="GA.TGenFind.SetStepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetStopLossFixedParam(Integer)">
+<Jump Url="GA.TGenFind.SetStopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.SetTakeProfitFixedParam(Integer)">
+<Jump Url="GA.TGenFind.SetTakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.ShortDeal">
+<Jump Url="GA.TGenFind.ShortDeal.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Signals">
+<Jump Url="GA.TGenFind.Signals.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.StepCount">
+<Jump Url="GA.TGenFind.StepCount.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.StepPassed">
+<Jump Url="GA.TGenFind.StepPassed.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.StopLossFixedParam">
+<Jump Url="GA.TGenFind.StopLossFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.Strategy">
+<Jump Url="GA.TGenFind.Strategy.htm"/>
+</Keyword>
+
+<Keyword Term="TGenFind.TakeProfitFixedParam">
+<Jump Url="GA.TGenFind.TakeProfitFixedParam.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam">
+<Jump Url="CommonTypes.TIndParam.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.Create(integer%2Cstring)">
+<Jump Url="CommonTypes.TIndParam.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.CreateRange(integer%2Cinteger%2Cstring)">
+<Jump Url="CommonTypes.TIndParam.CreateRange.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.pName">
+<Jump Url="CommonTypes.TIndParam.pName.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.pStride">
+<Jump Url="CommonTypes.TIndParam.pStride.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.pValueFixed">
+<Jump Url="CommonTypes.TIndParam.pValueFixed.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.pValueFrom">
+<Jump Url="CommonTypes.TIndParam.pValueFrom.htm"/>
+</Keyword>
+
+<Keyword Term="TIndParam.pValueTo">
+<Jump Url="CommonTypes.TIndParam.pValueTo.htm"/>
+</Keyword>
+
+<Keyword Term="TInteger1DArray">
+<Jump Url="Ap.TInteger1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TInteger2DArray">
+<Jump Url="Ap.TInteger2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez">
+<Jump Url="CommonTypes.TListParamFinRez.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.AddListParam(TListParamFinRez)">
+<Jump Url="CommonTypes.TListParamFinRez.AddListParam.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.CopyParam(TParamFinRez)">
+<Jump Url="CommonTypes.TListParamFinRez.CopyParam.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.DeleteRangeR(Integer%2CInteger)">
+<Jump Url="CommonTypes.TListParamFinRez.DeleteRangeR.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.Destroy">
+<Jump Url="CommonTypes.TListParamFinRez.Destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.IndExists(TParamFinRez)">
+<Jump Url="CommonTypes.TListParamFinRez.IndExists.htm"/>
+</Keyword>
+
+<Keyword Term="TListParamFinRez.MakeChildListParam(TParamFinRez%2CTParamFinRez%2Cinteger%2Cinteger)">
+<Jump Url="CommonTypes.TListParamFinRez.MakeChildListParam.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog">
+<Jump Url="dtypes.Tlog.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog.create(TMemo)">
+<Jump Url="dtypes.Tlog.create.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog.debug(TObject%2CString)">
+<Jump Url="dtypes.Tlog.debug.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog.error(TObject%2CString)">
+<Jump Url="dtypes.Tlog.error.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog.memo">
+<Jump Url="dtypes.Tlog.memo.htm"/>
+</Keyword>
+
+<Keyword Term="Tlog.PutMes(String)">
+<Jump Url="dtypes.Tlog.PutMes.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList">
+<Jump Url="dtypes.TMailingList.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.addMailingClient(TStrategy)">
+<Jump Url="dtypes.TMailingList.addMailingClient.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.ArrayOfStrategy">
+<Jump Url="dtypes.TMailingList.ArrayOfStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.CheckNewData">
+<Jump Url="dtypes.TMailingList.CheckNewData.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.create(TStringGrid)">
+<Jump Url="dtypes.TMailingList.create.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.destroy">
+<Jump Url="dtypes.TMailingList.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.getCurrentDecision(String%2CString)">
+<Jump Url="dtypes.TMailingList.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.init">
+<Jump Url="dtypes.TMailingList.init.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.insertData(String%2CTDOHLC%2CString)">
+<Jump Url="dtypes.TMailingList.insertData.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.outGrid_">
+<Jump Url="dtypes.TMailingList.outGrid_.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.plotToGrid">
+<Jump Url="dtypes.TMailingList.plotToGrid.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.RemoveMailingClient(TStrategy)">
+<Jump Url="dtypes.TMailingList.RemoveMailingClient.htm"/>
+</Keyword>
+
+<Keyword Term="TMailingList.updateData(String%2CTDOHLC%2CString)">
+<Jump Url="dtypes.TMailingList.updateData.htm"/>
+</Keyword>
+
+<Keyword Term="ToBidiagonal(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CTReal1DArray)">
+<Jump Url="bidiagonal.ToBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass">
+<Jump Url="CommonTypes.TOneDealRClass.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.AssetCount">
+<Jump Url="CommonTypes.TOneDealRClass.AssetCount.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.AssetIdClose">
+<Jump Url="CommonTypes.TOneDealRClass.AssetIdClose.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.AssetIdOpen">
+<Jump Url="CommonTypes.TOneDealRClass.AssetIdOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.Create(Integer%2CTAssetRecord%2CReal%2Cstring%2Creal)">
+<Jump Url="CommonTypes.TOneDealRClass.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.DateClosePosition">
+<Jump Url="CommonTypes.TOneDealRClass.DateClosePosition.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.DateOpenPosition">
+<Jump Url="CommonTypes.TOneDealRClass.DateOpenPosition.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.GetTxt">
+<Jump Url="CommonTypes.TOneDealRClass.GetTxt.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.MakeFirst(real)">
+<Jump Url="CommonTypes.TOneDealRClass.MakeFirst.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.MakeLast">
+<Jump Url="CommonTypes.TOneDealRClass.MakeLast.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.MoneyBefor">
+<Jump Url="CommonTypes.TOneDealRClass.MoneyBefor.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.MoneyRest">
+<Jump Url="CommonTypes.TOneDealRClass.MoneyRest.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.PriceClose">
+<Jump Url="CommonTypes.TOneDealRClass.PriceClose.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.PriceOpen">
+<Jump Url="CommonTypes.TOneDealRClass.PriceOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.SignalClose">
+<Jump Url="CommonTypes.TOneDealRClass.SignalClose.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.SignalOPen">
+<Jump Url="CommonTypes.TOneDealRClass.SignalOPen.htm"/>
+</Keyword>
+
+<Keyword Term="TOneDealRClass.Status">
+<Jump Url="CommonTypes.TOneDealRClass.Status.htm"/>
+</Keyword>
+
+<Keyword Term="TParamFinRez">
+<Jump Url="CommonTypes.TParamFinRez.htm"/>
+</Keyword>
+
+<Keyword Term="TParamFinRez.FinRez">
+<Jump Url="CommonTypes.TParamFinRez.FinRez.htm"/>
+</Keyword>
+
+<Keyword Term="TParamFinRez.Param">
+<Jump Url="CommonTypes.TParamFinRez.Param.htm"/>
+</Keyword>
+
+<Keyword Term="TParamList">
+<Jump Url="CommonTypes.TParamList.htm"/>
+</Keyword>
+
+<Keyword Term="TParamList.CopyParam(TParamList)">
+<Jump Url="CommonTypes.TParamList.CopyParam.htm"/>
+</Keyword>
+
+<Keyword Term="TParamList.IndExists(TIndParam)">
+<Jump Url="CommonTypes.TParamList.IndExists.htm"/>
+</Keyword>
+
+<Keyword Term="TParamList.ParamByName(string)">
+<Jump Url="CommonTypes.TParamList.ParamByName.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage">
+<Jump Url="dtypes.TPriceAlertMessage.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.alertStorage">
+<Jump Url="dtypes.TPriceAlertMessage.alertStorage.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.doAlert(String)">
+<Jump Url="dtypes.TPriceAlertMessage.doAlert.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getAction">
+<Jump Url="dtypes.TPriceAlertMessage.getAction.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getAlertHistID">
+<Jump Url="dtypes.TPriceAlertMessage.getAlertHistID.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getClose">
+<Jump Url="dtypes.TPriceAlertMessage.getClose.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getDate">
+<Jump Url="dtypes.TPriceAlertMessage.getDate.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getHeader">
+<Jump Url="dtypes.TPriceAlertMessage.getHeader.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getHigh">
+<Jump Url="dtypes.TPriceAlertMessage.getHigh.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getLow">
+<Jump Url="dtypes.TPriceAlertMessage.getLow.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getOpen">
+<Jump Url="dtypes.TPriceAlertMessage.getOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.getSender">
+<Jump Url="dtypes.TPriceAlertMessage.getSender.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.paper_no">
+<Jump Url="dtypes.TPriceAlertMessage.paper_no.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertMessage.timeFrame">
+<Jump Url="dtypes.TPriceAlertMessage.timeFrame.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg">
+<Jump Url="dtypes.TPriceAlertNewMsg.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.destroy">
+<Jump Url="dtypes.TPriceAlertNewMsg.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.SetNew(string)">
+<Jump Url="dtypes.TPriceAlertNewMsg.SetNew.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vClose">
+<Jump Url="dtypes.TPriceAlertNewMsg.vClose.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vDateTime">
+<Jump Url="dtypes.TPriceAlertNewMsg.vDateTime.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vHigh">
+<Jump Url="dtypes.TPriceAlertNewMsg.vHigh.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vID">
+<Jump Url="dtypes.TPriceAlertNewMsg.vID.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vLow">
+<Jump Url="dtypes.TPriceAlertNewMsg.vLow.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vOpen">
+<Jump Url="dtypes.TPriceAlertNewMsg.vOpen.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vOperation">
+<Jump Url="dtypes.TPriceAlertNewMsg.vOperation.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vPaperno">
+<Jump Url="dtypes.TPriceAlertNewMsg.vPaperno.htm"/>
+</Keyword>
+
+<Keyword Term="TPriceAlertNewMsg.vTimeFrame">
+<Jump Url="dtypes.TPriceAlertNewMsg.vTimeFrame.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress">
+<Jump Url="GA.TProgress.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress.ControlVCL">
+<Jump Url="GA.TProgress.ControlVCL.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress.DoControl(TObject%2CInteger)">
+<Jump Url="GA.TProgress.DoControl.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress.fControlVCL">
+<Jump Url="GA.TProgress.fControlVCL.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress.GetControlVCL">
+<Jump Url="GA.TProgress.GetControlVCL.htm"/>
+</Keyword>
+
+<Keyword Term="TProgress.SetControlVCL(TProgressBar)">
+<Jump Url="GA.TProgress.SetControlVCL.htm"/>
+</Keyword>
+
+<Keyword Term="TProgressOracle">
+<Jump Url="BackTesting.TProgressOracle.htm"/>
+</Keyword>
+
+<Keyword Term="TProgressOracle.DoControl(TObject%2CInteger)">
+<Jump Url="BackTesting.TProgressOracle.DoControl.htm"/>
+</Keyword>
+
+<Keyword Term="TReal1DArray">
+<Jump Url="Ap.TReal1DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TReal2DArray">
+<Jump Url="Ap.TReal2DArray.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal">
+<Jump Url="dtypes.TSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal.Create(String%2CReal%2CTDateTime%2CInteger)">
+<Jump Url="dtypes.TSignal.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal.datum">
+<Jump Url="dtypes.TSignal.datum.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal.IdInAsset">
+<Jump Url="dtypes.TSignal.IdInAsset.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal.name">
+<Jump Url="dtypes.TSignal.name.htm"/>
+</Keyword>
+
+<Keyword Term="TSignal.price">
+<Jump Url="dtypes.TSignal.price.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer">
+<Jump Url="dtypes.TSignalizer.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.checkSingalSP">
+<Jump Url="dtypes.TSignalizer.checkSingalSP.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.clear">
+<Jump Url="dtypes.TSignalizer.clear.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.create(TOraStoredProc%2CTOraStoredProc%2CTOraStoredProc)">
+<Jump Url="dtypes.TSignalizer.create.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.doCheck(TDateTime)">
+<Jump Url="dtypes.TSignalizer.doCheck.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.getFutureSignalsSP">
+<Jump Url="dtypes.TSignalizer.getFutureSignalsSP.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.getOldSignalsSP">
+<Jump Url="dtypes.TSignalizer.getOldSignalsSP.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.port">
+<Jump Url="dtypes.TSignalizer.port.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalizer.storage">
+<Jump Url="dtypes.TSignalizer.storage.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord">
+<Jump Url="dtypes.TSignalRecord.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord">
+<Jump Url="CommonTypes.TSignalRecord.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.activ_date">
+<Jump Url="dtypes.TSignalRecord.activ_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.ad_app_num">
+<Jump Url="dtypes.TSignalRecord.ad_app_num.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.block_comment">
+<Jump Url="dtypes.TSignalRecord.block_comment.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.create(integer%2Cinteger%2Cinteger%2Cinteger%2Cinteger%2Cinteger%2CReal%2CString%2CString%2CString%2CString%2CString%2CTDateTime%2CTDateTime%2CTDateTime%2CTDateTime)">
+<Jump Url="dtypes.TSignalRecord.create.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.Create(integer%2CTDateTime%2Cstring%2CSingle)">
+<Jump Url="CommonTypes.TSignalRecord.Create.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.direct_date">
+<Jump Url="dtypes.TSignalRecord.direct_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.Dt">
+<Jump Url="CommonTypes.TSignalRecord.Dt.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.emitent">
+<Jump Url="dtypes.TSignalRecord.emitent.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.exec_price_date">
+<Jump Url="dtypes.TSignalRecord.exec_price_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getActiv_date">
+<Jump Url="dtypes.TSignalRecord.getActiv_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getAd_app_num">
+<Jump Url="dtypes.TSignalRecord.getAd_app_num.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getBlock_comment">
+<Jump Url="dtypes.TSignalRecord.getBlock_comment.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getDirect_date">
+<Jump Url="dtypes.TSignalRecord.getDirect_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getEmitent">
+<Jump Url="dtypes.TSignalRecord.getEmitent.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getExec_price_date">
+<Jump Url="dtypes.TSignalRecord.getExec_price_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getIs_blocked">
+<Jump Url="dtypes.TSignalRecord.getIs_blocked.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getIs_executed">
+<Jump Url="dtypes.TSignalRecord.getIs_executed.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getIs_sended">
+<Jump Url="dtypes.TSignalRecord.getIs_sended.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getNum_lots">
+<Jump Url="dtypes.TSignalRecord.getNum_lots.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getPaper_no">
+<Jump Url="dtypes.TSignalRecord.getPaper_no.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getPrice">
+<Jump Url="dtypes.TSignalRecord.getPrice.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getSignal">
+<Jump Url="dtypes.TSignalRecord.getSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getSignal_date">
+<Jump Url="dtypes.TSignalRecord.getSignal_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getSignal_id">
+<Jump Url="dtypes.TSignalRecord.getSignal_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getStrategy_id">
+<Jump Url="dtypes.TSignalRecord.getStrategy_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getStrategy_name">
+<Jump Url="dtypes.TSignalRecord.getStrategy_name.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getTreaty">
+<Jump Url="dtypes.TSignalRecord.getTreaty.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.getTry_execute_date">
+<Jump Url="dtypes.TSignalRecord.getTry_execute_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.Id">
+<Jump Url="CommonTypes.TSignalRecord.Id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.is_blocked">
+<Jump Url="dtypes.TSignalRecord.is_blocked.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.is_executed">
+<Jump Url="dtypes.TSignalRecord.is_executed.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.is_sended">
+<Jump Url="dtypes.TSignalRecord.is_sended.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.num_lots">
+<Jump Url="dtypes.TSignalRecord.num_lots.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.paper_no">
+<Jump Url="dtypes.TSignalRecord.paper_no.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.price">
+<Jump Url="CommonTypes.TSignalRecord.price.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.price">
+<Jump Url="dtypes.TSignalRecord.price.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setActiv_date(TdateTime)">
+<Jump Url="dtypes.TSignalRecord.setActiv_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setAd_app_num(integer)">
+<Jump Url="dtypes.TSignalRecord.setAd_app_num.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setBlock_comment(String)">
+<Jump Url="dtypes.TSignalRecord.setBlock_comment.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setDirect_date(TDateTime)">
+<Jump Url="dtypes.TSignalRecord.setDirect_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setEmitent(String)">
+<Jump Url="dtypes.TSignalRecord.setEmitent.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setExec_price_date(TDateTime)">
+<Jump Url="dtypes.TSignalRecord.setExec_price_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setIs_blocked(integer)">
+<Jump Url="dtypes.TSignalRecord.setIs_blocked.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setIs_executed(integer)">
+<Jump Url="dtypes.TSignalRecord.setIs_executed.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setIs_sended(integer)">
+<Jump Url="dtypes.TSignalRecord.setIs_sended.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setNum_lots(integer)">
+<Jump Url="dtypes.TSignalRecord.setNum_lots.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setPaper_no(String)">
+<Jump Url="dtypes.TSignalRecord.setPaper_no.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setPrice(Real)">
+<Jump Url="dtypes.TSignalRecord.setPrice.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setSignal(string)">
+<Jump Url="dtypes.TSignalRecord.setSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setSignal_date(TDateTime)">
+<Jump Url="dtypes.TSignalRecord.setSignal_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setSignal_id(integer)">
+<Jump Url="dtypes.TSignalRecord.setSignal_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setStrategy_id(integer)">
+<Jump Url="dtypes.TSignalRecord.setStrategy_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setStrategy_name(String)">
+<Jump Url="dtypes.TSignalRecord.setStrategy_name.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setTreaty(String)">
+<Jump Url="dtypes.TSignalRecord.setTreaty.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.setTry_execute_date(TDateTime)">
+<Jump Url="dtypes.TSignalRecord.setTry_execute_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.Sg">
+<Jump Url="CommonTypes.TSignalRecord.Sg.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.signal">
+<Jump Url="dtypes.TSignalRecord.signal.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.signal_date">
+<Jump Url="dtypes.TSignalRecord.signal_date.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.signal_id">
+<Jump Url="dtypes.TSignalRecord.signal_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.strategy_id">
+<Jump Url="dtypes.TSignalRecord.strategy_id.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.strategy_name">
+<Jump Url="dtypes.TSignalRecord.strategy_name.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.treaty">
+<Jump Url="dtypes.TSignalRecord.treaty.htm"/>
+</Keyword>
+
+<Keyword Term="TSignalRecord.try_execute_date">
+<Jump Url="dtypes.TSignalRecord.try_execute_date.htm"/>
+</Keyword>
+
+<Keyword Term="TStepEvent">
+<Jump Url="GA.TStepEvent.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy">
+<Jump Url="dtypes.TStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.addInternalSignal(TDateTime%2CReal%2CString%2CInteger)">
+<Jump Url="dtypes.TStrategy.addInternalSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.addSignal">
+<Jump Url="dtypes.TStrategy.addSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.addTradeSignal(TDateTime%2CReal%2CString%2CInteger)">
+<Jump Url="dtypes.TStrategy.addTradeSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.addTradeSignalModeling(TDateTime%2CReal%2CString%2CInteger)">
+<Jump Url="dtypes.TStrategy.addTradeSignalModeling.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.Asset">
+<Jump Url="dtypes.TStrategy.Asset.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.AssetSeries">
+<Jump Url="dtypes.TStrategy.AssetSeries.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.decision_lag">
+<Jump Url="dtypes.TStrategy.decision_lag.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.destroy">
+<Jump Url="dtypes.TStrategy.destroy.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.executeDecision(String)">
+<Jump Url="dtypes.TStrategy.executeDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.Form">
+<Jump Url="dtypes.TStrategy.Form.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.getCurrentDecision(String)">
+<Jump Url="dtypes.TStrategy.getCurrentDecision.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.getOptPars">
+<Jump Url="dtypes.TStrategy.getOptPars.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.id">
+<Jump Url="dtypes.TStrategy.id.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.idStrategy">
+<Jump Url="dtypes.TStrategy.idStrategy.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.insertData(TDOHLC)">
+<Jump Url="dtypes.TStrategy.insertData.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.internalLog">
+<Jump Url="dtypes.TStrategy.internalLog.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.is_mod">
+<Jump Url="dtypes.TStrategy.is_mod.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.mailSignal(String%2CwideString)">
+<Jump Url="dtypes.TStrategy.mailSignal.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.mainConsole">
+<Jump Url="dtypes.TStrategy.mainConsole.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.MainLog">
+<Jump Url="dtypes.TStrategy.MainLog.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.name_">
+<Jump Url="dtypes.TStrategy.name_.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.printSignalsToMemo(TMemo)">
+<Jump Url="dtypes.TStrategy.printSignalsToMemo.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.PutAssetToChart">
+<Jump Url="dtypes.TStrategy.PutAssetToChart.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.signalizer">
+<Jump Url="dtypes.TStrategy.signalizer.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.Signals">
+<Jump Url="dtypes.TStrategy.Signals.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.status">
+<Jump Url="dtypes.TStrategy.status.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.stopLevelLong">
+<Jump Url="dtypes.TStrategy.stopLevelLong.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.stopLevelShort">
+<Jump Url="dtypes.TStrategy.stopLevelShort.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.strategyConsole">
+<Jump Url="dtypes.TStrategy.strategyConsole.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.timeFrame">
+<Jump Url="dtypes.TStrategy.timeFrame.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.treaty">
+<Jump Url="dtypes.TStrategy.treaty.htm"/>
+</Keyword>
+
+<Keyword Term="TStrategy.updateData(TDOHLC)">
+<Jump Url="dtypes.TStrategy.updateData.htm"/>
+</Keyword>
+
+<Keyword Term="uAlertForm">
+<Jump Url="uAlertForm.htm"/>
+</Keyword>
+
+<Keyword Term="uAlertForm.TalertForm">
+<Jump Url="uAlertForm.TalertForm.htm"/>
+</Keyword>
+
+<Keyword Term="UnpackDiagonalsFromBidiagonal(TReal2DArray%2CInteger%2CInteger%2CBoolean%2CTReal1DArray%2CTReal1DArray)">
+<Jump Url="bidiagonal.UnpackDiagonalsFromBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="UnpackPTFromBidiagonal(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="bidiagonal.UnpackPTFromBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="UnpackQFromBidiagonal(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="bidiagonal.UnpackQFromBidiagonal.htm"/>
+</Keyword>
+
+<Keyword Term="UnpackQFromLQ(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="lq.UnpackQFromLQ.htm"/>
+</Keyword>
+
+<Keyword Term="UnpackQFromQR(TReal2DArray%2CInteger%2CInteger%2CTReal1DArray%2CInteger%2CTReal2DArray)">
+<Jump Url="qr.UnpackQFromQR.htm"/>
+</Keyword>
+
+<Keyword Term="UpperHessenberg1Norm(TReal2DArray%2CInteger%2CInteger%2CInteger%2CInteger%2CTReal1DArray)">
+<Jump Url="blas.UpperHessenberg1Norm.htm"/>
+</Keyword>
+
+<Keyword Term="VectorIdxAbsMax(TReal1DArray%2CInteger%2CInteger)">
+<Jump Url="blas.VectorIdxAbsMax.htm"/>
+</Keyword>
+
+<Keyword Term="VectorNorm2(TReal1DArray%2CInteger%2CInteger)">
+<Jump Url="blas.VectorNorm2.htm"/>
+</Keyword>
+
+<Keyword Term="WhereClause">
+<Jump Url="dtypes.WhereClause.htm"/>
+</Keyword>
+
+<Keyword Term="WhereClause.header">
+<Jump Url="dtypes.WhereClause.header.htm"/>
+</Keyword>
+
+<Keyword Term="WhereClause.value">
+<Jump Url="dtypes.WhereClause.value.htm"/>
+</Keyword>
+
+</HelpIndex>
