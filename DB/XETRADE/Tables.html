@@ -1,0 +1,4355 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Entities</div><div class="reportStats">13 января 2021 г. 22:28:33</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li class="selLi"><a href="Tables.html" class="selAnchor">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li><a href="Keys.html">Keys</a></li><li><a href="Procedures.html">Procedures</a></li><li><a href="Views.html">Views</a></li><li><a href="ViewRelations.html">View Relationships</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li><li><a href="Editions.html">Editions</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Table_{343A6F3A-4CBE-4DF4-97AE-B25B2436299C}">XETRADE.ALERT_RECEIPERS</option><option value="Table_{4204D8BD-FBBC-4E8B-AA9E-241F819CDFA2}">XETRADE.ALERTS</option><option value="Table_{64EB968C-AD44-4831-B200-935E72A7527E}">XETRADE.AT_CLIENT_CONFIG</option><option value="Table_{C699D402-708C-4D33-AF1E-B0F447EFE1BC}">XETRADE.BCS</option><option value="Table_{3A4B793A-A21E-41FC-9DFE-47786618DCDF}">XETRADE.BOT_SIGNALS</option><option value="Table_{DD91026B-1D71-4211-B0E2-43DE5D213D53}">XETRADE.BREAKDOWNS_LEVELS</option><option value="Table_{36FA4EE8-7793-4651-81BB-15BA1A02EAA7}">XETRADE.CHAT_TABLE</option><option value="Table_{C265DACE-00F4-42C4-8B0F-A97788EB7DEC}">XETRADE.CLIENT_PORTFOLIO</option><option value="Table_{55FDCF7A-8189-4D6B-B6B9-CA6694DCB720}">XETRADE.CLIENTS</option><option value="Table_{69E5256A-E4F0-462C-BD1A-6EF11474CEA3}">XETRADE.CUT_OFF</option><option value="Table_{5B400283-DB46-429F-A1E8-85F2FB8EC5D1}">XETRADE.CUT_OFF_200_QUOTES</option><option value="Table_{F6B85000-5BD0-40C5-B3D9-7573EE0D31C7}">XETRADE.ERROR_LOG</option><option value="Table_{BA1552AB-4CCE-4385-8829-EC644FECDF00}">XETRADE.ISSUERS</option><option value="Table_{245FF39C-0C43-4893-AC19-F3EFC216F58D}">XETRADE.ITP</option><option value="Table_{ABBFFEE3-3C7A-4A62-B8C2-9C63677C8025}">XETRADE.ITP_LOG</option><option value="Table_{08FAB514-6923-4AFE-8454-C175423FC632}">XETRADE.ITP_PRICE_LEVELS</option><option value="Table_{C0F050D5-F7AD-4973-825F-F2FAF33738C1}">XETRADE.LAST_SIGNAL_REN_BY_ME</option><option value="Table_{76BD0D94-1D68-49EB-B8A1-C02C232E0D24}">XETRADE.LOT_COUNTER</option><option value="Table_{3F92B77D-DFF9-43F0-A4C6-A39358CA6277}">XETRADE.MAILINGLIST</option><option value="Table_{5E50ECE9-AC68-4F54-B51C-37A991D4F924}">XETRADE.MESS_TYPES</option><option value="Table_{C1B004F7-4106-47DA-AE5A-1617718F2DCC}">XETRADE.MONEY_LIMIT</option><option value="Table_{49DC8494-0721-46F7-84F3-C990356AB59C}">XETRADE.MY_AUTO_PORT</option><option value="Table_{EA8D7AE3-732C-419F-9281-2B1347BCFD71}">XETRADE.MY_PORT</option><option value="Table_{A792AE89-09C4-4869-8320-DA6AEC3F3578}">XETRADE.MY_PORT_HEAD</option><option value="Table_{F25A6DF5-5A1F-4AD6-AF7B-E165EFC7346B}">XETRADE.ONLINE_CHECKER</option><option value="Table_{8A4D130C-597A-4ED5-9A05-BE8A6B07C11A}">XETRADE.PAPER_LIMIT</option><option value="Table_{2AECAB23-AC93-4360-9005-DEE132D4A49C}">XETRADE.PROFIT_CASH</option><option value="Table_{A3DF6E67-C74F-427C-BBF7-9DF33E617D61}">XETRADE.PROFITHIST</option><option value="Table_{0B000F52-7075-40AB-88C3-B8A54C1343FD}">XETRADE.REPEATER</option><option value="Table_{BAC920A0-8559-44E7-A4C9-3B0192DA4A40}">XETRADE.SESSION_TABLE</option><option value="Table_{4A3C59E1-C5D4-4964-A873-CB885612BCC0}">XETRADE.SMS_MAILING_LIST</option><option value="Table_{7AF29644-797C-4B34-88A4-525F12CEE4B4}">XETRADE.SPAM_ACCOUNTS</option><option value="Table_{A77C2944-40F5-4B09-83B2-F778EDF44BB7}">XETRADE.STRAT_TRADECENTER</option><option value="Table_{C4A87EFA-522A-45F6-8338-AA44037886E6}">XETRADE.SU_ACC</option><option value="Table_{15B97321-A530-49FC-A6F6-C11E5E73B2C9}">XETRADE.SYSTEM_COMISS</option><option value="Table_{A4308255-7577-46C6-BC8E-557C7D76BF41}">XETRADE.SYSTEM_PACKETS_TAIL</option><option value="Table_{0746162F-23A7-46D7-B194-9E62DA976D4F}">XETRADE.SYSTEM_RULES</option><option value="Table_{39D99D57-EBBA-4300-B334-3290E0DD4F27}">XETRADE.SYSTEM_STOP</option><option value="Table_{0D6BCE9F-7081-47E3-A3FF-500916D9B0CB}">XETRADE.SYSTEM_USERS</option><option value="Table_{0CA9FE83-9524-45D3-85A3-761FCDA48430}">XETRADE.TICKERCC</option><option value="Table_{128D2DB7-ED89-4CE8-A2AE-94668AD17541}">XETRADE.TICKERS</option><option value="Table_{6BE25866-F957-4657-AEC6-8AD1B1811047}">XETRADE.TRADECENTERSECTIONS</option><option value="Table_{09772BDA-BBAB-4CCE-9CC8-A0B56C3D4FA8}">XETRADE.Y2YRPT</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Table_{343A6F3A-4CBE-4DF4-97AE-B25B2436299C}', this)">XETRADE.ALERT_RECEIPERS</a></li><li><a onClick="return showDetail('Table_{4204D8BD-FBBC-4E8B-AA9E-241F819CDFA2}', this)">XETRADE.ALERTS</a></li><li><a onClick="return showDetail('Table_{64EB968C-AD44-4831-B200-935E72A7527E}', this)">XETRADE.AT_CLIENT_CONFIG</a></li><li><a onClick="return showDetail('Table_{C699D402-708C-4D33-AF1E-B0F447EFE1BC}', this)">XETRADE.BCS</a></li><li><a onClick="return showDetail('Table_{3A4B793A-A21E-41FC-9DFE-47786618DCDF}', this)">XETRADE.BOT_SIGNALS</a></li><li><a onClick="return showDetail('Table_{DD91026B-1D71-4211-B0E2-43DE5D213D53}', this)">XETRADE.BREAKDOWNS_LEVELS</a></li><li><a onClick="return showDetail('Table_{36FA4EE8-7793-4651-81BB-15BA1A02EAA7}', this)">XETRADE.CHAT_TABLE</a></li><li><a onClick="return showDetail('Table_{C265DACE-00F4-42C4-8B0F-A97788EB7DEC}', this)">XETRADE.CLIENT_PORTFOLIO</a></li><li><a onClick="return showDetail('Table_{55FDCF7A-8189-4D6B-B6B9-CA6694DCB720}', this)">XETRADE.CLIENTS</a></li><li><a onClick="return showDetail('Table_{69E5256A-E4F0-462C-BD1A-6EF11474CEA3}', this)">XETRADE.CUT_OFF</a></li><li><a onClick="return showDetail('Table_{5B400283-DB46-429F-A1E8-85F2FB8EC5D1}', this)">XETRADE.CUT_OFF_200_QUOTES</a></li><li><a onClick="return showDetail('Table_{F6B85000-5BD0-40C5-B3D9-7573EE0D31C7}', this)">XETRADE.ERROR_LOG</a></li><li><a onClick="return showDetail('Table_{BA1552AB-4CCE-4385-8829-EC644FECDF00}', this)">XETRADE.ISSUERS</a></li><li><a onClick="return showDetail('Table_{245FF39C-0C43-4893-AC19-F3EFC216F58D}', this)">XETRADE.ITP</a></li><li><a onClick="return showDetail('Table_{ABBFFEE3-3C7A-4A62-B8C2-9C63677C8025}', this)">XETRADE.ITP_LOG</a></li><li><a onClick="return showDetail('Table_{08FAB514-6923-4AFE-8454-C175423FC632}', this)">XETRADE.ITP_PRICE_LEVELS</a></li><li><a onClick="return showDetail('Table_{C0F050D5-F7AD-4973-825F-F2FAF33738C1}', this)">XETRADE.LAST_SIGNAL_REN_BY_ME</a></li><li><a onClick="return showDetail('Table_{76BD0D94-1D68-49EB-B8A1-C02C232E0D24}', this)">XETRADE.LOT_COUNTER</a></li><li><a onClick="return showDetail('Table_{3F92B77D-DFF9-43F0-A4C6-A39358CA6277}', this)">XETRADE.MAILINGLIST</a></li><li><a onClick="return showDetail('Table_{5E50ECE9-AC68-4F54-B51C-37A991D4F924}', this)">XETRADE.MESS_TYPES</a></li><li><a onClick="return showDetail('Table_{C1B004F7-4106-47DA-AE5A-1617718F2DCC}', this)">XETRADE.MONEY_LIMIT</a></li><li><a onClick="return showDetail('Table_{49DC8494-0721-46F7-84F3-C990356AB59C}', this)">XETRADE.MY_AUTO_PORT</a></li><li><a onClick="return showDetail('Table_{EA8D7AE3-732C-419F-9281-2B1347BCFD71}', this)">XETRADE.MY_PORT</a></li><li><a onClick="return showDetail('Table_{A792AE89-09C4-4869-8320-DA6AEC3F3578}', this)">XETRADE.MY_PORT_HEAD</a></li><li><a onClick="return showDetail('Table_{F25A6DF5-5A1F-4AD6-AF7B-E165EFC7346B}', this)">XETRADE.ONLINE_CHECKER</a></li><li><a onClick="return showDetail('Table_{8A4D130C-597A-4ED5-9A05-BE8A6B07C11A}', this)">XETRADE.PAPER_LIMIT</a></li><li><a onClick="return showDetail('Table_{2AECAB23-AC93-4360-9005-DEE132D4A49C}', this)">XETRADE.PROFIT_CASH</a></li><li><a onClick="return showDetail('Table_{A3DF6E67-C74F-427C-BBF7-9DF33E617D61}', this)">XETRADE.PROFITHIST</a></li><li><a onClick="return showDetail('Table_{0B000F52-7075-40AB-88C3-B8A54C1343FD}', this)">XETRADE.REPEATER</a></li><li><a onClick="return showDetail('Table_{BAC920A0-8559-44E7-A4C9-3B0192DA4A40}', this)">XETRADE.SESSION_TABLE</a></li><li><a onClick="return showDetail('Table_{4A3C59E1-C5D4-4964-A873-CB885612BCC0}', this)">XETRADE.SMS_MAILING_LIST</a></li><li><a onClick="return showDetail('Table_{7AF29644-797C-4B34-88A4-525F12CEE4B4}', this)">XETRADE.SPAM_ACCOUNTS</a></li><li><a onClick="return showDetail('Table_{A77C2944-40F5-4B09-83B2-F778EDF44BB7}', this)">XETRADE.STRAT_TRADECENTER</a></li><li><a onClick="return showDetail('Table_{C4A87EFA-522A-45F6-8338-AA44037886E6}', this)">XETRADE.SU_ACC</a></li><li><a onClick="return showDetail('Table_{15B97321-A530-49FC-A6F6-C11E5E73B2C9}', this)">XETRADE.SYSTEM_COMISS</a></li><li><a onClick="return showDetail('Table_{A4308255-7577-46C6-BC8E-557C7D76BF41}', this)">XETRADE.SYSTEM_PACKETS_TAIL</a></li><li><a onClick="return showDetail('Table_{0746162F-23A7-46D7-B194-9E62DA976D4F}', this)">XETRADE.SYSTEM_RULES</a></li><li><a onClick="return showDetail('Table_{39D99D57-EBBA-4300-B334-3290E0DD4F27}', this)">XETRADE.SYSTEM_STOP</a></li><li><a onClick="return showDetail('Table_{0D6BCE9F-7081-47E3-A3FF-500916D9B0CB}', this)">XETRADE.SYSTEM_USERS</a></li><li><a onClick="return showDetail('Table_{0CA9FE83-9524-45D3-85A3-761FCDA48430}', this)">XETRADE.TICKERCC</a></li><li><a onClick="return showDetail('Table_{128D2DB7-ED89-4CE8-A2AE-94668AD17541}', this)">XETRADE.TICKERS</a></li><li><a onClick="return showDetail('Table_{6BE25866-F957-4657-AEC6-8AD1B1811047}', this)">XETRADE.TRADECENTERSECTIONS</a></li><li><a onClick="return showDetail('Table_{09772BDA-BBAB-4CCE-9CC8-A0B56C3D4FA8}', this)">XETRADE.Y2YRPT</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Table_{343A6F3A-4CBE-4DF4-97AE-B25B2436299C}" class="item">
+<a name = "Table_{343A6F3A-4CBE-4DF4-97AE-B25B2436299C}"></a>
+<div class="caption1"><p>XETRADE.ALERT_RECEIPERS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ALERT_RECEIPERS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(300 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PHONE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">EMAIL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TELEGRAM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ALERT_RECEIPERS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{4204D8BD-FBBC-4E8B-AA9E-241F819CDFA2}" class="item">
+<a name = "Table_{4204D8BD-FBBC-4E8B-AA9E-241F819CDFA2}"></a>
+<div class="caption1"><p>XETRADE.ALERTS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ALERTS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">WAY_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">RECEIPER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MESSAGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PACK_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_SENDED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ALERTS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{64EB968C-AD44-4831-B200-935E72A7527E}" class="item">
+<a name = "Table_{64EB968C-AD44-4831-B200-935E72A7527E}"></a>
+<div class="caption1"><p>XETRADE.AT_CLIENT_CONFIG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">AT_CLIENT_CONFIG</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">VERSION</td>
+<td class="tabdata"></td>
+<td class="tabdata">Real</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">AT_CLIENT_CONFIG_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{C699D402-708C-4D33-AF1E-B0F447EFE1BC}" class="item">
+<a name = "Table_{C699D402-708C-4D33-AF1E-B0F447EFE1BC}"></a>
+<div class="caption1"><p>XETRADE.BCS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">BCS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SIGNAL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SIGNAL_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SIGNAL_PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{3A4B793A-A21E-41FC-9DFE-47786618DCDF}" class="item">
+<a name = "Table_{3A4B793A-A21E-41FC-9DFE-47786618DCDF}"></a>
+<div class="caption1"><p>XETRADE.BOT_SIGNALS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">BOT_SIGNALS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ENTRY_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">EXCH_LONG</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">EXCH_SHORT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ASSET</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FEES</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PRICE_LONG</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PRICE_SHORT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">EFF_SPREAD</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BAS_SPREAD</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">REAL_PROFIT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SIGNAL_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">BOT_SIGNALS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{DD91026B-1D71-4211-B0E2-43DE5D213D53}" class="item">
+<a name = "Table_{DD91026B-1D71-4211-B0E2-43DE5D213D53}"></a>
+<div class="caption1"><p>XETRADE.BREAKDOWNS_LEVELS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">BREAKDOWNS_LEVELS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ISMAXIMUM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ISFORMED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">POTENTIAL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ISCLOSED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DIMENSION</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">BREAKDOWNS_LEVELS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Comments</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabdata">? ????? ????? ?? 15 ????? ???????</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{36FA4EE8-7793-4651-81BB-15BA1A02EAA7}" class="item">
+<a name = "Table_{36FA4EE8-7793-4651-81BB-15BA1A02EAA7}"></a>
+<div class="caption1"><p>XETRADE.CHAT_TABLE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CHAT_TABLE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SENDER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MESSAGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TTIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">RECIPER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">CHAT_TABLE_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{C265DACE-00F4-42C4-8B0F-A97788EB7DEC}" class="item">
+<a name = "Table_{C265DACE-00F4-42C4-8B0F-A97788EB7DEC}"></a>
+<div class="caption1"><p>XETRADE.CLIENT_PORTFOLIO</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CLIENT_PORTFOLIO</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SHORTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LONGS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CURR_ACTIVES</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CURR_SREDSTVA</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FIRM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PROC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{55FDCF7A-8189-4D6B-B6B9-CA6694DCB720}" class="item">
+<a name = "Table_{55FDCF7A-8189-4D6B-B6B9-CA6694DCB720}"></a>
+<div class="caption1"><p>XETRADE.CLIENTS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CLIENTS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ACCOUNT_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FIRST_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MIDDLE_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">COUNTRY</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">REGION</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CITY</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STREET</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ZIP</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">HOUSE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FLAT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CREATE_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALTER_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">CLIENTS_PK</td>
+<td class="tabdata" width="60%">ID, ACCOUNT_ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{69E5256A-E4F0-462C-BD1A-6EF11474CEA3}" class="item">
+<a name = "Table_{69E5256A-E4F0-462C-BD1A-6EF11474CEA3}"></a>
+<div class="caption1"><p>XETRADE.CUT_OFF</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CUT_OFF</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLOSE_PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IDX_CHANGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PHASIS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_SENDED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MM_BID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MM_BID_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MM_ASK</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MM_ASK_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{5B400283-DB46-429F-A1E8-85F2FB8EC5D1}" class="item">
+<a name = "Table_{5B400283-DB46-429F-A1E8-85F2FB8EC5D1}"></a>
+<div class="caption1"><p>XETRADE.CUT_OFF_200_QUOTES</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">CUT_OFF_200_QUOTES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PROC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLOSE_PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLASS_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">I_LAST_UPDATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">INSTR</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PREV_DAY_CP</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TOTAL_VOLUME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{F6B85000-5BD0-40C5-B3D9-7573EE0D31C7}" class="item">
+<a name = "Table_{F6B85000-5BD0-40C5-B3D9-7573EE0D31C7}"></a>
+<div class="caption1"><p>XETRADE.ERROR_LOG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ERROR_LOG</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MESSAGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ERROR_LOG_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{BA1552AB-4CCE-4385-8829-EC644FECDF00}" class="item">
+<a name = "Table_{BA1552AB-4CCE-4385-8829-EC644FECDF00}"></a>
+<div class="caption1"><p>XETRADE.ISSUERS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ISSUERS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PAPER_NO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ISSUER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(100 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ISSUERS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">ISSUERS_PAPER_NO_UQ1</td>
+<td class="tabdata" width="60%">PAPER_NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{245FF39C-0C43-4893-AC19-F3EFC216F58D}" class="item">
+<a name = "Table_{245FF39C-0C43-4893-AC19-F3EFC216F58D}"></a>
+<div class="caption1"><p>XETRADE.ITP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ITP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">START_TRADE_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">END_TRADE_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(100 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_DONE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DIRECTION</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ITP_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{ABBFFEE3-3C7A-4A62-B8C2-9C63677C8025}" class="item">
+<a name = "Table_{ABBFFEE3-3C7A-4A62-B8C2-9C63677C8025}"></a>
+<div class="caption1"><p>XETRADE.ITP_LOG</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ITP_LOG</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TTIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">VALUE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ITP_LOG_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{08FAB514-6923-4AFE-8454-C175423FC632}" class="item">
+<a name = "Table_{08FAB514-6923-4AFE-8454-C175423FC632}"></a>
+<div class="caption1"><p>XETRADE.ITP_PRICE_LEVELS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ITP_PRICE_LEVELS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">OFFER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYS_C0011718</td>
+<td class="tabdata" width="60%">TICKER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{C0F050D5-F7AD-4973-825F-F2FAF33738C1}" class="item">
+<a name = "Table_{C0F050D5-F7AD-4973-825F-F2FAF33738C1}"></a>
+<div class="caption1"><p>XETRADE.LAST_SIGNAL_REN_BY_ME</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">LAST_SIGNAL_REN_BY_ME</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TRUE_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_SIGNAL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_SIGNAL_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYS_C0011720</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{76BD0D94-1D68-49EB-B8A1-C02C232E0D24}" class="item">
+<a name = "Table_{76BD0D94-1D68-49EB-B8A1-C02C232E0D24}"></a>
+<div class="caption1"><p>XETRADE.LOT_COUNTER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">LOT_COUNTER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CURR_NUM_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LIM_NUM_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">GROSS_DAY_NUM_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LIM_GROSS_DAY_NUM_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{3F92B77D-DFF9-43F0-A4C6-A39358CA6277}" class="item">
+<a name = "Table_{3F92B77D-DFF9-43F0-A4C6-A39358CA6277}"></a>
+<div class="caption1"><p>XETRADE.MAILINGLIST</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MAILINGLIST</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ACCOUNT_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MAILBOX</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(50 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STR_TYPE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYS_C0011724</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{5E50ECE9-AC68-4F54-B51C-37A991D4F924}" class="item">
+<a name = "Table_{5E50ECE9-AC68-4F54-B51C-37A991D4F924}"></a>
+<div class="caption1"><p>XETRADE.MESS_TYPES</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MESS_TYPES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MESS_TYPE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">MESS_TYPES_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{C1B004F7-4106-47DA-AE5A-1617718F2DCC}" class="item">
+<a name = "Table_{C1B004F7-4106-47DA-AE5A-1617718F2DCC}"></a>
+<div class="caption1"><p>XETRADE.MONEY_LIMIT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MONEY_LIMIT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FIRM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(2000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">GRUPA</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(2000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(2000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">INCOME_SALDO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">INCOME_LIMIT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LOCKED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALLE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DOST</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BALANCE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CURRENCY</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CUR_SALDO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CUR_LIMIT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{49DC8494-0721-46F7-84F3-C990356AB59C}" class="item">
+<a name = "Table_{49DC8494-0721-46F7-84F3-C990356AB59C}"></a>
+<div class="caption1"><p>XETRADE.MY_AUTO_PORT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MY_AUTO_PORT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PORT_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">MY_AUTO_PORT_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">MAP_UK</td>
+<td class="tabdata" width="60%">PORT_ID, USER_ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{EA8D7AE3-732C-419F-9281-2B1347BCFD71}" class="item">
+<a name = "Table_{EA8D7AE3-732C-419F-9281-2B1347BCFD71}"></a>
+<div class="caption1"><p>XETRADE.MY_PORT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MY_PORT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CAP_PART</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PORT_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">NUM_CONTR</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SLIPPAGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FIXED_LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">MY_PORT_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{A792AE89-09C4-4869-8320-DA6AEC3F3578}" class="item">
+<a name = "Table_{A792AE89-09C4-4869-8320-DA6AEC3F3578}"></a>
+<div class="caption1"><p>XETRADE.MY_PORT_HEAD</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">MY_PORT_HEAD</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">OWNER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">MY_PORT_HEAD_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>View Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">View Relationship Name</td>
+<td class="tabhead" width="14%">Alias</td>
+<td class="tabhead" width="33%">Parent Object</td>
+<td class="tabhead" width="33%">Child View</td>
+</tr>
+<tr>
+<td class="tabdata" width="20%"><%Alias_%><%ViewSourceName%>_<%ViewName%></td>
+<td class="tabdata" width="14%">MPH</td>
+<td class="tabdata" width="33%">XETRADE.MY_PORT_HEAD</td>
+<td class="tabdata" width="33%">XETRADE.MY_PORT_HEAD_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata" width="20%"><%Alias_%><%ViewSourceName%>_<%ViewName%></td>
+<td class="tabdata" width="14%">MPH</td>
+<td class="tabdata" width="33%">XETRADE.MY_PORT_HEAD</td>
+<td class="tabdata" width="33%">XETRADE.MY_PORT_VIEW</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{F25A6DF5-5A1F-4AD6-AF7B-E165EFC7346B}" class="item">
+<a name = "Table_{F25A6DF5-5A1F-4AD6-AF7B-E165EFC7346B}"></a>
+<div class="caption1"><p>XETRADE.ONLINE_CHECKER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">ONLINE_CHECKER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_CHECK_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">ONLINE_CHECKER_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">XETRADE.ONLINE_CHECKER_U01</td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{8A4D130C-597A-4ED5-9A05-BE8A6B07C11A}" class="item">
+<a name = "Table_{8A4D130C-597A-4ED5-9A05-BE8A6B07C11A}"></a>
+<div class="caption1"><p>XETRADE.PAPER_LIMIT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PAPER_LIMIT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FIRM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PAPER_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(100 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DEP_ACC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">INCOME_SALDO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">INCOME_LIMIT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CUR_SALDO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CUR_LIMIT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LOCKED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALLE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DOSTUPNO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BALANCE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{2AECAB23-AC93-4360-9005-DEE132D4A49C}" class="item">
+<a name = "Table_{2AECAB23-AC93-4360-9005-DEE132D4A49C}"></a>
+<div class="caption1"><p>XETRADE.PROFIT_CASH</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PROFIT_CASH</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TIMESTAMP</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PROFITSTR</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_SENDED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LAST_RESULT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PROFIT_CASH_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{A3DF6E67-C74F-427C-BBF7-9DF33E617D61}" class="item">
+<a name = "Table_{A3DF6E67-C74F-427C-BBF7-9DF33E617D61}"></a>
+<div class="caption1"><p>XETRADE.PROFITHIST</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">PROFITHIST</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TIMESTAMP</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LASTPOS_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LASTPOS_PRICE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LASTPOS_SIG</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PROFIT_VALUE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">PROFITHIST_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{0B000F52-7075-40AB-88C3-B8A54C1343FD}" class="item">
+<a name = "Table_{0B000F52-7075-40AB-88C3-B8A54C1343FD}"></a>
+<div class="caption1"><p>XETRADE.REPEATER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">REPEATER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">REPEAT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(4000 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SUBSCRIBER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">REPEATER_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{BAC920A0-8559-44E7-A4C9-3B0192DA4A40}" class="item">
+<a name = "Table_{BAC920A0-8559-44E7-A4C9-3B0192DA4A40}"></a>
+<div class="caption1"><p>XETRADE.SESSION_TABLE</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SESSION_TABLE</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BEGIN_TIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">END_TIME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SESSION_TABLE_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>View Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">View Relationship Name</td>
+<td class="tabhead" width="14%">Alias</td>
+<td class="tabhead" width="33%">Parent Object</td>
+<td class="tabhead" width="33%">Child View</td>
+</tr>
+<tr>
+<td class="tabdata" width="20%"><%Alias_%><%ViewSourceName%>_<%ViewName%></td>
+<td class="tabdata" width="14%">ST</td>
+<td class="tabdata" width="33%">XETRADE.SESSION_TABLE</td>
+<td class="tabdata" width="33%">XETRADE.SESSION_VIEW</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{4A3C59E1-C5D4-4964-A873-CB885612BCC0}" class="item">
+<a name = "Table_{4A3C59E1-C5D4-4964-A873-CB885612BCC0}"></a>
+<div class="caption1"><p>XETRADE.SMS_MAILING_LIST</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SMS_MAILING_LIST</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MESS_TYPE_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SECTION_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SMS_MAILING_LIST_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">XETRADE.SMS_ML_SID_IDX</td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata">NO</td>
+</tr>
+<tr>
+<td class="tabdata">XETRADE.SMS_ML_UID</td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata">NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{7AF29644-797C-4B34-88A4-525F12CEE4B4}" class="item">
+<a name = "Table_{7AF29644-797C-4B34-88A4-525F12CEE4B4}"></a>
+<div class="caption1"><p>XETRADE.SPAM_ACCOUNTS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SPAM_ACCOUNTS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ACCOUNT_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PASSWORD</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TRYES</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STATUS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(30 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYS_C0011775</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{A77C2944-40F5-4B09-83B2-F778EDF44BB7}" class="item">
+<a name = "Table_{A77C2944-40F5-4B09-83B2-F778EDF44BB7}"></a>
+<div class="caption1"><p>XETRADE.STRAT_TRADECENTER</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">STRAT_TRADECENTER</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SECTION_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PART</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYS_C0011779</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{C4A87EFA-522A-45F6-8338-AA44037886E6}" class="item">
+<a name = "Table_{C4A87EFA-522A-45F6-8338-AA44037886E6}"></a>
+<div class="caption1"><p>XETRADE.SU_ACC</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SU_ACC</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SU_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ACC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CAP_PART</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SU_ACC_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{15B97321-A530-49FC-A6F6-C11E5E73B2C9}" class="item">
+<a name = "Table_{15B97321-A530-49FC-A6F6-C11E5E73B2C9}"></a>
+<div class="caption1"><p>XETRADE.SYSTEM_COMISS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM_COMISS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">COMISS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">START_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Indexes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Index Name</td>
+<td class="tabhead">Attributes</td>
+<td class="tabhead">Unique</td>
+</tr>
+<tr>
+<td class="tabdata">XETRADE.SYSTEM_COMISS_PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata">YES</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{A4308255-7577-46C6-BC8E-557C7D76BF41}" class="item">
+<a name = "Table_{A4308255-7577-46C6-BC8E-557C7D76BF41}"></a>
+<div class="caption1"><p>XETRADE.SYSTEM_PACKETS_TAIL</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM_PACKETS_TAIL</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PACKET_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{0746162F-23A7-46D7-B194-9E62DA976D4F}" class="item">
+<a name = "Table_{0746162F-23A7-46D7-B194-9E62DA976D4F}"></a>
+<div class="caption1"><p>XETRADE.SYSTEM_RULES</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM_RULES</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STRATEGY_TRUE_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_PORT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PART</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYSTEM_RULES_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{39D99D57-EBBA-4300-B334-3290E0DD4F27}" class="item">
+<a name = "Table_{39D99D57-EBBA-4300-B334-3290E0DD4F27}"></a>
+<div class="caption1"><p>XETRADE.SYSTEM_STOP</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM_STOP</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">SYSTEM_ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STOP_LEVEL</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">IS_ACTIVE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">STOP_TYPE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(5 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYSTEM_STOP_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{0D6BCE9F-7081-47E3-A3FF-500916D9B0CB}" class="item">
+<a name = "Table_{0D6BCE9F-7081-47E3-A3FF-500916D9B0CB}"></a>
+<div class="caption1"><p>XETRADE.SYSTEM_USERS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">SYSTEM_USERS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USERNAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PHONE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">MAILBOX</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(50 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ATRADE_ACC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">USER_ROLE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DATE_ADD</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PU</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">PHONE_FACT</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(20 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LOCKED</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">QUIK_ACC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_AUTOTRADE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_SLIPPAGE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_ISSHORTABLE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_AT_DATA_IMPORT_TYPE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_FIRM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_GRUPA</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_CLIENTCODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_ACCOUNT_USER_BROKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_ACCOUNT_BROKER_EXC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">P_ORDERFILENAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">SYSTEM_USERS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">SYSTEM_USERS_U01</td>
+<td class="tabdata" width="60%">USERNAME</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>View Relationships</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">View Relationship Name</td>
+<td class="tabhead" width="14%">Alias</td>
+<td class="tabhead" width="33%">Parent Object</td>
+<td class="tabhead" width="33%">Child View</td>
+</tr>
+<tr>
+<td class="tabdata" width="20%"><%Alias_%><%ViewSourceName%>_<%ViewName%></td>
+<td class="tabdata" width="14%">SU</td>
+<td class="tabdata" width="33%">XETRADE.SYSTEM_USERS</td>
+<td class="tabdata" width="33%">XETRADE.MY_PORT_HEAD_VIEW</td>
+</tr>
+<tr>
+<td class="tabdata" width="20%"><%Alias_%><%ViewSourceName%>_<%ViewName%></td>
+<td class="tabdata" width="14%">SU</td>
+<td class="tabdata" width="33%">XETRADE.SYSTEM_USERS</td>
+<td class="tabdata" width="33%">XETRADE.SESSION_VIEW</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{0CA9FE83-9524-45D3-85A3-761FCDA48430}" class="item">
+<a name = "Table_{0CA9FE83-9524-45D3-85A3-761FCDA48430}"></a>
+<div class="caption1"><p>XETRADE.TICKERCC</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">TICKERCC</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">TICKER</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLASS_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">TICKERCC_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">TICKERCC_U01</td>
+<td class="tabdata" width="60%">TICKER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{128D2DB7-ED89-4CE8-A2AE-94668AD17541}" class="item">
+<a name = "Table_{128D2DB7-ED89-4CE8-A2AE-94668AD17541}"></a>
+<div class="caption1"><p>XETRADE.TICKERS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">TICKERS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALFA_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALFA_PAPER_NO</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(10 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">ALFA_LONG_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LONG_NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">LOTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">DECIMALS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td colspan="3"></td></tr>
+<tr>
+<td class="tabdata" width="10%">AK</td>
+<td class="tabdata" width="30%">TICKERS_UQ1</td>
+<td class="tabdata" width="60%">ALFA_NAME, LONG_NAME, NAME, ALFA_PAPER_NO, ALFA_LONG_NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{6BE25866-F957-4657-AEC6-8AD1B1811047}" class="item">
+<a name = "Table_{6BE25866-F957-4657-AEC6-8AD1B1811047}"></a>
+<div class="caption1"><p>XETRADE.TRADECENTERSECTIONS</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">TRADECENTERSECTIONS</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">NAME</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">COMMENTS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">TRADECENTERSECTIONS_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Table_{09772BDA-BBAB-4CCE-9CC8-A0B56C3D4FA8}" class="item">
+<a name = "Table_{09772BDA-BBAB-4CCE-9CC8-A0B56C3D4FA8}"></a>
+<div class="caption1"><p>XETRADE.Y2YRPT</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="20%">Caption</td>
+<td class="tabdata" width="80%">Y2YRPT</td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Attributes</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead">Key</td>
+<td class="tabhead">Attribute Name</td>
+<td class="tabhead">Domain</td>
+<td class="tabhead">Data Type</td>
+<td class="tabhead">Not Null</td>
+<td class="tabhead">Unique</td>
+<td class="tabhead">Check</td>
+<td class="tabhead">Default</td>
+</tr>
+<tr>
+<td class="tabdata">PK</td>
+<td class="tabdata">ID</td>
+<td class="tabdata"></td>
+<td class="tabdata">Integer</td>
+<td class="tabdata">YES</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">CLIENT_CODE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Varchar2(200 )</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BAL_START</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">COMISS</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FR_CBOM</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">FR_BC</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">BAL_END</td>
+<td class="tabdata"></td>
+<td class="tabdata">Number</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+<tr>
+<td class="tabdata"></td>
+<td class="tabdata">REP_DATE</td>
+<td class="tabdata"></td>
+<td class="tabdata">Date</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata">NO</td>
+<td class="tabdata"></td>
+</tr>
+</table>
+<br>
+<div class="caption2"><p>Keys</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="10%">Key Type</td>
+<td class="tabhead" width="30%">Constraint Name</td>
+<td class="tabhead" width="60%">Attributes</td>
+</tr>
+<tr>
+<td class="tabdata" width="10%">PK</td>
+<td class="tabdata" width="30%">Y2YRPT_PK</td>
+<td class="tabdata" width="60%">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>

@@ -1,0 +1,927 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="TDM_Report">
+        <link rel="stylesheet" type="text/css" media="screen" href="anim.css" title="report">
+        <link rel="stylesheet" type="text/css" media="print" href="anim_NoFrames_print.css" title="report">
+            <script src="tdmShowDetails.js" type="text/javascript"></script>
+        <title>Toad Data Modeler - HTML Report</title>
+    </head>
+
+<body onLoad="getUrlItem()"><div class="mainContainer"><div id="headerContainer"><div id="header"><div class="title1"></div><div class="title2">Keys</div><div class="reportStats">13 января 2021 г. 22:28:33</div><div class="titleimage"><a href="https://www.quest.com/" target="_blank"><img src="Img/logo.png" alt="Made with Toad Data Modeler" border="0" /></a></div><div class="headerEnd"><p>&nbsp;</p></div></div><div id="navTop"><ul><li><a href="MInfo.html">Model Info</a></li><li><a href="MImage.html">ER Diagram</a></li><li><a href="Tables.html">Entities</a></li><li><a href="Columns.html">Attributes</a></li><li><a href="Indexes.html">Indexes</a></li><li class="selLi"><a href="Keys.html" class="selAnchor">Keys</a></li><li><a href="Procedures.html">Procedures</a></li><li><a href="Views.html">Views</a></li><li><a href="ViewRelations.html">View Relationships</a></li><li><a href="Packages.html">Packages</a></li><li><a href="Sequences.html">Sequences</a></li><li><a href="Editions.html">Editions</a></li></ul><div id="navTopEnd"><p>&nbsp;</p></div></div></div><div id="navCombo"><form name="allItems" action=""><select name="listOfItems" onChange="showSelected()"><option value="Key_{19D808C8-B32E-41E4-BE59-B286FF20BA8D}">ALERT_RECEIPERS_PK (XETRADE.ALERT_RECEIPERS)</option><option>------------</option><option value="Key_{A243FE34-0445-4EA3-8DE2-7A465F20B149}">ALERTS_PK (XETRADE.ALERTS)</option><option>------------</option><option value="Key_{EA48B38C-7EA8-4B66-97C6-3FEF8DA3C339}">AT_CLIENT_CONFIG_PK (XETRADE.AT_CLIENT_CONFIG)</option><option>------------</option><option value="Key_{8D9ADD97-647E-4592-A462-B1E60FE189F8}">BOT_SIGNALS_PK (XETRADE.BOT_SIGNALS)</option><option>------------</option><option value="Key_{46081A14-4B03-4840-8877-376E2C66760E}">BREAKDOWNS_LEVELS_PK (XETRADE.BREAKDOWNS_LEVELS)</option><option>------------</option><option value="Key_{D2445922-BB39-4612-9AEC-588E136C2BDD}">CHAT_TABLE_PK (XETRADE.CHAT_TABLE)</option><option>------------</option><option value="Key_{D5E9F1EE-6DC9-4E03-8AB5-0FFDB3D57E45}">CLIENTS_PK (XETRADE.CLIENTS)</option><option>------------</option><option value="Key_{D1C6F03D-9387-4750-A775-36274B71E4BA}">ERROR_LOG_PK (XETRADE.ERROR_LOG)</option><option>------------</option><option value="Key_{D62037A3-662D-4C70-9AB5-41FCB6ECE5F1}">ISSUERS_PAPER_NO_UQ1 (XETRADE.ISSUERS)</option><option value="Key_{2484508B-4335-4315-8414-DE36FD66A7DE}">ISSUERS_PK (XETRADE.ISSUERS)</option><option>------------</option><option value="Key_{A2230781-C178-4750-B829-3D8F0E6BCDBA}">ITP_PK (XETRADE.ITP)</option><option>------------</option><option value="Key_{6ED9321F-5AE6-4ECF-9F06-8C406AF7C522}">ITP_LOG_PK (XETRADE.ITP_LOG)</option><option>------------</option><option value="Key_{20E8A0EB-9348-4FC1-B8A0-D3F579A11B07}">SYS_C0011718 (XETRADE.ITP_PRICE_LEVELS)</option><option>------------</option><option value="Key_{CE74A52E-1A89-4262-8008-44C6811A23B5}">SYS_C0011720 (XETRADE.LAST_SIGNAL_REN_BY_ME)</option><option>------------</option><option value="Key_{C6508165-A711-4D16-B075-5A201D12B06B}">SYS_C0011724 (XETRADE.MAILINGLIST)</option><option>------------</option><option value="Key_{28615054-CDBE-40FD-BAFC-56AAAEBC0632}">MESS_TYPES_PK (XETRADE.MESS_TYPES)</option><option>------------</option><option value="Key_{DBD04430-7697-45CC-AA4D-2DF110A246F4}">MAP_UK (XETRADE.MY_AUTO_PORT)</option><option value="Key_{37554783-5172-48EC-9934-0F044C902A1C}">MY_AUTO_PORT_PK (XETRADE.MY_AUTO_PORT)</option><option>------------</option><option value="Key_{CB073846-87A8-4117-9DF3-92F43D5566F1}">MY_PORT_PK (XETRADE.MY_PORT)</option><option>------------</option><option value="Key_{A37F80FF-D09D-4787-92B6-DDE3502A4B68}">MY_PORT_HEAD_PK (XETRADE.MY_PORT_HEAD)</option><option>------------</option><option value="Key_{FB5FE133-CCFE-40D0-9A70-BE259D828882}">ONLINE_CHECKER_PK (XETRADE.ONLINE_CHECKER)</option><option>------------</option><option value="Key_{DEDFB940-43D8-45D8-B770-581CF777E645}">PROFIT_CASH_PK (XETRADE.PROFIT_CASH)</option><option>------------</option><option value="Key_{AC993A49-E01F-45FC-B6FE-EC5B2401167D}">PROFITHIST_PK (XETRADE.PROFITHIST)</option><option>------------</option><option value="Key_{1971B603-C7EF-435D-A15C-56E290854AD2}">REPEATER_PK (XETRADE.REPEATER)</option><option>------------</option><option value="Key_{93938693-0DA9-4F85-AC50-A6FFB49F3990}">SESSION_TABLE_PK (XETRADE.SESSION_TABLE)</option><option>------------</option><option value="Key_{480C3D4E-E299-4CE3-98B3-30E8F8F12E78}">SMS_MAILING_LIST_PK (XETRADE.SMS_MAILING_LIST)</option><option>------------</option><option value="Key_{0B51E14C-F8F9-4BC1-9C44-1F4BCCD1E1AE}">SYS_C0011775 (XETRADE.SPAM_ACCOUNTS)</option><option>------------</option><option value="Key_{DC4154B2-5233-4062-A092-78C065AA750C}">SYS_C0011779 (XETRADE.STRAT_TRADECENTER)</option><option>------------</option><option value="Key_{64DA939B-6B25-4ECD-917B-96356073CEE2}">SU_ACC_PK (XETRADE.SU_ACC)</option><option>------------</option><option value="Key_{2AAEF1BA-998B-4875-B367-6147683D649E}">SYSTEM_RULES_PK (XETRADE.SYSTEM_RULES)</option><option>------------</option><option value="Key_{2FFECD02-64FC-406A-BD8F-FE2DF9ACAEC7}">SYSTEM_STOP_PK (XETRADE.SYSTEM_STOP)</option><option>------------</option><option value="Key_{C0AB6AA0-8AC3-4483-9F6E-77F6CF17510F}">SYSTEM_USERS_PK (XETRADE.SYSTEM_USERS)</option><option value="Key_{561144AD-84F4-4991-9EB0-226E8D956F94}">SYSTEM_USERS_U01 (XETRADE.SYSTEM_USERS)</option><option>------------</option><option value="Key_{F72C4BE8-1D7B-45E1-A810-2007DFB761DD}">TICKERCC_PK (XETRADE.TICKERCC)</option><option value="Key_{E679732B-884F-432E-B64C-686711ED7796}">TICKERCC_U01 (XETRADE.TICKERCC)</option><option>------------</option><option value="Key_{50A281BF-88BC-4E47-A6C1-BA708C721B4B}">TICKERS_UQ1 (XETRADE.TICKERS)</option><option>------------</option><option value="Key_{A2332F6B-BE1D-4CCA-BAD9-63FD5970858C}">TRADECENTERSECTIONS_PK (XETRADE.TRADECENTERSECTIONS)</option><option>------------</option><option value="Key_{40A81901-00DB-4D78-AE9E-100AD681824B}">Y2YRPT_PK (XETRADE.Y2YRPT)</option></select></form><div id="navComboEnd"><p></p></div></div><div id="navLeft"><div id="bookmark"><ul><li><a onClick="return showDetail('Key_{19D808C8-B32E-41E4-BE59-B286FF20BA8D}', this)">ALERT_RECEIPERS_PK (XETRADE.ALERT_RECEIPERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A243FE34-0445-4EA3-8DE2-7A465F20B149}', this)">ALERTS_PK (XETRADE.ALERTS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{EA48B38C-7EA8-4B66-97C6-3FEF8DA3C339}', this)">AT_CLIENT_CONFIG_PK (XETRADE.AT_CLIENT_CONFIG)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{8D9ADD97-647E-4592-A462-B1E60FE189F8}', this)">BOT_SIGNALS_PK (XETRADE.BOT_SIGNALS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{46081A14-4B03-4840-8877-376E2C66760E}', this)">BREAKDOWNS_LEVELS_PK (XETRADE.BREAKDOWNS_LEVELS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{D2445922-BB39-4612-9AEC-588E136C2BDD}', this)">CHAT_TABLE_PK (XETRADE.CHAT_TABLE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{D5E9F1EE-6DC9-4E03-8AB5-0FFDB3D57E45}', this)">CLIENTS_PK (XETRADE.CLIENTS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{D1C6F03D-9387-4750-A775-36274B71E4BA}', this)">ERROR_LOG_PK (XETRADE.ERROR_LOG)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{D62037A3-662D-4C70-9AB5-41FCB6ECE5F1}', this)">ISSUERS_PAPER_NO_UQ1 (XETRADE.ISSUERS)</a></li><li><a onClick="return showDetail('Key_{2484508B-4335-4315-8414-DE36FD66A7DE}', this)">ISSUERS_PK (XETRADE.ISSUERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A2230781-C178-4750-B829-3D8F0E6BCDBA}', this)">ITP_PK (XETRADE.ITP)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{6ED9321F-5AE6-4ECF-9F06-8C406AF7C522}', this)">ITP_LOG_PK (XETRADE.ITP_LOG)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{20E8A0EB-9348-4FC1-B8A0-D3F579A11B07}', this)">SYS_C0011718 (XETRADE.ITP_PRICE_LEVELS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{CE74A52E-1A89-4262-8008-44C6811A23B5}', this)">SYS_C0011720 (XETRADE.LAST_SIGNAL_REN_BY_ME)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{C6508165-A711-4D16-B075-5A201D12B06B}', this)">SYS_C0011724 (XETRADE.MAILINGLIST)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{28615054-CDBE-40FD-BAFC-56AAAEBC0632}', this)">MESS_TYPES_PK (XETRADE.MESS_TYPES)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{DBD04430-7697-45CC-AA4D-2DF110A246F4}', this)">MAP_UK (XETRADE.MY_AUTO_PORT)</a></li><li><a onClick="return showDetail('Key_{37554783-5172-48EC-9934-0F044C902A1C}', this)">MY_AUTO_PORT_PK (XETRADE.MY_AUTO_PORT)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{CB073846-87A8-4117-9DF3-92F43D5566F1}', this)">MY_PORT_PK (XETRADE.MY_PORT)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A37F80FF-D09D-4787-92B6-DDE3502A4B68}', this)">MY_PORT_HEAD_PK (XETRADE.MY_PORT_HEAD)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{FB5FE133-CCFE-40D0-9A70-BE259D828882}', this)">ONLINE_CHECKER_PK (XETRADE.ONLINE_CHECKER)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{DEDFB940-43D8-45D8-B770-581CF777E645}', this)">PROFIT_CASH_PK (XETRADE.PROFIT_CASH)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{AC993A49-E01F-45FC-B6FE-EC5B2401167D}', this)">PROFITHIST_PK (XETRADE.PROFITHIST)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{1971B603-C7EF-435D-A15C-56E290854AD2}', this)">REPEATER_PK (XETRADE.REPEATER)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{93938693-0DA9-4F85-AC50-A6FFB49F3990}', this)">SESSION_TABLE_PK (XETRADE.SESSION_TABLE)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{480C3D4E-E299-4CE3-98B3-30E8F8F12E78}', this)">SMS_MAILING_LIST_PK (XETRADE.SMS_MAILING_LIST)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{0B51E14C-F8F9-4BC1-9C44-1F4BCCD1E1AE}', this)">SYS_C0011775 (XETRADE.SPAM_ACCOUNTS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{DC4154B2-5233-4062-A092-78C065AA750C}', this)">SYS_C0011779 (XETRADE.STRAT_TRADECENTER)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{64DA939B-6B25-4ECD-917B-96356073CEE2}', this)">SU_ACC_PK (XETRADE.SU_ACC)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{2AAEF1BA-998B-4875-B367-6147683D649E}', this)">SYSTEM_RULES_PK (XETRADE.SYSTEM_RULES)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{2FFECD02-64FC-406A-BD8F-FE2DF9ACAEC7}', this)">SYSTEM_STOP_PK (XETRADE.SYSTEM_STOP)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{C0AB6AA0-8AC3-4483-9F6E-77F6CF17510F}', this)">SYSTEM_USERS_PK (XETRADE.SYSTEM_USERS)</a></li><li><a onClick="return showDetail('Key_{561144AD-84F4-4991-9EB0-226E8D956F94}', this)">SYSTEM_USERS_U01 (XETRADE.SYSTEM_USERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{F72C4BE8-1D7B-45E1-A810-2007DFB761DD}', this)">TICKERCC_PK (XETRADE.TICKERCC)</a></li><li><a onClick="return showDetail('Key_{E679732B-884F-432E-B64C-686711ED7796}', this)">TICKERCC_U01 (XETRADE.TICKERCC)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{50A281BF-88BC-4E47-A6C1-BA708C721B4B}', this)">TICKERS_UQ1 (XETRADE.TICKERS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{A2332F6B-BE1D-4CCA-BAD9-63FD5970858C}', this)">TRADECENTERSECTIONS_PK (XETRADE.TRADECENTERSECTIONS)</a></li><li class="spacerGap"></li><li><a onClick="return showDetail('Key_{40A81901-00DB-4D78-AE9E-100AD681824B}', this)">Y2YRPT_PK (XETRADE.Y2YRPT)</a></li></ul><div id="bookmarkEnd"><p>&nbsp;</p></div></div></div><div class="separator" ></div><div class="container"><div id="content"><div id="Key_{19D808C8-B32E-41E4-BE59-B286FF20BA8D}" class="item">
+<a name = "Key_{19D808C8-B32E-41E4-BE59-B286FF20BA8D}"></a>
+<div class="caption1"><p>ALERT_RECEIPERS_PK (XETRADE.ALERT_RECEIPERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ALERT_RECEIPERS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ALERT_RECEIPERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A243FE34-0445-4EA3-8DE2-7A465F20B149}" class="item">
+<a name = "Key_{A243FE34-0445-4EA3-8DE2-7A465F20B149}"></a>
+<div class="caption1"><p>ALERTS_PK (XETRADE.ALERTS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ALERTS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ALERTS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{EA48B38C-7EA8-4B66-97C6-3FEF8DA3C339}" class="item">
+<a name = "Key_{EA48B38C-7EA8-4B66-97C6-3FEF8DA3C339}"></a>
+<div class="caption1"><p>AT_CLIENT_CONFIG_PK (XETRADE.AT_CLIENT_CONFIG)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">AT_CLIENT_CONFIG_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.AT_CLIENT_CONFIG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{8D9ADD97-647E-4592-A462-B1E60FE189F8}" class="item">
+<a name = "Key_{8D9ADD97-647E-4592-A462-B1E60FE189F8}"></a>
+<div class="caption1"><p>BOT_SIGNALS_PK (XETRADE.BOT_SIGNALS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BOT_SIGNALS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.BOT_SIGNALS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{46081A14-4B03-4840-8877-376E2C66760E}" class="item">
+<a name = "Key_{46081A14-4B03-4840-8877-376E2C66760E}"></a>
+<div class="caption1"><p>BREAKDOWNS_LEVELS_PK (XETRADE.BREAKDOWNS_LEVELS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">BREAKDOWNS_LEVELS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.BREAKDOWNS_LEVELS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{D2445922-BB39-4612-9AEC-588E136C2BDD}" class="item">
+<a name = "Key_{D2445922-BB39-4612-9AEC-588E136C2BDD}"></a>
+<div class="caption1"><p>CHAT_TABLE_PK (XETRADE.CHAT_TABLE)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">CHAT_TABLE_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.CHAT_TABLE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{D5E9F1EE-6DC9-4E03-8AB5-0FFDB3D57E45}" class="item">
+<a name = "Key_{D5E9F1EE-6DC9-4E03-8AB5-0FFDB3D57E45}"></a>
+<div class="caption1"><p>CLIENTS_PK (XETRADE.CLIENTS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">CLIENTS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.CLIENTS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID, ACCOUNT_ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{D1C6F03D-9387-4750-A775-36274B71E4BA}" class="item">
+<a name = "Key_{D1C6F03D-9387-4750-A775-36274B71E4BA}"></a>
+<div class="caption1"><p>ERROR_LOG_PK (XETRADE.ERROR_LOG)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ERROR_LOG_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ERROR_LOG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{D62037A3-662D-4C70-9AB5-41FCB6ECE5F1}" class="item">
+<a name = "Key_{D62037A3-662D-4C70-9AB5-41FCB6ECE5F1}"></a>
+<div class="caption1"><p>ISSUERS_PAPER_NO_UQ1 (XETRADE.ISSUERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ISSUERS_PAPER_NO_UQ1</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ISSUERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PAPER_NO</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{2484508B-4335-4315-8414-DE36FD66A7DE}" class="item">
+<a name = "Key_{2484508B-4335-4315-8414-DE36FD66A7DE}"></a>
+<div class="caption1"><p>ISSUERS_PK (XETRADE.ISSUERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ISSUERS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ISSUERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A2230781-C178-4750-B829-3D8F0E6BCDBA}" class="item">
+<a name = "Key_{A2230781-C178-4750-B829-3D8F0E6BCDBA}"></a>
+<div class="caption1"><p>ITP_PK (XETRADE.ITP)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ITP_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ITP</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{6ED9321F-5AE6-4ECF-9F06-8C406AF7C522}" class="item">
+<a name = "Key_{6ED9321F-5AE6-4ECF-9F06-8C406AF7C522}"></a>
+<div class="caption1"><p>ITP_LOG_PK (XETRADE.ITP_LOG)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ITP_LOG_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ITP_LOG</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{20E8A0EB-9348-4FC1-B8A0-D3F579A11B07}" class="item">
+<a name = "Key_{20E8A0EB-9348-4FC1-B8A0-D3F579A11B07}"></a>
+<div class="caption1"><p>SYS_C0011718 (XETRADE.ITP_PRICE_LEVELS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011718</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ITP_PRICE_LEVELS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">TICKER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{CE74A52E-1A89-4262-8008-44C6811A23B5}" class="item">
+<a name = "Key_{CE74A52E-1A89-4262-8008-44C6811A23B5}"></a>
+<div class="caption1"><p>SYS_C0011720 (XETRADE.LAST_SIGNAL_REN_BY_ME)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011720</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.LAST_SIGNAL_REN_BY_ME</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{C6508165-A711-4D16-B075-5A201D12B06B}" class="item">
+<a name = "Key_{C6508165-A711-4D16-B075-5A201D12B06B}"></a>
+<div class="caption1"><p>SYS_C0011724 (XETRADE.MAILINGLIST)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011724</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MAILINGLIST</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{28615054-CDBE-40FD-BAFC-56AAAEBC0632}" class="item">
+<a name = "Key_{28615054-CDBE-40FD-BAFC-56AAAEBC0632}"></a>
+<div class="caption1"><p>MESS_TYPES_PK (XETRADE.MESS_TYPES)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">MESS_TYPES_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MESS_TYPES</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{DBD04430-7697-45CC-AA4D-2DF110A246F4}" class="item">
+<a name = "Key_{DBD04430-7697-45CC-AA4D-2DF110A246F4}"></a>
+<div class="caption1"><p>MAP_UK (XETRADE.MY_AUTO_PORT)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">MAP_UK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MY_AUTO_PORT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">PORT_ID, USER_ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{37554783-5172-48EC-9934-0F044C902A1C}" class="item">
+<a name = "Key_{37554783-5172-48EC-9934-0F044C902A1C}"></a>
+<div class="caption1"><p>MY_AUTO_PORT_PK (XETRADE.MY_AUTO_PORT)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">MY_AUTO_PORT_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MY_AUTO_PORT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{CB073846-87A8-4117-9DF3-92F43D5566F1}" class="item">
+<a name = "Key_{CB073846-87A8-4117-9DF3-92F43D5566F1}"></a>
+<div class="caption1"><p>MY_PORT_PK (XETRADE.MY_PORT)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">MY_PORT_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MY_PORT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A37F80FF-D09D-4787-92B6-DDE3502A4B68}" class="item">
+<a name = "Key_{A37F80FF-D09D-4787-92B6-DDE3502A4B68}"></a>
+<div class="caption1"><p>MY_PORT_HEAD_PK (XETRADE.MY_PORT_HEAD)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">MY_PORT_HEAD_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.MY_PORT_HEAD</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{FB5FE133-CCFE-40D0-9A70-BE259D828882}" class="item">
+<a name = "Key_{FB5FE133-CCFE-40D0-9A70-BE259D828882}"></a>
+<div class="caption1"><p>ONLINE_CHECKER_PK (XETRADE.ONLINE_CHECKER)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">ONLINE_CHECKER_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.ONLINE_CHECKER</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{DEDFB940-43D8-45D8-B770-581CF777E645}" class="item">
+<a name = "Key_{DEDFB940-43D8-45D8-B770-581CF777E645}"></a>
+<div class="caption1"><p>PROFIT_CASH_PK (XETRADE.PROFIT_CASH)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PROFIT_CASH_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.PROFIT_CASH</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{AC993A49-E01F-45FC-B6FE-EC5B2401167D}" class="item">
+<a name = "Key_{AC993A49-E01F-45FC-B6FE-EC5B2401167D}"></a>
+<div class="caption1"><p>PROFITHIST_PK (XETRADE.PROFITHIST)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">PROFITHIST_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.PROFITHIST</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{1971B603-C7EF-435D-A15C-56E290854AD2}" class="item">
+<a name = "Key_{1971B603-C7EF-435D-A15C-56E290854AD2}"></a>
+<div class="caption1"><p>REPEATER_PK (XETRADE.REPEATER)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">REPEATER_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.REPEATER</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{93938693-0DA9-4F85-AC50-A6FFB49F3990}" class="item">
+<a name = "Key_{93938693-0DA9-4F85-AC50-A6FFB49F3990}"></a>
+<div class="caption1"><p>SESSION_TABLE_PK (XETRADE.SESSION_TABLE)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SESSION_TABLE_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SESSION_TABLE</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{480C3D4E-E299-4CE3-98B3-30E8F8F12E78}" class="item">
+<a name = "Key_{480C3D4E-E299-4CE3-98B3-30E8F8F12E78}"></a>
+<div class="caption1"><p>SMS_MAILING_LIST_PK (XETRADE.SMS_MAILING_LIST)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SMS_MAILING_LIST_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SMS_MAILING_LIST</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{0B51E14C-F8F9-4BC1-9C44-1F4BCCD1E1AE}" class="item">
+<a name = "Key_{0B51E14C-F8F9-4BC1-9C44-1F4BCCD1E1AE}"></a>
+<div class="caption1"><p>SYS_C0011775 (XETRADE.SPAM_ACCOUNTS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011775</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SPAM_ACCOUNTS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{DC4154B2-5233-4062-A092-78C065AA750C}" class="item">
+<a name = "Key_{DC4154B2-5233-4062-A092-78C065AA750C}"></a>
+<div class="caption1"><p>SYS_C0011779 (XETRADE.STRAT_TRADECENTER)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYS_C0011779</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.STRAT_TRADECENTER</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{64DA939B-6B25-4ECD-917B-96356073CEE2}" class="item">
+<a name = "Key_{64DA939B-6B25-4ECD-917B-96356073CEE2}"></a>
+<div class="caption1"><p>SU_ACC_PK (XETRADE.SU_ACC)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SU_ACC_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SU_ACC</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{2AAEF1BA-998B-4875-B367-6147683D649E}" class="item">
+<a name = "Key_{2AAEF1BA-998B-4875-B367-6147683D649E}"></a>
+<div class="caption1"><p>SYSTEM_RULES_PK (XETRADE.SYSTEM_RULES)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_RULES_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SYSTEM_RULES</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{2FFECD02-64FC-406A-BD8F-FE2DF9ACAEC7}" class="item">
+<a name = "Key_{2FFECD02-64FC-406A-BD8F-FE2DF9ACAEC7}"></a>
+<div class="caption1"><p>SYSTEM_STOP_PK (XETRADE.SYSTEM_STOP)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_STOP_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SYSTEM_STOP</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{C0AB6AA0-8AC3-4483-9F6E-77F6CF17510F}" class="item">
+<a name = "Key_{C0AB6AA0-8AC3-4483-9F6E-77F6CF17510F}"></a>
+<div class="caption1"><p>SYSTEM_USERS_PK (XETRADE.SYSTEM_USERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_USERS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SYSTEM_USERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{561144AD-84F4-4991-9EB0-226E8D956F94}" class="item">
+<a name = "Key_{561144AD-84F4-4991-9EB0-226E8D956F94}"></a>
+<div class="caption1"><p>SYSTEM_USERS_U01 (XETRADE.SYSTEM_USERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">SYSTEM_USERS_U01</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.SYSTEM_USERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">USERNAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{F72C4BE8-1D7B-45E1-A810-2007DFB761DD}" class="item">
+<a name = "Key_{F72C4BE8-1D7B-45E1-A810-2007DFB761DD}"></a>
+<div class="caption1"><p>TICKERCC_PK (XETRADE.TICKERCC)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TICKERCC_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.TICKERCC</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{E679732B-884F-432E-B64C-686711ED7796}" class="item">
+<a name = "Key_{E679732B-884F-432E-B64C-686711ED7796}"></a>
+<div class="caption1"><p>TICKERCC_U01 (XETRADE.TICKERCC)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TICKERCC_U01</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.TICKERCC</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">TICKER</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{50A281BF-88BC-4E47-A6C1-BA708C721B4B}" class="item">
+<a name = "Key_{50A281BF-88BC-4E47-A6C1-BA708C721B4B}"></a>
+<div class="caption1"><p>TICKERS_UQ1 (XETRADE.TICKERS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TICKERS_UQ1</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.TICKERS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Alternate Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ALFA_NAME, LONG_NAME, NAME, ALFA_PAPER_NO, ALFA_LONG_NAME</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{A2332F6B-BE1D-4CCA-BAD9-63FD5970858C}" class="item">
+<a name = "Key_{A2332F6B-BE1D-4CCA-BAD9-63FD5970858C}"></a>
+<div class="caption1"><p>TRADECENTERSECTIONS_PK (XETRADE.TRADECENTERSECTIONS)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">TRADECENTERSECTIONS_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.TRADECENTERSECTIONS</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+<div id="Key_{40A81901-00DB-4D78-AE9E-100AD681824B}" class="item">
+<a name = "Key_{40A81901-00DB-4D78-AE9E-100AD681824B}"></a>
+<div class="caption1"><p>Y2YRPT_PK (XETRADE.Y2YRPT)</p></div>
+<div class="caption2"><p>General Info</p></div>
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr>
+<td class="tabhead" width="23%">Caption</td>
+<td class="tabdata">Y2YRPT_PK</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Entity Name</td>
+<td class="tabdata">XETRADE.Y2YRPT</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Key Type</td>
+<td class="tabdata">Primary Key</td>
+</tr>
+<tr>
+<td class="tabhead" width="23%">Attribute Names</td>
+<td class="tabdata">ID</td>
+</tr>
+</table>
+<br>
+<div class="itemEnd"><p>&nbsp;</p></div></div>
+</div><div id="footer"><div class="pageFooter">Copyright &copy; Sitename 2005</div><div class="footerEnd"><p></p></div></div></div></div></body></html>
