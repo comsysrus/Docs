@@ -66,7 +66,10 @@ top.navigationFrame.selectTocItem("CommonTypes.TDealRClass.ReturnDeals(Real,bool
 </div>
 </div>
 <div id="summaryContent" class="sectionContent" contentEditable="false">
-<p>Represents method <code class="inline">ReturnDeals(Real,boolean,boolean,TAssetRecord,real,TParamFinRez,IStrategy)</code>.</p>
+<p>
+  Основная функция. Производит расчет сделок по стратегии с заданным
+  набором параметров Ind и возвращает класс TDealRClass, в котором в
+  Ind.FinRez хранится результат расчетов (финрез) <br /></p>
 </div>
 </div>
 <strong>Namespace</strong>:  <a href="CommonTypes.htm" title="CommonTypes">CommonTypes</a><br />
@@ -82,7 +85,7 @@ top.navigationFrame.selectTocItem("CommonTypes.TDealRClass.ReturnDeals(Real,bool
 </div>
 </div>
 <div id="syntaxContent" class="sectionContent" contentEditable="false">
-<div class="codeSnippet" contentEditable="false"><input class="code" type="hidden" value="" /><div class="codeSnippetTabs"><div class="codeSnippetTabActive"><a>Delphi</a></div></div><div class="codeSnippetCodeContainer"><div class="codeSnippetCode"><pre class="delphi" contentEditable="false">published
+<div class="codeSnippet" contentEditable="false"><input class="code" type="hidden" value="" /><div class="codeSnippetTabs"><div class="codeSnippetTabActive"><a>Delphi</a></div></div><div class="codeSnippetCodeContainer"><div class="codeSnippetCode"><pre class="delphi" contentEditable="false">public
  class function ReturnDeals(pMoneyRest : Real; pLong, pShort: boolean; Asset: <a href="CommonTypes.TAssetRecord.htm" title="CommonTypes.TAssetRecord">TAssetRecord</a>; Commission: real; IndDict: <a href="CommonTypes.TParamFinRez.htm" title="CommonTypes.TParamFinRez">TParamFinRez</a>; Strategy : <a href="CommonTypes.IStrategy.htm" title="CommonTypes.IStrategy">IStrategy</a>): <a href="CommonTypes.IDealRClass.htm" title="CommonTypes.IDealRClass">IDealRClass</a>;
 </pre></div></div></div><div class="subSection"><h4 class="subHeading">Parameters</h4><dl id="parameters"><dt><span class="parameter">pMoneyRest</span></dt><dd>Type:  Real
         <br /><p /></dd><dt><span class="parameter">pLong</span></dt><dd>Type:  boolean

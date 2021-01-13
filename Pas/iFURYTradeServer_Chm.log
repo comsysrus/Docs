@@ -1,6 +1,6 @@
 Microsoft HTML Help Compiler 4.74.8702
 
-Compiling e:\work\xerobot\XE\iFuryTradeServer\Source\Doc\CHM\iFURYTradeServer.chm
+Compiling e:\work\xerobot\XE\Docs\Pas\CHM\iFURYTradeServer.chm
 
 images\alert_caution.gif
 images\alert_note.gif
@@ -1837,12 +1837,12 @@ uAlertForm.TalertForm.Timer1.htm
 uAlertForm_Variables.htm
 uAlertForm.alertForm.htm
 
-Compile time: 0 minutes, 8 seconds
-3,321	Topics
+Compile time: 0 minutes, 9 seconds
+1,662	Topics
 15,630	Local links
 0	Internet links
 0	Graphics
 
 
-Created e:\work\xerobot\XE\iFuryTradeServer\Source\Doc\CHM\iFURYTradeServer.chm, 1,063,960 bytes
-Compression decreased file by 10,174,846 bytes.
+Created e:\work\xerobot\XE\Docs\Pas\CHM\iFURYTradeServer.chm, 1,039,346 bytes
+Compression decreased file by 10,200,515 bytes.
