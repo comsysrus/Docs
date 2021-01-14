@@ -494,8 +494,8 @@ LangId="1049">
 <Jump Url="Ap.CSqr.htm"/>
 </Keyword>
 
-<Keyword Term="DA">
-<Jump Url="BTChart.DA.htm"/>
+<Keyword Term="DealArray">
+<Jump Url="BTChart.DealArray.htm"/>
 </Keyword>
 
 <Keyword Term="DiffThreePoint(Double%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble%2CDouble)">

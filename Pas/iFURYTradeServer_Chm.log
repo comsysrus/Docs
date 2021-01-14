@@ -504,7 +504,7 @@ BTChart.TfmBTChart.VirtualTablevSell.htm
 BTChart.TfmBTChart.VirtualTablevXlabel.htm
 BTChart.TfmBTChart.vrtlmglst1.htm
 BTChart_Variables.htm
-BTChart.DA.htm
+BTChart.DealArray.htm
 BTChart.fmBTChart.htm
 BTPARAMSFILL.htm
 BTPARAMSFILL_Classes.htm
@@ -1837,12 +1837,12 @@ uAlertForm.TalertForm.Timer1.htm
 uAlertForm_Variables.htm
 uAlertForm.alertForm.htm
 
-Compile time: 0 minutes, 9 seconds
+Compile time: 0 minutes, 8 seconds
 1,662	Topics
-15,630	Local links
+15,627	Local links
 0	Internet links
 0	Graphics
 
 
-Created e:\work\xerobot\XE\Docs\Pas\CHM\iFURYTradeServer.chm, 1,039,346 bytes
-Compression decreased file by 10,200,515 bytes.
+Created e:\work\xerobot\XE\Docs\Pas\CHM\iFURYTradeServer.chm, 1,039,882 bytes
+Compression decreased file by 10,199,888 bytes.

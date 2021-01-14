@@ -14,9 +14,9 @@
 </para>
 </header>
 <para styleclass="Normal">
-<text styleclass="Normal">Represents method </text>
-<text styleclass="Inline Code">execute</text>
-<text styleclass="Normal">.</text>
+<text styleclass="Normal">
+  Процедура расчета сигналов стратегии
+</text>
 </para>
 <para styleclass="Normal">
 <text style="font-weight:bold">Namespace</text>:  <text styleclass="Normal"><link displaytype="text" type="topiclink" href="TEma">TEma</link></text></para>

@@ -361,7 +361,7 @@ DTDVersion="1.0">
 </HelpTOCNode>
 </HelpTOCNode>
 <HelpTOCNode Title="Variables" Url="BTChart_Variables.htm">
-<HelpTOCNode Title="DA" Url="BTChart.DA.htm" />
+<HelpTOCNode Title="DealArray" Url="BTChart.DealArray.htm" />
 <HelpTOCNode Title="fmBTChart" Url="BTChart.fmBTChart.htm" />
 </HelpTOCNode>
 </HelpTOCNode>

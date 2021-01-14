@@ -322,7 +322,7 @@
 ]}
 ]}
 ]}
-,{"title":"Variables","key":"BTChart_Variables","href":"BTChart_Variables.htm","children":[{"title":"DA","key":"BTChart.DA","href":"BTChart.DA.htm"}
+,{"title":"Variables","key":"BTChart_Variables","href":"BTChart_Variables.htm","children":[{"title":"DealArray","key":"BTChart.DealArray","href":"BTChart.DealArray.htm"}
 ,{"title":"fmBTChart","key":"BTChart.fmBTChart","href":"BTChart.fmBTChart.htm"}
 ]}
 ]}

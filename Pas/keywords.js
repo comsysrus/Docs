@@ -120,7 +120,7 @@
 ,{"title":"CopyMatrix(TReal2DArray,Integer,Integer,Integer,Integer,TReal2DArray,Integer,Integer,Integer,Integer)","href":"blas.CopyMatrix.htm"}
 ,{"title":"CreateTClassGA(integer)","href":"BackTesting.CreateTClassGA.htm"}
 ,{"title":"CSqr(Complex)","href":"Ap.CSqr.htm"}
-,{"title":"DA","href":"BTChart.DA.htm"}
+,{"title":"DealArray","href":"BTChart.DealArray.htm"}
 ,{"title":"DiffThreePoint(Double,Double,Double,Double,Double,Double,Double)","href":"spline3.DiffThreePoint.htm"}
 ,{"title":"DM","href":"dmunit.DM.htm"}
 ,{"title":"dmunit","href":"dmunit.htm"}

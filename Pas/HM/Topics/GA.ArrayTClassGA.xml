@@ -14,7 +14,9 @@
 </para>
 </header>
 <para styleclass="Normal">
-<text styleclass="Normal">Represents an alias of the </text><text styleclass="Normal">TArray</text><text styleclass="Normal"> type.</text>
+<text styleclass="Normal">
+  Массив запущенных поток расчета GA
+</text>
 </para>
 <para styleclass="Normal">
 <text style="font-weight:bold">Namespace</text>:  <text styleclass="Normal"><link displaytype="text" type="topiclink" href="GA">GA</link></text></para>
